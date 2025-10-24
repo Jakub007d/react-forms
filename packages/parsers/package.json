@@ -22,7 +22,7 @@
     "forms",
     "javascript"
   ],
-  "devDependencies": {},
+  "devDependencies": {"rollup": "latest"},
   "dependencies": {
     "@data-driven-forms/react-form-renderer": "*"
   }
