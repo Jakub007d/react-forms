@@ -1,9 +1,66 @@
+name: Pull Request Checks
+
 on:
   pull_request:
-    branches:
-      - master
+  push:
+  workflow_dispatch:
 
 jobs:
+  pr-checks:
+    runs-on: ubuntu-latest
+    name: PR Validation & Testing
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Derive appropriate SHAs for base and head for nx affected commands
+        uses: nrwl/nx-set-shas@v4
+
+      - name: Run build on affected projects
+        run: npx nx affected --target=build --parallel=3
+        continue-on-error: false
+
+      - name: Run lint on affected projects
+        run: npx nx affected --target=lint --parallel=3
+        continue-on-error: false
+
+      - name: Run typecheck on affected projects
+        run: npx nx affected --target=typecheck --parallel=3
+        continue-on-error: false
+
+      - name: Run tests on affected projects
+        run: npx nx affected --target=test --parallel=3 --coverage
+        continue-on-error: false
+
+      - name: Run Nx release dry-run
+        id: nx-release-dry-run
+        run: |
+          echo "Running Nx release in dry-run mode..."
+          npx nx release --dry-run --verbose 2>&1 | tee release-output.txt
+          EXIT_CODE=${PIPESTATUS[0]}
+
+          if [ $EXIT_CODE -ne 0 ]; then
+            echo "L Nx release dry-run FAILED with exit code $EXIT_CODE"
+            echo "release_status=failed" >> $GITHUB_OUTPUT
+            exit $EXIT_CODE
+          else
+            echo " Nx release dry-run SUCCEEDED"
+            echo "release_status=success" >> $GITHUB_OUTPUT
+          fi
+        continue-on-error: false
+
   github-action-show-version:
     runs-on: ubuntu-latest
     name: Next version is

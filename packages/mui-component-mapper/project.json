@@ -49,9 +49,11 @@
     "typecheck": {
       "executor": "@nx/js:tsc",
       "options": {
+        "main": "packages/mui-component-mapper/src/index.js",
         "tsConfig": "packages/mui-component-mapper/tsconfig.json",
-        "noEmit": true
+        "outputPath": "packages/mui-component-mapper/dist"
       },
+      "outputs": ["{options.outputPath}"],
       "cache": true
     },
     "start": {

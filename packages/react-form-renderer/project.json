@@ -48,9 +48,11 @@
     "typecheck": {
       "executor": "@nx/js:tsc",
       "options": {
+        "main": "packages/react-form-renderer/src/index.js",
         "tsConfig": "packages/react-form-renderer/tsconfig.json",
-        "noEmit": true
+        "outputPath": "packages/react-form-renderer/dist"
       },
+      "outputs": ["{options.outputPath}"],
       "cache": true
     },
     "start": {
