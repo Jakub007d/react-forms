@@ -37,524 +37,524 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".circleci/config.yml",
-        "hash": "15915220923314241482"
-      },
-      {
-        "file": ".codecov.yml",
-        "hash": "9044121668820853185"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "14288216244619289608"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "17646458169137021404"
-      },
-      {
-        "file": ".github/ISSUE_TEMPLATE/issue.md",
-        "hash": "8101559671263141945"
-      },
-      {
-        "file": ".github/pull_request_template.md",
-        "hash": "18369716178822166710"
-      },
-      {
-        "file": ".github/workflows/main.yml",
-        "hash": "17589277140389367448"
-      },
-      {
-        "file": ".github/workflows/release-pr.yml",
-        "hash": "17221623530453500001"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "959597613686882910"
-      },
-      {
-        "file": ".gitmodules",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": ".npmrc.template",
-        "hash": "12577847553486931635"
-      },
-      {
-        "file": ".prettierrc.json",
-        "hash": "17069437119499847323"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "3491846103125092433"
-      },
-      {
-        "file": "README.md",
-        "hash": "16907700145920551647"
-      },
-      {
-        "file": "__mocks__/file-mock.js",
-        "hash": "6043541390899490985"
-      },
-      {
-        "file": "__mocks__/mock-field-provider.js",
-        "hash": "13238609469241869380"
-      },
-      {
-        "file": "__mocks__/mock-form-template.js",
-        "hash": "9338857555505368928"
-      },
-      {
-        "file": "__mocks__/with-provider.js",
-        "hash": "17770096510255099822"
-      },
-      {
-        "file": "babel.config.js",
-        "hash": "2629351465854133287"
-      },
-      {
-        "file": "config/globalSetup.js",
-        "hash": "11901648381575904061"
-      },
-      {
-        "file": "config/jest.setup.js",
-        "hash": "16666485532425301767"
-      },
-      {
-        "file": "images/logo.png",
-        "hash": "12572137545532484534"
-      },
-      {
-        "file": "lerna.json",
-        "hash": "13988915140180284033"
+        "file": "templates/component-mapper/src/time-picker/time-picker.js",
+        "hash": "10274974219790443943"
       },
       {
         "file": "nx.json",
         "hash": "17979300233173493473"
       },
       {
-        "file": "package.json",
-        "hash": "16914562696070708676"
-      },
-      {
-        "file": "scripts/clean-build.js",
-        "hash": "1161648817634080371"
-      },
-      {
-        "file": "scripts/copy-css.js",
-        "hash": "18305638103190459200"
-      },
-      {
-        "file": "scripts/generate-mapper.js",
-        "hash": "13797654219078614471"
-      },
-      {
-        "file": "scripts/generate-packages.js",
-        "hash": "5432520820991709550"
-      },
-      {
-        "file": "scripts/generate-typings.js",
-        "hash": "1907558703036556690"
-      },
-      {
-        "file": "scripts/prepare-demo.sh",
-        "hash": "2629089620412683877"
-      },
-      {
-        "file": "scripts/react-form-renderer.sh",
-        "hash": "14421866433788955553"
-      },
-      {
-        "file": "scripts/release.sh",
-        "hash": "9259928299117534034"
-      },
-      {
-        "file": "scripts/update-common.js",
-        "hash": "13842520750058672008"
-      },
-      {
-        "file": "shared/demoschema/demoschema.d.ts",
-        "hash": "3134241418082684483"
-      },
-      {
-        "file": "shared/demoschema/demoschema.js",
-        "hash": "15537676519225632810"
-      },
-      {
-        "file": "shared/demoschema/index.d.ts",
-        "hash": "10510421153396761739"
-      },
-      {
-        "file": "shared/demoschema/index.js",
-        "hash": "10510421153396761739"
-      },
-      {
-        "file": "templates/component-mapper/.gitignore",
-        "hash": "7059388981754323532"
-      },
-      {
-        "file": "templates/component-mapper/.npmignore",
-        "hash": "6686455742765848871"
-      },
-      {
-        "file": "templates/component-mapper/LICENSE",
-        "hash": "3491846103125092433"
-      },
-      {
-        "file": "templates/component-mapper/README.md",
-        "hash": "1676342800388918284"
-      },
-      {
-        "file": "templates/component-mapper/babel.config.js",
-        "hash": "10544089241712590534"
-      },
-      {
-        "file": "templates/component-mapper/config/webpack.config.js",
-        "hash": "8065822296233641818"
-      },
-      {
-        "file": "templates/component-mapper/demo/demo-schemas/sandbox.js",
-        "hash": "3825676060690191618"
-      },
-      {
-        "file": "templates/component-mapper/demo/demo-schemas/widget-schema.js",
-        "hash": "8403440907654363472"
-      },
-      {
-        "file": "templates/component-mapper/demo/demo-schemas/wizard-schema.js",
-        "hash": "18314373320957827845"
-      },
-      {
-        "file": "templates/component-mapper/demo/index.html",
-        "hash": "11977948066723362888"
-      },
-      {
         "file": "templates/component-mapper/demo/index.js",
         "hash": "14822987806158373756"
-      },
-      {
-        "file": "templates/component-mapper/package.json",
-        "hash": "6487710013090119344"
-      },
-      {
-        "file": "templates/component-mapper/src/checkbox/checkbox.js",
-        "hash": "324412420208178020"
-      },
-      {
-        "file": "templates/component-mapper/src/checkbox/index.js",
-        "hash": "10473954307075293357"
-      },
-      {
-        "file": "templates/component-mapper/src/component-mapper/component-mapper.js",
-        "hash": "3499545567715409595"
-      },
-      {
-        "file": "templates/component-mapper/src/component-mapper/index.js",
-        "hash": "13814225552206366607"
-      },
-      {
-        "file": "templates/component-mapper/src/date-picker/date-picker.js",
-        "hash": "6285052218134136840"
-      },
-      {
-        "file": "templates/component-mapper/src/date-picker/index.js",
-        "hash": "4893241316649986956"
-      },
-      {
-        "file": "templates/component-mapper/src/dual-list-select/dual-list-select.js",
-        "hash": "4475001180104399526"
-      },
-      {
-        "file": "templates/component-mapper/src/dual-list-select/index.js",
-        "hash": "13298381049402088098"
-      },
-      {
-        "file": "templates/component-mapper/src/field-array/field-array.js",
-        "hash": "10582413991620760977"
-      },
-      {
-        "file": "templates/component-mapper/src/field-array/index.js",
-        "hash": "13121562265279688980"
-      },
-      {
-        "file": "templates/component-mapper/src/form-group/form-group.js",
-        "hash": "9610001729782530144"
-      },
-      {
-        "file": "templates/component-mapper/src/form-group/index.js",
-        "hash": "12589784753016365402"
-      },
-      {
-        "file": "templates/component-mapper/src/form-template/form-template.js",
-        "hash": "12273718984450098650"
-      },
-      {
-        "file": "templates/component-mapper/src/form-template/index.js",
-        "hash": "8750920176823683175"
-      },
-      {
-        "file": "templates/component-mapper/src/index.js",
-        "hash": "18392699411947161169"
-      },
-      {
-        "file": "templates/component-mapper/src/plain-text/index.js",
-        "hash": "16021381117540218700"
-      },
-      {
-        "file": "templates/component-mapper/src/plain-text/plain-text.js",
-        "hash": "4990232182157250174"
-      },
-      {
-        "file": "templates/component-mapper/src/radio/index.js",
-        "hash": "13712558995555471130"
       },
       {
         "file": "templates/component-mapper/src/radio/radio.js",
         "hash": "2106103951557010857"
       },
       {
-        "file": "templates/component-mapper/src/select/index.js",
-        "hash": "6793093240155551236"
-      },
-      {
-        "file": "templates/component-mapper/src/select/select.js",
-        "hash": "16828093611495431815"
-      },
-      {
-        "file": "templates/component-mapper/src/slider/index.js",
-        "hash": "7795391012015812125"
-      },
-      {
-        "file": "templates/component-mapper/src/slider/slider.js",
-        "hash": "14479829271647994407"
-      },
-      {
-        "file": "templates/component-mapper/src/sub-form/index.js",
-        "hash": "8819833486284916423"
-      },
-      {
-        "file": "templates/component-mapper/src/sub-form/sub-form.js",
-        "hash": "17404796448749844416"
-      },
-      {
-        "file": "templates/component-mapper/src/switch/index.js",
-        "hash": "7409927088227709588"
-      },
-      {
-        "file": "templates/component-mapper/src/switch/switch.js",
-        "hash": "9470907149626922202"
-      },
-      {
-        "file": "templates/component-mapper/src/tabs/index.js",
-        "hash": "2681608242303203182"
-      },
-      {
-        "file": "templates/component-mapper/src/tabs/tabs.js",
-        "hash": "2342971247672180312"
+        "file": "templates/typings/src/text-field/text-field.d.ts",
+        "hash": "17243877426302068294"
       },
       {
         "file": "templates/component-mapper/src/tests/.eslintrc",
         "hash": "9504941940516664269"
       },
       {
-        "file": "templates/component-mapper/src/tests/test.test.js",
-        "hash": "10796110200705915931"
-      },
-      {
-        "file": "templates/component-mapper/src/text-field/index.js",
-        "hash": "17590483412186088451"
-      },
-      {
-        "file": "templates/component-mapper/src/text-field/text-field.js",
-        "hash": "7605220059274614351"
-      },
-      {
-        "file": "templates/component-mapper/src/textarea/index.js",
-        "hash": "11065686002439337874"
-      },
-      {
-        "file": "templates/component-mapper/src/textarea/textarea.js",
-        "hash": "6482347752599200650"
-      },
-      {
-        "file": "templates/component-mapper/src/time-picker/index.js",
-        "hash": "11258987623126642614"
-      },
-      {
-        "file": "templates/component-mapper/src/time-picker/time-picker.js",
-        "hash": "10274974219790443943"
-      },
-      {
-        "file": "templates/component-mapper/src/wizard/index.js",
-        "hash": "14162681675640197492"
-      },
-      {
-        "file": "templates/component-mapper/src/wizard/wizard.js",
-        "hash": "7567824842184062997"
-      },
-      {
-        "file": "templates/typings/src/checkbox/checkbox.d.ts",
-        "hash": "11651796293223372735"
-      },
-      {
-        "file": "templates/typings/src/checkbox/index.d.ts",
-        "hash": "10473954307075293357"
-      },
-      {
-        "file": "templates/typings/src/component-mapper/component-mapper.d.ts",
-        "hash": "18169525345603269432"
-      },
-      {
-        "file": "templates/typings/src/component-mapper/index.d.ts",
-        "hash": "13814225552206366607"
-      },
-      {
-        "file": "templates/typings/src/date-picker/date-picker.d.ts",
-        "hash": "5809476239408514867"
-      },
-      {
-        "file": "templates/typings/src/date-picker/index.d.ts",
-        "hash": "4893241316649986956"
-      },
-      {
-        "file": "templates/typings/src/dual-list-select/dual-list-select.d.ts",
-        "hash": "15154081610961634178"
-      },
-      {
-        "file": "templates/typings/src/dual-list-select/index.d.ts",
-        "hash": "13298381049402088098"
-      },
-      {
-        "file": "templates/typings/src/field-array/field-array.d.ts",
-        "hash": "3439926375949124418"
-      },
-      {
-        "file": "templates/typings/src/field-array/index.d.ts",
-        "hash": "13121562265279688980"
-      },
-      {
-        "file": "templates/typings/src/form-group/form-group.d.ts",
-        "hash": "9444789679670945865"
-      },
-      {
-        "file": "templates/typings/src/form-group/index.d.ts",
-        "hash": "12589784753016365402"
-      },
-      {
-        "file": "templates/typings/src/form-template/form-template.d.ts",
-        "hash": "18375990110728210134"
-      },
-      {
-        "file": "templates/typings/src/form-template/index.d.ts",
-        "hash": "8750920176823683175"
-      },
-      {
-        "file": "templates/typings/src/plain-text/index.d.ts",
-        "hash": "16021381117540218700"
-      },
-      {
-        "file": "templates/typings/src/plain-text/plain-text.d.ts",
-        "hash": "8224165340621227511"
-      },
-      {
-        "file": "templates/typings/src/radio/index.d.ts",
-        "hash": "13712558995555471130"
-      },
-      {
-        "file": "templates/typings/src/radio/radio.d.ts",
-        "hash": "1323006386327231031"
-      },
-      {
-        "file": "templates/typings/src/select/index.d.ts",
-        "hash": "6793093240155551236"
-      },
-      {
-        "file": "templates/typings/src/select/select.d.ts",
-        "hash": "13614147353140328360"
+        "file": ".gitmodules",
+        "hash": "3244421341483603138"
       },
       {
         "file": "templates/typings/src/slider/index.d.ts",
         "hash": "7795391012015812125"
       },
       {
-        "file": "templates/typings/src/slider/slider.d.ts",
-        "hash": "7830954836708740117"
-      },
-      {
-        "file": "templates/typings/src/sub-form/index.d.ts",
-        "hash": "8819833486284916423"
-      },
-      {
-        "file": "templates/typings/src/sub-form/sub-form.d.ts",
-        "hash": "8630207243806457956"
-      },
-      {
-        "file": "templates/typings/src/switch/index.d.ts",
-        "hash": "7409927088227709588"
-      },
-      {
-        "file": "templates/typings/src/switch/switch.d.ts",
-        "hash": "6131560571225650446"
-      },
-      {
-        "file": "templates/typings/src/tabs/index.d.ts",
-        "hash": "2681608242303203182"
-      },
-      {
-        "file": "templates/typings/src/tabs/tabs.d.ts",
-        "hash": "13206762763095253838"
-      },
-      {
-        "file": "templates/typings/src/text-field/index.d.ts",
-        "hash": "17590483412186088451"
-      },
-      {
-        "file": "templates/typings/src/text-field/text-field.d.ts",
-        "hash": "17243877426302068294"
-      },
-      {
-        "file": "templates/typings/src/textarea/index.d.ts",
+        "file": "templates/component-mapper/src/textarea/index.js",
         "hash": "11065686002439337874"
       },
       {
-        "file": "templates/typings/src/textarea/textarea.d.ts",
-        "hash": "9803672773798616444"
+        "file": "README.md",
+        "hash": "16907700145920551647"
       },
       {
-        "file": "templates/typings/src/time-picker/index.d.ts",
-        "hash": "11258987623126642614"
+        "file": "__mocks__/mock-field-provider.js",
+        "hash": "13238609469241869380"
       },
       {
-        "file": "templates/typings/src/time-picker/time-picker.d.ts",
-        "hash": "6639200604706871842"
-      },
-      {
-        "file": "templates/typings/src/wizard/index.d.ts",
-        "hash": "14162681675640197492"
-      },
-      {
-        "file": "templates/typings/src/wizard/wizard.d.ts",
-        "hash": "5689420936649689779"
-      },
-      {
-        "file": "templates/typings/tsconfig.json",
-        "hash": "18380652967635222846"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "3531900526476643502"
+        "file": "templates/component-mapper/src/tests/test.test.js",
+        "hash": "10796110200705915931"
       },
       {
         "file": "tslint.json",
         "hash": "16200820448619383275"
       },
       {
-        "file": "typings.d.ts",
-        "hash": "4848174729621012035"
+        "file": "templates/component-mapper/src/form-group/form-group.js",
+        "hash": "9610001729782530144"
+      },
+      {
+        "file": "templates/typings/src/component-mapper/index.d.ts",
+        "hash": "13814225552206366607"
+      },
+      {
+        "file": "templates/typings/src/radio/radio.d.ts",
+        "hash": "1323006386327231031"
+      },
+      {
+        "file": "templates/component-mapper/src/tabs/index.js",
+        "hash": "2681608242303203182"
+      },
+      {
+        "file": "templates/typings/src/plain-text/plain-text.d.ts",
+        "hash": "8224165340621227511"
+      },
+      {
+        "file": ".npmrc.template",
+        "hash": "12577847553486931635"
+      },
+      {
+        "file": "templates/component-mapper/src/text-field/text-field.js",
+        "hash": "7605220059274614351"
+      },
+      {
+        "file": "__mocks__/file-mock.js",
+        "hash": "6043541390899490985"
+      },
+      {
+        "file": "templates/component-mapper/demo/index.html",
+        "hash": "11977948066723362888"
+      },
+      {
+        "file": "templates/typings/tsconfig.json",
+        "hash": "18380652967635222846"
+      },
+      {
+        "file": "templates/typings/src/select/index.d.ts",
+        "hash": "6793093240155551236"
+      },
+      {
+        "file": "templates/component-mapper/src/component-mapper/component-mapper.js",
+        "hash": "3499545567715409595"
+      },
+      {
+        "file": "templates/typings/src/checkbox/checkbox.d.ts",
+        "hash": "11651796293223372735"
+      },
+      {
+        "file": "templates/component-mapper/src/switch/switch.js",
+        "hash": "9470907149626922202"
+      },
+      {
+        "file": "templates/typings/src/plain-text/index.d.ts",
+        "hash": "16021381117540218700"
+      },
+      {
+        "file": "templates/component-mapper/README.md",
+        "hash": "1676342800388918284"
+      },
+      {
+        "file": "images/logo.png",
+        "hash": "12572137545532484534"
+      },
+      {
+        "file": "templates/component-mapper/src/checkbox/index.js",
+        "hash": "10473954307075293357"
+      },
+      {
+        "file": "templates/component-mapper/src/slider/index.js",
+        "hash": "7795391012015812125"
+      },
+      {
+        "file": "templates/component-mapper/src/date-picker/index.js",
+        "hash": "4893241316649986956"
+      },
+      {
+        "file": "templates/component-mapper/babel.config.js",
+        "hash": "10544089241712590534"
+      },
+      {
+        "file": "templates/component-mapper/src/dual-list-select/dual-list-select.js",
+        "hash": "4475001180104399526"
+      },
+      {
+        "file": "templates/component-mapper/.npmignore",
+        "hash": "6686455742765848871"
+      },
+      {
+        "file": "templates/component-mapper/src/wizard/index.js",
+        "hash": "14162681675640197492"
+      },
+      {
+        "file": "templates/component-mapper/src/index.js",
+        "hash": "18392699411947161169"
+      },
+      {
+        "file": "babel.config.js",
+        "hash": "2629351465854133287"
+      },
+      {
+        "file": "templates/component-mapper/demo/demo-schemas/sandbox.js",
+        "hash": "3825676060690191618"
+      },
+      {
+        "file": ".prettierrc.json",
+        "hash": "17069437119499847323"
+      },
+      {
+        "file": "config/jest.setup.js",
+        "hash": "16666485532425301767"
+      },
+      {
+        "file": "templates/typings/src/time-picker/index.d.ts",
+        "hash": "11258987623126642614"
+      },
+      {
+        "file": "templates/component-mapper/src/date-picker/date-picker.js",
+        "hash": "6285052218134136840"
+      },
+      {
+        "file": "templates/component-mapper/src/time-picker/index.js",
+        "hash": "11258987623126642614"
+      },
+      {
+        "file": "templates/component-mapper/src/form-template/index.js",
+        "hash": "8750920176823683175"
+      },
+      {
+        "file": "templates/typings/src/switch/index.d.ts",
+        "hash": "7409927088227709588"
+      },
+      {
+        "file": "templates/typings/src/form-template/index.d.ts",
+        "hash": "8750920176823683175"
+      },
+      {
+        "file": "templates/typings/src/dual-list-select/index.d.ts",
+        "hash": "13298381049402088098"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17646458169137021404"
+      },
+      {
+        "file": "shared/demoschema/index.js",
+        "hash": "10510421153396761739"
+      },
+      {
+        "file": "templates/typings/src/select/select.d.ts",
+        "hash": "13614147353140328360"
+      },
+      {
+        "file": "templates/typings/src/switch/switch.d.ts",
+        "hash": "6131560571225650446"
+      },
+      {
+        "file": "templates/typings/src/sub-form/index.d.ts",
+        "hash": "8819833486284916423"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "14288216244619289608"
+      },
+      {
+        "file": "templates/component-mapper/src/dual-list-select/index.js",
+        "hash": "13298381049402088098"
+      },
+      {
+        "file": "templates/typings/src/textarea/textarea.d.ts",
+        "hash": "9803672773798616444"
+      },
+      {
+        "file": "scripts/clean-build.js",
+        "hash": "1161648817634080371"
+      },
+      {
+        "file": "templates/typings/src/field-array/index.d.ts",
+        "hash": "13121562265279688980"
+      },
+      {
+        "file": ".github/workflows/main.yml",
+        "hash": "17589277140389367448"
+      },
+      {
+        "file": "templates/component-mapper/src/textarea/textarea.js",
+        "hash": "6482347752599200650"
+      },
+      {
+        "file": "templates/component-mapper/src/tabs/tabs.js",
+        "hash": "2342971247672180312"
+      },
+      {
+        "file": "scripts/generate-typings.js",
+        "hash": "1907558703036556690"
+      },
+      {
+        "file": "templates/component-mapper/src/switch/index.js",
+        "hash": "7409927088227709588"
+      },
+      {
+        "file": "templates/component-mapper/src/field-array/field-array.js",
+        "hash": "10582413991620760977"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "3491846103125092433"
+      },
+      {
+        "file": "__mocks__/mock-form-template.js",
+        "hash": "9338857555505368928"
+      },
+      {
+        "file": "scripts/prepare-demo.sh",
+        "hash": "2629089620412683877"
+      },
+      {
+        "file": "__mocks__/with-provider.js",
+        "hash": "17770096510255099822"
+      },
+      {
+        "file": "shared/demoschema/demoschema.js",
+        "hash": "15537676519225632810"
+      },
+      {
+        "file": "templates/typings/src/tabs/index.d.ts",
+        "hash": "2681608242303203182"
+      },
+      {
+        "file": "templates/typings/src/slider/slider.d.ts",
+        "hash": "7830954836708740117"
+      },
+      {
+        "file": "package.json",
+        "hash": "16914562696070708676"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "959597613686882910"
+      },
+      {
+        "file": "templates/component-mapper/src/component-mapper/index.js",
+        "hash": "13814225552206366607"
       },
       {
         "file": "yarn.lock",
         "hash": "1622323361338907148"
+      },
+      {
+        "file": "shared/demoschema/index.d.ts",
+        "hash": "10510421153396761739"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "3531900526476643502"
+      },
+      {
+        "file": "templates/typings/src/radio/index.d.ts",
+        "hash": "13712558995555471130"
+      },
+      {
+        "file": ".circleci/config.yml",
+        "hash": "15915220923314241482"
+      },
+      {
+        "file": "templates/component-mapper/.gitignore",
+        "hash": "7059388981754323532"
+      },
+      {
+        "file": "templates/component-mapper/config/webpack.config.js",
+        "hash": "8065822296233641818"
+      },
+      {
+        "file": "templates/component-mapper/src/form-template/form-template.js",
+        "hash": "12273718984450098650"
+      },
+      {
+        "file": "scripts/generate-mapper.js",
+        "hash": "13797654219078614471"
+      },
+      {
+        "file": "scripts/update-common.js",
+        "hash": "13842520750058672008"
+      },
+      {
+        "file": "templates/typings/src/field-array/field-array.d.ts",
+        "hash": "3439926375949124418"
+      },
+      {
+        "file": "templates/typings/src/component-mapper/component-mapper.d.ts",
+        "hash": "18169525345603269432"
+      },
+      {
+        "file": "templates/component-mapper/src/sub-form/index.js",
+        "hash": "8819833486284916423"
+      },
+      {
+        "file": "templates/typings/src/tabs/tabs.d.ts",
+        "hash": "13206762763095253838"
+      },
+      {
+        "file": "scripts/react-form-renderer.sh",
+        "hash": "14421866433788955553"
+      },
+      {
+        "file": "templates/component-mapper/src/wizard/wizard.js",
+        "hash": "7567824842184062997"
+      },
+      {
+        "file": "templates/typings/src/form-group/index.d.ts",
+        "hash": "12589784753016365402"
+      },
+      {
+        "file": "templates/component-mapper/src/sub-form/sub-form.js",
+        "hash": "17404796448749844416"
+      },
+      {
+        "file": "templates/component-mapper/demo/demo-schemas/widget-schema.js",
+        "hash": "8403440907654363472"
+      },
+      {
+        "file": "templates/typings/src/date-picker/index.d.ts",
+        "hash": "4893241316649986956"
+      },
+      {
+        "file": "templates/component-mapper/demo/demo-schemas/wizard-schema.js",
+        "hash": "18314373320957827845"
+      },
+      {
+        "file": "config/globalSetup.js",
+        "hash": "11901648381575904061"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "13988915140180284033"
+      },
+      {
+        "file": "templates/component-mapper/src/radio/index.js",
+        "hash": "13712558995555471130"
+      },
+      {
+        "file": ".github/ISSUE_TEMPLATE/issue.md",
+        "hash": "8101559671263141945"
+      },
+      {
+        "file": ".codecov.yml",
+        "hash": "9044121668820853185"
+      },
+      {
+        "file": "templates/component-mapper/src/text-field/index.js",
+        "hash": "17590483412186088451"
+      },
+      {
+        "file": "templates/component-mapper/src/slider/slider.js",
+        "hash": "14479829271647994407"
+      },
+      {
+        "file": "templates/typings/src/form-group/form-group.d.ts",
+        "hash": "9444789679670945865"
+      },
+      {
+        "file": "templates/component-mapper/src/plain-text/index.js",
+        "hash": "16021381117540218700"
+      },
+      {
+        "file": "templates/typings/src/wizard/wizard.d.ts",
+        "hash": "5689420936649689779"
+      },
+      {
+        "file": "templates/component-mapper/src/field-array/index.js",
+        "hash": "13121562265279688980"
+      },
+      {
+        "file": ".github/pull_request_template.md",
+        "hash": "18369716178822166710"
+      },
+      {
+        "file": "templates/typings/src/time-picker/time-picker.d.ts",
+        "hash": "6639200604706871842"
+      },
+      {
+        "file": "templates/typings/src/textarea/index.d.ts",
+        "hash": "11065686002439337874"
+      },
+      {
+        "file": "templates/component-mapper/src/checkbox/checkbox.js",
+        "hash": "324412420208178020"
+      },
+      {
+        "file": "templates/component-mapper/LICENSE",
+        "hash": "3491846103125092433"
+      },
+      {
+        "file": "templates/component-mapper/package.json",
+        "hash": "6487710013090119344"
+      },
+      {
+        "file": "templates/typings/src/wizard/index.d.ts",
+        "hash": "14162681675640197492"
+      },
+      {
+        "file": "typings.d.ts",
+        "hash": "4848174729621012035"
+      },
+      {
+        "file": ".github/workflows/release-pr.yml",
+        "hash": "8347043177481756704"
+      },
+      {
+        "file": "shared/demoschema/demoschema.d.ts",
+        "hash": "3134241418082684483"
+      },
+      {
+        "file": "scripts/copy-css.js",
+        "hash": "18305638103190459200"
+      },
+      {
+        "file": "templates/component-mapper/src/form-group/index.js",
+        "hash": "12589784753016365402"
+      },
+      {
+        "file": "templates/typings/src/dual-list-select/dual-list-select.d.ts",
+        "hash": "15154081610961634178"
+      },
+      {
+        "file": "scripts/release.sh",
+        "hash": "9259928299117534034"
+      },
+      {
+        "file": "templates/component-mapper/src/select/select.js",
+        "hash": "16828093611495431815"
+      },
+      {
+        "file": "templates/component-mapper/src/plain-text/plain-text.js",
+        "hash": "4990232182157250174"
+      },
+      {
+        "file": "templates/typings/src/checkbox/index.d.ts",
+        "hash": "10473954307075293357"
+      },
+      {
+        "file": "templates/component-mapper/src/select/index.js",
+        "hash": "6793093240155551236"
+      },
+      {
+        "file": "templates/typings/src/text-field/index.d.ts",
+        "hash": "17590483412186088451"
+      },
+      {
+        "file": "templates/typings/src/sub-form/sub-form.d.ts",
+        "hash": "8630207243806457956"
+      },
+      {
+        "file": "scripts/generate-packages.js",
+        "hash": "5432520820991709550"
+      },
+      {
+        "file": "templates/typings/src/date-picker/date-picker.d.ts",
+        "hash": "5809476239408514867"
+      },
+      {
+        "file": "templates/typings/src/form-template/form-template.d.ts",
+        "hash": "18375990110728210134"
       }
     ],
     "projectFileMap": {
