@@ -1,0 +1,3202 @@
+{
+  "packages/ant-component-mapper": {
+    "root": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/ant-component-mapper/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "name": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.executor": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options.script": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.scriptContent": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.runCommand": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.executor": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options.script": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.scriptContent": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.runCommand": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.executor": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options.script": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.scriptContent": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.runCommand": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css.executor": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css.options": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css.metadata": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css.options.script": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css.metadata.scriptContent": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css.metadata.runCommand": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/ant-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.@data-driven-forms/common": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.executor": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.outputs": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.cache": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.command": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.cwd": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.executor": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.outputs": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.cache": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.command": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.cwd": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.cache": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.tsConfig": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.noEmit": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.executor": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.command": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.cwd": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.vendor": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.vendor.executor": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.vendor.options": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.vendor.options.command": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.vendor.options.cwd": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/blueprint-component-mapper": {
+    "root": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/blueprint-component-mapper/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "name": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:forms": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:javascript": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.executor": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options.script": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.scriptContent": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.runCommand": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.executor": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options.script": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.scriptContent": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.runCommand": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.executor": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options.script": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.scriptContent": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.runCommand": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/blueprint-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:component-mapper": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.ui:blueprint": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:publishable": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.platform:react": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.@data-driven-forms/common": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.executor": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.outputs": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.cache": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.command": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.cwd": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.executor": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.outputs": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.cache": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.command": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.cwd": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.cache": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.tsConfig": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.noEmit": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.executor": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.command": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.cwd": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/carbon-component-mapper": {
+    "root": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/carbon-component-mapper/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "name": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:forms": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:javascript": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.executor": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options.script": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.scriptContent": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.runCommand": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.executor": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options.script": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.scriptContent": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.runCommand": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.executor": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options.script": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.scriptContent": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.runCommand": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/carbon-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:component-mapper": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.ui:carbon": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:publishable": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.platform:react": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.@data-driven-forms/common": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.executor": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.outputs": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.cache": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.command": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.cwd": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.executor": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.outputs": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.cache": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.command": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.cwd": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.cache": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.tsConfig": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.noEmit": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.executor": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.command": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.cwd": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/common": {
+    "root": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/common/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "name": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.executor": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options.script": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.scriptContent": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.runCommand": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.executor": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options.script": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.scriptContent": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.runCommand": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/common/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:utility": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:shared": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.platform:react": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.executor": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.outputs": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.cache": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.command": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.cwd": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.executor": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.outputs": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.cache": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.command": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.cwd": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.cache": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.tsConfig": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.noEmit": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/mui-component-mapper": {
+    "root": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/mui-component-mapper/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "name": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.executor": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options.script": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.scriptContent": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.runCommand": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.executor": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options.script": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.scriptContent": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.runCommand": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.executor": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options.script": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.scriptContent": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.runCommand": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/mui-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:component-mapper": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.ui:material-ui": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:publishable": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.platform:react": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.@data-driven-forms/common": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.executor": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.outputs": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.cache": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.command": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.cwd": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.executor": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.outputs": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.cache": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.command": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.cwd": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.cache": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.tsConfig": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.noEmit": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.executor": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.command": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.cwd": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.vendor": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.vendor.executor": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.vendor.options": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.vendor.options.command": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.vendor.options.cwd": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/pf4-component-mapper": {
+    "root": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/pf4-component-mapper/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "name": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:forms": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:javascript": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.executor": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options.script": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.scriptContent": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.runCommand": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.executor": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options.script": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.scriptContent": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.runCommand": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css.executor": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css.options": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css.metadata": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css.options.script": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css.metadata.scriptContent": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:css.metadata.runCommand": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.executor": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options.script": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.scriptContent": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.runCommand": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/pf4-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:component-mapper": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.ui:patternfly": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:publishable": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.platform:react": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.@data-driven-forms/common": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.executor": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.outputs": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.cache": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.command": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.cwd": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.executor": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.outputs": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.cache": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.command": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.cwd": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.cache": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.tsConfig": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.noEmit": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.executor": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.command": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.cwd": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/react-form-renderer": {
+    "root": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/react-form-renderer/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "name": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:forms": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:javascript": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.executor": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options.script": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.scriptContent": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.runCommand": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.executor": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options.script": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.scriptContent": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.runCommand": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.executor": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options.script": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.scriptContent": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.runCommand": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/react-form-renderer/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:core": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:publishable": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.platform:react": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.executor": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.outputs": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.cache": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.command": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.cwd": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.executor": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.outputs": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.cache": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.command": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.cwd": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.cache": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.tsConfig": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.noEmit": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.executor": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.command": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.cwd": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/suir-component-mapper": {
+    "root": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/suir-component-mapper/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "name": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.executor": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.options.script": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.scriptContent": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:typings.metadata.runCommand": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.executor": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.options.script": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.scriptContent": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:packages.metadata.runCommand": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.executor": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.options.script": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.scriptContent": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.release.metadata.runCommand": [
+      "packages/suir-component-mapper/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:component-mapper": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.ui:semantic-ui": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:private": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.platform:react": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.@data-driven-forms/common": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.executor": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.outputs": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.cache": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.command": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:cjs.options.cwd": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.executor": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.outputs": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.cache": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.command": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:esm.options.cwd": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.cache": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.tsConfig": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.noEmit": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.executor": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.command": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.cwd": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/parsers": {
+    "root": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:forms": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:javascript": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "packages/react-renderer-demo": {
+    "root": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.generate:examples": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.generate:examples.executor": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.generate:examples.options": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.generate:examples.metadata": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.generate:examples.options.script": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.generate:examples.metadata.scriptContent": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.generate:examples.metadata.runCommand": [
+      "packages/react-renderer-demo/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:demo-app": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:private": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.platform:react": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.@data-driven-forms/mui-component-mapper": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.@data-driven-forms/react-form-renderer": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.executor": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.cwd": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.executor": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.command": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.cwd": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.cache": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.cwd": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.analyze": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.analyze.executor": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.analyze.options": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.analyze.options.command": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.analyze.options.cwd": [
+      "packages/react-renderer-demo/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

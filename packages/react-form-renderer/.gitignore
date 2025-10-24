@@ -91,5 +91,6 @@ vendor
 !firebae.json
 !firebaseFunctions.js
 !scripts/
+!project.json
 
 .DS_STORE

@@ -92,5 +92,6 @@ vendor
 !firebaseFunctions.js
 !scripts/
 !dynamic-import-transform.ts
+!project.json
 
 .DS_STORE
