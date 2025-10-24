@@ -16,6 +16,7 @@
         "command": "yarn build",
         "cwd": "packages/react-renderer-demo"
       },
+      "dependsOn": ["^build"],
       "cache": true
     },
     "dev": {

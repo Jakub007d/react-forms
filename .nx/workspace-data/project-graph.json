@@ -1,5 +1,1307 @@
 {
   "nodes": {
+    "default-schema-validator": {
+      "name": "default-schema-validator",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/default-schema-validator",
+        "name": "default-schema-validator",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "prepare-component-props": {
+      "name": "prepare-component-props",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/prepare-component-props",
+        "name": "prepare-component-props",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "get-condition-triggers": {
+      "name": "get-condition-triggers",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/get-condition-triggers",
+        "name": "get-condition-triggers",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "multiple-choice-list": {
+      "name": "multiple-choice-list",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/multiple-choice-list",
+        "name": "multiple-choice-list",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "compose-validators": {
+      "name": "compose-validators",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/compose-validators",
+        "name": "compose-validators",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "get-visible-fields": {
+      "name": "get-visible-fields",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/get-visible-fields",
+        "name": "get-visible-fields",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "component-mapper": {
+      "name": "component-mapper",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/component-mapper",
+        "name": "component-mapper",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "dual-list-select": {
+      "name": "dual-list-select",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/dual-list-select",
+        "name": "dual-list-select",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "validation-error": {
+      "name": "validation-error",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/validation-error",
+        "name": "validation-error",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "form-field-grid": {
+      "name": "form-field-grid",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/form-field-grid",
+        "name": "form-field-grid",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "renderer-context": {
+      "name": "renderer-context",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/renderer-context",
+        "name": "renderer-context",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "validator-mapper": {
+      "name": "validator-mapper",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/validator-mapper",
+        "name": "validator-mapper",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "component-types": {
+      "name": "component-types",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/component-types",
+        "name": "component-types",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "parse-condition": {
+      "name": "parse-condition",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/parse-condition",
+        "name": "parse-condition",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "validator-types": {
+      "name": "validator-types",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/validator-types",
+        "name": "validator-types",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "field-provider": {
+      "name": "field-provider",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/field-provider",
+        "name": "field-provider",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "form-template": {
+      "name": "form-template",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/form-template",
+        "name": "form-template",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "wizard-context": {
+      "name": "wizard-context",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/wizard-context",
+        "name": "wizard-context",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "form-renderer": {
+      "name": "form-renderer",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/form-renderer",
+        "name": "form-renderer",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "get-validates": {
+      "name": "get-validates",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/get-validates",
+        "name": "get-validates",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "schema-errors": {
+      "name": "schema-errors",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/schema-errors",
+        "name": "schema-errors",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "use-field-api": {
+      "name": "use-field-api",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/use-field-api",
+        "name": "use-field-api",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "common-types": {
+      "name": "common-types",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/common-types",
+        "name": "common-types",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "date-picker": {
+      "name": "date-picker",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/date-picker",
+        "name": "date-picker",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "time-picker": {
+      "name": "time-picker",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/time-picker",
+        "name": "time-picker",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "use-form-api": {
+      "name": "use-form-api",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/use-form-api",
+        "name": "use-form-api",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "field-array": {
+      "name": "field-array",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/field-array",
+        "name": "field-array",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "plain-text": {
+      "name": "plain-text",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/plain-text",
+        "name": "plain-text",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "text-field": {
+      "name": "text-field",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/text-field",
+        "name": "text-field",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "data-types": {
+      "name": "data-types",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/data-types",
+        "name": "data-types",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "form-error": {
+      "name": "form-error",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/form-error",
+        "name": "form-error",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "validation": {
+      "name": "validation",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/validation",
+        "name": "validation",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "validators": {
+      "name": "validators",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/validators",
+        "name": "validators",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "checkbox": {
+      "name": "checkbox",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/checkbox",
+        "name": "checkbox",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "condition": {
+      "name": "condition",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/condition",
+        "name": "condition",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "sub-form": {
+      "name": "sub-form",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/sub-form",
+        "name": "sub-form",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "textarea": {
+      "name": "textarea",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/textarea",
+        "name": "textarea",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "form-spy": {
+      "name": "form-spy",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/form-spy",
+        "name": "form-spy",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "select": {
+      "name": "select",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/select",
+        "name": "select",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "slider": {
+      "name": "slider",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/slider",
+        "name": "slider",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "switch": {
+      "name": "switch",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/switch",
+        "name": "switch",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "wizard": {
+      "name": "wizard",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/wizard",
+        "name": "wizard",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
     "@data-driven-forms/blueprint-component-mapper": {
       "name": "@data-driven-forms/blueprint-component-mapper",
       "type": "lib",
@@ -9,9 +1311,13 @@
           "typecheck": {
             "executor": "@nx/js:tsc",
             "options": {
+              "main": "packages/blueprint-component-mapper/src/index.js",
               "tsConfig": "packages/blueprint-component-mapper/tsconfig.json",
-              "noEmit": true
+              "outputPath": "packages/blueprint-component-mapper/dist"
             },
+            "outputs": [
+              "{options.outputPath}"
+            ],
             "cache": true,
             "configurations": {},
             "parallelism": true
@@ -160,6 +1466,130 @@
         ]
       }
     },
+    "common": {
+      "name": "common",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/common",
+        "name": "common",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "radio": {
+      "name": "radio",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/radio",
+        "name": "radio",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "tabs": {
+      "name": "tabs",
+      "type": "lib",
+      "data": {
+        "root": "packages/mui-component-mapper/tabs",
+        "name": "tabs",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "form": {
+      "name": "form",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-form-renderer/form",
+        "name": "form",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
     "@data-driven-forms/carbon-component-mapper": {
       "name": "@data-driven-forms/carbon-component-mapper",
       "type": "lib",
@@ -169,9 +1599,13 @@
           "typecheck": {
             "executor": "@nx/js:tsc",
             "options": {
+              "main": "packages/carbon-component-mapper/src/index.js",
               "tsConfig": "packages/carbon-component-mapper/tsconfig.json",
-              "noEmit": true
+              "outputPath": "packages/carbon-component-mapper/dist"
             },
+            "outputs": [
+              "{options.outputPath}"
+            ],
             "cache": true,
             "configurations": {},
             "parallelism": true
@@ -329,9 +1763,13 @@
           "typecheck": {
             "executor": "@nx/js:tsc",
             "options": {
+              "main": "packages/suir-component-mapper/src/index.js",
               "tsConfig": "packages/suir-component-mapper/tsconfig.json",
-              "noEmit": true
+              "outputPath": "packages/suir-component-mapper/dist"
             },
+            "outputs": [
+              "{options.outputPath}"
+            ],
             "cache": true,
             "configurations": {},
             "parallelism": true
@@ -477,9 +1915,13 @@
           "typecheck": {
             "executor": "@nx/js:tsc",
             "options": {
+              "main": "packages/ant-component-mapper/src/index.js",
               "tsConfig": "packages/ant-component-mapper/tsconfig.json",
-              "noEmit": true
+              "outputPath": "packages/ant-component-mapper/dist"
             },
+            "outputs": [
+              "{options.outputPath}"
+            ],
             "cache": true,
             "configurations": {},
             "parallelism": true
@@ -652,9 +2094,13 @@
           "typecheck": {
             "executor": "@nx/js:tsc",
             "options": {
+              "main": "packages/mui-component-mapper/src/index.js",
               "tsConfig": "packages/mui-component-mapper/tsconfig.json",
-              "noEmit": true
+              "outputPath": "packages/mui-component-mapper/dist"
             },
+            "outputs": [
+              "{options.outputPath}"
+            ],
             "cache": true,
             "configurations": {},
             "parallelism": true
@@ -716,7 +2162,8 @@
               "cwd": "packages/mui-component-mapper"
             },
             "dependsOn": [
-              "^build"
+              "@data-driven-forms/common:build",
+              "@data-driven-forms/react-form-renderer:build"
             ],
             "cache": true,
             "configurations": {},
@@ -818,9 +2265,13 @@
           "typecheck": {
             "executor": "@nx/js:tsc",
             "options": {
+              "main": "packages/pf4-component-mapper/src/index.js",
               "tsConfig": "packages/pf4-component-mapper/tsconfig.json",
-              "noEmit": true
+              "outputPath": "packages/pf4-component-mapper/dist"
             },
+            "outputs": [
+              "{options.outputPath}"
+            ],
             "cache": true,
             "configurations": {},
             "parallelism": true
@@ -991,9 +2442,13 @@
           "typecheck": {
             "executor": "@nx/js:tsc",
             "options": {
+              "main": "packages/react-form-renderer/src/index.js",
               "tsConfig": "packages/react-form-renderer/tsconfig.json",
-              "noEmit": true
+              "outputPath": "packages/react-form-renderer/dist"
             },
+            "outputs": [
+              "{options.outputPath}"
+            ],
             "cache": true,
             "configurations": {},
             "parallelism": true
@@ -1186,7 +2641,8 @@
               "cwd": "packages/react-renderer-demo"
             },
             "dependsOn": [
-              "^build"
+              "@data-driven-forms/mui-component-mapper:build",
+              "@data-driven-forms/react-form-renderer:build"
             ],
             "cache": true,
             "configurations": {},
@@ -1238,6 +2694,99 @@
         ]
       }
     },
+    "use-select": {
+      "name": "use-select",
+      "type": "lib",
+      "data": {
+        "root": "packages/common/use-select",
+        "name": "use-select",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "hooks": {
+      "name": "hooks",
+      "type": "lib",
+      "data": {
+        "root": "packages/common/hooks",
+        "name": "hooks",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "utils": {
+      "name": "utils",
+      "type": "lib",
+      "data": {
+        "root": "packages/common/utils",
+        "name": "utils",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
     "@data-driven-forms/parsers": {
       "name": "@data-driven-forms/parsers",
       "type": "lib",
@@ -1255,7 +2804,12 @@
           "platform:react"
         ],
         "metadata": {
-          "targetGroups": {},
+          "targetGroups": {
+            "NPM Scripts": [
+              "build:cjs",
+              "build:esm"
+            ]
+          },
           "description": "Parsers for Data Driven Forms.",
           "js": {
             "packageName": "@data-driven-forms/parsers",
@@ -1265,6 +2819,30 @@
           }
         },
         "targets": {
+          "build:cjs": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:cjs"
+            },
+            "metadata": {
+              "scriptContent": "BABEL_ENV=cjs babel src --out-dir ./dist/cjs --ignore \"src/tests/*\"",
+              "runCommand": "yarn build:cjs"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "build:esm": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:esm"
+            },
+            "metadata": {
+              "scriptContent": "BABEL_ENV=esm babel src --out-dir ./dist/esm --ignore \"src/tests/*\"",
+              "runCommand": "yarn build:esm"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
           "build": {
             "executor": "nx:run-commands",
             "outputs": [
@@ -1308,9 +2886,13 @@
           "typecheck": {
             "executor": "@nx/js:tsc",
             "options": {
+              "main": "packages/common/src/index.js",
               "tsConfig": "packages/common/tsconfig.json",
-              "noEmit": true
+              "outputPath": "packages/common/dist"
             },
+            "outputs": [
+              "{options.outputPath}"
+            ],
             "cache": true,
             "configurations": {},
             "parallelism": true
@@ -6443,6 +8025,204 @@
         "hash": "sha512-rZF+mG+NfijR0SHphhTLHRr4aM4gtfdwoAMY6we2VGQam8vkN1cxGG1Lg/Llrj8Dd0Mu6VjdFQRyMMRZxtZR2A=="
       }
     },
+    "npm:@rollup/rollup-android-arm-eabi@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-android-arm-eabi@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-android-arm-eabi",
+        "hash": "sha512-8c1vW4ocv3UOMp9K+gToY5zL2XiiVw3k7f1ksf4yO1FlDFQ1C2u72iACFnSOceJFsWskc2WZNqeRhFRPzv+wtQ=="
+      }
+    },
+    "npm:@rollup/rollup-android-arm64@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-android-arm64@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-android-arm64",
+        "hash": "sha512-mQGfsIEFcu21mvqkEKKu2dYmtuSZOBMmAl5CFlPGLY94Vlcm+zWApK7F/eocsNzp8tKmbeBP8yXyAbx0XHsFNA=="
+      }
+    },
+    "npm:@rollup/rollup-darwin-arm64": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-darwin-arm64",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-darwin-arm64",
+        "hash": "sha512-takF3CR71mCAGA+v794QUZ0b6ZSrgJkArC+gUiG6LB6TQty9T0Mqh3m2ImRBOxS2IeYBo4lKWIieSvnEk2OQWA=="
+      }
+    },
+    "npm:@rollup/rollup-darwin-x64@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-darwin-x64@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-darwin-x64",
+        "hash": "sha512-W901Pla8Ya95WpxDn//VF9K9u2JbocwV/v75TE0YIHNTbhqUTv9w4VuQ9MaWlNOkkEfFwkdNhXgcLqPSmHy0fA=="
+      }
+    },
+    "npm:@rollup/rollup-freebsd-arm64@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-freebsd-arm64@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-freebsd-arm64",
+        "hash": "sha512-QofO7i7JycsYOWxe0GFqhLmF6l1TqBswJMvICnRUjqCx8b47MTo46W8AoeQwiokAx3zVryVnxtBMcGcnX12LvA=="
+      }
+    },
+    "npm:@rollup/rollup-freebsd-x64@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-freebsd-x64@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-freebsd-x64",
+        "hash": "sha512-jr21b/99ew8ujZubPo9skbrItHEIE50WdV86cdSoRkKtmWa+DDr6fu2c/xyRT0F/WazZpam6kk7IHBerSL7LDQ=="
+      }
+    },
+    "npm:@rollup/rollup-linux-arm-gnueabihf@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-linux-arm-gnueabihf@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-linux-arm-gnueabihf",
+        "hash": "sha512-PsNAbcyv9CcecAUagQefwX8fQn9LQ4nZkpDboBOttmyffnInRy8R8dSg6hxxl2Re5QhHBf6FYIDhIj5v982ATQ=="
+      }
+    },
+    "npm:@rollup/rollup-linux-arm-musleabihf@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-linux-arm-musleabihf@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-linux-arm-musleabihf",
+        "hash": "sha512-Fw4tysRutyQc/wwkmcyoqFtJhh0u31K+Q6jYjeicsGJJ7bbEq8LwPWV/w0cnzOqR2m694/Af6hpFayLJZkG2VQ=="
+      }
+    },
+    "npm:@rollup/rollup-linux-arm64-gnu@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-linux-arm64-gnu@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-linux-arm64-gnu",
+        "hash": "sha512-a+3wVnAYdQClOTlyapKmyI6BLPAFYs0JM8HRpgYZQO02rMR09ZcV9LbQB+NL6sljzG38869YqThrRnfPMCDtZg=="
+      }
+    },
+    "npm:@rollup/rollup-linux-arm64-musl@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-linux-arm64-musl@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-linux-arm64-musl",
+        "hash": "sha512-AvttBOMwO9Pcuuf7m9PkC1PUIKsfaAJ4AYhy944qeTJgQOqJYJ9oVl2nYgY7Rk0mkbsuOpCAYSs6wLYB2Xiw0Q=="
+      }
+    },
+    "npm:@rollup/rollup-linux-loong64-gnu@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-linux-loong64-gnu@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-linux-loong64-gnu",
+        "hash": "sha512-DkDk8pmXQV2wVrF6oq5tONK6UHLz/XcEVow4JTTerdeV1uqPeHxwcg7aFsfnSm9L+OO8WJsWotKM2JJPMWrQtA=="
+      }
+    },
+    "npm:@rollup/rollup-linux-ppc64-gnu@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-linux-ppc64-gnu@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-linux-ppc64-gnu",
+        "hash": "sha512-W/b9ZN/U9+hPQVvlGwjzi+Wy4xdoH2I8EjaCkMvzpI7wJUs8sWJ03Rq96jRnHkSrcHTpQe8h5Tg3ZzUPGauvAw=="
+      }
+    },
+    "npm:@rollup/rollup-linux-riscv64-gnu@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-linux-riscv64-gnu@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-linux-riscv64-gnu",
+        "hash": "sha512-sjQLr9BW7R/ZiXnQiWPkErNfLMkkWIoCz7YMn27HldKsADEKa5WYdobaa1hmN6slu9oWQbB6/jFpJ+P2IkVrmw=="
+      }
+    },
+    "npm:@rollup/rollup-linux-riscv64-musl@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-linux-riscv64-musl@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-linux-riscv64-musl",
+        "hash": "sha512-hq3jU/kGyjXWTvAh2awn8oHroCbrPm8JqM7RUpKjalIRWWXE01CQOf/tUNWNHjmbMHg/hmNCwc/Pz3k1T/j/Lg=="
+      }
+    },
+    "npm:@rollup/rollup-linux-s390x-gnu@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-linux-s390x-gnu@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-linux-s390x-gnu",
+        "hash": "sha512-gn8kHOrku8D4NGHMK1Y7NA7INQTRdVOntt1OCYypZPRt6skGbddska44K8iocdpxHTMMNui5oH4elPH4QOLrFQ=="
+      }
+    },
+    "npm:@rollup/rollup-linux-x64-gnu@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-linux-x64-gnu@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-linux-x64-gnu",
+        "hash": "sha512-hXGLYpdhiNElzN770+H2nlx+jRog8TyynpTVzdlc6bndktjKWyZyiCsuDAlpd+j+W+WNqfcyAWz9HxxIGfZm1Q=="
+      }
+    },
+    "npm:@rollup/rollup-linux-x64-musl@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-linux-x64-musl@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-linux-x64-musl",
+        "hash": "sha512-arCGIcuNKjBoKAXD+y7XomR9gY6Mw7HnFBv5Rw7wQRvwYLR7gBAgV7Mb2QTyjXfTveBNFAtPt46/36vV9STLNg=="
+      }
+    },
+    "npm:@rollup/rollup-openharmony-arm64@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-openharmony-arm64@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-openharmony-arm64",
+        "hash": "sha512-QoFqB6+/9Rly/RiPjaomPLmR/13cgkIGfA40LHly9zcH1S0bN2HVFYk3a1eAyHQyjs3ZJYlXvIGtcCs5tko9Cw=="
+      }
+    },
+    "npm:@rollup/rollup-win32-arm64-msvc@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-win32-arm64-msvc@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-win32-arm64-msvc",
+        "hash": "sha512-w0cDWVR6MlTstla1cIfOGyl8+qb93FlAVutcor14Gf5Md5ap5ySfQ7R9S/NjNaMLSFdUnKGEasmVnu3lCMqB7w=="
+      }
+    },
+    "npm:@rollup/rollup-win32-ia32-msvc@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-win32-ia32-msvc@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-win32-ia32-msvc",
+        "hash": "sha512-Aufdpzp7DpOTULJCuvzqcItSGDH73pF3ko/f+ckJhxQyHtp67rHw3HMNxoIdDMUITJESNE6a8uh4Lo4SLouOUg=="
+      }
+    },
+    "npm:@rollup/rollup-win32-x64-gnu@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-win32-x64-gnu@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-win32-x64-gnu",
+        "hash": "sha512-UGBUGPFp1vkj6p8wCRraqNhqwX/4kNQPS57BCFc8wYh0g94iVIW33wJtQAx3G7vrjjNtRaxiMUylM0ktp/TRSQ=="
+      }
+    },
+    "npm:@rollup/rollup-win32-x64-msvc@4.52.5": {
+      "type": "npm",
+      "name": "npm:@rollup/rollup-win32-x64-msvc@4.52.5",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "@rollup/rollup-win32-x64-msvc",
+        "hash": "sha512-TAcgQh2sSkykPRWLrdyy2AiceMckNf5loITqXxFI5VuQjS5tSuw3WlwdN8qv8vzjLAUTvYaH/mVjSFpbkFbpTg=="
+      }
+    },
     "npm:@rushstack/eslint-patch": {
       "type": "npm",
       "name": "npm:@rushstack/eslint-patch",
@@ -7017,6 +8797,15 @@
         "version": "1.0.5",
         "packageName": "@types/estree",
         "hash": "sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw=="
+      }
+    },
+    "npm:@types/estree@1.0.8": {
+      "type": "npm",
+      "name": "npm:@types/estree@1.0.8",
+      "data": {
+        "version": "1.0.8",
+        "packageName": "@types/estree",
+        "hash": "sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w=="
       }
     },
     "npm:@types/express-serve-static-core": {
@@ -22517,6 +24306,15 @@
         "hash": "sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA=="
       }
     },
+    "npm:rollup": {
+      "type": "npm",
+      "name": "npm:rollup",
+      "data": {
+        "version": "4.52.5",
+        "packageName": "rollup",
+        "hash": "sha512-3GuObel8h7Kqdjt0gxkEzaifHTqLVW56Y/bjN7PSQtkKr0w3V/QYSdt6QWYtd7A1xUtYQigtdUfgj1RvWVtorw=="
+      }
+    },
     "npm:run-async": {
       "type": "npm",
       "name": "npm:run-async",
@@ -26200,6 +27998,48 @@
     }
   },
   "dependencies": {
+    "default-schema-validator": [],
+    "prepare-component-props": [],
+    "get-condition-triggers": [],
+    "multiple-choice-list": [],
+    "compose-validators": [],
+    "get-visible-fields": [],
+    "component-mapper": [],
+    "dual-list-select": [],
+    "validation-error": [],
+    "form-field-grid": [],
+    "renderer-context": [],
+    "validator-mapper": [],
+    "component-types": [],
+    "parse-condition": [],
+    "validator-types": [],
+    "field-provider": [],
+    "form-template": [],
+    "wizard-context": [],
+    "form-renderer": [],
+    "get-validates": [],
+    "schema-errors": [],
+    "use-field-api": [],
+    "common-types": [],
+    "date-picker": [],
+    "time-picker": [],
+    "use-form-api": [],
+    "field-array": [],
+    "plain-text": [],
+    "text-field": [],
+    "data-types": [],
+    "form-error": [],
+    "validation": [],
+    "validators": [],
+    "checkbox": [],
+    "condition": [],
+    "sub-form": [],
+    "textarea": [],
+    "form-spy": [],
+    "select": [],
+    "slider": [],
+    "switch": [],
+    "wizard": [],
     "@data-driven-forms/blueprint-component-mapper": [
       {
         "source": "@data-driven-forms/blueprint-component-mapper",
@@ -26292,6 +28132,10 @@
         "type": "static"
       }
     ],
+    "common": [],
+    "radio": [],
+    "tabs": [],
+    "form": [],
     "@data-driven-forms/carbon-component-mapper": [
       {
         "source": "@data-driven-forms/carbon-component-mapper",
@@ -26986,6 +28830,9 @@
         "type": "static"
       }
     ],
+    "use-select": [],
+    "hooks": [],
+    "utils": [],
     "@data-driven-forms/parsers": [
       {
         "source": "@data-driven-forms/parsers",
@@ -58839,6 +60686,128 @@
         "type": "static"
       }
     ],
+    "npm:rollup": [
+      {
+        "source": "npm:rollup",
+        "target": "npm:@types/estree@1.0.8",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-android-arm-eabi@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-android-arm64@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-darwin-arm64",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-darwin-x64@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-freebsd-arm64@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-freebsd-x64@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-linux-arm-gnueabihf@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-linux-arm-musleabihf@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-linux-arm64-gnu@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-linux-arm64-musl@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-linux-loong64-gnu@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-linux-ppc64-gnu@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-linux-riscv64-gnu@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-linux-riscv64-musl@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-linux-s390x-gnu@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-linux-x64-gnu@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-linux-x64-musl@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-openharmony-arm64@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-win32-arm64-msvc@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-win32-ia32-msvc@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-win32-x64-gnu@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:@rollup/rollup-win32-x64-msvc@4.52.5",
+        "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:fsevents",
+        "type": "static"
+      }
+    ],
     "npm:run-parallel": [
       {
         "source": "npm:run-parallel",
@@ -63008,6 +64977,2781 @@
     ]
   },
   "version": "6.0",
-  "errors": [],
-  "computedAt": 1761304419131
+  "errors": [
+    {
+      "conflicts": {},
+      "projects": {
+        "@data-driven-forms/ant-component-mapper": {
+          "root": "packages/ant-component-mapper",
+          "targets": {
+            "typecheck": {
+              "executor": "@nx/js:tsc",
+              "options": {
+                "main": "packages/ant-component-mapper/src/index.js",
+                "tsConfig": "packages/ant-component-mapper/tsconfig.json",
+                "outputPath": "packages/ant-component-mapper/dist"
+              },
+              "outputs": [
+                "{options.outputPath}"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:typings": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:typings"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-typings.js",
+                "runCommand": "yarn build:typings"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:packages": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:packages"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-packages.js",
+                "runCommand": "yarn build:packages"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "release": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "release"
+              },
+              "metadata": {
+                "scriptContent": "semantic-release",
+                "runCommand": "yarn release"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:css": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:css"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/copy-css.js",
+                "runCommand": "yarn build:css"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/index.js",
+                "{projectRoot}/esm",
+                "{projectRoot}/*.d.ts"
+              ],
+              "options": {
+                "command": "yarn build",
+                "cwd": "packages/ant-component-mapper"
+              },
+              "dependsOn": [
+                "^build"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:cjs": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/*.js"
+              ],
+              "options": {
+                "command": "yarn build:cjs",
+                "cwd": "packages/ant-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:esm": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/esm"
+              ],
+              "options": {
+                "command": "yarn build:esm",
+                "cwd": "packages/ant-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn test",
+                "cwd": "packages/ant-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "start": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn start",
+                "cwd": "packages/ant-component-mapper"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "vendor": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn vendor",
+                "cwd": "packages/ant-component-mapper"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "@data-driven-forms/ant-component-mapper",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "build:typings",
+                "build:packages",
+                "release",
+                "build:css"
+              ]
+            },
+            "description": "Ant Design React component mapper for Data Driven Forms.",
+            "js": {
+              "packageName": "@data-driven-forms/ant-component-mapper",
+              "packageVersion": "4.1.1",
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "packages/ant-component-mapper/src",
+          "implicitDependencies": [
+            "@data-driven-forms/common"
+          ]
+        },
+        "@data-driven-forms/blueprint-component-mapper": {
+          "root": "packages/blueprint-component-mapper",
+          "targets": {
+            "typecheck": {
+              "executor": "@nx/js:tsc",
+              "options": {
+                "main": "packages/blueprint-component-mapper/src/index.js",
+                "tsConfig": "packages/blueprint-component-mapper/tsconfig.json",
+                "outputPath": "packages/blueprint-component-mapper/dist"
+              },
+              "outputs": [
+                "{options.outputPath}"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:typings": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:typings"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-typings.js",
+                "runCommand": "yarn build:typings"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:packages": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:packages"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-packages.js",
+                "runCommand": "yarn build:packages"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "release": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "release"
+              },
+              "metadata": {
+                "scriptContent": "semantic-release",
+                "runCommand": "yarn release"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/index.js",
+                "{projectRoot}/esm",
+                "{projectRoot}/*.d.ts"
+              ],
+              "options": {
+                "command": "yarn build",
+                "cwd": "packages/blueprint-component-mapper"
+              },
+              "dependsOn": [
+                "^build"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:cjs": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/*.js"
+              ],
+              "options": {
+                "command": "yarn build:cjs",
+                "cwd": "packages/blueprint-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:esm": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/esm"
+              ],
+              "options": {
+                "command": "yarn build:esm",
+                "cwd": "packages/blueprint-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn test",
+                "cwd": "packages/blueprint-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "start": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn start",
+                "cwd": "packages/blueprint-component-mapper"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "@data-driven-forms/blueprint-component-mapper",
+          "projectType": "library",
+          "tags": [
+            "npm:public",
+            "npm:react",
+            "npm:forms",
+            "npm:javascript",
+            "type:component-mapper",
+            "ui:blueprint",
+            "scope:publishable",
+            "platform:react"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "build:typings",
+                "build:packages",
+                "release"
+              ]
+            },
+            "description": "BlueprintJS React component mapper for Data Driven Forms.",
+            "js": {
+              "packageName": "@data-driven-forms/blueprint-component-mapper",
+              "packageVersion": "4.1.1",
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "packages/blueprint-component-mapper/src",
+          "implicitDependencies": [
+            "@data-driven-forms/common"
+          ]
+        },
+        "@data-driven-forms/carbon-component-mapper": {
+          "root": "packages/carbon-component-mapper",
+          "targets": {
+            "typecheck": {
+              "executor": "@nx/js:tsc",
+              "options": {
+                "main": "packages/carbon-component-mapper/src/index.js",
+                "tsConfig": "packages/carbon-component-mapper/tsconfig.json",
+                "outputPath": "packages/carbon-component-mapper/dist"
+              },
+              "outputs": [
+                "{options.outputPath}"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:typings": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:typings"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-typings.js",
+                "runCommand": "yarn build:typings"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:packages": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:packages"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-packages.js",
+                "runCommand": "yarn build:packages"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "release": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "release"
+              },
+              "metadata": {
+                "scriptContent": "semantic-release",
+                "runCommand": "yarn release"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/index.js",
+                "{projectRoot}/esm",
+                "{projectRoot}/*.d.ts"
+              ],
+              "options": {
+                "command": "yarn build",
+                "cwd": "packages/carbon-component-mapper"
+              },
+              "dependsOn": [
+                "^build"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:cjs": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/*.js"
+              ],
+              "options": {
+                "command": "yarn build:cjs",
+                "cwd": "packages/carbon-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:esm": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/esm"
+              ],
+              "options": {
+                "command": "yarn build:esm",
+                "cwd": "packages/carbon-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn test",
+                "cwd": "packages/carbon-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "start": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn start",
+                "cwd": "packages/carbon-component-mapper"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "@data-driven-forms/carbon-component-mapper",
+          "projectType": "library",
+          "tags": [
+            "npm:public",
+            "npm:react",
+            "npm:forms",
+            "npm:javascript",
+            "type:component-mapper",
+            "ui:carbon",
+            "scope:publishable",
+            "platform:react"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "build:typings",
+                "build:packages",
+                "release"
+              ]
+            },
+            "description": "Carbon React component mapper for Data Driven Forms.",
+            "js": {
+              "packageName": "@data-driven-forms/carbon-component-mapper",
+              "packageVersion": "4.1.1",
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "packages/carbon-component-mapper/src",
+          "implicitDependencies": [
+            "@data-driven-forms/common"
+          ]
+        },
+        "@data-driven-forms/common": {
+          "root": "packages/common",
+          "targets": {
+            "typecheck": {
+              "executor": "@nx/js:tsc",
+              "options": {
+                "main": "packages/common/src/index.js",
+                "tsConfig": "packages/common/tsconfig.json",
+                "outputPath": "packages/common/dist"
+              },
+              "outputs": [
+                "{options.outputPath}"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:typings": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:typings"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-typings.js",
+                "runCommand": "yarn build:typings"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:packages": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:packages"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-packages.js",
+                "runCommand": "yarn build:packages"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/index.js",
+                "{projectRoot}/esm",
+                "{projectRoot}/*.d.ts"
+              ],
+              "options": {
+                "command": "yarn build",
+                "cwd": "packages/common"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:cjs": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/*.js"
+              ],
+              "options": {
+                "command": "yarn build:cjs",
+                "cwd": "packages/common"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:esm": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/esm"
+              ],
+              "options": {
+                "command": "yarn build:esm",
+                "cwd": "packages/common"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn test",
+                "cwd": "packages/common"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "@data-driven-forms/common",
+          "projectType": "library",
+          "tags": [
+            "npm:public",
+            "type:utility",
+            "scope:shared",
+            "platform:react"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "build:typings",
+                "build:packages"
+              ]
+            },
+            "description": "Common components, helpers and other pieces of code for Data Driven Forms",
+            "js": {
+              "packageName": "@data-driven-forms/common",
+              "packageVersion": "4.1.1",
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "packages/common/src",
+          "implicitDependencies": []
+        },
+        "@data-driven-forms/mui-component-mapper": {
+          "root": "packages/mui-component-mapper",
+          "targets": {
+            "typecheck": {
+              "executor": "@nx/js:tsc",
+              "options": {
+                "main": "packages/mui-component-mapper/src/index.js",
+                "tsConfig": "packages/mui-component-mapper/tsconfig.json",
+                "outputPath": "packages/mui-component-mapper/dist"
+              },
+              "outputs": [
+                "{options.outputPath}"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:typings": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:typings"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-typings.js",
+                "runCommand": "yarn build:typings"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:packages": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:packages"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-packages.js",
+                "runCommand": "yarn build:packages"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "release": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "release"
+              },
+              "metadata": {
+                "scriptContent": "semantic-release",
+                "runCommand": "yarn release"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/index.js",
+                "{projectRoot}/esm",
+                "{projectRoot}/*.d.ts"
+              ],
+              "options": {
+                "command": "yarn build",
+                "cwd": "packages/mui-component-mapper"
+              },
+              "dependsOn": [
+                "@data-driven-forms/common:build",
+                "@data-driven-forms/react-form-renderer:build"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:cjs": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/*.js"
+              ],
+              "options": {
+                "command": "yarn build:cjs",
+                "cwd": "packages/mui-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:esm": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/esm"
+              ],
+              "options": {
+                "command": "yarn build:esm",
+                "cwd": "packages/mui-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn test",
+                "cwd": "packages/mui-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "start": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn start",
+                "cwd": "packages/mui-component-mapper"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "vendor": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn vendor",
+                "cwd": "packages/mui-component-mapper"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "@data-driven-forms/mui-component-mapper",
+          "projectType": "library",
+          "tags": [
+            "npm:public",
+            "type:component-mapper",
+            "ui:material-ui",
+            "scope:publishable",
+            "platform:react"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "build:typings",
+                "build:packages",
+                "release"
+              ]
+            },
+            "description": "Component mapper for Material ui component mapper form data-driven-forms.",
+            "js": {
+              "packageName": "@data-driven-forms/mui-component-mapper",
+              "packageVersion": "4.1.1",
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "packages/mui-component-mapper/src",
+          "implicitDependencies": [
+            "@data-driven-forms/common"
+          ]
+        },
+        "@data-driven-forms/pf4-component-mapper": {
+          "root": "packages/pf4-component-mapper",
+          "targets": {
+            "typecheck": {
+              "executor": "@nx/js:tsc",
+              "options": {
+                "main": "packages/pf4-component-mapper/src/index.js",
+                "tsConfig": "packages/pf4-component-mapper/tsconfig.json",
+                "outputPath": "packages/pf4-component-mapper/dist"
+              },
+              "outputs": [
+                "{options.outputPath}"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:typings": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:typings"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-typings.js",
+                "runCommand": "yarn build:typings"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:packages": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:packages"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-packages.js",
+                "runCommand": "yarn build:packages"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:css": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:css"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/copy-css.js",
+                "runCommand": "yarn build:css"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "release": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "release"
+              },
+              "metadata": {
+                "scriptContent": "semantic-release",
+                "runCommand": "yarn release"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/index.js",
+                "{projectRoot}/esm",
+                "{projectRoot}/*.d.ts"
+              ],
+              "options": {
+                "command": "yarn build",
+                "cwd": "packages/pf4-component-mapper"
+              },
+              "dependsOn": [
+                "^build"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:cjs": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/*.js"
+              ],
+              "options": {
+                "command": "yarn build:cjs",
+                "cwd": "packages/pf4-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:esm": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/esm"
+              ],
+              "options": {
+                "command": "yarn build:esm",
+                "cwd": "packages/pf4-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn test",
+                "cwd": "packages/pf4-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "start": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn start",
+                "cwd": "packages/pf4-component-mapper"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "@data-driven-forms/pf4-component-mapper",
+          "projectType": "library",
+          "tags": [
+            "npm:public",
+            "npm:react",
+            "npm:forms",
+            "npm:javascript",
+            "type:component-mapper",
+            "ui:patternfly",
+            "scope:publishable",
+            "platform:react"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "build:typings",
+                "build:packages",
+                "build:css",
+                "release"
+              ]
+            },
+            "description": "Patternfly 4 React component mapper for Data Driven Forms.",
+            "js": {
+              "packageName": "@data-driven-forms/pf4-component-mapper",
+              "packageVersion": "4.1.1",
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "packages/pf4-component-mapper/src",
+          "implicitDependencies": [
+            "@data-driven-forms/common"
+          ]
+        },
+        "@data-driven-forms/react-form-renderer": {
+          "root": "packages/react-form-renderer",
+          "targets": {
+            "typecheck": {
+              "executor": "@nx/js:tsc",
+              "options": {
+                "main": "packages/react-form-renderer/src/index.js",
+                "tsConfig": "packages/react-form-renderer/tsconfig.json",
+                "outputPath": "packages/react-form-renderer/dist"
+              },
+              "outputs": [
+                "{options.outputPath}"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:typings": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:typings"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-typings.js",
+                "runCommand": "yarn build:typings"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:packages": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:packages"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-packages.js",
+                "runCommand": "yarn build:packages"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "release": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "release"
+              },
+              "metadata": {
+                "scriptContent": "semantic-release",
+                "runCommand": "yarn release"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/index.js",
+                "{projectRoot}/esm",
+                "{projectRoot}/*.d.ts"
+              ],
+              "options": {
+                "command": "yarn build",
+                "cwd": "packages/react-form-renderer"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:cjs": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/*.js"
+              ],
+              "options": {
+                "command": "yarn build:cjs",
+                "cwd": "packages/react-form-renderer"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:esm": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/esm"
+              ],
+              "options": {
+                "command": "yarn build:esm",
+                "cwd": "packages/react-form-renderer"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn test",
+                "cwd": "packages/react-form-renderer"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "start": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn start",
+                "cwd": "packages/react-form-renderer"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "@data-driven-forms/react-form-renderer",
+          "projectType": "library",
+          "tags": [
+            "npm:public",
+            "npm:react",
+            "npm:forms",
+            "npm:javascript",
+            "type:core",
+            "scope:publishable",
+            "platform:react"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "build:typings",
+                "build:packages",
+                "release"
+              ]
+            },
+            "description": "React Form Renderer. Data Driven Forms converts JSON form definitions into fully functional React forms.",
+            "js": {
+              "packageName": "@data-driven-forms/react-form-renderer",
+              "packageVersion": "4.1.1",
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "packages/react-form-renderer/src",
+          "implicitDependencies": []
+        },
+        "@data-driven-forms/suir-component-mapper": {
+          "root": "packages/suir-component-mapper",
+          "targets": {
+            "typecheck": {
+              "executor": "@nx/js:tsc",
+              "options": {
+                "main": "packages/suir-component-mapper/src/index.js",
+                "tsConfig": "packages/suir-component-mapper/tsconfig.json",
+                "outputPath": "packages/suir-component-mapper/dist"
+              },
+              "outputs": [
+                "{options.outputPath}"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:typings": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:typings"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-typings.js",
+                "runCommand": "yarn build:typings"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:packages": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:packages"
+              },
+              "metadata": {
+                "scriptContent": "node ../../scripts/generate-packages.js",
+                "runCommand": "yarn build:packages"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "release": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "release"
+              },
+              "metadata": {
+                "scriptContent": "semantic-release",
+                "runCommand": "yarn release"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/index.js",
+                "{projectRoot}/esm",
+                "{projectRoot}/*.d.ts"
+              ],
+              "options": {
+                "command": "yarn build",
+                "cwd": "packages/suir-component-mapper"
+              },
+              "dependsOn": [
+                "^build"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:cjs": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/*.js"
+              ],
+              "options": {
+                "command": "yarn build:cjs",
+                "cwd": "packages/suir-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:esm": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/esm"
+              ],
+              "options": {
+                "command": "yarn build:esm",
+                "cwd": "packages/suir-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn test",
+                "cwd": "packages/suir-component-mapper"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "start": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn start",
+                "cwd": "packages/suir-component-mapper"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "@data-driven-forms/suir-component-mapper",
+          "projectType": "library",
+          "tags": [
+            "npm:private",
+            "type:component-mapper",
+            "ui:semantic-ui",
+            "scope:private",
+            "platform:react"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "build:typings",
+                "build:packages",
+                "release"
+              ]
+            },
+            "description": "Semantíc UI React component mapper for Data Driven Forms.",
+            "js": {
+              "packageName": "@data-driven-forms/suir-component-mapper",
+              "packageVersion": "4.1.1",
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "packages/suir-component-mapper/src",
+          "implicitDependencies": [
+            "@data-driven-forms/common"
+          ]
+        },
+        "dual-list-select": {
+          "root": "packages/common/dual-list-select",
+          "name": "dual-list-select",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          }
+        },
+        "form-template": {
+          "root": "packages/common/form-template",
+          "name": "form-template",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          }
+        },
+        "hooks": {
+          "root": "packages/common/hooks",
+          "name": "hooks",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "multiple-choice-list": {
+          "root": "packages/common/multiple-choice-list",
+          "name": "multiple-choice-list",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          }
+        },
+        "select": {
+          "root": "packages/common/select",
+          "name": "select",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          }
+        },
+        "use-select": {
+          "root": "packages/common/use-select",
+          "name": "use-select",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "utils": {
+          "root": "packages/common/utils",
+          "name": "utils",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "wizard": {
+          "root": "packages/common/wizard",
+          "name": "wizard",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          }
+        },
+        "checkbox": {
+          "root": "packages/mui-component-mapper/checkbox",
+          "name": "checkbox",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "component-mapper": {
+          "root": "packages/mui-component-mapper/component-mapper",
+          "name": "component-mapper",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "date-picker": {
+          "root": "packages/mui-component-mapper/date-picker",
+          "name": "date-picker",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "field-array": {
+          "root": "packages/mui-component-mapper/field-array",
+          "name": "field-array",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          }
+        },
+        "form-field-grid": {
+          "root": "packages/mui-component-mapper/form-field-grid",
+          "name": "form-field-grid",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "plain-text": {
+          "root": "packages/mui-component-mapper/plain-text",
+          "name": "plain-text",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "radio": {
+          "root": "packages/mui-component-mapper/radio",
+          "name": "radio",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "slider": {
+          "root": "packages/mui-component-mapper/slider",
+          "name": "slider",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "sub-form": {
+          "root": "packages/mui-component-mapper/sub-form",
+          "name": "sub-form",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "switch": {
+          "root": "packages/mui-component-mapper/switch",
+          "name": "switch",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "tabs": {
+          "root": "packages/mui-component-mapper/tabs",
+          "name": "tabs",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "text-field": {
+          "root": "packages/mui-component-mapper/text-field",
+          "name": "text-field",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "textarea": {
+          "root": "packages/mui-component-mapper/textarea",
+          "name": "textarea",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "time-picker": {
+          "root": "packages/mui-component-mapper/time-picker",
+          "name": "time-picker",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "validation-error": {
+          "root": "packages/mui-component-mapper/validation-error",
+          "name": "validation-error",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "@data-driven-forms/parsers": {
+          "root": "packages/parsers",
+          "name": "@data-driven-forms/parsers",
+          "projectType": "library",
+          "tags": [
+            "npm:private",
+            "npm:react",
+            "npm:forms",
+            "npm:javascript",
+            "type:utility",
+            "scope:private",
+            "platform:react"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "build:cjs",
+                "build:esm"
+              ]
+            },
+            "description": "Parsers for Data Driven Forms.",
+            "js": {
+              "packageName": "@data-driven-forms/parsers",
+              "packageVersion": "4.1.1",
+              "packageMain": "dist/cjs/index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "build:cjs": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:cjs"
+              },
+              "metadata": {
+                "scriptContent": "BABEL_ENV=cjs babel src --out-dir ./dist/cjs --ignore \"src/tests/*\"",
+                "runCommand": "yarn build:cjs"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build:esm": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "build:esm"
+              },
+              "metadata": {
+                "scriptContent": "BABEL_ENV=esm babel src --out-dir ./dist/esm --ignore \"src/tests/*\"",
+                "runCommand": "yarn build:esm"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/dist"
+              ],
+              "options": {
+                "command": "yarn build",
+                "cwd": "packages/parsers"
+              },
+              "dependsOn": [
+                "^build"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn test",
+                "cwd": "packages/parsers"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "packages/parsers/src",
+          "implicitDependencies": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        "common": {
+          "root": "packages/react-form-renderer/common",
+          "name": "common",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "common-types": {
+          "root": "packages/react-form-renderer/common-types",
+          "name": "common-types",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "component-types": {
+          "root": "packages/react-form-renderer/component-types",
+          "name": "component-types",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "compose-validators": {
+          "root": "packages/react-form-renderer/compose-validators",
+          "name": "compose-validators",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "condition": {
+          "root": "packages/react-form-renderer/condition",
+          "name": "condition",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "data-types": {
+          "root": "packages/react-form-renderer/data-types",
+          "name": "data-types",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "default-schema-validator": {
+          "root": "packages/react-form-renderer/default-schema-validator",
+          "name": "default-schema-validator",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "field-provider": {
+          "root": "packages/react-form-renderer/field-provider",
+          "name": "field-provider",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "form": {
+          "root": "packages/react-form-renderer/form",
+          "name": "form",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "form-error": {
+          "root": "packages/react-form-renderer/form-error",
+          "name": "form-error",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "form-renderer": {
+          "root": "packages/react-form-renderer/form-renderer",
+          "name": "form-renderer",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "form-spy": {
+          "root": "packages/react-form-renderer/form-spy",
+          "name": "form-spy",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "get-condition-triggers": {
+          "root": "packages/react-form-renderer/get-condition-triggers",
+          "name": "get-condition-triggers",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "get-validates": {
+          "root": "packages/react-form-renderer/get-validates",
+          "name": "get-validates",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "get-visible-fields": {
+          "root": "packages/react-form-renderer/get-visible-fields",
+          "name": "get-visible-fields",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "parse-condition": {
+          "root": "packages/react-form-renderer/parse-condition",
+          "name": "parse-condition",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "prepare-component-props": {
+          "root": "packages/react-form-renderer/prepare-component-props",
+          "name": "prepare-component-props",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "renderer-context": {
+          "root": "packages/react-form-renderer/renderer-context",
+          "name": "renderer-context",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "schema-errors": {
+          "root": "packages/react-form-renderer/schema-errors",
+          "name": "schema-errors",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "use-field-api": {
+          "root": "packages/react-form-renderer/use-field-api",
+          "name": "use-field-api",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "use-form-api": {
+          "root": "packages/react-form-renderer/use-form-api",
+          "name": "use-form-api",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "validation": {
+          "root": "packages/react-form-renderer/validation",
+          "name": "validation",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "validator-mapper": {
+          "root": "packages/react-form-renderer/validator-mapper",
+          "name": "validator-mapper",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "validator-types": {
+          "root": "packages/react-form-renderer/validator-types",
+          "name": "validator-types",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "validators": {
+          "root": "packages/react-form-renderer/validators",
+          "name": "validators",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "wizard-context": {
+          "root": "packages/react-form-renderer/wizard-context",
+          "name": "wizard-context",
+          "projectType": "library",
+          "tags": [
+            "npm:public"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageMain": "index.js",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "nx-release-publish": {
+              "executor": "@nx/js:release-publish",
+              "dependsOn": [
+                "^nx-release-publish"
+              ],
+              "options": {},
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "implicitDependencies": []
+        },
+        "@data-driven-forms/react-renderer-demo": {
+          "root": "packages/react-renderer-demo",
+          "name": "@data-driven-forms/react-renderer-demo",
+          "projectType": "application",
+          "tags": [
+            "npm:private",
+            "type:demo-app",
+            "scope:private",
+            "platform:react"
+          ],
+          "metadata": {
+            "targetGroups": {
+              "NPM Scripts": [
+                "generate:examples"
+              ]
+            },
+            "description": "Documentation page for Data Driven Forms.",
+            "js": {
+              "packageName": "@data-driven-forms/react-renderer-demo",
+              "packageVersion": "4.1.1",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {
+            "generate:examples": {
+              "executor": "nx:run-script",
+              "options": {
+                "script": "generate:examples"
+              },
+              "metadata": {
+                "scriptContent": "node ./scripts/generate-component-examples",
+                "runCommand": "yarn generate:examples"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "executor": "nx:run-commands",
+              "outputs": [
+                "{projectRoot}/.next",
+                "{projectRoot}/out"
+              ],
+              "options": {
+                "command": "yarn build",
+                "cwd": "packages/react-renderer-demo"
+              },
+              "dependsOn": [
+                "@data-driven-forms/mui-component-mapper:build",
+                "@data-driven-forms/react-form-renderer:build"
+              ],
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "dev": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn dev",
+                "cwd": "packages/react-renderer-demo"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "start": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn start",
+                "cwd": "packages/react-renderer-demo"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn lint",
+                "cwd": "packages/react-renderer-demo"
+              },
+              "cache": true,
+              "configurations": {},
+              "parallelism": true
+            },
+            "analyze": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "yarn analyze",
+                "cwd": "packages/react-renderer-demo"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "packages/react-renderer-demo/src",
+          "implicitDependencies": [
+            "@data-driven-forms/mui-component-mapper",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        }
+      },
+      "name": "MultipleProjectsWithSameNameError"
+    }
+  ],
+  "computedAt": 1761315742848
 }

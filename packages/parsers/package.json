@@ -7,7 +7,9 @@
   "private": true,
   "license": "Apache-2.0",
   "scripts": {
-    "build": "rollup -c ./rollup.config.js",
+    "build": "yarn build:cjs && yarn build:esm",
+    "build:cjs": "BABEL_ENV=cjs babel src --out-dir ./dist/cjs --ignore \"src/tests/*\"",
+    "build:esm": "BABEL_ENV=esm babel src --out-dir ./dist/esm --ignore \"src/tests/*\"",
     "test": "yarn --cwd ../.. test packages/parsers"
   },
   "homepage": "https://data-driven-forms.org/",
@@ -22,7 +24,7 @@
     "forms",
     "javascript"
   ],
-  "devDependencies": {"rollup": "latest"},
+  "devDependencies": {},
   "dependencies": {
     "@data-driven-forms/react-form-renderer": "*"
   }

@@ -1,0 +1,155 @@
+> yarn build
+
+[2K[1G[1myarn run v1.22.22[22m
+[2K[1G[2m$ yarn generate:examples && yarn next build src/[22m
+[2K[1G[2m$ node ./scripts/generate-component-examples[22m
+[2K[1G[2m$ /Users/jdrobena/UI-GIG/actual/new/new/react-forms/node_modules/.bin/next build src/[22m
+[35m[1mAttention[22m[39m: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[36mhttps://nextjs.org/telemetry[39m
+
+   [1m[38;2;173;127;168m▲ Next.js 15.3.1[39m[22m
+
+ [37m[1m [22m[39m Linting and checking validity of types ...
+
+ [33m[1m⚠[22m[39m The Next.js plugin was not detected in your ESLint configuration. See https://nextjs.org/docs/app/api-reference/config/eslint#migrating-existing-config
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ [37m[1m [22m[39m Creating an optimized production build ...
+ [33m[1m⚠[22m[39m Compiled with warnings in 9.0s
+
+./components/code-editor/index.js
+Attempted import error: 'defaultProps' is not exported from 'prism-react-renderer' (imported as 'defaultProps').
+
+Import trace for requested module:
+./components/code-editor/index.js
+./components/mdx/mdx-components.js
+
+ [37m[1m [22m[39m Collecting page data ...
+ [37m[1m [22m[39m Generating static pages (0/107) ...
+ [37m[1m [22m[39m Generating static pages (26/107) 
+ [37m[1m [22m[39m Generating static pages (53/107) 
+ [37m[1m [22m[39m Generating static pages (80/107) 
+ [32m[1m✓[22m[39m Generating static pages (107/107)
+ [37m[1m [22m[39m Finalizing page optimization ...
+ [37m[1m [22m[39m Collecting build traces ...
+
+[4mRoute (pages)[24m                                                 [4mSize[24m  [4mFirst Load JS[24m  [4m[24m  [4m[24m
+┌ ○ / ([32m719 ms[39m)                                             14.7 kB         [37m[1m297 kB[22m[39m
+├   /_app                                                      0 B         [37m[1m278 kB[22m[39m
+├ ○ /404 ([32m326 ms[39m)                                          1.45 kB         [37m[1m279 kB[22m[39m
+├ ○ /components/children ([32m361 ms[39m)                          2.84 kB         [37m[1m322 kB[22m[39m
+├ ○ /components/field-array ([32m371 ms[39m)                       6.17 kB         [37m[1m333 kB[22m[39m
+├ ○ /components/field-provider ([32m672 ms[39m)                    3.51 kB         [37m[1m322 kB[22m[39m
+├ ○ /components/form ([32m667 ms[39m)                               2.1 kB         [37m[1m321 kB[22m[39m
+├ ○ /components/form-spy ([32m694 ms[39m)                          2.13 kB         [37m[1m321 kB[22m[39m
+├ ○ /components/form-template ([32m670 ms[39m)                     6.61 kB         [37m[1m333 kB[22m[39m
+├ ○ /components/renderer ([32m670 ms[39m)                          3.69 kB         [37m[1m323 kB[22m[39m
+├ ○ /development-setup ([32m670 ms[39m)                            4.57 kB         [37m[1m324 kB[22m[39m
+├ ○ /editor/core-editor ([32m670 ms[39m)                           4.28 kB         [37m[1m323 kB[22m[39m
+├ ○ /editor/dnd ([32m670 ms[39m)                                   4.34 kB         [37m[1m323 kB[22m[39m
+├ ○ /editor/live-editor ([32m846 ms[39m)                            168 kB         [37m[1m506 kB[22m[39m
+├ ○ /editor/pro-editor ([32m327 ms[39m)                            3.86 kB         [37m[1m323 kB[22m[39m
+├ ○ /examples/cascading-select ([32m667 ms[39m)                    5.76 kB         [37m[1m333 kB[22m[39m
+├ ○ /examples/custom-component-mapper ([32m327 ms[39m)             5.49 kB         [37m[1m332 kB[22m[39m
+├ ○ /examples/custom-form-buttons ([32m371 ms[39m)                 5.48 kB         [37m[1m332 kB[22m[39m
+├ ○ /examples/custom-layout-component ([32m328 ms[39m)             5.62 kB         [37m[1m332 kB[22m[39m
+├ ○ /examples/custom-wizard ([32m327 ms[39m)                       8.09 kB         [37m[1m335 kB[22m[39m
+├ ○ /examples/form-level-errors ([32m326 ms[39m)                   5.51 kB         [37m[1m332 kB[22m[39m
+├ ○ /examples/mui-one-row-layout ([32m327 ms[39m)                  5.92 kB         [37m[1m333 kB[22m[39m
+├ ○ /examples/resolve-props-db                             5.56 kB         [37m[1m332 kB[22m[39m
+├ ○ /examples/resolve-props-example ([32m324 ms[39m)               5.82 kB         [37m[1m333 kB[22m[39m
+├ ○ /examples/sample-example                               5.53 kB         [37m[1m332 kB[22m[39m
+├ ○ /examples/value-listener                               5.81 kB         [37m[1m333 kB[22m[39m
+├ ○ /faq                                                   6.62 kB         [37m[1m333 kB[22m[39m
+├ ○ /hooks/use-field-api                                   3.77 kB         [37m[1m323 kB[22m[39m
+├ ○ /hooks/use-form-api ([32m721 ms[39m)                           2.97 kB         [37m[1m322 kB[22m[39m
+├ ○ /input-meta ([32m719 ms[39m)                                    1.2 kB         [37m[1m279 kB[22m[39m
+├ ○ /installation                                          2.47 kB         [37m[1m321 kB[22m[39m
+├ ○ /introduction ([32m719 ms[39m)                                 7.65 kB         [37m[1m334 kB[22m[39m
+├ ○ /mappers/action-mapper                                 6.03 kB         [37m[1m333 kB[22m[39m
+├ ○ /mappers/condition-mapper ([32m720 ms[39m)                     6.35 kB         [37m[1m333 kB[22m[39m
+├ ○ /mappers/custom-mapper ([32m369 ms[39m)                        7.92 kB         [37m[1m335 kB[22m[39m
+├ ○ /mappers/file-input ([32m719 ms[39m)                           6.13 kB         [37m[1m333 kB[22m[39m
+├ ○ /mappers/global-component-props ([32m718 ms[39m)               5.65 kB         [37m[1m332 kB[22m[39m
+├ ○ /mappers/schema-validator-mapper ([32m368 ms[39m)              6.08 kB         [37m[1m333 kB[22m[39m
+├ ○ /mappers/validator-mapper ([32m719 ms[39m)                     5.94 kB         [37m[1m333 kB[22m[39m
+├ ○ /migration-guide ([32m368 ms[39m)                               7.4 kB         [37m[1m334 kB[22m[39m
+├ ○ /migration-guide-v3 ([32m367 ms[39m)                            3.5 kB         [37m[1m322 kB[22m[39m
+├ ○ /optimization ([32m368 ms[39m)                                 2.98 kB         [37m[1m322 kB[22m[39m
+├ ○ /provided-mappers/ant-component-mapper                 3.92 kB         [37m[1m323 kB[22m[39m
+├ ○ /provided-mappers/aws-northstar ([32m367 ms[39m)               3.91 kB         [37m[1m323 kB[22m[39m
+├ ○ /provided-mappers/blueprint-component-mapper ([32m367 ms[39m)  4.37 kB         [37m[1m323 kB[22m[39m
+├ ○ /provided-mappers/carbon-component-mapper              4.25 kB         [37m[1m323 kB[22m[39m
+├ ○ /provided-mappers/checkbox ([32m717 ms[39m)                      501 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/checkbox-multiple                      548 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/component-api ([32m367 ms[39m)               4.92 kB         [37m[1m324 kB[22m[39m
+├ ○ /provided-mappers/date-picker                            542 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/dual-list-select                       740 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/evergreen ([32m721 ms[39m)                   3.73 kB         [37m[1m323 kB[22m[39m
+├ ○ /provided-mappers/field-array ([32m846 ms[39m)                   718 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/mui-component-mapper ([32m717 ms[39m)        4.88 kB         [37m[1m324 kB[22m[39m
+├ ○ /provided-mappers/pf4-component-mapper ([32m717 ms[39m)        3.65 kB         [37m[1m323 kB[22m[39m
+├ ○ /provided-mappers/plain-text ([32m717 ms[39m)                    530 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/radio ([32m717 ms[39m)                         533 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/select ([32m716 ms[39m)                      1.03 kB         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/slider ([32m369 ms[39m)                        468 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/sub-form ([32m716 ms[39m)                      452 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/suir-component-mapper ([32m371 ms[39m)       4.04 kB         [37m[1m323 kB[22m[39m
+├ ○ /provided-mappers/switch ([32m371 ms[39m)                        498 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/tabs ([32m370 ms[39m)                          527 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/text-field ([32m370 ms[39m)                    517 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/textarea ([32m371 ms[39m)                      504 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/time-picker ([32m878 ms[39m)                   721 B         [37m[1m315 kB[22m[39m
+├ ○ /provided-mappers/wizard                                 671 B         [37m[1m315 kB[22m[39m
+├ ○ /releases                                              1.87 kB         [37m[1m280 kB[22m[39m
+├ ○ /schema/actions                                        2.07 kB         [37m[1m321 kB[22m[39m
+├ ○ /schema/and                                            5.79 kB         [37m[1m333 kB[22m[39m
+├ ○ /schema/async-validator                                5.82 kB         [37m[1m333 kB[22m[39m
+├ ○ /schema/clear-on-unmount                               5.98 kB         [37m[1m333 kB[22m[39m
+├ ○ /schema/cleared-value ([32m877 ms[39m)                         5.66 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/comparators ([32m878 ms[39m)                           5.57 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/complex-condition-example ([32m877 ms[39m)              5.4 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/condition-actions ([32m877 ms[39m)                     2.24 kB         [37m[1m321 kB[22m[39m
+├ ○ /schema/condition-nesting ([32m876 ms[39m)                     5.55 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/condition-schema ([32m877 ms[39m)                       2.5 kB         [37m[1m321 kB[22m[39m
+├ ○ /schema/condition-sequence ([32m877 ms[39m)                    5.79 kB         [37m[1m333 kB[22m[39m
+├ ○ /schema/condition-set ([32m513 ms[39m)                         5.81 kB         [37m[1m333 kB[22m[39m
+├ ○ /schema/condition-visible                              2.12 kB         [37m[1m321 kB[22m[39m
+├ ○ /schema/constants ([32m514 ms[39m)                             2.58 kB         [37m[1m322 kB[22m[39m
+├ ○ /schema/custom-validator ([32m512 ms[39m)                       5.7 kB         [37m[1m333 kB[22m[39m
+├ ○ /schema/custom-validator-message ([32m512 ms[39m)              5.61 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/data-types ([32m513 ms[39m)                            5.75 kB         [37m[1m333 kB[22m[39m
+├ ○ /schema/initialize-on-mount ([32m513 ms[39m)                    6.1 kB         [37m[1m333 kB[22m[39m
+├ ○ /schema/introduction ([32m512 ms[39m)                          4.76 kB         [37m[1m324 kB[22m[39m
+├ ○ /schema/is ([32m512 ms[39m)                                    5.69 kB         [37m[1m333 kB[22m[39m
+├ ○ /schema/is-empty                                       5.61 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/is-not-empty ([32m695 ms[39m)                          5.61 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/length-validator                               5.67 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/not                                             5.7 kB         [37m[1m333 kB[22m[39m
+├ ○ /schema/not-match                                      5.55 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/number-value-validator ([32m698 ms[39m)                5.75 kB         [37m[1m333 kB[22m[39m
+├ ○ /schema/or                                             5.74 kB         [37m[1m333 kB[22m[39m
+├ ○ /schema/overwriting-default-message ([32m695 ms[39m)            5.5 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/pattern ([32m695 ms[39m)                               5.63 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/pattern-validator ([32m695 ms[39m)                     5.77 kB         [37m[1m333 kB[22m[39m
+├ ○ /schema/record-level-validation ([32m696 ms[39m)               5.59 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/required-validator ([32m694 ms[39m)                    5.52 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/resolve-props ([32m365 ms[39m)                         7.12 kB         [37m[1m334 kB[22m[39m
+├ ○ /schema/url-validator ([32m361 ms[39m)                         5.54 kB         [37m[1m332 kB[22m[39m
+├ ○ /schema/validator-mapper ([32m361 ms[39m)                      2.06 kB         [37m[1m321 kB[22m[39m
+├ ○ /schema/validator-warnings ([32m361 ms[39m)                    2.63 kB         [37m[1m322 kB[22m[39m
+├ ○ /testing ([32m361 ms[39m)                                      8.31 kB         [37m[1m335 kB[22m[39m
+├ ○ /typescript ([32m361 ms[39m)                                   2.58 kB         [37m[1m322 kB[22m[39m
+└ ○ /utilities/standalone-validation ([32m361 ms[39m)              6.23 kB         [37m[1m333 kB[22m[39m
++ First Load JS shared by all                               [37m[1m278 kB[22m[39m
+  ├ chunks/framework-521f63f5f23a7a04.js                   57.7 kB
+  ├ chunks/main-22fd22e06ddc5a02.js                        33.8 kB
+  ├ chunks/pages/_app-ceab2f19b36faf8c.js                   182 kB
+  └ other shared chunks (total)                            4.12 kB
+
+○  (Static)  prerendered as static content
+
+[2K[1GDone in 34.01s.

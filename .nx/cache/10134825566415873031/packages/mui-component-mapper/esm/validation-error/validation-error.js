@@ -1,0 +1,8 @@
+export var validationError = function validationError(meta, validateOnMount) {
+  if (validateOnMount) {
+    return meta.error || meta.submitError;
+  }
+
+  return meta.touched && (meta.error || meta.submitError);
+};
+export default validationError;
