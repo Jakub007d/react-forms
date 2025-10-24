@@ -2901,16 +2901,16 @@
   },
   "packages/parsers": {
     "root": [
-      "packages/parsers/package.json",
-      "nx/core/package-json"
+      "packages/parsers/project.json",
+      "nx/core/project-json"
     ],
     "name": [
-      "packages/parsers/package.json",
-      "nx/core/package-json"
+      "packages/parsers/project.json",
+      "nx/core/project-json"
     ],
     "projectType": [
-      "packages/parsers/package.json",
-      "nx/core/package-json"
+      "packages/parsers/project.json",
+      "nx/core/project-json"
     ],
     "tags": [
       "packages/parsers/package.json",
@@ -2963,6 +2963,90 @@
     "targets": [
       "packages/parsers/package.json",
       "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:utility": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:private": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.platform:react": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.@data-driven-forms/react-form-renderer": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "packages/parsers/project.json",
+      "nx/core/project-json"
     ]
   },
   "packages/react-renderer-demo": {
