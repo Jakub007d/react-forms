@@ -48,7 +48,7 @@ jobs:
         id: nx-release-dry-run
         run: |
           echo "Running Nx release in dry-run mode..."
-          npx nx release --dry-run --verbose 2>&1 | tee release-output.txt
+          npx nx release --dry-run --first-release --verbose 2>&1 | tee release-output.txt
           EXIT_CODE=${PIPESTATUS[0]}
 
           if [ $EXIT_CODE -ne 0 ]; then

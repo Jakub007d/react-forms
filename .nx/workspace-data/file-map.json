@@ -566,6 +566,735 @@
       }
     ],
     "projectFileMap": {
+      "@data-driven-forms/mui-component-mapper": [
+        {
+          "file": "packages/mui-component-mapper/.gitignore",
+          "hash": "12394430947670143338"
+        },
+        {
+          "file": "packages/mui-component-mapper/.npmignore",
+          "hash": "15936781345696388475"
+        },
+        {
+          "file": "packages/mui-component-mapper/LICENSE",
+          "hash": "3491846103125092433"
+        },
+        {
+          "file": "packages/mui-component-mapper/README.md",
+          "hash": "8374032272950847986"
+        },
+        {
+          "file": "packages/mui-component-mapper/babel.config.js",
+          "hash": "10544089241712590534",
+          "deps": [
+            "npm:glob"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/config/webpack.config.js",
+          "hash": "8065822296233641818",
+          "deps": [
+            "npm:html-webpack-plugin",
+            "npm:webpack"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/demo/demo-schemas/field-array-schema.js",
+          "hash": "1422602630643276425"
+        },
+        {
+          "file": "packages/mui-component-mapper/demo/demo-schemas/miq-schema.js",
+          "hash": "15060522105300661597"
+        },
+        {
+          "file": "packages/mui-component-mapper/demo/demo-schemas/widget-schema.js",
+          "hash": "12403870082469256935"
+        },
+        {
+          "file": "packages/mui-component-mapper/demo/demo-schemas/wizard-schema.js",
+          "hash": "6592883364946376009",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/demo/index.html",
+          "hash": "10733452583543330943"
+        },
+        {
+          "file": "packages/mui-component-mapper/demo/index.js",
+          "hash": "5675558811566990780",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material",
+            "npm:@mui/x-date-pickers@6.13.0"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/package.json",
+          "hash": "13422039444183496727",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/icons-material",
+            "npm:@mui/material",
+            "npm:@mui/x-date-pickers@6.13.0",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-intl",
+            "@data-driven-forms/common",
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "npm:@mui/system",
+            "npm:clsx",
+            "npm:date-fns",
+            "npm:lodash"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/project.json",
+          "hash": "905452284361400338"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/checkbox/checkbox.d.ts",
+          "hash": "13525027418728402428",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/checkbox/checkbox.js",
+          "hash": "10450827499547361868",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/checkbox/index.d.ts",
+          "hash": "10473954307075293357"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/checkbox/index.js",
+          "hash": "10473954307075293357"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/component-mapper/component-mapper.d.ts",
+          "hash": "990883146462584398",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/component-mapper/component-mapper.js",
+          "hash": "14768529086531488472",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/component-mapper/index.d.ts",
+          "hash": "13814225552206366607"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/component-mapper/index.js",
+          "hash": "13814225552206366607"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/date-picker/date-picker.d.ts",
+          "hash": "14159272280460260433",
+          "deps": [
+            "npm:@mui/x-date-pickers@6.13.0",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/date-picker/date-picker.js",
+          "hash": "13555493855644081046",
+          "deps": [
+            "npm:react",
+            "npm:@mui/x-date-pickers@6.13.0",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/date-picker/index.d.ts",
+          "hash": "4893241316649986956"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/date-picker/index.js",
+          "hash": "4893241316649986956"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/dual-list-select/dual-list-select.d.ts",
+          "hash": "4074072365493280099",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:react",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/dual-list-select/dual-list-select.js",
+          "hash": "1074224937088029041",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "npm:clsx",
+            "npm:@mui/icons-material",
+            "@data-driven-forms/common"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/dual-list-select/index.d.ts",
+          "hash": "13298381049402088098"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/dual-list-select/index.js",
+          "hash": "13298381049402088098"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/field-array/field-array.d.ts",
+          "hash": "16177095614115923841",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/field-array/field-array.js",
+          "hash": "11173138940079241381",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "@data-driven-forms/react-form-renderer",
+            "npm:lodash",
+            "npm:@mui/icons-material",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/field-array/index.d.ts",
+          "hash": "13121562265279688980"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/field-array/index.js",
+          "hash": "13121562265279688980"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/form-field-grid/form-field-grid.d.ts",
+          "hash": "9455670561704509067",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/form-field-grid/form-field-grid.js",
+          "hash": "2586629327481395444",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/form-field-grid/index.d.ts",
+          "hash": "5365044737761835380"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/form-field-grid/index.js",
+          "hash": "11300695564249764870"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/form-template/form-template.d.ts",
+          "hash": "12221410827875221660",
+          "deps": [
+            "@data-driven-forms/common"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/form-template/form-template.js",
+          "hash": "16955101395773910103",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "@data-driven-forms/common",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/form-template/index.d.ts",
+          "hash": "8750920176823683175"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/form-template/index.js",
+          "hash": "8750920176823683175"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/index.js",
+          "hash": "1173264560358748978"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/multiple-choice-list/index.d.ts",
+          "hash": "2216375218338181140"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/multiple-choice-list/index.js",
+          "hash": "2216375218338181140"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/multiple-choice-list/multiple-choice-list.d.ts",
+          "hash": "4934036689090102087",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/multiple-choice-list/multiple-choice-list.js",
+          "hash": "12945692013774665147",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "@data-driven-forms/common"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/plain-text/index.d.ts",
+          "hash": "16021381117540218700"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/plain-text/index.js",
+          "hash": "16021381117540218700"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/plain-text/plain-text.d.ts",
+          "hash": "13098307069238414021",
+          "deps": [
+            "npm:@mui/material",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/plain-text/plain-text.js",
+          "hash": "17686136326838674405",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/radio/index.d.ts",
+          "hash": "13712558995555471130"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/radio/index.js",
+          "hash": "13712558995555471130"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/radio/radio.d.ts",
+          "hash": "17153982946646859336",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/radio/radio.js",
+          "hash": "12576072942113072496",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/select/index.d.ts",
+          "hash": "6793093240155551236"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/select/index.js",
+          "hash": "6793093240155551236"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/select/select.d.ts",
+          "hash": "4477273702428250293",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/select/select.js",
+          "hash": "5720599912604675878",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/common",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material",
+            "npm:@mui/icons-material"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/slider/index.d.ts",
+          "hash": "7795391012015812125"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/slider/index.js",
+          "hash": "7795391012015812125"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/slider/slider.d.ts",
+          "hash": "3756979352703343932",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/slider/slider.js",
+          "hash": "12960381530209878097",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/sub-form/index.d.ts",
+          "hash": "8819833486284916423"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/sub-form/index.js",
+          "hash": "8819833486284916423"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/sub-form/sub-form.d.ts",
+          "hash": "6858039159235610311",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/sub-form/sub-form.js",
+          "hash": "12819364808830635934",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/switch/index.d.ts",
+          "hash": "7409927088227709588"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/switch/index.js",
+          "hash": "7409927088227709588"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/switch/switch.d.ts",
+          "hash": "11083785156583133168",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/switch/switch.js",
+          "hash": "17888118740421183444",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tabs/index.d.ts",
+          "hash": "2681608242303203182"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tabs/index.js",
+          "hash": "2681608242303203182"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tabs/tabs.d.ts",
+          "hash": "5089434999287950661",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tabs/tabs.js",
+          "hash": "151892089079467595",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tests/.eslintrc",
+          "hash": "7444157207569419272"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tests/dependencies.test.js",
+          "hash": "5972030152361698789",
+          "deps": [
+            "@data-driven-forms/react-renderer-demo"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tests/dual-list-select.test.js",
+          "hash": "15322153997704400062",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tests/field-array.test.js",
+          "hash": "12380526440565337039",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tests/form-fields.test.js",
+          "hash": "57474017072675896",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/x-date-pickers@6.13.0",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tests/form-template.test.js",
+          "hash": "16641186020060799358",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tests/helpers.test.js",
+          "hash": "658474789730509240"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tests/plain-text.test.js",
+          "hash": "12480271259522338367",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tests/select.test.js",
+          "hash": "7402583461506399151"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tests/subform.test.js",
+          "hash": "4094099629741644049",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tests/tabs.test.js",
+          "hash": "14986056721054367409",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/tests/wizard.test.js",
+          "hash": "11358692354010334906",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event",
+            "@data-driven-forms/react-form-renderer",
+            "@data-driven-forms/common"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/text-field/index.d.ts",
+          "hash": "17590483412186088451"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/text-field/index.js",
+          "hash": "17590483412186088451"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/text-field/text-field.d.ts",
+          "hash": "3762916517151296971",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/text-field/text-field.js",
+          "hash": "7987791751546018753",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/textarea/index.d.ts",
+          "hash": "11065686002439337874"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/textarea/index.js",
+          "hash": "11065686002439337874"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/textarea/textarea.d.ts",
+          "hash": "10875903382762758784",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/textarea/textarea.js",
+          "hash": "8835297196771984238",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/time-picker/index.d.ts",
+          "hash": "11258987623126642614"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/time-picker/index.js",
+          "hash": "11258987623126642614"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/time-picker/time-picker.d.ts",
+          "hash": "7777013996935843837",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/x-date-pickers@6.13.0",
+            "npm:react",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/time-picker/time-picker.js",
+          "hash": "3613609989130360437",
+          "deps": [
+            "npm:react",
+            "npm:@mui/x-date-pickers@6.13.0",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/validation-error/index.d.ts",
+          "hash": "17784809861330589719"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/validation-error/index.js",
+          "hash": "17784809861330589719"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/validation-error/validation-error.d.ts",
+          "hash": "5793441364078608581",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/validation-error/validation-error.js",
+          "hash": "12288459380664204936"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/wizard/index.d.ts",
+          "hash": "14162681675640197492"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/wizard/index.js",
+          "hash": "14162681675640197492"
+        },
+        {
+          "file": "packages/mui-component-mapper/src/wizard/step-buttons.js",
+          "hash": "17346756581508297044",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "npm:clsx",
+            "@data-driven-forms/common",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/wizard/wizard-nav.js",
+          "hash": "102517653788414889",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/wizard/wizard.d.ts",
+          "hash": "18382123561895510566",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/src/wizard/wizard.js",
+          "hash": "11631036295148129250",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "npm:clsx",
+            "@data-driven-forms/react-form-renderer",
+            "@data-driven-forms/common"
+          ]
+        },
+        {
+          "file": "packages/mui-component-mapper/tsconfig.json",
+          "hash": "18380652967635222846"
+        }
+      ],
       "@data-driven-forms/pf4-component-mapper": [
         {
           "file": "packages/pf4-component-mapper/.gitignore",
@@ -1507,6 +2236,850 @@
         {
           "file": "packages/pf4-component-mapper/tsconfig.json",
           "hash": "18380652967635222846"
+        }
+      ],
+      "@data-driven-forms/ant-component-mapper": [
+        {
+          "file": "packages/ant-component-mapper/.gitignore",
+          "hash": "10079750331247616241"
+        },
+        {
+          "file": "packages/ant-component-mapper/.npmignore",
+          "hash": "6686455742765848871"
+        },
+        {
+          "file": "packages/ant-component-mapper/LICENSE",
+          "hash": "3491846103125092433"
+        },
+        {
+          "file": "packages/ant-component-mapper/README.md",
+          "hash": "5265425104075224548"
+        },
+        {
+          "file": "packages/ant-component-mapper/babel.config.js",
+          "hash": "10544089241712590534",
+          "deps": [
+            "npm:glob"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/config/webpack.config.js",
+          "hash": "8065822296233641818",
+          "deps": [
+            "npm:html-webpack-plugin",
+            "npm:webpack"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/demo/demo-schemas/dual-list-select-schema.js",
+          "hash": "17645918767394355408",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/demo/demo-schemas/field-array-schema.js",
+          "hash": "1422602630643276425"
+        },
+        {
+          "file": "packages/ant-component-mapper/demo/demo-schemas/slider-schema.js",
+          "hash": "17851144943868344542",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/demo/demo-schemas/wizard-schema.js",
+          "hash": "10854239117375711190",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/demo/index.html",
+          "hash": "10733452583543330943"
+        },
+        {
+          "file": "packages/ant-component-mapper/demo/index.js",
+          "hash": "849563830276674391",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "@data-driven-forms/react-form-renderer",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/demo/style.css",
+          "hash": "16392471763174968995"
+        },
+        {
+          "file": "packages/ant-component-mapper/package.json",
+          "hash": "17317337330586017973",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:antd",
+            "npm:react",
+            "npm:react-dom",
+            "@data-driven-forms/common",
+            "npm:lodash"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/project.json",
+          "hash": "10108972064218504170"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/checkbox/checkbox.d.ts",
+          "hash": "8182692582180098067",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:react",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/checkbox/checkbox.js",
+          "hash": "3076980829362395513",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/checkbox/index.d.ts",
+          "hash": "10473954307075293357"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/checkbox/index.js",
+          "hash": "10473954307075293357"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/component-mapper/component-mapper.d.ts",
+          "hash": "18169525345603269432",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/component-mapper/component-mapper.js",
+          "hash": "5186637442950693110",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/component-mapper/index.d.ts",
+          "hash": "13814225552206366607"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/component-mapper/index.js",
+          "hash": "13814225552206366607"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/date-picker/date-picker.d.ts",
+          "hash": "241274484830655633",
+          "deps": [
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/date-picker/date-picker.js",
+          "hash": "1624550199324329983",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/date-picker/index.d.ts",
+          "hash": "4893241316649986956"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/date-picker/index.js",
+          "hash": "4893241316649986956"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/dual-list-select/dual-list-select.d.ts",
+          "hash": "1768111842254632838",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:react",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/dual-list-select/dual-list-select.js",
+          "hash": "12900301774519326727",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/dual-list-select/index.d.ts",
+          "hash": "13298381049402088098"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/dual-list-select/index.js",
+          "hash": "13298381049402088098"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/field-array/field-array.d.ts",
+          "hash": "9015059138155208594",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:react",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/field-array/field-array.js",
+          "hash": "10807333536441985866",
+          "deps": [
+            "npm:react",
+            "npm:lodash",
+            "@data-driven-forms/react-form-renderer",
+            "npm:antd",
+            "npm:@ant-design/icons"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/field-array/index.d.ts",
+          "hash": "13121562265279688980"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/field-array/index.js",
+          "hash": "13121562265279688980"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/form-group/form-group.d.ts",
+          "hash": "15234116635013118179",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:react",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/form-group/form-group.js",
+          "hash": "6636988561577236133",
+          "deps": [
+            "npm:react",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/form-group/index.d.ts",
+          "hash": "12589784753016365402"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/form-group/index.js",
+          "hash": "12589784753016365402"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/form-template/form-template.d.ts",
+          "hash": "3111999625809552928",
+          "deps": [
+            "@data-driven-forms/common"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/form-template/form-template.js",
+          "hash": "3194845413437022191",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/common"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/form-template/index.d.ts",
+          "hash": "8750920176823683175"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/form-template/index.js",
+          "hash": "8750920176823683175"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/index.js",
+          "hash": "9763980480908486794"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/is-required/index.d.ts",
+          "hash": "10318873678349688400"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/is-required/index.js",
+          "hash": "10318873678349688400"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/is-required/is-required.css",
+          "hash": "10072322217670936696"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/is-required/is-required.d.ts",
+          "hash": "7274057100327772203"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/is-required/is-required.js",
+          "hash": "452257868027526219",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/multiple-choice-list/index.d.ts",
+          "hash": "2216375218338181140"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/multiple-choice-list/index.js",
+          "hash": "2216375218338181140"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/multiple-choice-list/multiple-choice-list.d.ts",
+          "hash": "2602476152467474588",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/multiple-choice-list/multiple-choice-list.js",
+          "hash": "2137812107124028188",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/common"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/plain-text/index.d.ts",
+          "hash": "16021381117540218700"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/plain-text/index.js",
+          "hash": "16021381117540218700"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/plain-text/plain-text.d.ts",
+          "hash": "4753625042287496726",
+          "deps": [
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/plain-text/plain-text.js",
+          "hash": "7398623926228271180",
+          "deps": [
+            "npm:react",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/radio/index.d.ts",
+          "hash": "13712558995555471130"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/radio/index.js",
+          "hash": "13712558995555471130"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/radio/radio.d.ts",
+          "hash": "5803418254504882766",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:react",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/radio/radio.js",
+          "hash": "12467225124627213217",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/select/index.d.ts",
+          "hash": "6793093240155551236"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/select/index.js",
+          "hash": "6793093240155551236"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/select/select.d.ts",
+          "hash": "16601474188023292142",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/select/select.js",
+          "hash": "17981526905458998269",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/slider/index.d.ts",
+          "hash": "7795391012015812125"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/slider/index.js",
+          "hash": "7795391012015812125"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/slider/slider.d.ts",
+          "hash": "11062928151951690408",
+          "deps": [
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/slider/slider.js",
+          "hash": "994273369569087944",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/sub-form/index.d.ts",
+          "hash": "8819833486284916423"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/sub-form/index.js",
+          "hash": "8819833486284916423"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/sub-form/sub-form.d.ts",
+          "hash": "18136554232578405340",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:react",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/sub-form/sub-form.js",
+          "hash": "5123490433926196243",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/switch/index.d.ts",
+          "hash": "7409927088227709588"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/switch/index.js",
+          "hash": "7409927088227709588"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/switch/switch.d.ts",
+          "hash": "7846627742237872343",
+          "deps": [
+            "npm:antd",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/switch/switch.js",
+          "hash": "13780942209401544111",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tabs/index.d.ts",
+          "hash": "2681608242303203182"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tabs/index.js",
+          "hash": "2681608242303203182"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tabs/tabs.d.ts",
+          "hash": "11193159386687227454",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tabs/tabs.js",
+          "hash": "14995470922810667745",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tests/.eslintrc",
+          "hash": "9504941940516664269"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tests/checkbox.test.js",
+          "hash": "8509930877830838075",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tests/components.test.js",
+          "hash": "15840274915350104267",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tests/dual-list-select.test.js",
+          "hash": "17966275387244621137",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tests/field-array.test.js",
+          "hash": "7270705607562380628",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tests/plain-text.test.js",
+          "hash": "8446497385348809995",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tests/radio.test.js",
+          "hash": "1637474212176754063",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tests/select.test.js",
+          "hash": "17210311194801082031",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tests/slider.test.js",
+          "hash": "13685827732087234756",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@testing-library/react",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tests/subform.test.js",
+          "hash": "4575283432082292386",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tests/tabs.test.js",
+          "hash": "391683810163170124",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/tests/wizard.test.js",
+          "hash": "18385348961932002740",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event",
+            "@data-driven-forms/common"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/text-field/index.d.ts",
+          "hash": "17590483412186088451"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/text-field/index.js",
+          "hash": "17590483412186088451"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/text-field/text-field.d.ts",
+          "hash": "17862933232114147786",
+          "deps": [
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/text-field/text-field.js",
+          "hash": "4211277811159573137",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/textarea/index.d.ts",
+          "hash": "11065686002439337874"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/textarea/index.js",
+          "hash": "11065686002439337874"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/textarea/textarea.d.ts",
+          "hash": "12606431809798995596",
+          "deps": [
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/textarea/textarea.js",
+          "hash": "9463577606679408615",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/time-picker/index.d.ts",
+          "hash": "11258987623126642614"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/time-picker/index.js",
+          "hash": "11258987623126642614"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/time-picker/time-picker.d.ts",
+          "hash": "12340708091099251407",
+          "deps": [
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/time-picker/time-picker.js",
+          "hash": "13288839023078833359",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/validation-error/index.d.ts",
+          "hash": "17784809861330589719"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/validation-error/index.js",
+          "hash": "17784809861330589719"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/validation-error/validation-error.d.ts",
+          "hash": "3138435360130033759",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/validation-error/validation-error.js",
+          "hash": "12288459380664204936"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/wizard/index.d.ts",
+          "hash": "14162681675640197492"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/wizard/index.js",
+          "hash": "14162681675640197492"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/wizard/step-buttons.js",
+          "hash": "3724909840550579933",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/common"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/wizard/wizard-step.css",
+          "hash": "14774722147552161123"
+        },
+        {
+          "file": "packages/ant-component-mapper/src/wizard/wizard-step.js",
+          "hash": "16422758909956815017",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/wizard/wizard.d.ts",
+          "hash": "14344908350730331846",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:antd",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/src/wizard/wizard.js",
+          "hash": "10386076459925009141",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "@data-driven-forms/common",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/ant-component-mapper/tsconfig.json",
+          "hash": "18380652967635222846"
+        }
+      ],
+      "@data-driven-forms/parsers": [
+        {
+          "file": "packages/parsers/.gitignore",
+          "hash": "12394430947670143338"
+        },
+        {
+          "file": "packages/parsers/.npmignore",
+          "hash": "8800089893478951744"
+        },
+        {
+          "file": "packages/parsers/LICENSE",
+          "hash": "3491846103125092433"
+        },
+        {
+          "file": "packages/parsers/README.md",
+          "hash": "9139005984775124838"
+        },
+        {
+          "file": "packages/parsers/babel.config.js",
+          "hash": "10544089241712590534",
+          "deps": [
+            "npm:glob"
+          ]
+        },
+        {
+          "file": "packages/parsers/package.json",
+          "hash": "3809606143233908807",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/parsers/project.json",
+          "hash": "14768755386476566025"
+        },
+        {
+          "file": "packages/parsers/src/index.js",
+          "hash": "8044374336063670710"
+        },
+        {
+          "file": "packages/parsers/src/parsers/miq.js",
+          "hash": "6494692795137946697",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/parsers/src/parsers/miq/constants.js",
+          "hash": "18324168363586239366",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/parsers/src/parsers/mozilla.js",
+          "hash": "16222103286904325154",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:lodash"
+          ]
+        },
+        {
+          "file": "packages/parsers/src/parsers/mozilla/mozilla-helpers.js",
+          "hash": "12912463363795133061",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/parsers/src/tests/miq/miq-parser.test.js",
+          "hash": "10823476215552184198"
+        },
+        {
+          "file": "packages/parsers/src/tests/miq/miq-schemas/input.js",
+          "hash": "3084598559856458563"
+        },
+        {
+          "file": "packages/parsers/src/tests/miq/miq-schemas/output.js",
+          "hash": "10604535087552098251",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/parsers/src/tests/mozilla/expected-parser-results.js",
+          "hash": "9755065370106336004"
+        },
+        {
+          "file": "packages/parsers/src/tests/mozilla/mozilla-schema-parser.test.js",
+          "hash": "18278051037211320201"
+        },
+        {
+          "file": "packages/parsers/src/tests/mozilla/schemas.js",
+          "hash": "4610877139706629784"
         }
       ],
       "@data-driven-forms/react-renderer-demo": [
@@ -3352,102 +4925,6 @@
           ]
         }
       ],
-      "@data-driven-forms/parsers": [
-        {
-          "file": "packages/parsers/.gitignore",
-          "hash": "12394430947670143338"
-        },
-        {
-          "file": "packages/parsers/.npmignore",
-          "hash": "8800089893478951744"
-        },
-        {
-          "file": "packages/parsers/LICENSE",
-          "hash": "3491846103125092433"
-        },
-        {
-          "file": "packages/parsers/README.md",
-          "hash": "9139005984775124838"
-        },
-        {
-          "file": "packages/parsers/babel.config.js",
-          "hash": "10544089241712590534",
-          "deps": [
-            "npm:glob"
-          ]
-        },
-        {
-          "file": "packages/parsers/package.json",
-          "hash": "3809606143233908807",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/parsers/project.json",
-          "hash": "14768755386476566025"
-        },
-        {
-          "file": "packages/parsers/src/index.js",
-          "hash": "8044374336063670710"
-        },
-        {
-          "file": "packages/parsers/src/parsers/miq.js",
-          "hash": "6494692795137946697",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/parsers/src/parsers/miq/constants.js",
-          "hash": "18324168363586239366",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/parsers/src/parsers/mozilla.js",
-          "hash": "16222103286904325154",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:lodash"
-          ]
-        },
-        {
-          "file": "packages/parsers/src/parsers/mozilla/mozilla-helpers.js",
-          "hash": "12912463363795133061",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/parsers/src/tests/miq/miq-parser.test.js",
-          "hash": "10823476215552184198"
-        },
-        {
-          "file": "packages/parsers/src/tests/miq/miq-schemas/input.js",
-          "hash": "3084598559856458563"
-        },
-        {
-          "file": "packages/parsers/src/tests/miq/miq-schemas/output.js",
-          "hash": "10604535087552098251",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/parsers/src/tests/mozilla/expected-parser-results.js",
-          "hash": "9755065370106336004"
-        },
-        {
-          "file": "packages/parsers/src/tests/mozilla/mozilla-schema-parser.test.js",
-          "hash": "18278051037211320201"
-        },
-        {
-          "file": "packages/parsers/src/tests/mozilla/schemas.js",
-          "hash": "4610877139706629784"
-        }
-      ],
       "@data-driven-forms/react-form-renderer": [
         {
           "file": "packages/react-form-renderer/.gitignore",
@@ -4326,6 +5803,706 @@
           "hash": "18380652967635222846"
         }
       ],
+      "@data-driven-forms/blueprint-component-mapper": [
+        {
+          "file": "packages/blueprint-component-mapper/.gitignore",
+          "hash": "12394430947670143338"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/.npmignore",
+          "hash": "6686455742765848871"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/LICENSE",
+          "hash": "3491846103125092433"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/README.md",
+          "hash": "11381032020797883724"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/babel.config.js",
+          "hash": "10544089241712590534",
+          "deps": [
+            "npm:glob"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/config/webpack.config.js",
+          "hash": "8065822296233641818",
+          "deps": [
+            "npm:html-webpack-plugin",
+            "npm:webpack"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/demo/demo-schemas/dual-list-schema.js",
+          "hash": "3052320589863785569",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/demo/demo-schemas/sandbox.js",
+          "hash": "7368513452531087907",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/demo/demo-schemas/widget-schema.js",
+          "hash": "8403440907654363472"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/demo/demo-schemas/wizard-schema.js",
+          "hash": "10556416835775643139",
+          "deps": [
+            "npm:react",
+            "npm:prop-types",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@patternfly/react-core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/demo/index.html",
+          "hash": "11054783164594014069"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/demo/index.js",
+          "hash": "10947140523029882734",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/package.json",
+          "hash": "9659629367035050324",
+          "deps": [
+            "npm:@blueprintjs/core",
+            "npm:@blueprintjs/datetime",
+            "npm:@blueprintjs/select",
+            "npm:react",
+            "npm:react-dom",
+            "@data-driven-forms/common",
+            "npm:clsx",
+            "npm:lodash",
+            "npm:react-jss"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/project.json",
+          "hash": "12298402361896850250"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/blueprint-context/blueprint-context.d.ts",
+          "hash": "8102382303883085352",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/blueprint-context/blueprint-context.js",
+          "hash": "10650903312335746168",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/blueprint-context/index.d.ts",
+          "hash": "8007555677726140203"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/blueprint-context/index.js",
+          "hash": "9189660587831561877"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/checkbox/checkbox.d.ts",
+          "hash": "15736563694871945066",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:react",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/checkbox/checkbox.js",
+          "hash": "4275071867058772396",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/common",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/checkbox/index.d.ts",
+          "hash": "10473954307075293357"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/checkbox/index.js",
+          "hash": "16448660616440725845"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/component-mapper/component-mapper.d.ts",
+          "hash": "16879623885578814444",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/component-mapper/component-mapper.js",
+          "hash": "3808050964027676250",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/component-mapper/index.d.ts",
+          "hash": "13814225552206366607"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/component-mapper/index.js",
+          "hash": "13814225552206366607"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/date-picker/date-picker.d.ts",
+          "hash": "17086761824695829580",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@blueprintjs/datetime",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/date-picker/date-picker.js",
+          "hash": "7965005733235926188",
+          "deps": [
+            "npm:react",
+            "npm:@blueprintjs/core",
+            "npm:@blueprintjs/datetime"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/date-picker/index.d.ts",
+          "hash": "4893241316649986956"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/date-picker/index.js",
+          "hash": "4893241316649986956"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/dual-list-select/dual-list-select.d.ts",
+          "hash": "12403761452369712225",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:react",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/dual-list-select/dual-list-select.js",
+          "hash": "7264588247882680039",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/common",
+            "npm:@blueprintjs/core",
+            "npm:clsx",
+            "npm:react-jss"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/dual-list-select/index.d.ts",
+          "hash": "13298381049402088098"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/dual-list-select/index.js",
+          "hash": "13298381049402088098"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/field-array/field-array.d.ts",
+          "hash": "14998744271982994221",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/field-array/field-array.js",
+          "hash": "9429081852965464634",
+          "deps": [
+            "npm:react",
+            "npm:lodash",
+            "npm:clsx",
+            "@data-driven-forms/react-form-renderer",
+            "npm:react-jss",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/field-array/index.d.ts",
+          "hash": "13121562265279688980"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/field-array/index.js",
+          "hash": "13121562265279688980"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/form-group/form-group.d.ts",
+          "hash": "18140718587342154061",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@blueprintjs/core",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/form-group/form-group.js",
+          "hash": "7265474836456168203",
+          "deps": [
+            "npm:react",
+            "npm:@blueprintjs/core",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/form-group/index.d.ts",
+          "hash": "12589784753016365402"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/form-group/index.js",
+          "hash": "12589784753016365402"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/form-template/form-template.d.ts",
+          "hash": "4803875457609006037",
+          "deps": [
+            "@data-driven-forms/common",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/form-template/form-template.js",
+          "hash": "17323159505560920978",
+          "deps": [
+            "npm:react",
+            "npm:react-jss",
+            "@data-driven-forms/common",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/form-template/index.d.ts",
+          "hash": "8750920176823683175"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/form-template/index.js",
+          "hash": "8750920176823683175"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/index.js",
+          "hash": "15712003131962072762"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/plain-text/index.d.ts",
+          "hash": "16021381117540218700"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/plain-text/index.js",
+          "hash": "16021381117540218700"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/plain-text/plain-text.d.ts",
+          "hash": "3595882557600712414",
+          "deps": [
+            "npm:react",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/plain-text/plain-text.js",
+          "hash": "8586373447583276330",
+          "deps": [
+            "npm:react",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/props-catcher/index.d.ts",
+          "hash": "577936114827276299"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/props-catcher/index.js",
+          "hash": "577936114827276299"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/props-catcher/props-catcher.d.ts",
+          "hash": "16828186755025479222",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/props-catcher/props-catcher.js",
+          "hash": "8707752991150322267"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/radio/index.d.ts",
+          "hash": "13712558995555471130"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/radio/index.js",
+          "hash": "13712558995555471130"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/radio/radio.d.ts",
+          "hash": "11291772742237441644",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/radio/radio.js",
+          "hash": "18361852096037836934",
+          "deps": [
+            "npm:react",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/select/index.d.ts",
+          "hash": "6793093240155551236"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/select/index.js",
+          "hash": "6793093240155551236"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/select/select.d.ts",
+          "hash": "4183763952721199260",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@blueprintjs/select",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/select/select.js",
+          "hash": "17794977461039054527",
+          "deps": [
+            "npm:react",
+            "npm:@blueprintjs/select",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/slider/index.d.ts",
+          "hash": "7795391012015812125"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/slider/index.js",
+          "hash": "7795391012015812125"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/slider/slider.d.ts",
+          "hash": "13126885287437396984",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/slider/slider.js",
+          "hash": "1783466665613634049",
+          "deps": [
+            "npm:react",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/sub-form/index.d.ts",
+          "hash": "8819833486284916423"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/sub-form/index.js",
+          "hash": "8819833486284916423"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/sub-form/sub-form.d.ts",
+          "hash": "8557628530886399386",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/sub-form/sub-form.js",
+          "hash": "1242860098726138045",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/switch/index.d.ts",
+          "hash": "7409927088227709588"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/switch/index.js",
+          "hash": "7409927088227709588"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/switch/switch.d.ts",
+          "hash": "2291894336296646032",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@blueprintjs/core",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/switch/switch.js",
+          "hash": "3762927656316243673",
+          "deps": [
+            "npm:react",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tabs/index.d.ts",
+          "hash": "2681608242303203182"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tabs/index.js",
+          "hash": "2681608242303203182"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tabs/tabs.d.ts",
+          "hash": "15158223150168038022",
+          "deps": [
+            "npm:@blueprintjs/core",
+            "npm:react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tabs/tabs.js",
+          "hash": "17152365246966160502",
+          "deps": [
+            "npm:react",
+            "npm:@blueprintjs/core",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tests/.eslintrc",
+          "hash": "9504941940516664269"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tests/checkbox.test.js",
+          "hash": "5985540115759160686",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tests/components.test.js",
+          "hash": "1548898243911082496",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tests/dual-list-select.test.js",
+          "hash": "8830225304004385202",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tests/field-array.test.js",
+          "hash": "7534345177025651091",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tests/plain-text.test.js",
+          "hash": "4604467608227865443",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tests/select.test.js",
+          "hash": "14320693704406177055",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tests/subform.test.js",
+          "hash": "7625743389504104582",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tests/tabs.test.js",
+          "hash": "17832241420781791747",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/tests/wizard.test.js",
+          "hash": "6956853859799181313",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event",
+            "@data-driven-forms/common"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/text-field/index.d.ts",
+          "hash": "17590483412186088451"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/text-field/index.js",
+          "hash": "17590483412186088451"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/text-field/text-field.d.ts",
+          "hash": "9191346870788461594",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/text-field/text-field.js",
+          "hash": "8496691336449849390",
+          "deps": [
+            "npm:react",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/textarea/index.d.ts",
+          "hash": "11065686002439337874"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/textarea/index.js",
+          "hash": "11065686002439337874"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/textarea/textarea.d.ts",
+          "hash": "1127613966599427066",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/textarea/textarea.js",
+          "hash": "2230222055790982102",
+          "deps": [
+            "npm:react",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/time-picker/index.d.ts",
+          "hash": "11258987623126642614"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/time-picker/index.js",
+          "hash": "11258987623126642614"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/time-picker/time-picker.d.ts",
+          "hash": "11786095971335706733",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:@blueprintjs/datetime"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/time-picker/time-picker.js",
+          "hash": "3377171870384936035",
+          "deps": [
+            "npm:react",
+            "npm:@blueprintjs/datetime"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/wizard/index.d.ts",
+          "hash": "14162681675640197492"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/wizard/index.js",
+          "hash": "14162681675640197492"
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/wizard/step-buttons.js",
+          "hash": "10401305931042207589",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/common",
+            "npm:clsx",
+            "npm:react-jss",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/wizard/wizard.d.ts",
+          "hash": "7452565427606410580",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@blueprintjs/core"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/src/wizard/wizard.js",
+          "hash": "6704479788979170002",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/common",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/blueprint-component-mapper/tsconfig.json",
+          "hash": "18380652967635222846"
+        }
+      ],
       "@data-driven-forms/carbon-component-mapper": [
         {
           "file": "packages/carbon-component-mapper/.gitignore",
@@ -5166,6 +7343,399 @@
           "hash": "18380652967635222846"
         }
       ],
+      "@data-driven-forms/common": [
+        {
+          "file": "packages/common/.gitignore",
+          "hash": "12394430947670143338"
+        },
+        {
+          "file": "packages/common/.npmignore",
+          "hash": "6686455742765848871"
+        },
+        {
+          "file": "packages/common/LICENSE",
+          "hash": "3491846103125092433"
+        },
+        {
+          "file": "packages/common/README.md",
+          "hash": "3313665848437733748"
+        },
+        {
+          "file": "packages/common/babel.config.js",
+          "hash": "10544089241712590534",
+          "deps": [
+            "npm:glob"
+          ]
+        },
+        {
+          "file": "packages/common/config/webpack.config.js",
+          "hash": "8065822296233641818",
+          "deps": [
+            "npm:html-webpack-plugin",
+            "npm:webpack"
+          ]
+        },
+        {
+          "file": "packages/common/package.json",
+          "hash": "12160775689484918181",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:clsx",
+            "npm:lodash"
+          ]
+        },
+        {
+          "file": "packages/common/project.json",
+          "hash": "4772460795950015047"
+        },
+        {
+          "file": "packages/common/src/dual-list-select/dual-list-select.d.ts",
+          "hash": "2785711407984577278",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/common/src/dual-list-select/dual-list-select.js",
+          "hash": "11042695450108826613",
+          "deps": [
+            "npm:react",
+            "npm:lodash",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/common/src/dual-list-select/index.d.ts",
+          "hash": "13298381049402088098"
+        },
+        {
+          "file": "packages/common/src/dual-list-select/index.js",
+          "hash": "6147529704735712870"
+        },
+        {
+          "file": "packages/common/src/dual-list-select/reducer.js",
+          "hash": "4539430976144561112"
+        },
+        {
+          "file": "packages/common/src/form-template/form-template.d.ts",
+          "hash": "17293333405305702966",
+          "deps": [
+            "@data-driven-forms/react-form-renderer",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/common/src/form-template/form-template.js",
+          "hash": "14411945623305411730",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/common/src/form-template/index.d.ts",
+          "hash": "8750920176823683175"
+        },
+        {
+          "file": "packages/common/src/form-template/index.js",
+          "hash": "8750920176823683175"
+        },
+        {
+          "file": "packages/common/src/hooks/index.d.ts",
+          "hash": "7258980411320079416"
+        },
+        {
+          "file": "packages/common/src/hooks/index.js",
+          "hash": "7258980411320079416"
+        },
+        {
+          "file": "packages/common/src/hooks/use-is-mounted.d.ts",
+          "hash": "12448355402156350926"
+        },
+        {
+          "file": "packages/common/src/hooks/use-is-mounted.js",
+          "hash": "9429863951617240415",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/common/src/index.js",
+          "hash": "13250300763542645350"
+        },
+        {
+          "file": "packages/common/src/multiple-choice-list/index.d.ts",
+          "hash": "2216375218338181140"
+        },
+        {
+          "file": "packages/common/src/multiple-choice-list/index.js",
+          "hash": "2216375218338181140"
+        },
+        {
+          "file": "packages/common/src/multiple-choice-list/multiple-choice-list.d.ts",
+          "hash": "9823218599848844468",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/common/src/multiple-choice-list/multiple-choice-list.js",
+          "hash": "17859339355533178221",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/common/src/select/deep-equal.d.ts",
+          "hash": "14324863947883840060"
+        },
+        {
+          "file": "packages/common/src/select/deep-equal.js",
+          "hash": "750483895977000454"
+        },
+        {
+          "file": "packages/common/src/select/flat-options.d.ts",
+          "hash": "6591929951016366256",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/common/src/select/flat-options.js",
+          "hash": "391570158582709674"
+        },
+        {
+          "file": "packages/common/src/select/index.d.ts",
+          "hash": "3557882683538379869"
+        },
+        {
+          "file": "packages/common/src/select/index.js",
+          "hash": "13130287740083255981"
+        },
+        {
+          "file": "packages/common/src/select/parse-internal-value.d.ts",
+          "hash": "4038355381668017376"
+        },
+        {
+          "file": "packages/common/src/select/parse-internal-value.js",
+          "hash": "9101610838778453128"
+        },
+        {
+          "file": "packages/common/src/select/select.d.ts",
+          "hash": "6907642799026823006",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/common/src/select/select.js",
+          "hash": "18435078238133827214",
+          "deps": [
+            "npm:react",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "packages/common/src/tests/dual-list-select/dual-list-select.test.js",
+          "hash": "18378715738381462654",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/common/src/tests/form-template/form-template.test.js",
+          "hash": "10955219257693429632",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event"
+          ]
+        },
+        {
+          "file": "packages/common/src/tests/hooks/use-is-mounted.test.js",
+          "hash": "1149031462822173728",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "packages/common/src/tests/multiple-choice-list/multiple-choice-list.test.js",
+          "hash": "16888650512475140530",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event"
+          ]
+        },
+        {
+          "file": "packages/common/src/tests/select/deep-equal.test.js",
+          "hash": "859899598419048658",
+          "deps": [
+            "npm:lodash"
+          ]
+        },
+        {
+          "file": "packages/common/src/tests/select/parse-internal-value.test.js",
+          "hash": "13816546285297810414"
+        },
+        {
+          "file": "packages/common/src/tests/select/select.test.js",
+          "hash": "4927760775019419566",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event",
+            "npm:lodash",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/common/src/tests/utils.test.js",
+          "hash": "3459752528127936454"
+        },
+        {
+          "file": "packages/common/src/tests/wizard/enter-handler.test.js",
+          "hash": "18400744866200000860"
+        },
+        {
+          "file": "packages/common/src/tests/wizard/reducer.test.js",
+          "hash": "12407131288325297111"
+        },
+        {
+          "file": "packages/common/src/tests/wizard/select-next.test.js",
+          "hash": "14602101369627984948"
+        },
+        {
+          "file": "packages/common/src/tests/wizard/wizard.test.js",
+          "hash": "7639800678028902971",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event",
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/common/src/use-select/index.d.ts",
+          "hash": "491063097821411877"
+        },
+        {
+          "file": "packages/common/src/use-select/index.js",
+          "hash": "491063097821411877"
+        },
+        {
+          "file": "packages/common/src/use-select/reducer.js",
+          "hash": "3126254438638361712"
+        },
+        {
+          "file": "packages/common/src/use-select/use-select.d.ts",
+          "hash": "9433322611836671547",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/common/src/use-select/use-select.js",
+          "hash": "4614722343568422702",
+          "deps": [
+            "npm:react",
+            "npm:lodash"
+          ]
+        },
+        {
+          "file": "packages/common/src/utils/fn-to-string.d.ts",
+          "hash": "11335541168041465316"
+        },
+        {
+          "file": "packages/common/src/utils/fn-to-string.js",
+          "hash": "1420833366026088335"
+        },
+        {
+          "file": "packages/common/src/utils/index.d.ts",
+          "hash": "13722717907295718133"
+        },
+        {
+          "file": "packages/common/src/utils/index.js",
+          "hash": "13722717907295718133"
+        },
+        {
+          "file": "packages/common/src/utils/valid-text-fields.d.ts",
+          "hash": "9532357000025165915"
+        },
+        {
+          "file": "packages/common/src/utils/valid-text-fields.js",
+          "hash": "14170456155362606728"
+        },
+        {
+          "file": "packages/common/src/wizard/consts.d.ts",
+          "hash": "10884678768410334288"
+        },
+        {
+          "file": "packages/common/src/wizard/consts.js",
+          "hash": "10884678768410334288"
+        },
+        {
+          "file": "packages/common/src/wizard/enter-handler.js",
+          "hash": "8164291625843473533"
+        },
+        {
+          "file": "packages/common/src/wizard/index.d.ts",
+          "hash": "9795883688365862611"
+        },
+        {
+          "file": "packages/common/src/wizard/index.js",
+          "hash": "9795883688365862611"
+        },
+        {
+          "file": "packages/common/src/wizard/reducer.js",
+          "hash": "1724007158246888230",
+          "deps": [
+            "npm:lodash"
+          ]
+        },
+        {
+          "file": "packages/common/src/wizard/select-next.d.ts",
+          "hash": "16579584322482936616",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/common/src/wizard/select-next.js",
+          "hash": "166727464736462285",
+          "deps": [
+            "npm:lodash"
+          ]
+        },
+        {
+          "file": "packages/common/src/wizard/wizard.d.ts",
+          "hash": "15992796193370122624",
+          "deps": [
+            "@data-driven-forms/react-form-renderer"
+          ]
+        },
+        {
+          "file": "packages/common/src/wizard/wizard.js",
+          "hash": "17456371161554718088",
+          "deps": [
+            "npm:react",
+            "@data-driven-forms/react-form-renderer",
+            "npm:lodash"
+          ]
+        },
+        {
+          "file": "packages/common/tsconfig.json",
+          "hash": "18380652967635222846"
+        }
+      ],
       "@data-driven-forms/suir-component-mapper": [
         {
           "file": "packages/suir-component-mapper/.gitignore",
@@ -5248,7 +7818,7 @@
         },
         {
           "file": "packages/suir-component-mapper/project.json",
-          "hash": "13598590976817816046"
+          "hash": "15304101671446453580"
         },
         {
           "file": "packages/suir-component-mapper/src/checkbox/checkbox.d.ts",
@@ -5889,2576 +8459,6 @@
         },
         {
           "file": "packages/suir-component-mapper/tsconfig.json",
-          "hash": "18380652967635222846"
-        }
-      ],
-      "@data-driven-forms/blueprint-component-mapper": [
-        {
-          "file": "packages/blueprint-component-mapper/.gitignore",
-          "hash": "12394430947670143338"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/.npmignore",
-          "hash": "6686455742765848871"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/LICENSE",
-          "hash": "3491846103125092433"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/README.md",
-          "hash": "11381032020797883724"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/babel.config.js",
-          "hash": "10544089241712590534",
-          "deps": [
-            "npm:glob"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/config/webpack.config.js",
-          "hash": "8065822296233641818",
-          "deps": [
-            "npm:html-webpack-plugin",
-            "npm:webpack"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/demo/demo-schemas/dual-list-schema.js",
-          "hash": "3052320589863785569",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/demo/demo-schemas/sandbox.js",
-          "hash": "7368513452531087907",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/demo/demo-schemas/widget-schema.js",
-          "hash": "8403440907654363472"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/demo/demo-schemas/wizard-schema.js",
-          "hash": "10556416835775643139",
-          "deps": [
-            "npm:react",
-            "npm:prop-types",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@patternfly/react-core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/demo/index.html",
-          "hash": "11054783164594014069"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/demo/index.js",
-          "hash": "10947140523029882734",
-          "deps": [
-            "npm:react",
-            "npm:react-dom",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/package.json",
-          "hash": "9659629367035050324",
-          "deps": [
-            "npm:@blueprintjs/core",
-            "npm:@blueprintjs/datetime",
-            "npm:@blueprintjs/select",
-            "npm:react",
-            "npm:react-dom",
-            "@data-driven-forms/common",
-            "npm:clsx",
-            "npm:lodash",
-            "npm:react-jss"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/project.json",
-          "hash": "12298402361896850250"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/blueprint-context/blueprint-context.d.ts",
-          "hash": "8102382303883085352",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/blueprint-context/blueprint-context.js",
-          "hash": "10650903312335746168",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/blueprint-context/index.d.ts",
-          "hash": "8007555677726140203"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/blueprint-context/index.js",
-          "hash": "9189660587831561877"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/checkbox/checkbox.d.ts",
-          "hash": "15736563694871945066",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:react",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/checkbox/checkbox.js",
-          "hash": "4275071867058772396",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/common",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/checkbox/index.d.ts",
-          "hash": "10473954307075293357"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/checkbox/index.js",
-          "hash": "16448660616440725845"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/component-mapper/component-mapper.d.ts",
-          "hash": "16879623885578814444",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/component-mapper/component-mapper.js",
-          "hash": "3808050964027676250",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/component-mapper/index.d.ts",
-          "hash": "13814225552206366607"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/component-mapper/index.js",
-          "hash": "13814225552206366607"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/date-picker/date-picker.d.ts",
-          "hash": "17086761824695829580",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@blueprintjs/datetime",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/date-picker/date-picker.js",
-          "hash": "7965005733235926188",
-          "deps": [
-            "npm:react",
-            "npm:@blueprintjs/core",
-            "npm:@blueprintjs/datetime"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/date-picker/index.d.ts",
-          "hash": "4893241316649986956"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/date-picker/index.js",
-          "hash": "4893241316649986956"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/dual-list-select/dual-list-select.d.ts",
-          "hash": "12403761452369712225",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:react",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/dual-list-select/dual-list-select.js",
-          "hash": "7264588247882680039",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/common",
-            "npm:@blueprintjs/core",
-            "npm:clsx",
-            "npm:react-jss"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/dual-list-select/index.d.ts",
-          "hash": "13298381049402088098"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/dual-list-select/index.js",
-          "hash": "13298381049402088098"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/field-array/field-array.d.ts",
-          "hash": "14998744271982994221",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/field-array/field-array.js",
-          "hash": "9429081852965464634",
-          "deps": [
-            "npm:react",
-            "npm:lodash",
-            "npm:clsx",
-            "@data-driven-forms/react-form-renderer",
-            "npm:react-jss",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/field-array/index.d.ts",
-          "hash": "13121562265279688980"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/field-array/index.js",
-          "hash": "13121562265279688980"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/form-group/form-group.d.ts",
-          "hash": "18140718587342154061",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@blueprintjs/core",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/form-group/form-group.js",
-          "hash": "7265474836456168203",
-          "deps": [
-            "npm:react",
-            "npm:@blueprintjs/core",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/form-group/index.d.ts",
-          "hash": "12589784753016365402"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/form-group/index.js",
-          "hash": "12589784753016365402"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/form-template/form-template.d.ts",
-          "hash": "4803875457609006037",
-          "deps": [
-            "@data-driven-forms/common",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/form-template/form-template.js",
-          "hash": "17323159505560920978",
-          "deps": [
-            "npm:react",
-            "npm:react-jss",
-            "@data-driven-forms/common",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/form-template/index.d.ts",
-          "hash": "8750920176823683175"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/form-template/index.js",
-          "hash": "8750920176823683175"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/index.js",
-          "hash": "15712003131962072762"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/plain-text/index.d.ts",
-          "hash": "16021381117540218700"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/plain-text/index.js",
-          "hash": "16021381117540218700"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/plain-text/plain-text.d.ts",
-          "hash": "3595882557600712414",
-          "deps": [
-            "npm:react",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/plain-text/plain-text.js",
-          "hash": "8586373447583276330",
-          "deps": [
-            "npm:react",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/props-catcher/index.d.ts",
-          "hash": "577936114827276299"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/props-catcher/index.js",
-          "hash": "577936114827276299"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/props-catcher/props-catcher.d.ts",
-          "hash": "16828186755025479222",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/props-catcher/props-catcher.js",
-          "hash": "8707752991150322267"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/radio/index.d.ts",
-          "hash": "13712558995555471130"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/radio/index.js",
-          "hash": "13712558995555471130"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/radio/radio.d.ts",
-          "hash": "11291772742237441644",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/radio/radio.js",
-          "hash": "18361852096037836934",
-          "deps": [
-            "npm:react",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/select/index.d.ts",
-          "hash": "6793093240155551236"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/select/index.js",
-          "hash": "6793093240155551236"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/select/select.d.ts",
-          "hash": "4183763952721199260",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@blueprintjs/select",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/select/select.js",
-          "hash": "17794977461039054527",
-          "deps": [
-            "npm:react",
-            "npm:@blueprintjs/select",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/slider/index.d.ts",
-          "hash": "7795391012015812125"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/slider/index.js",
-          "hash": "7795391012015812125"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/slider/slider.d.ts",
-          "hash": "13126885287437396984",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/slider/slider.js",
-          "hash": "1783466665613634049",
-          "deps": [
-            "npm:react",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/sub-form/index.d.ts",
-          "hash": "8819833486284916423"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/sub-form/index.js",
-          "hash": "8819833486284916423"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/sub-form/sub-form.d.ts",
-          "hash": "8557628530886399386",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/sub-form/sub-form.js",
-          "hash": "1242860098726138045",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/switch/index.d.ts",
-          "hash": "7409927088227709588"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/switch/index.js",
-          "hash": "7409927088227709588"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/switch/switch.d.ts",
-          "hash": "2291894336296646032",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@blueprintjs/core",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/switch/switch.js",
-          "hash": "3762927656316243673",
-          "deps": [
-            "npm:react",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tabs/index.d.ts",
-          "hash": "2681608242303203182"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tabs/index.js",
-          "hash": "2681608242303203182"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tabs/tabs.d.ts",
-          "hash": "15158223150168038022",
-          "deps": [
-            "npm:@blueprintjs/core",
-            "npm:react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tabs/tabs.js",
-          "hash": "17152365246966160502",
-          "deps": [
-            "npm:react",
-            "npm:@blueprintjs/core",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tests/.eslintrc",
-          "hash": "9504941940516664269"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tests/checkbox.test.js",
-          "hash": "5985540115759160686",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tests/components.test.js",
-          "hash": "1548898243911082496",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tests/dual-list-select.test.js",
-          "hash": "8830225304004385202",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tests/field-array.test.js",
-          "hash": "7534345177025651091",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tests/plain-text.test.js",
-          "hash": "4604467608227865443",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tests/select.test.js",
-          "hash": "14320693704406177055",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tests/subform.test.js",
-          "hash": "7625743389504104582",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tests/tabs.test.js",
-          "hash": "17832241420781791747",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/tests/wizard.test.js",
-          "hash": "6956853859799181313",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event",
-            "@data-driven-forms/common"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/text-field/index.d.ts",
-          "hash": "17590483412186088451"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/text-field/index.js",
-          "hash": "17590483412186088451"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/text-field/text-field.d.ts",
-          "hash": "9191346870788461594",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/text-field/text-field.js",
-          "hash": "8496691336449849390",
-          "deps": [
-            "npm:react",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/textarea/index.d.ts",
-          "hash": "11065686002439337874"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/textarea/index.js",
-          "hash": "11065686002439337874"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/textarea/textarea.d.ts",
-          "hash": "1127613966599427066",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/textarea/textarea.js",
-          "hash": "2230222055790982102",
-          "deps": [
-            "npm:react",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/time-picker/index.d.ts",
-          "hash": "11258987623126642614"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/time-picker/index.js",
-          "hash": "11258987623126642614"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/time-picker/time-picker.d.ts",
-          "hash": "11786095971335706733",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@blueprintjs/datetime"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/time-picker/time-picker.js",
-          "hash": "3377171870384936035",
-          "deps": [
-            "npm:react",
-            "npm:@blueprintjs/datetime"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/wizard/index.d.ts",
-          "hash": "14162681675640197492"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/wizard/index.js",
-          "hash": "14162681675640197492"
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/wizard/step-buttons.js",
-          "hash": "10401305931042207589",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/common",
-            "npm:clsx",
-            "npm:react-jss",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/wizard/wizard.d.ts",
-          "hash": "7452565427606410580",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@blueprintjs/core"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/src/wizard/wizard.js",
-          "hash": "6704479788979170002",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/common",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/blueprint-component-mapper/tsconfig.json",
-          "hash": "18380652967635222846"
-        }
-      ],
-      "@data-driven-forms/ant-component-mapper": [
-        {
-          "file": "packages/ant-component-mapper/.gitignore",
-          "hash": "10079750331247616241"
-        },
-        {
-          "file": "packages/ant-component-mapper/.npmignore",
-          "hash": "6686455742765848871"
-        },
-        {
-          "file": "packages/ant-component-mapper/LICENSE",
-          "hash": "3491846103125092433"
-        },
-        {
-          "file": "packages/ant-component-mapper/README.md",
-          "hash": "5265425104075224548"
-        },
-        {
-          "file": "packages/ant-component-mapper/babel.config.js",
-          "hash": "10544089241712590534",
-          "deps": [
-            "npm:glob"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/config/webpack.config.js",
-          "hash": "8065822296233641818",
-          "deps": [
-            "npm:html-webpack-plugin",
-            "npm:webpack"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/demo/demo-schemas/dual-list-select-schema.js",
-          "hash": "17645918767394355408",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/demo/demo-schemas/field-array-schema.js",
-          "hash": "1422602630643276425"
-        },
-        {
-          "file": "packages/ant-component-mapper/demo/demo-schemas/slider-schema.js",
-          "hash": "17851144943868344542",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/demo/demo-schemas/wizard-schema.js",
-          "hash": "10854239117375711190",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/demo/index.html",
-          "hash": "10733452583543330943"
-        },
-        {
-          "file": "packages/ant-component-mapper/demo/index.js",
-          "hash": "849563830276674391",
-          "deps": [
-            "npm:react",
-            "npm:react-dom",
-            "@data-driven-forms/react-form-renderer",
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/demo/style.css",
-          "hash": "16392471763174968995"
-        },
-        {
-          "file": "packages/ant-component-mapper/package.json",
-          "hash": "17317337330586017973",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:antd",
-            "npm:react",
-            "npm:react-dom",
-            "@data-driven-forms/common",
-            "npm:lodash"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/project.json",
-          "hash": "10108972064218504170"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/checkbox/checkbox.d.ts",
-          "hash": "8182692582180098067",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:react",
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/checkbox/checkbox.js",
-          "hash": "3076980829362395513",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/checkbox/index.d.ts",
-          "hash": "10473954307075293357"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/checkbox/index.js",
-          "hash": "10473954307075293357"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/component-mapper/component-mapper.d.ts",
-          "hash": "18169525345603269432",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/component-mapper/component-mapper.js",
-          "hash": "5186637442950693110",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/component-mapper/index.d.ts",
-          "hash": "13814225552206366607"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/component-mapper/index.js",
-          "hash": "13814225552206366607"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/date-picker/date-picker.d.ts",
-          "hash": "241274484830655633",
-          "deps": [
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/date-picker/date-picker.js",
-          "hash": "1624550199324329983",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/date-picker/index.d.ts",
-          "hash": "4893241316649986956"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/date-picker/index.js",
-          "hash": "4893241316649986956"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/dual-list-select/dual-list-select.d.ts",
-          "hash": "1768111842254632838",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:react",
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/dual-list-select/dual-list-select.js",
-          "hash": "12900301774519326727",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/dual-list-select/index.d.ts",
-          "hash": "13298381049402088098"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/dual-list-select/index.js",
-          "hash": "13298381049402088098"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/field-array/field-array.d.ts",
-          "hash": "9015059138155208594",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:react",
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/field-array/field-array.js",
-          "hash": "10807333536441985866",
-          "deps": [
-            "npm:react",
-            "npm:lodash",
-            "@data-driven-forms/react-form-renderer",
-            "npm:antd",
-            "npm:@ant-design/icons"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/field-array/index.d.ts",
-          "hash": "13121562265279688980"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/field-array/index.js",
-          "hash": "13121562265279688980"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/form-group/form-group.d.ts",
-          "hash": "15234116635013118179",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:react",
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/form-group/form-group.js",
-          "hash": "6636988561577236133",
-          "deps": [
-            "npm:react",
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/form-group/index.d.ts",
-          "hash": "12589784753016365402"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/form-group/index.js",
-          "hash": "12589784753016365402"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/form-template/form-template.d.ts",
-          "hash": "3111999625809552928",
-          "deps": [
-            "@data-driven-forms/common"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/form-template/form-template.js",
-          "hash": "3194845413437022191",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/common"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/form-template/index.d.ts",
-          "hash": "8750920176823683175"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/form-template/index.js",
-          "hash": "8750920176823683175"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/index.js",
-          "hash": "9763980480908486794"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/is-required/index.d.ts",
-          "hash": "10318873678349688400"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/is-required/index.js",
-          "hash": "10318873678349688400"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/is-required/is-required.css",
-          "hash": "10072322217670936696"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/is-required/is-required.d.ts",
-          "hash": "7274057100327772203"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/is-required/is-required.js",
-          "hash": "452257868027526219",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/multiple-choice-list/index.d.ts",
-          "hash": "2216375218338181140"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/multiple-choice-list/index.js",
-          "hash": "2216375218338181140"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/multiple-choice-list/multiple-choice-list.d.ts",
-          "hash": "2602476152467474588",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/multiple-choice-list/multiple-choice-list.js",
-          "hash": "2137812107124028188",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/common"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/plain-text/index.d.ts",
-          "hash": "16021381117540218700"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/plain-text/index.js",
-          "hash": "16021381117540218700"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/plain-text/plain-text.d.ts",
-          "hash": "4753625042287496726",
-          "deps": [
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/plain-text/plain-text.js",
-          "hash": "7398623926228271180",
-          "deps": [
-            "npm:react",
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/radio/index.d.ts",
-          "hash": "13712558995555471130"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/radio/index.js",
-          "hash": "13712558995555471130"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/radio/radio.d.ts",
-          "hash": "5803418254504882766",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:react",
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/radio/radio.js",
-          "hash": "12467225124627213217",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/select/index.d.ts",
-          "hash": "6793093240155551236"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/select/index.js",
-          "hash": "6793093240155551236"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/select/select.d.ts",
-          "hash": "16601474188023292142",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/select/select.js",
-          "hash": "17981526905458998269",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/slider/index.d.ts",
-          "hash": "7795391012015812125"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/slider/index.js",
-          "hash": "7795391012015812125"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/slider/slider.d.ts",
-          "hash": "11062928151951690408",
-          "deps": [
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/slider/slider.js",
-          "hash": "994273369569087944",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/sub-form/index.d.ts",
-          "hash": "8819833486284916423"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/sub-form/index.js",
-          "hash": "8819833486284916423"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/sub-form/sub-form.d.ts",
-          "hash": "18136554232578405340",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:react",
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/sub-form/sub-form.js",
-          "hash": "5123490433926196243",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/switch/index.d.ts",
-          "hash": "7409927088227709588"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/switch/index.js",
-          "hash": "7409927088227709588"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/switch/switch.d.ts",
-          "hash": "7846627742237872343",
-          "deps": [
-            "npm:antd",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/switch/switch.js",
-          "hash": "13780942209401544111",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tabs/index.d.ts",
-          "hash": "2681608242303203182"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tabs/index.js",
-          "hash": "2681608242303203182"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tabs/tabs.d.ts",
-          "hash": "11193159386687227454",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tabs/tabs.js",
-          "hash": "14995470922810667745",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tests/.eslintrc",
-          "hash": "9504941940516664269"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tests/checkbox.test.js",
-          "hash": "8509930877830838075",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tests/components.test.js",
-          "hash": "15840274915350104267",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tests/dual-list-select.test.js",
-          "hash": "17966275387244621137",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tests/field-array.test.js",
-          "hash": "7270705607562380628",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tests/plain-text.test.js",
-          "hash": "8446497385348809995",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tests/radio.test.js",
-          "hash": "1637474212176754063",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tests/select.test.js",
-          "hash": "17210311194801082031",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tests/slider.test.js",
-          "hash": "13685827732087234756",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@testing-library/react",
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tests/subform.test.js",
-          "hash": "4575283432082292386",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tests/tabs.test.js",
-          "hash": "391683810163170124",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/tests/wizard.test.js",
-          "hash": "18385348961932002740",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event",
-            "@data-driven-forms/common"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/text-field/index.d.ts",
-          "hash": "17590483412186088451"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/text-field/index.js",
-          "hash": "17590483412186088451"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/text-field/text-field.d.ts",
-          "hash": "17862933232114147786",
-          "deps": [
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/text-field/text-field.js",
-          "hash": "4211277811159573137",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/textarea/index.d.ts",
-          "hash": "11065686002439337874"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/textarea/index.js",
-          "hash": "11065686002439337874"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/textarea/textarea.d.ts",
-          "hash": "12606431809798995596",
-          "deps": [
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/textarea/textarea.js",
-          "hash": "9463577606679408615",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/time-picker/index.d.ts",
-          "hash": "11258987623126642614"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/time-picker/index.js",
-          "hash": "11258987623126642614"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/time-picker/time-picker.d.ts",
-          "hash": "12340708091099251407",
-          "deps": [
-            "npm:antd"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/time-picker/time-picker.js",
-          "hash": "13288839023078833359",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/validation-error/index.d.ts",
-          "hash": "17784809861330589719"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/validation-error/index.js",
-          "hash": "17784809861330589719"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/validation-error/validation-error.d.ts",
-          "hash": "3138435360130033759",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/validation-error/validation-error.js",
-          "hash": "12288459380664204936"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/wizard/index.d.ts",
-          "hash": "14162681675640197492"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/wizard/index.js",
-          "hash": "14162681675640197492"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/wizard/step-buttons.js",
-          "hash": "3724909840550579933",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/common"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/wizard/wizard-step.css",
-          "hash": "14774722147552161123"
-        },
-        {
-          "file": "packages/ant-component-mapper/src/wizard/wizard-step.js",
-          "hash": "16422758909956815017",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/wizard/wizard.d.ts",
-          "hash": "14344908350730331846",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:antd",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/src/wizard/wizard.js",
-          "hash": "10386076459925009141",
-          "deps": [
-            "npm:react",
-            "npm:antd",
-            "@data-driven-forms/common",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/ant-component-mapper/tsconfig.json",
-          "hash": "18380652967635222846"
-        }
-      ],
-      "@data-driven-forms/mui-component-mapper": [
-        {
-          "file": "packages/mui-component-mapper/.gitignore",
-          "hash": "12394430947670143338"
-        },
-        {
-          "file": "packages/mui-component-mapper/.npmignore",
-          "hash": "15936781345696388475"
-        },
-        {
-          "file": "packages/mui-component-mapper/LICENSE",
-          "hash": "3491846103125092433"
-        },
-        {
-          "file": "packages/mui-component-mapper/README.md",
-          "hash": "8374032272950847986"
-        },
-        {
-          "file": "packages/mui-component-mapper/babel.config.js",
-          "hash": "10544089241712590534",
-          "deps": [
-            "npm:glob"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/config/webpack.config.js",
-          "hash": "8065822296233641818",
-          "deps": [
-            "npm:html-webpack-plugin",
-            "npm:webpack"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/demo/demo-schemas/field-array-schema.js",
-          "hash": "1422602630643276425"
-        },
-        {
-          "file": "packages/mui-component-mapper/demo/demo-schemas/miq-schema.js",
-          "hash": "15060522105300661597"
-        },
-        {
-          "file": "packages/mui-component-mapper/demo/demo-schemas/widget-schema.js",
-          "hash": "12403870082469256935"
-        },
-        {
-          "file": "packages/mui-component-mapper/demo/demo-schemas/wizard-schema.js",
-          "hash": "6592883364946376009",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/demo/index.html",
-          "hash": "10733452583543330943"
-        },
-        {
-          "file": "packages/mui-component-mapper/demo/index.js",
-          "hash": "5675558811566990780",
-          "deps": [
-            "npm:react",
-            "npm:react-dom",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material",
-            "npm:@mui/x-date-pickers@6.13.0"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/package.json",
-          "hash": "13422039444183496727",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/icons-material",
-            "npm:@mui/material",
-            "npm:@mui/x-date-pickers@6.13.0",
-            "npm:react",
-            "npm:react-dom",
-            "npm:react-intl",
-            "@data-driven-forms/common",
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "npm:@mui/system",
-            "npm:clsx",
-            "npm:date-fns",
-            "npm:lodash"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/project.json",
-          "hash": "905452284361400338"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/checkbox/checkbox.d.ts",
-          "hash": "13525027418728402428",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/checkbox/checkbox.js",
-          "hash": "10450827499547361868",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/checkbox/index.d.ts",
-          "hash": "10473954307075293357"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/checkbox/index.js",
-          "hash": "10473954307075293357"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/component-mapper/component-mapper.d.ts",
-          "hash": "990883146462584398",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/component-mapper/component-mapper.js",
-          "hash": "14768529086531488472",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/component-mapper/index.d.ts",
-          "hash": "13814225552206366607"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/component-mapper/index.js",
-          "hash": "13814225552206366607"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/date-picker/date-picker.d.ts",
-          "hash": "14159272280460260433",
-          "deps": [
-            "npm:@mui/x-date-pickers@6.13.0",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/date-picker/date-picker.js",
-          "hash": "13555493855644081046",
-          "deps": [
-            "npm:react",
-            "npm:@mui/x-date-pickers@6.13.0",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/date-picker/index.d.ts",
-          "hash": "4893241316649986956"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/date-picker/index.js",
-          "hash": "4893241316649986956"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/dual-list-select/dual-list-select.d.ts",
-          "hash": "4074072365493280099",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:react",
-            "npm:@mui/material"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/dual-list-select/dual-list-select.js",
-          "hash": "1074224937088029041",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "npm:clsx",
-            "npm:@mui/icons-material",
-            "@data-driven-forms/common"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/dual-list-select/index.d.ts",
-          "hash": "13298381049402088098"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/dual-list-select/index.js",
-          "hash": "13298381049402088098"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/field-array/field-array.d.ts",
-          "hash": "16177095614115923841",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/field-array/field-array.js",
-          "hash": "11173138940079241381",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "@data-driven-forms/react-form-renderer",
-            "npm:lodash",
-            "npm:@mui/icons-material",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/field-array/index.d.ts",
-          "hash": "13121562265279688980"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/field-array/index.js",
-          "hash": "13121562265279688980"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/form-field-grid/form-field-grid.d.ts",
-          "hash": "9455670561704509067",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/form-field-grid/form-field-grid.js",
-          "hash": "2586629327481395444",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/form-field-grid/index.d.ts",
-          "hash": "5365044737761835380"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/form-field-grid/index.js",
-          "hash": "11300695564249764870"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/form-template/form-template.d.ts",
-          "hash": "12221410827875221660",
-          "deps": [
-            "@data-driven-forms/common"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/form-template/form-template.js",
-          "hash": "16955101395773910103",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "@data-driven-forms/common",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/form-template/index.d.ts",
-          "hash": "8750920176823683175"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/form-template/index.js",
-          "hash": "8750920176823683175"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/index.js",
-          "hash": "1173264560358748978"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/multiple-choice-list/index.d.ts",
-          "hash": "2216375218338181140"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/multiple-choice-list/index.js",
-          "hash": "2216375218338181140"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/multiple-choice-list/multiple-choice-list.d.ts",
-          "hash": "4934036689090102087",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/multiple-choice-list/multiple-choice-list.js",
-          "hash": "12945692013774665147",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "@data-driven-forms/common"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/plain-text/index.d.ts",
-          "hash": "16021381117540218700"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/plain-text/index.js",
-          "hash": "16021381117540218700"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/plain-text/plain-text.d.ts",
-          "hash": "13098307069238414021",
-          "deps": [
-            "npm:@mui/material",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/plain-text/plain-text.js",
-          "hash": "17686136326838674405",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/radio/index.d.ts",
-          "hash": "13712558995555471130"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/radio/index.js",
-          "hash": "13712558995555471130"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/radio/radio.d.ts",
-          "hash": "17153982946646859336",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/radio/radio.js",
-          "hash": "12576072942113072496",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/select/index.d.ts",
-          "hash": "6793093240155551236"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/select/index.js",
-          "hash": "6793093240155551236"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/select/select.d.ts",
-          "hash": "4477273702428250293",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/select/select.js",
-          "hash": "5720599912604675878",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/common",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material",
-            "npm:@mui/icons-material"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/slider/index.d.ts",
-          "hash": "7795391012015812125"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/slider/index.js",
-          "hash": "7795391012015812125"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/slider/slider.d.ts",
-          "hash": "3756979352703343932",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/slider/slider.js",
-          "hash": "12960381530209878097",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/sub-form/index.d.ts",
-          "hash": "8819833486284916423"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/sub-form/index.js",
-          "hash": "8819833486284916423"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/sub-form/sub-form.d.ts",
-          "hash": "6858039159235610311",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/sub-form/sub-form.js",
-          "hash": "12819364808830635934",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/switch/index.d.ts",
-          "hash": "7409927088227709588"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/switch/index.js",
-          "hash": "7409927088227709588"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/switch/switch.d.ts",
-          "hash": "11083785156583133168",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/switch/switch.js",
-          "hash": "17888118740421183444",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tabs/index.d.ts",
-          "hash": "2681608242303203182"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tabs/index.js",
-          "hash": "2681608242303203182"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tabs/tabs.d.ts",
-          "hash": "5089434999287950661",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tabs/tabs.js",
-          "hash": "151892089079467595",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tests/.eslintrc",
-          "hash": "7444157207569419272"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tests/dependencies.test.js",
-          "hash": "5972030152361698789",
-          "deps": [
-            "@data-driven-forms/react-renderer-demo"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tests/dual-list-select.test.js",
-          "hash": "15322153997704400062",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tests/field-array.test.js",
-          "hash": "12380526440565337039",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tests/form-fields.test.js",
-          "hash": "57474017072675896",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/x-date-pickers@6.13.0",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tests/form-template.test.js",
-          "hash": "16641186020060799358",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tests/helpers.test.js",
-          "hash": "658474789730509240"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tests/plain-text.test.js",
-          "hash": "12480271259522338367",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tests/select.test.js",
-          "hash": "7402583461506399151"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tests/subform.test.js",
-          "hash": "4094099629741644049",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tests/tabs.test.js",
-          "hash": "14986056721054367409",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/tests/wizard.test.js",
-          "hash": "11358692354010334906",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event",
-            "@data-driven-forms/react-form-renderer",
-            "@data-driven-forms/common"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/text-field/index.d.ts",
-          "hash": "17590483412186088451"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/text-field/index.js",
-          "hash": "17590483412186088451"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/text-field/text-field.d.ts",
-          "hash": "3762916517151296971",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/text-field/text-field.js",
-          "hash": "7987791751546018753",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/textarea/index.d.ts",
-          "hash": "11065686002439337874"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/textarea/index.js",
-          "hash": "11065686002439337874"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/textarea/textarea.d.ts",
-          "hash": "10875903382762758784",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/textarea/textarea.js",
-          "hash": "8835297196771984238",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/time-picker/index.d.ts",
-          "hash": "11258987623126642614"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/time-picker/index.js",
-          "hash": "11258987623126642614"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/time-picker/time-picker.d.ts",
-          "hash": "7777013996935843837",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/x-date-pickers@6.13.0",
-            "npm:react",
-            "npm:@mui/material"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/time-picker/time-picker.js",
-          "hash": "3613609989130360437",
-          "deps": [
-            "npm:react",
-            "npm:@mui/x-date-pickers@6.13.0",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@mui/material"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/validation-error/index.d.ts",
-          "hash": "17784809861330589719"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/validation-error/index.js",
-          "hash": "17784809861330589719"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/validation-error/validation-error.d.ts",
-          "hash": "5793441364078608581",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/validation-error/validation-error.js",
-          "hash": "12288459380664204936"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/wizard/index.d.ts",
-          "hash": "14162681675640197492"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/wizard/index.js",
-          "hash": "14162681675640197492"
-        },
-        {
-          "file": "packages/mui-component-mapper/src/wizard/step-buttons.js",
-          "hash": "17346756581508297044",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "npm:clsx",
-            "@data-driven-forms/common",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/wizard/wizard-nav.js",
-          "hash": "102517653788414889",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/wizard/wizard.d.ts",
-          "hash": "18382123561895510566",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/src/wizard/wizard.js",
-          "hash": "11631036295148129250",
-          "deps": [
-            "npm:react",
-            "npm:@mui/material",
-            "npm:clsx",
-            "@data-driven-forms/react-form-renderer",
-            "@data-driven-forms/common"
-          ]
-        },
-        {
-          "file": "packages/mui-component-mapper/tsconfig.json",
-          "hash": "18380652967635222846"
-        }
-      ],
-      "@data-driven-forms/common": [
-        {
-          "file": "packages/common/.gitignore",
-          "hash": "12394430947670143338"
-        },
-        {
-          "file": "packages/common/.npmignore",
-          "hash": "6686455742765848871"
-        },
-        {
-          "file": "packages/common/LICENSE",
-          "hash": "3491846103125092433"
-        },
-        {
-          "file": "packages/common/README.md",
-          "hash": "3313665848437733748"
-        },
-        {
-          "file": "packages/common/babel.config.js",
-          "hash": "10544089241712590534",
-          "deps": [
-            "npm:glob"
-          ]
-        },
-        {
-          "file": "packages/common/config/webpack.config.js",
-          "hash": "8065822296233641818",
-          "deps": [
-            "npm:html-webpack-plugin",
-            "npm:webpack"
-          ]
-        },
-        {
-          "file": "packages/common/package.json",
-          "hash": "12160775689484918181",
-          "deps": [
-            "npm:react",
-            "npm:react-dom",
-            "npm:clsx",
-            "npm:lodash"
-          ]
-        },
-        {
-          "file": "packages/common/project.json",
-          "hash": "4772460795950015047"
-        },
-        {
-          "file": "packages/common/src/dual-list-select/dual-list-select.d.ts",
-          "hash": "2785711407984577278",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/common/src/dual-list-select/dual-list-select.js",
-          "hash": "11042695450108826613",
-          "deps": [
-            "npm:react",
-            "npm:lodash",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/common/src/dual-list-select/index.d.ts",
-          "hash": "13298381049402088098"
-        },
-        {
-          "file": "packages/common/src/dual-list-select/index.js",
-          "hash": "6147529704735712870"
-        },
-        {
-          "file": "packages/common/src/dual-list-select/reducer.js",
-          "hash": "4539430976144561112"
-        },
-        {
-          "file": "packages/common/src/form-template/form-template.d.ts",
-          "hash": "17293333405305702966",
-          "deps": [
-            "@data-driven-forms/react-form-renderer",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/common/src/form-template/form-template.js",
-          "hash": "14411945623305411730",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/common/src/form-template/index.d.ts",
-          "hash": "8750920176823683175"
-        },
-        {
-          "file": "packages/common/src/form-template/index.js",
-          "hash": "8750920176823683175"
-        },
-        {
-          "file": "packages/common/src/hooks/index.d.ts",
-          "hash": "7258980411320079416"
-        },
-        {
-          "file": "packages/common/src/hooks/index.js",
-          "hash": "7258980411320079416"
-        },
-        {
-          "file": "packages/common/src/hooks/use-is-mounted.d.ts",
-          "hash": "12448355402156350926"
-        },
-        {
-          "file": "packages/common/src/hooks/use-is-mounted.js",
-          "hash": "9429863951617240415",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/common/src/index.js",
-          "hash": "13250300763542645350"
-        },
-        {
-          "file": "packages/common/src/multiple-choice-list/index.d.ts",
-          "hash": "2216375218338181140"
-        },
-        {
-          "file": "packages/common/src/multiple-choice-list/index.js",
-          "hash": "2216375218338181140"
-        },
-        {
-          "file": "packages/common/src/multiple-choice-list/multiple-choice-list.d.ts",
-          "hash": "9823218599848844468",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/common/src/multiple-choice-list/multiple-choice-list.js",
-          "hash": "17859339355533178221",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/common/src/select/deep-equal.d.ts",
-          "hash": "14324863947883840060"
-        },
-        {
-          "file": "packages/common/src/select/deep-equal.js",
-          "hash": "750483895977000454"
-        },
-        {
-          "file": "packages/common/src/select/flat-options.d.ts",
-          "hash": "6591929951016366256",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/common/src/select/flat-options.js",
-          "hash": "391570158582709674"
-        },
-        {
-          "file": "packages/common/src/select/index.d.ts",
-          "hash": "3557882683538379869"
-        },
-        {
-          "file": "packages/common/src/select/index.js",
-          "hash": "13130287740083255981"
-        },
-        {
-          "file": "packages/common/src/select/parse-internal-value.d.ts",
-          "hash": "4038355381668017376"
-        },
-        {
-          "file": "packages/common/src/select/parse-internal-value.js",
-          "hash": "9101610838778453128"
-        },
-        {
-          "file": "packages/common/src/select/select.d.ts",
-          "hash": "6907642799026823006",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/common/src/select/select.js",
-          "hash": "18435078238133827214",
-          "deps": [
-            "npm:react",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "packages/common/src/tests/dual-list-select/dual-list-select.test.js",
-          "hash": "18378715738381462654",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/common/src/tests/form-template/form-template.test.js",
-          "hash": "10955219257693429632",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event"
-          ]
-        },
-        {
-          "file": "packages/common/src/tests/hooks/use-is-mounted.test.js",
-          "hash": "1149031462822173728",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "packages/common/src/tests/multiple-choice-list/multiple-choice-list.test.js",
-          "hash": "16888650512475140530",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event"
-          ]
-        },
-        {
-          "file": "packages/common/src/tests/select/deep-equal.test.js",
-          "hash": "859899598419048658",
-          "deps": [
-            "npm:lodash"
-          ]
-        },
-        {
-          "file": "packages/common/src/tests/select/parse-internal-value.test.js",
-          "hash": "13816546285297810414"
-        },
-        {
-          "file": "packages/common/src/tests/select/select.test.js",
-          "hash": "4927760775019419566",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event",
-            "npm:lodash",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/common/src/tests/utils.test.js",
-          "hash": "3459752528127936454"
-        },
-        {
-          "file": "packages/common/src/tests/wizard/enter-handler.test.js",
-          "hash": "18400744866200000860"
-        },
-        {
-          "file": "packages/common/src/tests/wizard/reducer.test.js",
-          "hash": "12407131288325297111"
-        },
-        {
-          "file": "packages/common/src/tests/wizard/select-next.test.js",
-          "hash": "14602101369627984948"
-        },
-        {
-          "file": "packages/common/src/tests/wizard/wizard.test.js",
-          "hash": "7639800678028902971",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "npm:@testing-library/user-event",
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/common/src/use-select/index.d.ts",
-          "hash": "491063097821411877"
-        },
-        {
-          "file": "packages/common/src/use-select/index.js",
-          "hash": "491063097821411877"
-        },
-        {
-          "file": "packages/common/src/use-select/reducer.js",
-          "hash": "3126254438638361712"
-        },
-        {
-          "file": "packages/common/src/use-select/use-select.d.ts",
-          "hash": "9433322611836671547",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/common/src/use-select/use-select.js",
-          "hash": "4614722343568422702",
-          "deps": [
-            "npm:react",
-            "npm:lodash"
-          ]
-        },
-        {
-          "file": "packages/common/src/utils/fn-to-string.d.ts",
-          "hash": "11335541168041465316"
-        },
-        {
-          "file": "packages/common/src/utils/fn-to-string.js",
-          "hash": "1420833366026088335"
-        },
-        {
-          "file": "packages/common/src/utils/index.d.ts",
-          "hash": "13722717907295718133"
-        },
-        {
-          "file": "packages/common/src/utils/index.js",
-          "hash": "13722717907295718133"
-        },
-        {
-          "file": "packages/common/src/utils/valid-text-fields.d.ts",
-          "hash": "9532357000025165915"
-        },
-        {
-          "file": "packages/common/src/utils/valid-text-fields.js",
-          "hash": "14170456155362606728"
-        },
-        {
-          "file": "packages/common/src/wizard/consts.d.ts",
-          "hash": "10884678768410334288"
-        },
-        {
-          "file": "packages/common/src/wizard/consts.js",
-          "hash": "10884678768410334288"
-        },
-        {
-          "file": "packages/common/src/wizard/enter-handler.js",
-          "hash": "8164291625843473533"
-        },
-        {
-          "file": "packages/common/src/wizard/index.d.ts",
-          "hash": "9795883688365862611"
-        },
-        {
-          "file": "packages/common/src/wizard/index.js",
-          "hash": "9795883688365862611"
-        },
-        {
-          "file": "packages/common/src/wizard/reducer.js",
-          "hash": "1724007158246888230",
-          "deps": [
-            "npm:lodash"
-          ]
-        },
-        {
-          "file": "packages/common/src/wizard/select-next.d.ts",
-          "hash": "16579584322482936616",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/common/src/wizard/select-next.js",
-          "hash": "166727464736462285",
-          "deps": [
-            "npm:lodash"
-          ]
-        },
-        {
-          "file": "packages/common/src/wizard/wizard.d.ts",
-          "hash": "15992796193370122624",
-          "deps": [
-            "@data-driven-forms/react-form-renderer"
-          ]
-        },
-        {
-          "file": "packages/common/src/wizard/wizard.js",
-          "hash": "17456371161554718088",
-          "deps": [
-            "npm:react",
-            "@data-driven-forms/react-form-renderer",
-            "npm:lodash"
-          ]
-        },
-        {
-          "file": "packages/common/tsconfig.json",
           "hash": "18380652967635222846"
         }
       ]

@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx run @data-driven-forms/suir-component-mapper:test",
-    "startTime": "2025-10-27T10:03:57.665Z",
-    "endTime": "2025-10-27T10:03:57.701Z",
+    "command": "nx run @data-driven-forms/suir-component-mapper:test --coverage",
+    "startTime": "2025-10-27T11:12:33.648Z",
+    "endTime": "2025-10-27T11:12:33.686Z",
     "inner": false
   },
   "tasks": [
@@ -10,11 +10,11 @@
       "taskId": "@data-driven-forms/suir-component-mapper:test",
       "target": "test",
       "projectName": "@data-driven-forms/suir-component-mapper",
-      "hash": "1297337073531190848",
-      "startTime": "2025-10-27T10:03:57.699Z",
-      "endTime": "2025-10-27T10:03:57.699Z",
+      "hash": "12727728487980562239",
+      "startTime": "2025-10-27T11:12:33.677Z",
+      "endTime": "2025-10-27T11:12:33.685Z",
       "params": "",
-      "cacheStatus": "local-cache-hit",
+      "cacheStatus": "cache-miss",
       "status": 0
     }
   ]
