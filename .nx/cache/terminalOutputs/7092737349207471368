@@ -1,0 +1,835 @@
+> yarn test
+
+[2K[1G[1myarn run v1.22.22[22m
+[2K[1G[2m$ yarn --cwd ../.. test packages/carbon-component-mapper[22m
+[2K[1G[2m$ jest --coverage packages/carbon-component-mapper[22m
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 58 |[39m     }[33m;[39m[0m[22m
+[2m    [0m [90m 59 |[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 60 |[39m     render([33m<[39m[33mFormRenderer[39m {[33m...[39minitialProps} [33m/[39m[33m>[39m)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 61 |[39m[0m[22m
+[2m    [0m [90m 62 |[39m     expect(screen[33m.[39mgetByText(label))[33m.[39mtoBeInTheDocument()[33m;[39m[0m[22m
+[2m    [0m [90m 63 |[39m     expect(screen[33m.[39mgetByText(noItemsMessage))[33m.[39mtoBeInTheDocument()[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat _callee$ ([22m[2m[0m[36mpackages/carbon-component-mapper/src/tests/field-array.test.js[39m[0m[2m:60:5)[22m[2m[22m
+[2m      [2mat tryCatch ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:63:40)[22m[2m[22m
+[2m      [2mat Generator.invoke [as _invoke] ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:294:22)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 38 |[39m     }[33m;[39m[0m[22m
+[2m    [0m [90m 39 |[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 40 |[39m     render([33m<[39m[33mFormRenderer[39m schema[33m=[39m{schema} {[33m...[39minitialProps} [33m/[39m[33m>[39m)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 41 |[39m[0m[22m
+[2m    [0m [90m 42 |[39m     [36mawait[39m userEvent[33m.[39mtype(screen[33m.[39mgetByPlaceholderText([32m'hh:mm'[39m)[33m,[39m [32m'00:35'[39m)[33m;[39m[0m[22m
+[2m    [0m [90m 43 |[39m     [36mawait[39m userEvent[33m.[39mselectOptions(screen[33m.[39mgetByLabelText([32m'open list of options'[39m[33m,[39m { selector[33m:[39m [32m'select'[39m })[33m,[39m screen[33m.[39mgetByText([32m'PM'[39m))[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat _callee$ ([22m[2m[0m[36mpackages/carbon-component-mapper/src/tests/time-picker-string.test.js[39m[0m[2m:40:5)[22m[2m[22m
+[2m      [2mat tryCatch ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:63:40)[22m[2m[22m
+[2m      [2mat Generator.invoke [as _invoke] ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:294:22)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 33 |[39m     }[33m;[39m[0m[22m
+[2m    [0m [90m 34 |[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 35 |[39m     render([33m<[39m[33mFormRenderer[39m schema[33m=[39m{schema} {[33m...[39minitialProps} [33m/[39m[33m>[39m)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 36 |[39m[0m[22m
+[2m    [0m [90m 37 |[39m     fireEvent[33m.[39mfocusIn(screen[33m.[39mgetByPlaceholderText([32m'hh:mm'[39m))[33m;[39m[0m[22m
+[2m    [0m [90m 38 |[39m     fireEvent[33m.[39mchange(screen[33m.[39mgetByPlaceholderText([32m'hh:mm'[39m)[33m,[39m { target[33m:[39m { value[33m:[39m [32m'00:35'[39m } })[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat _callee$ ([22m[2m[0m[36mpackages/carbon-component-mapper/src/tests/time-picker.test.js[39m[0m[2m:35:5)[22m[2m[22m
+[2m      [2mat tryCatch ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:63:40)[22m[2m[22m
+[2m      [2mat Generator.invoke [as _invoke] ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:294:22)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 24 |[39m     }[33m;[39m[0m[22m
+[2m    [0m [90m 25 |[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 26 |[39m     render([0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 27 |[39m       [33m<[39m[33mFormRenderer[39m onSubmit[33m=[39m{jest[33m.[39mfn()} [33mFormTemplate[39m[33m=[39m{(props) [33m=>[39m [33m<[39m[33mFormTemplate[39m {[33m...[39mprops} [35m/>} schema={schema} componentMapper={componentMapper} /[39m[33m>[39m[0m[22m
+[2m    [0m [90m 28 |[39m     )[33m;[39m[0m[22m
+[2m    [0m [90m 29 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mpackages/carbon-component-mapper/src/tests/select.test.js[39m[0m[2m:26:5)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 55 |[39m[0m[22m
+[2m    [0m [90m 56 |[39m   it([32m'renders correctly'[39m[33m,[39m () [33m=>[39m {[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 57 |[39m     render([33m<[39m[33mFormRenderer[39m {[33m...[39minitialProps} [33m/[39m[33m>[39m)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 58 |[39m[0m[22m
+[2m    [0m [90m 59 |[39m     expect(screen[33m.[39mgetByText([32m'cats'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m[0m[22m
+[2m    [0m [90m 60 |[39m     expect(screen[33m.[39mgetByText([32m'cats_1'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mpackages/carbon-component-mapper/src/tests/dual-list-select.test.js[39m[0m[2m:57:5)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 73 |[39m[0m[22m
+[2m    [0m [90m 74 |[39m         it([32m'renders correctly'[39m[33m,[39m () [33m=>[39m {[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 75 |[39m           render([33m<[39m[33mRendererWrapper[39m schema[33m=[39m{schema} [33m/[39m[33m>[39m)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m           [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 76 |[39m[0m[22m
+[2m    [0m [90m 77 |[39m           [36mif[39m (component [33m===[39m componentTypes[33m.[39m[33mRADIO[39m) {[0m[22m
+[2m    [0m [90m 78 |[39m             options[33m.[39mforEach((opt) [33m=>[39m {[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mpackages/carbon-component-mapper/src/tests/components.test.js[39m[0m[2m:75:11)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 63 |[39m[0m[22m
+[2m    [0m [90m 64 |[39m   it([32m'simple next and back'[39m[33m,[39m [36masync[39m () [33m=>[39m {[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 65 |[39m     render([33m<[39m[33mFormRenderer[39m {[33m...[39minitialProps} [33m/[39m[33m>[39m)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 66 |[39m[0m[22m
+[2m    [0m [90m 67 |[39m     expect(screen[33m.[39mgetByText([32m'First step'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m[0m[22m
+[2m    [0m [90m 68 |[39m     expect(screen[33m.[39mgetByText([32m'Summary'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat _callee$ ([22m[2m[0m[36mpackages/carbon-component-mapper/src/tests/wizard.test.js[39m[0m[2m:65:5)[22m[2m[22m
+[2m      [2mat tryCatch ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:63:40)[22m[2m[22m
+[2m      [2mat Generator.invoke [as _invoke] ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:294:22)[22m[2m[22m
+
+  [2m[33mconsole.warn[39m[22m
+[33m    Warning: The Filterable field has been deprecated on the MultiSelect object. Please import and use FilterableMultiSelect directly.[39m
+[2m[22m
+[2m    [0m [90m 51 |[39m   [33m...[39mrest[0m[22m
+[2m    [0m [90m 52 |[39m }) [33m=>[39m ([0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 53 |[39m   [33m<[39m[33mMultiSelect[39m[33m.[39m[33mFilterable[39m[0m[22m
+[2m    [0m [90m    |[39m                [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 54 |[39m     disabled[33m=[39m{isDisabled}[0m[22m
+[2m    [0m [90m 55 |[39m     {[33m...[39mrest}[0m[22m
+[2m    [0m [90m 56 |[39m     placeholder[33m=[39m{carbonLabel [33m||[39m placeholder}[0m[22m
+[2m[22m
+[2m      [2mat warning ([22m[2mnode_modules/carbon-components-react/lib/internal/warning.js[2m:30:13)[22m[2m[22m
+[2m      [2mat Object.get [as Filterable] ([22m[2mnode_modules/carbon-components-react/lib/internal/deprecateFieldOnObject.js[2m:23:70)[22m[2m[22m
+[2m      [2mat ClearedMultiSelectFilterable ([22m[2mpackages/carbon-component-mapper/src/select/select.js[2m:53:16)[22m[2m[22m
+[2m      [2mat Object.react-stack-bottom-frame ([22m[2mnode_modules/react-dom/cjs/react-dom-client.development.js[2m:23863:20)[22m[2m[22m
+[2m      [2mat renderWithHooks ([22m[2mnode_modules/react-dom/cjs/react-dom-client.development.js[2m:5529:22)[22m[2m[22m
+[2m      [2mat updateFunctionComponent ([22m[2mnode_modules/react-dom/cjs/react-dom-client.development.js[2m:8897:19)[22m[2m[22m
+[2m      [2mat beginWork ([22m[2mnode_modules/react-dom/cjs/react-dom-client.development.js[2m:10522:18)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/carbon-component-mapper/src/tests/[22m[1mselect.test.js[22m ([0m[1m[41m5.292 s[49m[22m[0m)
+  <Select />
+    [32m✓[39m [2mrenders select (134 ms)[22m
+    [32m✓[39m [2mrenders select with categories (10 ms)[22m
+    [32m✓[39m [2mrenders select isSearchable (93 ms)[22m
+    [32m✓[39m [2mrenders select isClearable (29 ms)[22m
+    [32m✓[39m [2mshould render initial value label text when only value is passed as initial value (54 ms)[22m
+    [32m✓[39m [2mshould render initial value label text when only value is passed as initial value with simpleValue option (68 ms)[22m
+    [32m✓[39m [2mrenders multi select (7 ms)[22m
+    [32m✓[39m [2mrenders multi select - isSearchable (15 ms)[22m
+    [32m✓[39m [2mrenders multi select - isClearable (67 ms)[22m
+    getMultiValue
+      [32m✓[39m [2mundefined[22m
+      [32m✓[39m [2marray[22m
+      [32m✓[39m [2msingle[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/carbon-component-mapper/src/tests/[22m[1mtime-picker-string.test.js[22m ([0m[1m[41m5.643 s[49m[22m[0m)
+  TimePicker<String>
+    [32m✓[39m [2mchange AM/PM (441 ms)[22m
+    [32m✓[39m [2mdoes not handle invalid date (118 ms)[22m
+    [32m✓[39m [2mhandle change (142 ms)[22m
+    [32m✓[39m [2mchange timezone (105 ms)[22m
+    [32m✓[39m [2mhandles initial value (42 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/carbon-component-mapper/src/tests/[22m[1mtime-picker.test.js[22m ([0m[1m[41m5.6 s[49m[22m[0m)
+  TimePicker
+    [32m✓[39m [2mchange AM/PM (411 ms)[22m
+    [32m✓[39m [2mhandle invalid date (127 ms)[22m
+    [32m✓[39m [2mhandle change (148 ms)[22m
+    [32m✓[39m [2mchange timezone (103 ms)[22m
+    [32m✓[39m [2mhandles initial value (85 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/carbon-component-mapper/src/tests/[22m[1mfield-array.test.js[22m ([0m[1m[41m5.753 s[49m[22m[0m)
+  <FieldArray/>
+    [32m✓[39m [2mrenders with label and description + custom labels (327 ms)[22m
+    [32m✓[39m [2mallow to add/remove named fields (197 ms)[22m
+    [32m✓[39m [2mallow to add/remove unnamed (array) fields (209 ms)[22m
+    [32m✓[39m [2mallow to add/remove within minItems/maxItems range (281 ms)[22m
+    [32m✓[39m [2mshows error (52 ms)[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 30 |[39m     }[33m;[39m[0m[22m
+[2m    [0m [90m 31 |[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 32 |[39m     render([0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 33 |[39m       [33m<[39m[33mFormRenderer[39m onSubmit[33m=[39m{jest[33m.[39mfn()} [33mFormTemplate[39m[33m=[39m{(props) [33m=>[39m [33m<[39m[33mFormTemplate[39m {[33m...[39mprops} [35m/>} schema={schema} componentMapper={componentMapper} /[39m[33m>[39m[0m[22m
+[2m    [0m [90m 34 |[39m     )[33m;[39m[0m[22m
+[2m    [0m [90m 35 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mpackages/carbon-component-mapper/src/tests/checkbox.test.js[39m[0m[2m:32:5)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 23 |[39m     }[33m;[39m[0m[22m
+[2m    [0m [90m 24 |[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 25 |[39m     render([0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 26 |[39m       [33m<[39m[33mFormRenderer[39m[0m[22m
+[2m    [0m [90m 27 |[39m         onSubmit[33m=[39m{(values) [33m=>[39m spy(values)}[0m[22m
+[2m    [0m [90m 28 |[39m         [33mFormTemplate[39m[33m=[39m{(props) [33m=>[39m [33m<[39m[33mFormTemplate[39m {[33m...[39mprops} [33m/[39m[33m>[39m}[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat _callee$ ([22m[2m[0m[36mpackages/carbon-component-mapper/src/tests/switch.test.js[39m[0m[2m:25:5)[22m[2m[22m
+[2m      [2mat tryCatch ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:63:40)[22m[2m[22m
+[2m      [2mat Generator.invoke [as _invoke] ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:294:22)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 30 |[39m     }[33m;[39m[0m[22m
+[2m    [0m [90m 31 |[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 32 |[39m     render([0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 33 |[39m       [33m<[39m[33mFormRenderer[39m onSubmit[33m=[39m{jest[33m.[39mfn()} [33mFormTemplate[39m[33m=[39m{(props) [33m=>[39m [33m<[39m[33mFormTemplate[39m {[33m...[39mprops} [35m/>} schema={schema} componentMapper={componentMapper} /[39m[33m>[39m[0m[22m
+[2m    [0m [90m 34 |[39m     )[33m;[39m[0m[22m
+[2m    [0m [90m 35 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mpackages/carbon-component-mapper/src/tests/tabs.test.js[39m[0m[2m:32:5)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 29 |[39m     }[33m;[39m[0m[22m
+[2m    [0m [90m 30 |[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 31 |[39m     render([0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 32 |[39m       [33m<[39m[33mFormRenderer[39m[0m[22m
+[2m    [0m [90m 33 |[39m         onSubmit[33m=[39m{(values) [33m=>[39m submitSpy(values)}[0m[22m
+[2m    [0m [90m 34 |[39m         [33mFormTemplate[39m[33m=[39m{(props) [33m=>[39m [33m<[39m[33mFormTemplate[39m {[33m...[39mprops} [33m/[39m[33m>[39m}[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mpackages/carbon-component-mapper/src/tests/text-field.test.js[39m[0m[2m:31:5)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/carbon-component-mapper/src/tests/[22m[1mcheckbox.test.js[22m
+  <Checkbox />
+    [32m✓[39m [2mrenders multiple checkbox (12 ms)[22m
+    [32m✓[39m [2mselects item in multiple checkbox (434 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/carbon-component-mapper/src/tests/[22m[1mswitch.test.js[22m
+  <Switch />
+    [32m✓[39m [2minitialValue works (246 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/carbon-component-mapper/src/tests/[22m[1mtabs.test.js[22m
+  <Tabs />
+    [32m✓[39m [2mrenders correctly (70 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/carbon-component-mapper/src/tests/[22m[1mtext-field.test.js[22m
+  <TextInput and NumberInput />
+    [32m✓[39m [2mrenders NumberInput (62 ms)[22m
+    [32m✓[39m [2mNumberInput - click on increment button (158 ms)[22m
+    [32m✓[39m [2mNumberInput - click on decrement button  (48 ms)[22m
+    [32m✓[39m [2mrenders TextInput (7 ms)[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 25 |[39m     }[33m;[39m[0m[22m
+[2m    [0m [90m 26 |[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 27 |[39m     render([0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 28 |[39m       [33m<[39m[33mFormRenderer[39m onSubmit[33m=[39m{jest[33m.[39mfn()} [33mFormTemplate[39m[33m=[39m{(props) [33m=>[39m [33m<[39m[33mFormTemplate[39m {[33m...[39mprops} [35m/>} schema={schema} componentMapper={componentMapper} /[39m[33m>[39m[0m[22m
+[2m    [0m [90m 29 |[39m     )[33m;[39m[0m[22m
+[2m    [0m [90m 30 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mpackages/carbon-component-mapper/src/tests/plain-text.test.js[39m[0m[2m:27:5)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/carbon-component-mapper/src/tests/[22m[1mplain-text.test.js[22m
+  <PlainText />
+    [32m✓[39m [2mrenders (35 ms)[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 26 |[39m     }[33m;[39m[0m[22m
+[2m    [0m [90m 27 |[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 28 |[39m     render([0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 29 |[39m       [33m<[39m[33mFormRenderer[39m onSubmit[33m=[39m{jest[33m.[39mfn()} [33mFormTemplate[39m[33m=[39m{(props) [33m=>[39m [33m<[39m[33mFormTemplate[39m {[33m...[39mprops} [35m/>} schema={schema} componentMapper={componentMapper} /[39m[33m>[39m[0m[22m
+[2m    [0m [90m 30 |[39m     )[33m;[39m[0m[22m
+[2m    [0m [90m 31 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mpackages/carbon-component-mapper/src/tests/subform.test.js[39m[0m[2m:28:5)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/carbon-component-mapper/src/tests/[22m[1msubform.test.js[22m
+  <SubForm />
+    [32m✓[39m [2mrenders correctly (20 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/carbon-component-mapper/src/tests/[22m[1mwizard.test.js[22m ([0m[1m[41m7.1 s[49m[22m[0m)
+  wizard
+    [32m✓[39m [2msimple next and back (666 ms)[22m
+    [32m✓[39m [2msimple next and back - vertical  (376 ms)[22m
+    [32m✓[39m [2mconditional next (303 ms)[22m
+    [32m✓[39m [2mconditional submit (504 ms)[22m
+    [32m✓[39m [2mconditional submit step (275 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/carbon-component-mapper/src/tests/[22m[1mcomponents.test.js[22m ([0m[1m[41m8.373 s[49m[22m[0m)
+  component tests
+    components
+      Component type: text-field
+        [32m✓[39m [2mrenders correctly (156 ms)[22m
+        [32m✓[39m [2mrenders with error (42 ms)[22m
+        [32m✓[39m [2mrenders with warning (143 ms)[22m
+        [32m✓[39m [2mrenders with helperText (4 ms)[22m
+        [32m✓[39m [2mrenders with description and helperText (10 ms)[22m
+        [32m✓[39m [2mrenders with error and helperText (47 ms)[22m
+        [32m✓[39m [2mrenders with description (152 ms)[22m
+        [32m✓[39m [2mrenders isDisabled (23 ms)[22m
+        [32m✓[39m [2mrenders isRequired (5 ms)[22m
+        [32m✓[39m [2mrenders with submitError (22 ms)[22m
+      Component type: textarea
+        [32m✓[39m [2mrenders correctly (9 ms)[22m
+        [32m✓[39m [2mrenders with error (25 ms)[22m
+        [32m✓[39m [2mrenders with warning (4 ms)[22m
+        [32m✓[39m [2mrenders with helperText (3 ms)[22m
+        [32m✓[39m [2mrenders with description and helperText (5 ms)[22m
+        [32m✓[39m [2mrenders with error and helperText (73 ms)[22m
+        [32m✓[39m [2mrenders with description (13 ms)[22m
+        [32m✓[39m [2mrenders isDisabled (2 ms)[22m
+        [32m✓[39m [2mrenders isRequired (6 ms)[22m
+        [32m✓[39m [2mrenders with submitError (24 ms)[22m
+      Component type: radio
+        [32m✓[39m [2mrenders correctly (9 ms)[22m
+        [32m✓[39m [2mrenders with error (78 ms)[22m
+        [32m✓[39m [2mrenders with warning (11 ms)[22m
+        [32m✓[39m [2mrenders with helperText (32 ms)[22m
+        [32m✓[39m [2mrenders with description and helperText (62 ms)[22m
+        [32m✓[39m [2mrenders with error and helperText (62 ms)[22m
+        [32m✓[39m [2mrenders with description (20 ms)[22m
+        [32m✓[39m [2mrenders isDisabled (6 ms)[22m
+        [32m✓[39m [2mrenders isRequired (3 ms)[22m
+        [32m✓[39m [2mrenders with submitError (60 ms)[22m
+      Component type: checkbox
+        [32m✓[39m [2mrenders correctly (4 ms)[22m
+        [32m✓[39m [2mrenders with error (59 ms)[22m
+        [32m✓[39m [2mrenders with warning (4 ms)[22m
+        [32m✓[39m [2mrenders with helperText (3 ms)[22m
+        [32m✓[39m [2mrenders with description and helperText (5 ms)[22m
+        [32m✓[39m [2mrenders with error and helperText (57 ms)[22m
+        [32m✓[39m [2mrenders with description (33 ms)[22m
+        [32m✓[39m [2mrenders isDisabled (7 ms)[22m
+        [32m✓[39m [2mrenders isRequired (10 ms)[22m
+        [32m✓[39m [2mrenders with submitError (17 ms)[22m
+      Component type: date-picker
+        [32m✓[39m [2mrenders correctly (100 ms)[22m
+        [32m✓[39m [2mrenders with error (155 ms)[22m
+        [32m✓[39m [2mrenders with warning (24 ms)[22m
+        [32m✓[39m [2mrenders with helperText (51 ms)[22m
+        [32m✓[39m [2mrenders with description and helperText (36 ms)[22m
+        [32m✓[39m [2mrenders with error and helperText (74 ms)[22m
+        [32m✓[39m [2mrenders with description (39 ms)[22m
+        [32m✓[39m [2mrenders isDisabled (47 ms)[22m
+        [32m✓[39m [2mrenders isRequired (14 ms)[22m
+        [32m✓[39m [2mrenders with submitError (27 ms)[22m
+      Component type: time-picker
+        [32m✓[39m [2mrenders correctly (8 ms)[22m
+        [32m✓[39m [2mrenders with error (39 ms)[22m
+        [32m✓[39m [2mrenders with warning (5 ms)[22m
+        [32m✓[39m [2mrenders with helperText (3 ms)[22m
+        [32m✓[39m [2mrenders with description and helperText (8 ms)[22m
+        [32m✓[39m [2mrenders with error and helperText (89 ms)[22m
+        [32m✓[39m [2mrenders with description (81 ms)[22m
+        [32m✓[39m [2mrenders isDisabled (21 ms)[22m
+        [32m✓[39m [2mrenders isRequired (2 ms)[22m
+        [32m✓[39m [2mrenders with submitError (34 ms)[22m
+      Component type: switch
+        [32m✓[39m [2mrenders correctly (94 ms)[22m
+        [32m✓[39m [2mrenders with error (68 ms)[22m
+        [32m✓[39m [2mrenders with warning (14 ms)[22m
+        [32m✓[39m [2mrenders with helperText (3 ms)[22m
+        [32m✓[39m [2mrenders with description and helperText (11 ms)[22m
+        [32m✓[39m [2mrenders with error and helperText (21 ms)[22m
+        [32m✓[39m [2mrenders with description (17 ms)[22m
+        [32m✓[39m [2mrenders isDisabled (29 ms)[22m
+        [32m✓[39m [2mrenders isRequired (6 ms)[22m
+        [32m✓[39m [2mrenders with submitError (63 ms)[22m
+      Component type: select
+        [32m✓[39m [2mrenders correctly (15 ms)[22m
+        [32m✓[39m [2mrenders with error (51 ms)[22m
+        [32m✓[39m [2mrenders with warning (21 ms)[22m
+        [32m✓[39m [2mrenders with helperText (14 ms)[22m
+        [32m✓[39m [2mrenders with description and helperText (12 ms)[22m
+        [32m✓[39m [2mrenders with error and helperText (49 ms)[22m
+        [32m✓[39m [2mrenders with description (16 ms)[22m
+        [32m✓[39m [2mrenders isDisabled (6 ms)[22m
+        [32m✓[39m [2mrenders isRequired (5 ms)[22m
+        [32m✓[39m [2mrenders with submitError (53 ms)[22m
+      Component type: slider
+        [32m✓[39m [2mrenders correctly (6 ms)[22m
+        [32m✓[39m [2mrenders with error (22 ms)[22m
+        [32m✓[39m [2mrenders with warning (10 ms)[22m
+        [32m✓[39m [2mrenders with helperText (12 ms)[22m
+        [32m✓[39m [2mrenders with description and helperText (5 ms)[22m
+        [32m✓[39m [2mrenders with error and helperText (60 ms)[22m
+        [32m✓[39m [2mrenders with description (43 ms)[22m
+        [32m✓[39m [2mrenders isDisabled (18 ms)[22m
+        [32m✓[39m [2mrenders isRequired (26 ms)[22m
+        [32m✓[39m [2mrenders with submitError (76 ms)[22m
+      Component type: text-field-number
+        [32m✓[39m [2mrenders correctly (22 ms)[22m
+        [32m✓[39m [2mrenders with error (130 ms)[22m
+        [32m✓[39m [2mrenders with description (78 ms)[22m
+        [32m✓[39m [2mrenders isDisabled (2 ms)[22m
+        [32m✓[39m [2mrenders isRequired (6 ms)[22m
+        [32m✓[39m [2mrenders with submitError (57 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/carbon-component-mapper/src/tests/[22m[1mdual-list-select.test.js[22m ([0m[1m[41m8.775 s[49m[22m[0m)
+  DualListSelect
+    [32m✓[39m [2mrenders correctly (207 ms)[22m
+    [32m✓[39m [2mswitch left option (425 ms)[22m
+    [32m✓[39m [2mswitch left option with holding ctrl (241 ms)[22m
+    [32m✓[39m [2mswitch left option with holding shift (220 ms)[22m
+    [32m✓[39m [2mswitch left option with holding and removing by ctrl (555 ms)[22m
+    [32m✓[39m [2mswitch right option (149 ms)[22m
+    [32m✓[39m [2mswitch all to right (69 ms)[22m
+    [32m✓[39m [2mswitch all to left (95 ms)[22m
+    [32m✓[39m [2mfilters options (221 ms)[22m
+    [32m✓[39m [2mfilters value (266 ms)[22m
+    [32m✓[39m [2msort options (327 ms)[22m
+    [32m✓[39m [2msort value (601 ms)[22m
+    filtered options
+      [32m✓[39m [2mswitch all visible to right (270 ms)[22m
+    filtered value
+      [32m✓[39m [2mswitch all visible to left (206 ms)[22m
+
+---------------------------------------------------|---------|----------|---------|---------|-------------------
+File                                               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------------------------------|---------|----------|---------|---------|-------------------
+[31;1mAll files                                         [0m | [31;1m    9.6[0m | [31;1m   10.08[0m | [31;1m  10.53[0m | [31;1m   9.62[0m | [31;1m                 [0m 
+[31;1m ant-component-mapper/src/checkbox                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  checkbox.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-39             [0m 
+[31;1m ant-component-mapper/src/component-mapper        [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  component-mapper.js                             [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m19-36            [0m 
+[31;1m ant-component-mapper/src/date-picker             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  date-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-12             [0m 
+[31;1m ant-component-mapper/src/dual-list-select        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  dual-list-select.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-38             [0m 
+[31;1m ant-component-mapper/src/field-array             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  field-array.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-201            [0m 
+[31;1m ant-component-mapper/src/form-group              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  form-group.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-11             [0m 
+[31;1m ant-component-mapper/src/form-template           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  form-template.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-38             [0m 
+[31;1m ant-component-mapper/src/is-required             [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  is-required.js                                  [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-6              [0m 
+[31;1m ant-component-mapper/src/multiple-choice-list    [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  multiple-choice-list.js                         [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-28             [0m 
+[31;1m ant-component-mapper/src/plain-text              [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  plain-text.js                                   [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-9              [0m 
+[31;1m ant-component-mapper/src/radio                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  radio.js                                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-43             [0m 
+[31;1m ant-component-mapper/src/select                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  select.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-62             [0m 
+[31;1m ant-component-mapper/src/slider                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  slider.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-28             [0m 
+[31;1m ant-component-mapper/src/sub-form                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  sub-form.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-26             [0m 
+[31;1m ant-component-mapper/src/switch                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  switch.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-27             [0m 
+[31;1m ant-component-mapper/src/tabs                    [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  tabs.js                                         [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-13             [0m 
+[31;1m ant-component-mapper/src/text-field              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  text-field.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-11             [0m 
+[31;1m ant-component-mapper/src/textarea                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  textarea.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-13             [0m 
+[31;1m ant-component-mapper/src/time-picker             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  time-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-24             [0m 
+[31;1m ant-component-mapper/src/validation-error        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  validation-error.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-6              [0m 
+[31;1m ant-component-mapper/src/wizard                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  step-buttons.js                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-45             [0m 
+[31;1m  wizard-step.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-12             [0m 
+[31;1m  wizard.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-63             [0m 
+[31;1m blueprint-component-mapper/src/blueprint-context [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  blueprint-context.js                            [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m3                [0m 
+[31;1m blueprint-component-mapper/src/checkbox          [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  checkbox.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m10-41            [0m 
+[31;1m blueprint-component-mapper/src/component-mapper  [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  component-mapper.js                             [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m18-38            [0m 
+[31;1m blueprint-component-mapper/src/date-picker       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  date-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-24             [0m 
+[31;1m blueprint-component-mapper/src/dual-list-select  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  dual-list-select.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m10-208           [0m 
+[31;1m blueprint-component-mapper/src/field-array       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  field-array.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m11-111           [0m 
+[31;1m blueprint-component-mapper/src/form-group        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  form-group.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-51             [0m 
+[31;1m blueprint-component-mapper/src/form-template     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  form-template.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-45             [0m 
+[31;1m blueprint-component-mapper/src/plain-text        [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  plain-text.js                                   [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-6              [0m 
+[31;1m blueprint-component-mapper/src/props-catcher     [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  props-catcher.js                                [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1                [0m 
+[31;1m blueprint-component-mapper/src/radio             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  radio.js                                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-25             [0m 
+[31;1m blueprint-component-mapper/src/select            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  select.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-80             [0m 
+[31;1m blueprint-component-mapper/src/slider            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  slider.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-10             [0m 
+[31;1m blueprint-component-mapper/src/sub-form          [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  sub-form.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-11             [0m 
+[31;1m blueprint-component-mapper/src/switch            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  switch.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-23             [0m 
+[31;1m blueprint-component-mapper/src/tabs              [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  tabs.js                                         [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-12             [0m 
+[31;1m blueprint-component-mapper/src/text-field        [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  text-field.js                                   [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-10             [0m 
+[31;1m blueprint-component-mapper/src/textarea          [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  textarea.js                                     [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-9              [0m 
+[31;1m blueprint-component-mapper/src/time-picker       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  time-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-10             [0m 
+[31;1m blueprint-component-mapper/src/wizard            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  step-buttons.js                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-54             [0m 
+[31;1m  wizard.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-30             [0m 
+[32;1m carbon-component-mapper/src/checkbox             [0m | [32;1m    100[0m | [32;1m   84.61[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  checkbox.js                                     [0m | [32;1m    100[0m | [32;1m   84.61[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m13-16            [0m 
+[32;1m carbon-component-mapper/src/component-mapper     [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  component-mapper.js                             [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/date-picker          [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  date-picker.js                                  [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/dual-list-select     [0m | [32;1m    100[0m | [32;1m   97.91[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  dual-list-select.js                             [0m | [32;1m    100[0m | [32;1m   97.91[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m171              [0m 
+[32;1m carbon-component-mapper/src/field-array          [0m | [32;1m    100[0m | [33;1m   79.16[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  field-array.js                                  [0m | [32;1m    100[0m | [33;1m   79.16[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m34,66,70,92      [0m 
+[33;1m carbon-component-mapper/src/form-template        [0m | [33;1m  77.77[0m | [33;1m      50[0m | [33;1m  57.14[0m | [32;1m   87.5[0m | [31;1m                 [0m 
+[33;1m  form-template.js                                [0m | [33;1m  77.77[0m | [33;1m      50[0m | [33;1m  57.14[0m | [32;1m   87.5[0m | [31;1m57-59            [0m 
+[32;1m carbon-component-mapper/src/helper-text-block    [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  helper-text-block.js                            [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/is-required          [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  is-required.js                                  [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/plain-text           [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  plain-text.js                                   [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/prepare-props        [0m | [32;1m    100[0m | [32;1m      90[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  prepare-props.js                                [0m | [32;1m    100[0m | [32;1m      90[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m12               [0m 
+[32;1m carbon-component-mapper/src/radio                [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  radio.js                                        [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/select               [0m | [32;1m  97.72[0m | [32;1m   82.69[0m | [32;1m  93.75[0m | [32;1m  97.56[0m | [31;1m                 [0m 
+[32;1m  select.js                                       [0m | [32;1m  97.72[0m | [32;1m   82.69[0m | [32;1m  93.75[0m | [32;1m  97.56[0m | [31;1m13               [0m 
+[32;1m carbon-component-mapper/src/slider               [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  slider.js                                       [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/sub-form             [0m | [32;1m    100[0m | [33;1m   66.66[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  sub-form.js                                     [0m | [32;1m    100[0m | [33;1m   66.66[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m20-32            [0m 
+[32;1m carbon-component-mapper/src/switch               [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  switch.js                                       [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/tabs                 [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  tabs.js                                         [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/text-field           [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  text-field.js                                   [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/textarea             [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  textarea.js                                     [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/time-picker          [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  time-picker.js                                  [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/time-picker-base     [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  time-picker-base.js                             [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/time-picker-date     [0m | [32;1m    100[0m | [32;1m   85.71[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  time-picker-date.js                             [0m | [32;1m    100[0m | [32;1m   85.71[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m21-32            [0m 
+[32;1m carbon-component-mapper/src/time-picker-string   [0m | [32;1m    100[0m | [32;1m   84.21[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  time-picker-string.js                           [0m | [32;1m    100[0m | [32;1m   84.21[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m16-17            [0m 
+[32;1m carbon-component-mapper/src/with-description     [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  with-description.js                             [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m carbon-component-mapper/src/wizard               [0m | [32;1m    100[0m | [32;1m   96.66[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[32;1m  wizard.js                                       [0m | [32;1m    100[0m | [32;1m   96.66[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m32               [0m 
+[31;1m common/src/dual-list-select                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  dual-list-select.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-79             [0m 
+[31;1m  reducer.js                                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-51             [0m 
+[31;1m common/src/form-template                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  form-template.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-117            [0m 
+[31;1m common/src/hooks                                 [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  use-is-mounted.js                               [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-9              [0m 
+[31;1m common/src/multiple-choice-list                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  multiple-choice-list.js                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-30             [0m 
+[31;1m common/src/select                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  deep-equal.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-32             [0m 
+[31;1m  flat-options.js                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1                [0m 
+[31;1m  parse-internal-value.js                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-21             [0m 
+[31;1m  select.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-85             [0m 
+[31;1m common/src/use-select                            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  reducer.js                                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-53             [0m 
+[31;1m  use-select.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-165            [0m 
+[31;1m common/src/utils                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  fn-to-string.js                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1                [0m 
+[31;1m  valid-text-fields.js                            [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m1                [0m 
+[31;1m common/src/wizard                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  consts.js                                       [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m1                [0m 
+[31;1m  enter-handler.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-23             [0m 
+[31;1m  reducer.js                                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-165            [0m 
+[31;1m  select-next.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-14             [0m 
+[31;1m  wizard.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m12-71            [0m 
+[31;1m mui-component-mapper/src/checkbox                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  checkbox.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-64             [0m 
+[31;1m mui-component-mapper/src/component-mapper        [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  component-mapper.js                             [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m18-34            [0m 
+[31;1m mui-component-mapper/src/date-picker             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  date-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m10-45            [0m 
+[31;1m mui-component-mapper/src/dual-list-select        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  dual-list-select.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m31-476           [0m 
+[31;1m mui-component-mapper/src/field-array             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  field-array.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m16-246           [0m 
+[31;1m mui-component-mapper/src/form-field-grid         [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  form-field-grid.js                              [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-20             [0m 
+[31;1m mui-component-mapper/src/form-template           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  form-template.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-96             [0m 
+[31;1m mui-component-mapper/src/multiple-choice-list    [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  multiple-choice-list.js                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-53             [0m 
+[31;1m mui-component-mapper/src/plain-text              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  plain-text.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-7              [0m 
+[31;1m mui-component-mapper/src/radio                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  radio.js                                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-81             [0m 
+[31;1m mui-component-mapper/src/select                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  select.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m18-148           [0m 
+[31;1m mui-component-mapper/src/slider                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  slider.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-55             [0m 
+[31;1m mui-component-mapper/src/sub-form                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  sub-form.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-33             [0m 
+[31;1m mui-component-mapper/src/switch                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  switch.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-47             [0m 
+[31;1m mui-component-mapper/src/tabs                    [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  tabs.js                                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-22             [0m 
+[31;1m mui-component-mapper/src/text-field              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  text-field.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-26             [0m 
+[31;1m mui-component-mapper/src/textarea                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  textarea.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-25             [0m 
+[31;1m mui-component-mapper/src/time-picker             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  time-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-45             [0m 
+[31;1m mui-component-mapper/src/validation-error        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  validation-error.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-6              [0m 
+[31;1m mui-component-mapper/src/wizard                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  step-buttons.js                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-79             [0m 
+[31;1m  wizard-nav.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-22             [0m 
+[31;1m  wizard.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m13-65            [0m 
+[31;1m parsers/src/parsers                              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  miq.js                                          [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-118            [0m 
+[31;1m  mozilla.js                                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m20-438           [0m 
+[31;1m parsers/src/parsers/miq                          [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  constants.js                                    [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m3-25             [0m 
+[31;1m parsers/src/parsers/mozilla                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  mozilla-helpers.js                              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m11-196           [0m 
+[31;1m parsers/src/tests/miq/miq-schemas                [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  input.js                                        [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m2                [0m 
+[31;1m  output.js                                       [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m4-463            [0m 
+[31;1m parsers/src/tests/mozilla                        [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  expected-parser-results.js                      [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m1-564            [0m 
+[31;1m  schemas.js                                      [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m3-875            [0m 
+[31;1m pf4-component-mapper/src/checkbox                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  checkbox.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-35             [0m 
+[31;1m  multiple-choice-list.js                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-18             [0m 
+[31;1m pf4-component-mapper/src/component-mapper        [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  component-mapper.js                             [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m19-53            [0m 
+[31;1m pf4-component-mapper/src/date-picker             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  date-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-23             [0m 
+[31;1m pf4-component-mapper/src/dual-list-context       [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  dual-list-context.js                            [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m3                [0m 
+[31;1m pf4-component-mapper/src/dual-list-select        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  dual-list-select.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m11-119           [0m 
+[31;1m pf4-component-mapper/src/dual-list-sort-button   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  dual-list-sort-button.js                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-18             [0m 
+[31;1m pf4-component-mapper/src/dual-list-tree-select   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  dual-list-tree-select.js                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-88             [0m 
+[31;1m pf4-component-mapper/src/field-array             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  field-array.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m12-106           [0m 
+[31;1m pf4-component-mapper/src/form-group              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  form-group.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-9              [0m 
+[31;1m pf4-component-mapper/src/form-template           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  form-template.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-51             [0m 
+[31;1m pf4-component-mapper/src/is-required             [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  is-required.js                                  [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-4              [0m 
+[31;1m pf4-component-mapper/src/plain-text              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  plain-text.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-9              [0m 
+[31;1m pf4-component-mapper/src/radio                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  radio.js                                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-47             [0m 
+[31;1m pf4-component-mapper/src/select                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  select.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-28             [0m 
+[31;1m pf4-component-mapper/src/select/select           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  clear-indicator.js                              [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-10             [0m 
+[31;1m  empty-options.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-6              [0m 
+[31;1m  input.js                                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-39             [0m 
+[31;1m  menu.js                                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-186            [0m 
+[31;1m  option.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-6              [0m 
+[31;1m  select.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m19-287           [0m 
+[31;1m  value-container.js                              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-18             [0m 
+[31;1m pf4-component-mapper/src/show-error              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  show-error.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-14             [0m 
+[31;1m pf4-component-mapper/src/slider                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  slider.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-10             [0m 
+[31;1m pf4-component-mapper/src/sub-form                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  sub-form.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-9              [0m 
+[31;1m pf4-component-mapper/src/switch                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  switch.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-13             [0m 
+[31;1m pf4-component-mapper/src/tabs                    [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  tabs.js                                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-22             [0m 
+[31;1m pf4-component-mapper/src/text-field              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  text-field.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-10             [0m 
+[31;1m pf4-component-mapper/src/textarea                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  textarea.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-10             [0m 
+[31;1m pf4-component-mapper/src/time-picker             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  time-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-23             [0m 
+[31;1m pf4-component-mapper/src/wizard                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  wizard.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m15-172           [0m 
+[31;1m pf4-component-mapper/src/wizard/wizard-components[0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  reducer.js                                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-21             [0m 
+[31;1m  step-buttons.js                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-50             [0m 
+[31;1m  wizard-nav.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-101            [0m 
+[31;1m  wizard-step.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-48             [0m 
+[31;1m  wizard-toggle.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-15             [0m 
+[31;1m react-form-renderer/src/common                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  helpers.js                                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-81             [0m 
+[31;1m react-form-renderer/src/component-types          [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  component-types.js                              [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m1                [0m 
+[31;1m react-form-renderer/src/compose-validators       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  compose-validators.js                           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m2-23             [0m 
+[31;1m react-form-renderer/src/condition                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  condition.js                                    [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-104            [0m 
+[31;1m react-form-renderer/src/data-types               [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  data-types.js                                   [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m1                [0m 
+[31;1m react-form-renderer/src/default-schema-validator [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  default-schema-validator.js                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-321            [0m 
+ react-form-renderer/src/field-array               |       0 |        0 |       0 |       0 | [31;1m                 [0m 
+  field-array.js                                   |       0 |        0 |       0 |       0 | [31;1m                 [0m 
+[31;1m react-form-renderer/src/field-provider           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  field-provider.js                               [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-15             [0m 
+ react-form-renderer/src/form                      |       0 |        0 |       0 |       0 | [31;1m                 [0m 
+  form.js                                          |       0 |        0 |       0 |       0 | [31;1m                 [0m 
+ react-form-renderer/src/form-error                |       0 |        0 |       0 |       0 | [31;1m                 [0m 
+  form-error.js                                    |       0 |        0 |       0 |       0 | [31;1m                 [0m 
+[31;1m react-form-renderer/src/form-renderer            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  form-renderer.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m12-147           [0m 
+[31;1m  render-form.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m10-78            [0m 
+[31;1m  schema-error-component.js                       [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-4              [0m 
+ react-form-renderer/src/form-spy                  |       0 |        0 |       0 |       0 | [31;1m                 [0m 
+  form-spy.js                                      |       0 |        0 |       0 |       0 | [31;1m                 [0m 
+[31;1m react-form-renderer/src/get-condition-triggers   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  get-condition-triggers.js                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-70             [0m 
+[31;1m react-form-renderer/src/get-validates            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  get-validates.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-53             [0m 
+[31;1m react-form-renderer/src/get-visible-fields       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  get-visible-fields.js                           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-21             [0m 
+[31;1m react-form-renderer/src/parse-condition          [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  parse-condition.js                              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-150            [0m 
+[31;1m react-form-renderer/src/prepare-component-props  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  prepare-component-props.js                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-54             [0m 
+[31;1m react-form-renderer/src/renderer-context         [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  renderer-context.js                             [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m3                [0m 
+[31;1m react-form-renderer/src/schema-errors            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  schema-errors.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-8              [0m 
+[31;1m react-form-renderer/src/tests/parsers            [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  output.js                                       [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m5-464            [0m 
+[31;1m react-form-renderer/src/use-field-api            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  assign-special-type.js                          [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3                [0m 
+  compose-validators.js                            |       0 |        0 |       0 |       0 | [31;1m                 [0m 
+[31;1m  convert-initial-value.js                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-19             [0m 
+[31;1m  convert-type.js                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-49             [0m 
+[31;1m  enhanced-on-change.js                           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-75             [0m 
+[31;1m  use-field-api.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m13-232           [0m 
+[31;1m  validator-helpers.js                            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-42             [0m 
+[31;1m react-form-renderer/src/use-form-api             [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  use-form-api.js                                 [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-7              [0m 
+[31;1m react-form-renderer/src/validation               [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  validation.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m10-77            [0m 
+[31;1m react-form-renderer/src/validator-mapper         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  validator-mapper.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-17             [0m 
+[31;1m react-form-renderer/src/validator-types          [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  validator-types.js                              [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m1                [0m 
+[31;1m react-form-renderer/src/validators               [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  messages.js                                     [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m2-69             [0m 
+[31;1m  url-validator.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-71             [0m 
+[31;1m  validator-functions.js                          [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-202            [0m 
+[31;1m  validators.js                                   [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m3                [0m 
+[31;1m react-form-renderer/src/wizard-context           [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                 [0m 
+[31;1m  wizard-context.js                               [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m3                [0m 
+---------------------------------------------------|---------|----------|---------|---------|-------------------
+[1mTest Suites: [22m[1m[32m13 passed[39m[22m, 13 total
+[1mTests:       [22m[1m[32m152 passed[39m[22m, 152 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m14.457 s[39m[22m
+[2mRan all test suites[22m[2m matching [22m/packages\/carbon-component-mapper/i[2m.[22m
+[2K[1GDone in 22.35s.
