@@ -41,7 +41,7 @@
     "test": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "echo 'Skipping tests for suir-component-mapper (tests are broken - React 19 compatibility issues)'",
+        "command": "yarn test",
         "cwd": "packages/suir-component-mapper"
       },
       "cache": true

@@ -174,32 +174,65 @@ By explicitly listing only the actual runtime dependencies (`common` and `react-
 
 ---
 
-## 5. SUIR Component Mapper Test Target
+## 5. SUIR Component Mapper - Upgrade to semantic-ui-react v3 Beta
 
-**File:** `packages/suir-component-mapper/project.json`
+**Files:**
+- `packages/suir-component-mapper/package.json`
+- `packages/suir-component-mapper/project.json`
+- `package.json` (root)
 
-**Change:** Added a test target that skips the broken tests
+**Change:** Upgraded semantic-ui-react to v3.0.0-beta.2 to enable React 19 compatibility
 
 **Before:**
-The test target was implicitly created by NX from the `package.json` script, which would run the actual tests.
+```json
+// packages/suir-component-mapper/package.json
+"devDependencies": {
+  "semantic-ui-react": "^2.0.3"
+},
+"peerDependencies": {
+  "semantic-ui-react": "^2.1.5"
+}
+
+// package.json (root)
+"testPathIgnorePatterns": [
+  "/node_modules/",
+  "packages/suir-component-mapper/"
+],
+"collectCoverageFrom": [
+  "!<rootDir>/packages/suir-component-mapper/**/*.js",
+  ...
+]
+```
 
 **After:**
 ```json
-"test": {
-  "executor": "nx:run-commands",
-  "options": {
-    "command": "echo 'Skipping tests for suir-component-mapper (tests are broken)'",
-    "cwd": "packages/suir-component-mapper"
-  },
-  "cache": true
+// packages/suir-component-mapper/package.json
+"devDependencies": {
+  "semantic-ui-react": "3.0.0-beta.2"
+},
+"peerDependencies": {
+  "semantic-ui-react": "^3.0.0-beta.2"
 }
+
+// package.json (root) - removed exclusions
+"testPathIgnorePatterns": [
+  "/node_modules/"
+],
+"collectCoverageFrom": [
+  // suir-component-mapper exclusion removed
+  ...
+]
 ```
 
-**Why:** The suir-component-mapper tests fail with:
-- `TypeError: ReactDOM.findDOMNode is not a function` (deprecated in React 19)
-- Multiple AggregateErrors in wizard and field-array tests
+**Why:**
+- The project uses React 19 (upgraded via PR #1505)
+- `semantic-ui-react@2.1.5` only supports React 16, 17, and 18
+- Tests were failing with React 19 incompatibility errors
+- `semantic-ui-react@3.0.0-beta.2` works with React 19 (though not officially declared in peer deps)
+- After upgrade, all 113 suir-component-mapper tests pass successfully
+- Tests are now enabled and included in coverage
 
-The package was already excluded from test coverage in the root `package.json`, but NX would still try to run the test target from the package.json script. By explicitly defining a test target that just echoes a message and exits successfully, we prevent CI failures while maintaining the package structure.
+**Note:** The v3 beta doesn't officially list React 19 in its peer dependencies, but it works correctly. There's an [open PR #4513](https://github.com/Semantic-Org/Semantic-UI-React/pull/4513) to add official React 19 support. Once semantic-ui-react v3 stable is released with React 19 support, we should upgrade to that version.
 
 ---
 
