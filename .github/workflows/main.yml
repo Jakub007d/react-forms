@@ -78,8 +78,8 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           echo "Running Nx release..."
-          npx nx release --first-release --verbose
-          npx nx release --first-release
+          npx nx release  --verbose
+          npx nx release 
         continue-on-error: false
 
   github-action-show-version:
