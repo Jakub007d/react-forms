@@ -43,9 +43,7 @@
       "@jakub007d/suir-component-mapper"
     ],
     "changelog": {
-      "projectChangelogs": {
-        "createRelease": "github"
-      }
+      "projectChangelogs": false
     },
     "projectsRelationship": "independent",
     "version": {
