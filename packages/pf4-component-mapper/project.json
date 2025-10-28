@@ -49,9 +49,11 @@
     "typecheck": {
       "executor": "@nx/js:tsc",
       "options": {
+        "main": "packages/pf4-component-mapper/src/index.js",
         "tsConfig": "packages/pf4-component-mapper/tsconfig.json",
-        "noEmit": true
+        "outputPath": "packages/pf4-component-mapper/dist"
       },
+      "outputs": ["{options.outputPath}"],
       "cache": true
     },
     "start": {

@@ -49,9 +49,11 @@
     "typecheck": {
       "executor": "@nx/js:tsc",
       "options": {
+        "main": "packages/blueprint-component-mapper/src/index.js",
         "tsConfig": "packages/blueprint-component-mapper/tsconfig.json",
-        "noEmit": true
+        "outputPath": "packages/blueprint-component-mapper/dist"
       },
+      "outputs": ["{options.outputPath}"],
       "cache": true
     },
     "start": {

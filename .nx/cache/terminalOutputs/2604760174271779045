@@ -1,0 +1,986 @@
+> yarn test
+
+[2K[1G[1myarn run v1.22.22[22m
+[2K[1G[2m$ yarn --cwd ../.. test packages/react-form-renderer[22m
+[2K[1G[2m$ jest --coverage packages/react-form-renderer[22m
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/parsers/[22m[1mdefault-schema-validator.test.js[22m
+  Default schema validator
+    [32m✓[39m [2mshould fail if input is not a object (27 ms)[22m
+    [32m✓[39m [2mshould fail if input object does not have fields names (1 ms)[22m
+    [32m✓[39m [2mshould fail if input object does fields names that is not array (2 ms)[22m
+    [32m✓[39m [2mshould fail if field item does not have component property (1 ms)[22m
+    [32m✓[39m [2mshould fail if field item does not have name property (1 ms)[22m
+    [32m✓[39m [2mshould fail if field item does not have name property but have key (1 ms)[22m
+    [32m✓[39m [2mshould fail if field component property is not in form fields mapper. (1 ms)[22m
+    [32m✓[39m [2mshould fail if field condition is not correct type.[22m
+    [32m✓[39m [2mshould fail if field condition is missing when key. (17 ms)[22m
+    [32m✓[39m [2mshould not fail if field condition is missing when key but has mapped attribute when.[22m
+    [32m✓[39m [2mshould fail if field condition is missing is key. (4 ms)[22m
+    [32m✓[39m [2mshould fail if field condition when property is not correct type.[22m
+    [32m✓[39m [2mshould fail if field condition pattern property is not correct type. (6 ms)[22m
+    [32m✓[39m [2mshould not fail if field condition pattern property is a string (2 ms)[22m
+    [32m✓[39m [2mshould not fail if field condition pattern property is a function[22m
+    [32m✓[39m [2mshould not fail if field condition pattern property is a greaterThan (5 ms)[22m
+    [32m✓[39m [2mshould not fail if field condition pattern property is a greaterThanOrEqualTo (1 ms)[22m
+    [32m✓[39m [2mshould not fail if field condition pattern property is a lessThan[22m
+    [32m✓[39m [2mshould not fail if field condition pattern property is a lessThanOrEqualTo (12 ms)[22m
+    [32m✓[39m [2mshould fail if field condition have notMatch property and have not is/pattern. (15 ms)[22m
+    [32m✓[39m [2mshould fail if field validate is not an array. (1 ms)[22m
+    [32m✓[39m [2mshould not fail if validate is undefined.[22m
+    [32m✓[39m [2mshould not fail if field validate item is a function. (1 ms)[22m
+    [32m✓[39m [2mshould fail if field validate item is not an object or a function.[22m
+    [32m✓[39m [2mshould fail if field validate item is an object and does not have type property.[22m
+    [32m✓[39m [2mshould fail if field validate item is an object and validator type does not exist.[22m
+    [32m✓[39m [2mshould not fail if field validate item is an object and validator type is custom.[22m
+    [32m✓[39m [2mshould fail validation when using wrong data type[22m
+    [32m✓[39m [2mshould pass validation (1 ms)[22m
+    [32m✓[39m [2mshould not fail validation using "and" and "or" conditions[22m
+    [32m✓[39m [2mshould fail validation when using "and" and "or" conditions (1 ms)[22m
+    [32m✓[39m [2mshould fail validation when sequence is not array[22m
+    [32m✓[39m [2mshould fail validation when sequence is not root condition[22m
+    [32m✓[39m [2mshould fail validation when then/else is not in root condition[22m
+    [32m✓[39m [2mshould fail validation when visible is not boolean (21 ms)[22m
+    [32m✓[39m [2mshould fail validation when set is not object[22m
+    [32m✓[39m [2mconditional actions - correct variant[22m
+    [33m○[39m [2mskipped should fail if field component from form fields mapper is not a valid React component.[22m
+    actionMapper validation
+      [32m✓[39m [2mshould not fail if action exists[22m
+      [32m✓[39m [2mshould fail if action doesnt exist in the mapper[22m
+      [32m✓[39m [2mshould fail if action is missing action key[22m
+      [32m✓[39m [2mshould fail if action is undefined[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/form-renderer/[22m[1mparse-condition.test.js[22m
+  parseCondition
+    [32m✓[39m [2msimple condition - true (1 ms)[22m
+    [32m✓[39m [2msimple condition - false (64 ms)[22m
+    [32m✓[39m [2mand condition - true[22m
+    [32m✓[39m [2mand condition - false (1 ms)[22m
+    [32m✓[39m [2mor condition - true (1 ms)[22m
+    [32m✓[39m [2mor condition - false[22m
+    [32m✓[39m [2mnot condition - "true" (2 ms)[22m
+    [32m✓[39m [2mnot condition - "false" (1 ms)[22m
+    [32m✓[39m [2mnot condition with array - "false" (22 ms)[22m
+    [32m✓[39m [2mnot condition with array - "true" (1 ms)[22m
+    [32m✓[39m [2mbackwards compatibility - and condition - true (1 ms)[22m
+    [32m✓[39m [2mbackwards compatibility - and condition - false[22m
+    [32m✓[39m [2mbackwards compatibility - or condition - true (1 ms)[22m
+    [32m✓[39m [2mbackwards compatibility - or condition - false[22m
+    [32m✓[39m [2msequence condition - true (1 ms)[22m
+    [32m✓[39m [2msequence condition false[22m
+    [32m✓[39m [2msequence condition - setters (1 ms)[22m
+    [32m✓[39m [2mand condition - true with set[22m
+    [32m✓[39m [2mand condition - false with set (1 ms)[22m
+    [32m✓[39m [2mand condition - true with else set[22m
+    [32m✓[39m [2msimple condition - custom function (1 ms)[22m
+    nested conditions
+      [32m✓[39m [2mnested test 1 - true[22m
+      [32m✓[39m [2mnested test 2 - true[22m
+      [32m✓[39m [2mnested test 1 - false[22m
+      [32m✓[39m [2mnested test 3 - true[22m
+      [32m✓[39m [2mnested test 4 - true[22m
+      [32m✓[39m [2mnested test 2 - false (4 ms)[22m
+    when function
+      [32m✓[39m [2mwhen is function (11 ms)[22m
+      [32m✓[39m [2mwhen returns array - true (1 ms)[22m
+      [32m✓[39m [2mwhen returns array - false[22m
+      [32m✓[39m [2mwhen returns array of functions - true[22m
+      [32m✓[39m [2mwhen is function in sequence[22m
+      [32m✓[39m [2mwhen is function in not[22m
+    math operations
+      [32m✓[39m [2mgreaterThan (1 ms)[22m
+      [32m✓[39m [2mgreaterThanOrEqualTo[22m
+      [32m✓[39m [2mlessThan (1 ms)[22m
+      [32m✓[39m [2mlessThanOrEqualTo (1 ms)[22m
+    mapped attributes
+      [32m✓[39m [2mmaps attribute - when - positive[22m
+      [32m✓[39m [2mmaps attribute - is - positive (1 ms)[22m
+      [32m✓[39m [2mmaps attribute - when - negative[22m
+      [32m✓[39m [2mmaps attribute - is - negative[22m
+      [32m✓[39m [2mshould log an error if conditionMapper is missing mapped attribute[22m
+      [32m✓[39m [2mshould log an error if mapped attribute is not allowed (6 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/validators/[22m[1mvalidators.test.js[22m
+  New validators
+    Required validator
+      [32m✓[39m [2mshould pass required validator (1 ms)[22m
+      [32m✓[39m [2mshould pass required validator if numeric truthy value[22m
+      [32m✓[39m [2mshould pass required validator if numeric falsy value[22m
+      [32m✓[39m [2mshould pass required validator if boolean true (1 ms)[22m
+      [32m✓[39m [2mshould pass required validator if boolean false (16 ms)[22m
+      [32m✓[39m [2mshould fail required validator (1 ms)[22m
+      [32m✓[39m [2mshould fail required validator if explictly null[22m
+      [32m✓[39m [2mshould fail required validator if explictly undefined[22m
+      [32m✓[39m [2mshould fail required validator if string of white spaces (22 ms)[22m
+      [32m✓[39m [2mshould fail required validator if empty string[22m
+      [32m✓[39m [2mshould fail required validator if empty array[22m
+    Length validator
+      [32m✓[39m [2mshould pass empty value (13 ms)[22m
+      [32m✓[39m [2mshould pass undefined value[22m
+      [32m✓[39m [2mshould pass exact length of 5 characters validation (2 ms)[22m
+      [32m✓[39m [2mshould fail exact length of 5 characters validation (1 ms)[22m
+      [32m✓[39m [2mshould fail exact length of 5 characters validation with custom message (1 ms)[22m
+      [32m✓[39m [2mshould pass min length of 3 characters validation[22m
+      [32m✓[39m [2mshould not pass min length of 3 characters validation[22m
+      [32m✓[39m [2mshould not pass min length of 3 characters validation with custom message[22m
+      [32m✓[39m [2mshould pass max length of 3 characters long validation[22m
+      [32m✓[39m [2mshould not pass max length of 3 characters validation (5 ms)[22m
+      [32m✓[39m [2mshould not pass max length of 3 characters validation with custom message[22m
+      [32m✓[39m [2mshould pass min items of 3 validation[22m
+      [32m✓[39m [2mshould pass min items of 3 validation with message[22m
+      [32m✓[39m [2mshould pass min items of 3 validation with more items (14 ms)[22m
+    pattern validator
+      [32m✓[39m [2mshould pass pattern validation with configured regexp pattern (36 ms)[22m
+      [32m✓[39m [2mshould fail pattern validation and return default message (1 ms)[22m
+      [32m✓[39m [2mshould fail pattern validation and return custom message[22m
+      [32m✓[39m [2mshould pass pattern validation with configured regexp pattern as string[22m
+      [32m✓[39m [2mshould pass pattern validation with configured regexp pattern as string and with flags[22m
+      [32m✓[39m [2mshould fail pattern validation with configured regexp pattern as string[22m
+    min value validator
+      [32m✓[39m [2mshould pass the validation (1 ms)[22m
+      [32m✓[39m [2mshould pass the validation if minimum value[22m
+      [32m✓[39m [2mshould pass the validation if no input given[22m
+      [32m✓[39m [2mshould not pass the validation (includethreshold is false)[22m
+      [32m✓[39m [2mshould not pass the validation and return custom message[22m
+      [32m✓[39m [2mshould not pass the validation and return type error message[22m
+      [32m✓[39m [2mshould not pass the validation (with value as 0)[22m
+    max value validator
+      [32m✓[39m [2mshould pass the validation[22m
+      [32m✓[39m [2mshould pass the validation if maximum value[22m
+      [32m✓[39m [2mshould pass the validation if no input given[22m
+      [32m✓[39m [2mshould not pass the validation (includethreshold is false)[22m
+      [32m✓[39m [2mshould not pass the validation and return custom validation[22m
+    numericality validators
+      [32m✓[39m [2mis not number (1 ms)[22m
+      [32m✓[39m [2mis not equal[22m
+      [32m✓[39m [2mis not different[22m
+      [32m✓[39m [2mis not goe[22m
+      [32m✓[39m [2mis not loe[22m
+      [32m✓[39m [2mis not greater[22m
+      [32m✓[39m [2mis not less[22m
+      [32m✓[39m [2mis not even (1 ms)[22m
+      [32m✓[39m [2mis not odd[22m
+    data type validator
+      [32m✓[39m [2mshould return float and pass[22m
+      [32m✓[39m [2mshould return negative number and pass[22m
+      [32m✓[39m [2mshould return negative integer and pass (1 ms)[22m
+      [32m✓[39m [2mshould return negative float and pass[22m
+      [32m✓[39m [2mshould return float and pass 2[22m
+      [32m✓[39m [2mshould return float validator and fail[22m
+      [32m✓[39m [2mshould return string validator and pass[22m
+      [32m✓[39m [2mshould return string validator and pass if no value is given[22m
+      [32m✓[39m [2mshould return string validator and fail[22m
+      [32m✓[39m [2mshould return integerValidator and pass[22m
+      [32m✓[39m [2mshould return integerValidator and pass if no value given (1 ms)[22m
+      [32m✓[39m [2mshould return integerValidator and fail[22m
+      [32m✓[39m [2mshould return integerValidator and fail if decimal nuber given[22m
+      [32m✓[39m [2mshould return boolean validator and pass[22m
+      [32m✓[39m [2mshould return boolean validator and pass if no value given[22m
+      [32m✓[39m [2mshould return boolean validator and pass fail[22m
+      [32m✓[39m [2mshould return numberValidator and pass (1 ms)[22m
+      [32m✓[39m [2mshould return numberValidator and pass if no value given[22m
+      [32m✓[39m [2mshould return numberValidator and fail (1 ms)[22m
+      data-type arrays
+        [32m✓[39m [2mshould pass validation of an array of strings[22m
+        [32m✓[39m [2mshould fail validation of an array of strings[22m
+        [32m✓[39m [2mshould pass validation of an array of integers[22m
+        [32m✓[39m [2mshould fail validation of an array of strings to integer (32 ms)[22m
+        [32m✓[39m [2mshould pass validation of an array of numbers (1 ms)[22m
+        [32m✓[39m [2mshould fail validation of an array of numbers (5 ms)[22m
+        [32m✓[39m [2mshould pass validation of an array of booleans[22m
+        [32m✓[39m [2mshould fail validation of an array of booleans[22m
+    Validators default messages overrides
+      [32m✓[39m [2mshould fail validations and return globally overriden messages[22m
+    URL validator
+      [32m✓[39m [2mshould pass validation without any configuration (2 ms)[22m
+      [32m✓[39m [2mshould fail validation withouth any configuration[22m
+      [32m✓[39m [2mshould return custom message[22m
+      [32m✓[39m [2mshould validate only URL with ftp protocol (2 ms)[22m
+      [32m✓[39m [2mshould validate only URL with ftp and shh protocols (3 ms)[22m
+      [32m✓[39m [2mshould validate only IPv4 adress as valid URL (2 ms)[22m
+      [32m✓[39m [2mshould validate only IPv4 adress as valid URL without protocol (19 ms)[22m
+      [32m✓[39m [2mshould validate only as invalid URL without initial // (4 ms)[22m
+      [32m✓[39m [2mshould validate only IPv6 adress as valid URL (98 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/validation/[22m[1mvalidation.test.js[22m
+  validation
+    [32m✓[39m [2mno schema (1 ms)[22m
+    [32m✓[39m [2moptions is not object[22m
+    [32m✓[39m [2mwrong schema (1 ms)[22m
+    [32m✓[39m [2mreturns correct an array errors (11 ms)[22m
+    [32m✓[39m [2mhandle warnings[22m
+    [32m✓[39m [2momit warnings (2 ms)[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 68 |[39m[0m[22m
+[2m    [0m [90m 69 |[39m   it([32m'reloads type when component changes'[39m[33m,[39m () [33m=>[39m {[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 70 |[39m     [36mconst[39m { rerender } [33m=[39m render([33m<[39m[33mWrapperComponent[39m {[33m...[39minitialProps} [33m/[39m[33m>[39m)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m                          [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 71 |[39m[0m[22m
+[2m    [0m [90m 72 |[39m     expect(catcherProps[33m.[39minput[33m.[39mtype)[33m.[39mtoEqual(undefined)[33m;[39m[0m[22m
+[2m    [0m [90m 73 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mpackages/react-form-renderer/src/tests/form-renderer/use-field-api.test.js[39m[0m[2m:70:26)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 52 |[39m     }[33m;[39m[0m[22m
+[2m    [0m [90m 53 |[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 54 |[39m     render([33m<[39m[33mFormRenderer[39m {[33m...[39minitialProps} schema[33m=[39m{schema} [33m/[39m[33m>[39m)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 55 |[39m[0m[22m
+[2m    [0m [90m 56 |[39m     expect(() [33m=>[39m screen[33m.[39mgetByLabelText([32m'field-2'[39m))[33m.[39mtoThrow()[33m;[39m[0m[22m
+[2m    [0m [90m 57 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat _callee$ ([22m[2m[0m[36mpackages/react-form-renderer/src/tests/form-renderer/condition.test.js[39m[0m[2m:54:5)[22m[2m[22m
+[2m      [2mat tryCatch ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:63:40)[22m[2m[22m
+[2m      [2mat Generator.invoke [as _invoke] ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:294:22)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 77 |[39m[0m[22m
+[2m    [0m [90m 78 |[39m   it([32m'should render form from schema'[39m[33m,[39m () [33m=>[39m {[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 79 |[39m     render([33m<[39m[33mFormRenderer[39m {[33m...[39minitialProps} [33m/[39m[33m>[39m)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 80 |[39m[0m[22m
+[2m    [0m [90m 81 |[39m     expect(screen[33m.[39mgetByLabelText([32m'component1'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m[0m[22m
+[2m    [0m [90m 82 |[39m     expect(screen[33m.[39mgetByText([32m'Select field'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mpackages/react-form-renderer/src/tests/form-renderer/form-renderer.test.js[39m[0m[2m:79:5)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 105 |[39m       }[33m,[39m[0m[22m
+[2m    [0m [90m 106 |[39m     ][33m;[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 107 |[39m     render([0m[22m
+[2m    [0m [90m     |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 108 |[39m       [33m<[39m[33mContextWrapper[39m[0m[22m
+[2m    [0m [90m 109 |[39m         componentMapper[33m=[39m{{[0m[22m
+[2m    [0m [90m 110 |[39m           [componentTypes[33m.[39m[33mTEXT_FIELD[39m][33m:[39m ({ [33mFieldProvider[39m[33m,[39m dataType[33m,[39m [33m...[39mprops }) [33m=>[39m [33m<[39m[33mdiv[39m {[33m...[39mprops}[33m>[39m[33mTextField[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[33m,[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mpackages/react-form-renderer/src/tests/form-renderer/render-form.test.js[39m[0m[2m:107:5)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 44 |[39m   it([32m'should add integer data type validator and save interger to form state'[39m[33m,[39m [36masync[39m () [33m=>[39m {[0m[22m
+[2m    [0m [90m 45 |[39m     [36mconst[39m onSubmit [33m=[39m jest[33m.[39mfn()[33m;[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 46 |[39m     render([33m<[39m[33mFormRenderer[39m {[33m...[39minitialProps} onSubmit[33m=[39m{onSubmit} [33m/[39m[33m>[39m)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 47 |[39m[0m[22m
+[2m    [0m [90m 48 |[39m     expect(screen[33m.[39mgetByLabelText([32m'Data type test'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m[0m[22m
+[2m    [0m [90m 49 |[39m     [90m/**[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat _callee$ ([22m[2m[0m[36mpackages/react-form-renderer/src/tests/form-renderer/data-types.test.js[39m[0m[2m:46:5)[22m[2m[22m
+[2m      [2mat tryCatch ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:63:40)[22m[2m[22m
+[2m      [2mat Generator.invoke [as _invoke] ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:294:22)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/form-renderer/[22m[1mschema-validator-mapper.test.js[22m
+  schemaValidatorMapper
+    [32m✓[39m [2mcomponent schema error (135 ms)[22m
+    [32m✓[39m [2mvalidator schema error (4 ms)[22m
+    [32m✓[39m [2maction schema error (5 ms)[22m
+    nested components
+      [32m✓[39m [2mcomponent schema error (4 ms)[22m
+      [32m✓[39m [2mvalidator schema error (2 ms)[22m
+      [32m✓[39m [2maction schema error (2 ms)[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m 39 |[39m     }[33m;[39m[0m[22m
+[2m    [0m [90m 40 |[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 41 |[39m     render([0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 42 |[39m       [33m<[39m[33mFormRenderer[39m[0m[22m
+[2m    [0m [90m 43 |[39m         [33mFormTemplate[39m[33m=[39m{(props) [33m=>[39m [33m<[39m[33mFormTemplate[39m {[33m...[39mprops} [33m/[39m[33m>[39m}[0m[22m
+[2m    [0m [90m 44 |[39m         componentMapper[33m=[39m{{[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat _callee$ ([22m[2m[0m[36mpackages/react-form-renderer/src/tests/form-renderer/validator.test.js[39m[0m[2m:41:5)[22m[2m[22m
+[2m      [2mat tryCatch ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:63:40)[22m[2m[22m
+[2m      [2mat Generator.invoke [as _invoke] ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:294:22)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/get-condition-triggers/[22m[1mget-condition-triggers.test.js[22m
+  getConditionTriggers
+    [32m✓[39m [2mshould extract name from simple when definition (1 ms)[22m
+    [32m✓[39m [2mshould extract name from simple when array definition[22m
+    [32m✓[39m [2mshould extract name from simple when function definition[22m
+    [32m✓[39m [2mshould extract name from combined when array definition[22m
+    [32m✓[39m [2mshould extract name from combined when array definition if functions returns an array (1 ms)[22m
+    [32m✓[39m [2mshould extract name from and condition definition[22m
+    [32m✓[39m [2mshould extract name from or condition definition[22m
+    [32m✓[39m [2mshould extract name from array of conditions[22m
+    mappedAttributes
+      [32m✓[39m [2mshould extract the 'when' attribute from mappedAttributes[22m
+      [32m✓[39m [2mshould log error if mapped condition is missing from condition mapper (2 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/form-renderer/[22m[1menhanced-on-change.test.js[22m
+  #enhancedOnChange
+    [32m✓[39m [2mshould return value directly if event is not passed (2 ms)[22m
+    [32m✓[39m [2mshould return event if input is of type checkbox[22m
+    [32m✓[39m [2mshould return value from event[22m
+    [32m✓[39m [2mshould return boolean events correctly with initialValue set[22m
+    [32m✓[39m [2mshould correctly convert array datatype from strings to integers (1 ms)[22m
+    #setting cleared value
+      [32m✓[39m [2mshould not set any delete value after sending empty value[22m
+      [32m✓[39m [2mshould set delete value after sending empty string value[22m
+      [32m✓[39m [2mshould not set delete value after sending date[22m
+      [32m✓[39m [2mshould not set delete value after sending number 0[22m
+      [32m✓[39m [2mshould set delete value after sending empty array[22m
+      [32m✓[39m [2mshould set delete value after sending empty object (1 ms)[22m
+      [32m✓[39m [2mshould not set delete value after sending array[22m
+      [32m✓[39m [2mshould not set delete value after sending object[22m
+    #input type file
+      [32m✓[39m [2mshould return an object with inputValue and inputFiles keys[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/form-renderer/[22m[1muse-field-api.test.js[22m ([0m[1m[41m6.854 s[49m[22m[0m)
+  useFieldApi
+    [32m✓[39m [2mreloads type when component changes (256 ms)[22m
+    [32m✓[39m [2mreloads validator when dataType changes (621 ms)[22m
+    [32m✓[39m [2mreloads validator when validate changes (202 ms)[22m
+    [32m✓[39m [2mreloads array validator when dataType changes (28 ms)[22m
+    [32m✓[39m [2mreloads array validator when validate changes (23 ms)[22m
+    [32m✓[39m [2mreloads initial value (3 ms)[22m
+    [32m✓[39m [2mshould assing correct value to type file input (3 ms)[22m
+    [32m✓[39m [2mshould not crash when passing validate directly (107 ms)[22m
+    [32m✓[39m [2momits FieldProps (136 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/validators/[22m[1mmessages.test.js[22m
+  validator messages
+    [32m✓[39m [2meven[22m
+    [32m✓[39m [2mequalTo[22m
+    [32m✓[39m [2mgreaterThan (1 ms)[22m
+    [32m✓[39m [2mgreaterThanOrEqualTo[22m
+    [32m✓[39m [2mlessThan[22m
+    [32m✓[39m [2mlessThanOrEqualTo[22m
+    [32m✓[39m [2mmustBeBool[22m
+    [32m✓[39m [2mmustBeString[22m
+    [32m✓[39m [2mnotANumber[22m
+    [32m✓[39m [2modd[22m
+    [32m✓[39m [2motherThan[22m
+    [32m✓[39m [2mpattern[22m
+    [32m✓[39m [2mrequired[22m
+    [32m✓[39m [2mtooLong[22m
+    [32m✓[39m [2mtooShort[22m
+    [32m✓[39m [2mwrongLength[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/validators/[22m[1mcompose-validators.test.js[22m
+  Compose validators
+    [32m✓[39m [2mshould pass async validator (1 ms)[22m
+    [32m✓[39m [2mshould fail async validator (1 ms)[22m
+    [32m✓[39m [2mshould pass async validator but fail sync sequence (2 ms)[22m
+    [32m✓[39m [2mshould fail async validator before running sync (4 ms)[22m
+    [32m✓[39m [2mshould pass async and sync validation (1 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/form-renderer/[22m[1mdata-types.test.js[22m
+  data types
+    [32m✓[39m [2mshould add integer data type validator and save interger to form state (969 ms)[22m
+    converTypes
+      integer
+        [32m✓[39m [2mconverts empty string (2 ms)[22m
+        [32m✓[39m [2mconverts zero[22m
+        [32m✓[39m [2mconverts an integer[22m
+        [32m✓[39m [2mconverts a string[22m
+        [32m✓[39m [2mconverts a negative integer (1 ms)[22m
+        [32m✓[39m [2mconverts a floating number with nothing preceding decimal[22m
+        [32m✓[39m [2mconverts a floating number[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/form-renderer/[22m[1mvalidator.test.js[22m
+  FormRenderer validator
+    [32m✓[39m [2mpass value, allvalues, meta to custom validator func (632 ms)[22m
+    warning validators
+      [32m✓[39m [2mshould not convert object validator to warning when warnings are not used (68 ms)[22m
+      [32m✓[39m [2mshould convert object validator to warning (23 ms)[22m
+      [32m✓[39m [2mshould convert function validator to warning (38 ms)[22m
+      [32m✓[39m [2mshould convert async function validator to warning (18 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/validation/[22m[1mget-validates.test.js[22m
+  getValidates
+    [32m✓[39m [2mreturns all the validates from the schema (17 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/validators/[22m[1mhelper.test.js[22m
+  Validators helpers
+    memoize
+      [32m✓[39m [2mremember numbers inputs (2 ms)[22m
+      [32m✓[39m [2mremember strings inputs (1 ms)[22m
+      [32m✓[39m [2mremember undefined inputs[22m
+      [32m✓[39m [2mremember array inputs (1 ms)[22m
+    prepareMsg
+      [32m✓[39m [2mreturns element messages (2 ms)[22m
+      [32m✓[39m [2mreturns object messages[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.[39m
+[2m[22m
+[2m    [0m [90m  9 |[39m     [36mconst[39m name [33m=[39m [32m'Invalid schema :('[39m[33m;[39m[0m[22m
+[2m    [0m [90m 10 |[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 11 |[39m     render([33m<[39m[33mSchemaErrorComponent[39m message[33m=[39m{message} name[33m=[39m{name} [33m/[39m[33m>[39m)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m     [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 12 |[39m[0m[22m
+[2m    [0m [90m 13 |[39m     expect(screen[33m.[39mgetByText(name[33m,[39m { exact[33m:[39m [36mfalse[39m[33m,[39m selector[33m:[39m [32m'h2'[39m }))[33m.[39mtoBeInTheDocument()[33m;[39m[0m[22m
+[2m    [0m [90m 14 |[39m     expect(screen[33m.[39mgetByText(message[33m,[39m { exact[33m:[39m [36mfalse[39m[33m,[39m selector[33m:[39m [32m'p'[39m }))[33m.[39mtoBeInTheDocument()[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous>.process.env.NODE_ENV.exports.act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:19:17)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/act-compat.js[2m:63:25[22m[2m[22m
+[2m      [2mat renderRoot ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:159:26)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:246:10)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mpackages/react-form-renderer/src/tests/form-renderer/schema-error-component.test.js[39m[0m[2m:11:5)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/form-renderer/[22m[1mschema-error-component.test.js[22m
+  schemaErrorComponent
+    [32m✓[39m [2mrenders correctly (65 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/validation/[22m[1mget-visible-fields.test.js[22m
+  getVisibleFields
+    [32m✓[39m [2mparses conditions (4 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/form-renderer/[22m[1mhelpers.test.js[22m
+  Form helpers
+    Compose validators helper
+      [32m✓[39m [2mshould return undefined when no validators given (1 ms)[22m
+      [32m✓[39m [2mshould not return validation error[22m
+      [32m✓[39m [2mshould return first validation error from arguments[22m
+      [32m✓[39m [2mshould not run arguments that are not functions (1 ms)[22m
+
+  [2m[33mconsole.warn[39m[22m
+[33m    A function to advance timers was called but the timers API is not mocked with fake timers. Call `jest.useFakeTimers()` in this test or enable fake timers globally by setting `"timers": "fake"` in the configuration file[39m
+[33m    Stack Trace:[39m
+[33m    [39m
+[33m        [0m [90m 319 |[39m[33m[0m[39m
+[33m        [0m [90m 320 |[39m[33m     [36mawait[39m[33m act([36masync[39m[33m () [33m=>[39m[33m {[0m[39m
+[33m        [0m[31m[1m>[22m[39m[33m[90m 321 |[39m[33m       jest[33m.[39m[33mrunAllTimers()[33m;[39m[33m[0m[39m
+[33m        [0m [90m     |[39m[33m            [31m[1m^[22m[39m[33m[0m[39m
+[33m        [0m [90m 322 |[39m[33m     })[33m;[39m[33m[0m[39m
+[33m        [0m [90m 323 |[39m[33m[0m[39m
+[33m        [0m [90m 324 |[39m[33m     [36mawait[39m[33m userEvent[33m.[39m[33mclick(screen[33m.[39m[33mgetByText([32m'Submit'[39m[33m))[33m;[39m[33m[0m[39m
+[33m    [39m
+[33m          Error: [39m
+[33m          [2mat FakeTimers._checkFakeTimers ([22mnode_modules/@jest/fake-timers/build/modernFakeTimers.js[2m:168:13)[22m[39m
+[33m          [2mat FakeTimers.runAllTimers ([22mnode_modules/@jest/fake-timers/build/modernFakeTimers.js[2m:74:14)[22m[39m
+[33m          [2mat _callee7$ ([22m[0m[36mpackages/react-form-renderer/src/tests/form-renderer/condition.test.js[39m[33m[0m[2m:321:12)[22m[39m
+[33m          [2mat tryCatch ([22mnode_modules/regenerator-runtime/runtime.js[2m:63:40)[22m[39m
+[33m          [2mat Generator.invoke [as _invoke] ([22mnode_modules/regenerator-runtime/runtime.js[2m:294:22)[22m[39m
+[33m          [2mat Generator.next ([22mnode_modules/regenerator-runtime/runtime.js[2m:119:21)[22m[39m
+[33m          [2mat asyncGeneratorStep ([22mnode_modules/@babel/runtime/helpers/asyncToGenerator.js[2m:3:24)[22m[39m
+[33m          [2mat _next ([22mnode_modules/@babel/runtime/helpers/asyncToGenerator.js[2m:25:9)[22m[39m
+[33m          [2mat [22mnode_modules/@babel/runtime/helpers/asyncToGenerator.js[2m:32:7[22m[39m
+[2m[22m
+[2m    [0m [90m 319 |[39m[0m[22m
+[2m    [0m [90m 320 |[39m     [36mawait[39m act([36masync[39m () [33m=>[39m {[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 321 |[39m       jest[33m.[39mrunAllTimers()[33m;[39m[0m[22m
+[2m    [0m [90m     |[39m            [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 322 |[39m     })[33m;[39m[0m[22m
+[2m    [0m [90m 323 |[39m[0m[22m
+[2m    [0m [90m 324 |[39m     [36mawait[39m userEvent[33m.[39mclick(screen[33m.[39mgetByText([32m'Submit'[39m))[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat FakeTimers._checkFakeTimers ([22m[2mnode_modules/@jest/fake-timers/build/modernFakeTimers.js[2m:162:28)[22m[2m[22m
+[2m      [2mat FakeTimers.runAllTimers ([22m[2mnode_modules/@jest/fake-timers/build/modernFakeTimers.js[2m:74:14)[22m[2m[22m
+[2m      [2mat _callee7$ ([22m[2m[0m[36mpackages/react-form-renderer/src/tests/form-renderer/condition.test.js[39m[0m[2m:321:12)[22m[2m[22m
+[2m      [2mat tryCatch ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:63:40)[22m[2m[22m
+[2m      [2mat Generator.invoke [as _invoke] ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:294:22)[22m[2m[22m
+[2m      [2mat Generator.next ([22m[2mnode_modules/regenerator-runtime/runtime.js[2m:119:21)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/form-renderer/[22m[1mform-renderer.test.js[22m ([0m[1m[41m7.9 s[49m[22m[0m)
+  <FormRenderer />
+    [32m✓[39m [2mshould render form from schema (412 ms)[22m
+    [32m✓[39m [2mshould render errorComponent form from schema (28 ms)[22m
+    [32m✓[39m [2mshould call form reset callback (536 ms)[22m
+    [32m✓[39m [2mshould render hidden field (20 ms)[22m
+    [32m✓[39m [2mshould register new field to renderer context (87 ms)[22m
+    [32m✓[39m [2mshould un-register field after unrender (81 ms)[22m
+    [32m✓[39m [2mshould not un-register field after unrender with multiple fields coppies (127 ms)[22m
+    [32m✓[39m [2mshould skip field registration (76 ms)[22m
+    Initial value data types
+      [32m✓[39m [2mshould convert string to integer (212 ms)[22m
+      [32m✓[39m [2mshould convert individual values in array of literals as initial value (18 ms)[22m
+      [32m✓[39m [2mshould convert individual values in array of objects as initial value (63 ms)[22m
+    children prop
+      [32m✓[39m [2mshould clone template props to children node (23 ms)[22m
+      [32m✓[39m [2mshould use children node props (5 ms)[22m
+      [32m✓[39m [2mshould submit data from children node (49 ms)[22m
+      [32m✓[39m [2mshould use children render function (7 ms)[22m
+      [32m✓[39m [2mshould submit data from children render function (190 ms)[22m
+      [32m✓[39m [2mshould render null as a child (124 ms)[22m
+      [32m✓[39m [2mshould throw an error if more than one child was passed (67 ms)[22m
+      [32m✓[39m [2mshould not override schema or formFields prop if explicitely given to child (61 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/form-renderer/[22m[1mcondition.test.js[22m ([0m[1m[41m8.76 s[49m[22m[0m)
+  condition test
+    [32m✓[39m [2mshould render when condition is fulfill (753 ms)[22m
+    [32m✓[39m [2mshould render when condition is fulfill - when is a function (278 ms)[22m
+    [32m✓[39m [2mshould render when condition is fulfill - when is a function from action mapper (378 ms)[22m
+    [32m✓[39m [2msets value when condition is fulfill (186 ms)[22m
+    [32m✓[39m [2msets value when condition is fulfill - initialValues (293 ms)[22m
+    [32m✓[39m [2mshould not override initial value with setter value (119 ms)[22m
+    [32m✓[39m [2msets value when condition is fulfill on reset (218 ms)[22m
+    [32m✓[39m [2msets value when condition is fulfill - sequence (121 ms)[22m
+    [32m✓[39m [2mshould render when condition is fulfill - not (73 ms)[22m
+    [32m✓[39m [2mshould render when condition is fulfill - not - array (167 ms)[22m
+    [32m✓[39m [2mshould handle nested complex conditions (130 ms)[22m
+    [32m✓[39m [2mshould change field with initial value only when form is modified (69 ms)[22m
+    [32m✓[39m [2mshould change fields value by set funciton (83 ms)[22m
+    [32m✓[39m [2mcheck the set function received valid arguments (32 ms)[22m
+    [32m✓[39m [2mcheck the object (93 ms)[22m
+    [32m✓[39m [2mcheck the getFieldState object (74 ms)[22m
+    [32m✓[39m [2mshould be possible to change props to component with condition (83 ms)[22m
+    reducer
+      [32m✓[39m [2mreturns default[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mpackages/react-form-renderer/src/tests/form-renderer/[22m[1mrender-form.test.js[22m ([0m[1m[41m12.434 s[49m[22m[0m)
+  renderForm function
+    [32m✓[39m [2mshould render single field from defined componentTypes (361 ms)[22m
+    [32m✓[39m [2mshould render single field (array in array) from defined componentTypes (6 ms)[22m
+    [32m✓[39m [2mshould correctly assign dataType validator if no additional validators given (339 ms)[22m
+    [32m✓[39m [2mshould correctly assign required validator with custom message (69 ms)[22m
+    [32m✓[39m [2mshould correctly assign function validator with custom message and fail (265 ms)[22m
+    [32m✓[39m [2mshould correctly assign function validator with custom message and pass (23 ms)[22m
+    [32m✓[39m [2mshould use custom validatoMapper and default validatorMapper (144 ms)[22m
+    [32m✓[39m [2mshould render single field from with custom componentType (1 ms)[22m
+    [32m✓[39m [2mshould render single field form with custom componentType and assign FieldProvider (2 ms)[22m
+    [32m✓[39m [2mshould use actionMapper (4 ms)[22m
+    [32m✓[39m [2mshould use actions from componentMapper (2 ms)[22m
+    [32m✓[39m [2mfield actions has a priority over mappers and they are merged (2 ms)[22m
+    [32m✓[39m [2mcomposite mapper component (6 ms)[22m
+    [32m✓[39m [2mresolve props resolve props (1 ms)[22m
+    [32m✓[39m [2mresolve props are merged and field has priority  (1 ms)[22m
+    [32m✓[39m [2mactions can return resolveProps and it has priority over fields (1 ms)[22m
+    #condition
+      [32m✓[39m [2mshould render condition field only if the condition is met (461 ms)[22m
+      [32m✓[39m [2mshould render condition field only if the condition is not met (206 ms)[22m
+      [32m✓[39m [2mshould render condition field only if the isNotEmpty condition is met (203 ms)[22m
+      [32m✓[39m [2mshould render condition field only if the isNotEmpty condition is met and value is of Date instance (30 ms)[22m
+      [32m✓[39m [2mshould render condition field only if the isEmpty condition is met (35 ms)[22m
+      [32m✓[39m [2mshould render condition field only if the pattern condition is met (51 ms)[22m
+      [32m✓[39m [2mshould render condition field only if the pattern condition is met (string) (33 ms)[22m
+      [32m✓[39m [2mshould render condition field only if the pattern condition is met (string with flags) (58 ms)[22m
+      [32m✓[39m [2mshould render condition field only if the pattern condition is not met (157 ms)[22m
+      [32m✓[39m [2mshould render condition field only if one of depency fields has correct value (34 ms)[22m
+      [32m✓[39m [2mshould render condition field only if contition is array and passes all validations (224 ms)[22m
+      [32m✓[39m [2mshould render condition field only if the condition with nested name is met (53 ms)[22m
+      [32m✓[39m [2mshould render condition field only if one of depency fields has correct value - nested name (95 ms)[22m
+      [32m✓[39m [2mshould correctly re-mount field after condition is met, when condition is based on initial values. (192 ms)[22m
+    #clearOnUnmount
+      [32m✓[39m [2mshould clear values after unrender when set on fields (227 ms)[22m
+      [32m✓[39m [2mshould clear values after unrender when set on form (364 ms)[22m
+      [32m✓[39m [2mshould not clear values after unrender when not set (275 ms)[22m
+      [32m✓[39m [2mshould not clear values after unrender when set in form and not in fields (354 ms)[22m
+      [32m✓[39m [2mshould not clear values after unrender (default component) (377 ms)[22m
+      [32m✓[39m [2mshould clear values after unrender (default component) (361 ms)[22m
+      [32m✓[39m [2mshould clear values after unrender and set to field cleared value (256 ms)[22m
+      [32m✓[39m [2mshould clear values after unrender and set to form cleared value (134 ms)[22m
+    #initializeOnMount
+      [32m✓[39m [2mshould reset value after render when set on fields (221 ms)[22m
+      [32m✓[39m [2mshould not reset value after render when set on fields (203 ms)[22m
+      [32m✓[39m [2mshould reset value after render when set on fields and use initialValue from schema instead of renderer initialValues (279 ms)[22m
+      [32m✓[39m [2mshould reset value after render when set on fields and use initialValue from schema (215 ms)[22m
+      [32m✓[39m [2mshould set false value in initializeOnMount (135 ms)[22m
+      [32m✓[39m [2mshould set unefined value in initializeOnMount (192 ms)[22m
+    #initialValues
+      [32m✓[39m [2minitialValues has a higher priority than initialValue (9 ms)[22m
+      [32m✓[39m [2mempty initialValues  (12 ms)[22m
+      [32m✓[39m [2mnull initialValues  (13 ms)[22m
+      [32m✓[39m [2muse initialValue when initialOnrender (12 ms)[22m
+
+---------------------------------------------------|---------|----------|---------|---------|-----------------------------------------
+File                                               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                       
+---------------------------------------------------|---------|----------|---------|---------|-----------------------------------------
+[31;1mAll files                                         [0m | [31;1m  28.29[0m | [31;1m   23.76[0m | [31;1m  22.03[0m | [31;1m  29.15[0m | [31;1m                                       [0m 
+[31;1m ant-component-mapper/src/checkbox                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  checkbox.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-39                                   [0m 
+[31;1m ant-component-mapper/src/component-mapper        [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  component-mapper.js                             [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m19-36                                  [0m 
+[31;1m ant-component-mapper/src/date-picker             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  date-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-12                                   [0m 
+[31;1m ant-component-mapper/src/dual-list-select        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  dual-list-select.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-38                                   [0m 
+[31;1m ant-component-mapper/src/field-array             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  field-array.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-201                                  [0m 
+[31;1m ant-component-mapper/src/form-group              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  form-group.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-11                                   [0m 
+[31;1m ant-component-mapper/src/form-template           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  form-template.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-38                                   [0m 
+[31;1m ant-component-mapper/src/is-required             [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  is-required.js                                  [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-6                                    [0m 
+[31;1m ant-component-mapper/src/multiple-choice-list    [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  multiple-choice-list.js                         [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-28                                   [0m 
+[31;1m ant-component-mapper/src/plain-text              [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  plain-text.js                                   [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-9                                    [0m 
+[31;1m ant-component-mapper/src/radio                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  radio.js                                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-43                                   [0m 
+[31;1m ant-component-mapper/src/select                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  select.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-62                                   [0m 
+[31;1m ant-component-mapper/src/slider                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  slider.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-28                                   [0m 
+[31;1m ant-component-mapper/src/sub-form                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  sub-form.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-26                                   [0m 
+[31;1m ant-component-mapper/src/switch                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  switch.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-27                                   [0m 
+[31;1m ant-component-mapper/src/tabs                    [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  tabs.js                                         [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-13                                   [0m 
+[31;1m ant-component-mapper/src/text-field              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  text-field.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-11                                   [0m 
+[31;1m ant-component-mapper/src/textarea                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  textarea.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-13                                   [0m 
+[31;1m ant-component-mapper/src/time-picker             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  time-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-24                                   [0m 
+[31;1m ant-component-mapper/src/validation-error        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  validation-error.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-6                                    [0m 
+[31;1m ant-component-mapper/src/wizard                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  step-buttons.js                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-45                                   [0m 
+[31;1m  wizard-step.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-12                                   [0m 
+[31;1m  wizard.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-63                                   [0m 
+[31;1m blueprint-component-mapper/src/blueprint-context [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  blueprint-context.js                            [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m3                                      [0m 
+[31;1m blueprint-component-mapper/src/checkbox          [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  checkbox.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m10-41                                  [0m 
+[31;1m blueprint-component-mapper/src/component-mapper  [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  component-mapper.js                             [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m18-38                                  [0m 
+[31;1m blueprint-component-mapper/src/date-picker       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  date-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-24                                   [0m 
+[31;1m blueprint-component-mapper/src/dual-list-select  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  dual-list-select.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m10-208                                 [0m 
+[31;1m blueprint-component-mapper/src/field-array       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  field-array.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m11-111                                 [0m 
+[31;1m blueprint-component-mapper/src/form-group        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  form-group.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-51                                   [0m 
+[31;1m blueprint-component-mapper/src/form-template     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  form-template.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-45                                   [0m 
+[31;1m blueprint-component-mapper/src/plain-text        [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  plain-text.js                                   [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-6                                    [0m 
+[31;1m blueprint-component-mapper/src/props-catcher     [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  props-catcher.js                                [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1                                      [0m 
+[31;1m blueprint-component-mapper/src/radio             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  radio.js                                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-25                                   [0m 
+[31;1m blueprint-component-mapper/src/select            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  select.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-80                                   [0m 
+[31;1m blueprint-component-mapper/src/slider            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  slider.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-10                                   [0m 
+[31;1m blueprint-component-mapper/src/sub-form          [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  sub-form.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-11                                   [0m 
+[31;1m blueprint-component-mapper/src/switch            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  switch.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-23                                   [0m 
+[31;1m blueprint-component-mapper/src/tabs              [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  tabs.js                                         [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-12                                   [0m 
+[31;1m blueprint-component-mapper/src/text-field        [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  text-field.js                                   [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-10                                   [0m 
+[31;1m blueprint-component-mapper/src/textarea          [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  textarea.js                                     [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-9                                    [0m 
+[31;1m blueprint-component-mapper/src/time-picker       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  time-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-10                                   [0m 
+[31;1m blueprint-component-mapper/src/wizard            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  step-buttons.js                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-54                                   [0m 
+[31;1m  wizard.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-30                                   [0m 
+[31;1m carbon-component-mapper/src/checkbox             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  checkbox.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m11-40                                  [0m 
+[31;1m carbon-component-mapper/src/component-mapper     [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  component-mapper.js                             [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m18-38                                  [0m 
+[31;1m carbon-component-mapper/src/date-picker          [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  date-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-24                                   [0m 
+[31;1m carbon-component-mapper/src/dual-list-select     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  dual-list-select.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m23-248                                 [0m 
+[31;1m carbon-component-mapper/src/field-array          [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  field-array.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m13-124                                 [0m 
+[31;1m carbon-component-mapper/src/form-template        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  form-template.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-63                                   [0m 
+[31;1m carbon-component-mapper/src/helper-text-block    [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  helper-text-block.js                            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-27                                   [0m 
+[31;1m carbon-component-mapper/src/is-required          [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  is-required.js                                  [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-14                                   [0m 
+[31;1m carbon-component-mapper/src/plain-text           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  plain-text.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-4                                    [0m 
+[31;1m carbon-component-mapper/src/prepare-props        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  prepare-props.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-7                                    [0m 
+[31;1m carbon-component-mapper/src/radio                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  radio.js                                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-19                                   [0m 
+[31;1m carbon-component-mapper/src/select               [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  select.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m11-213                                 [0m 
+[31;1m carbon-component-mapper/src/slider               [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  slider.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-15                                   [0m 
+[31;1m carbon-component-mapper/src/sub-form             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  sub-form.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-30                                   [0m 
+[31;1m carbon-component-mapper/src/switch               [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  switch.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-20                                   [0m 
+[31;1m carbon-component-mapper/src/tabs                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  tabs.js                                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-24                                   [0m 
+[31;1m carbon-component-mapper/src/text-field           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  text-field.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-27                                   [0m 
+[31;1m carbon-component-mapper/src/textarea             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  textarea.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-14                                   [0m 
+[31;1m carbon-component-mapper/src/time-picker          [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  time-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6                                      [0m 
+[31;1m carbon-component-mapper/src/time-picker-base     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  time-picker-base.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-56                                   [0m 
+[31;1m carbon-component-mapper/src/time-picker-date     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  time-picker-date.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-66                                   [0m 
+[31;1m carbon-component-mapper/src/time-picker-string   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  time-picker-string.js                           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-31                                   [0m 
+[31;1m carbon-component-mapper/src/with-description     [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  with-description.js                             [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5                                      [0m 
+[31;1m carbon-component-mapper/src/wizard               [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  wizard.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m11-145                                 [0m 
+[31;1m common/src/dual-list-select                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  dual-list-select.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-79                                   [0m 
+[31;1m  reducer.js                                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-51                                   [0m 
+[31;1m common/src/form-template                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  form-template.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-117                                  [0m 
+[31;1m common/src/hooks                                 [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  use-is-mounted.js                               [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-9                                    [0m 
+[31;1m common/src/multiple-choice-list                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  multiple-choice-list.js                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-30                                   [0m 
+[31;1m common/src/select                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  deep-equal.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-32                                   [0m 
+[31;1m  flat-options.js                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1                                      [0m 
+[31;1m  parse-internal-value.js                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-21                                   [0m 
+[31;1m  select.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-85                                   [0m 
+[31;1m common/src/use-select                            [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  reducer.js                                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-53                                   [0m 
+[31;1m  use-select.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-165                                  [0m 
+[31;1m common/src/utils                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  fn-to-string.js                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1                                      [0m 
+[31;1m  valid-text-fields.js                            [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m1                                      [0m 
+[31;1m common/src/wizard                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  consts.js                                       [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m1                                      [0m 
+[31;1m  enter-handler.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-23                                   [0m 
+[31;1m  reducer.js                                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-165                                  [0m 
+[31;1m  select-next.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-14                                   [0m 
+[31;1m  wizard.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m12-71                                  [0m 
+[31;1m mui-component-mapper/src/checkbox                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  checkbox.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-64                                   [0m 
+[31;1m mui-component-mapper/src/component-mapper        [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  component-mapper.js                             [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m18-34                                  [0m 
+[31;1m mui-component-mapper/src/date-picker             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  date-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m10-45                                  [0m 
+[31;1m mui-component-mapper/src/dual-list-select        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  dual-list-select.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m31-476                                 [0m 
+[31;1m mui-component-mapper/src/field-array             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  field-array.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m16-246                                 [0m 
+[31;1m mui-component-mapper/src/form-field-grid         [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  form-field-grid.js                              [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-20                                   [0m 
+[31;1m mui-component-mapper/src/form-template           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  form-template.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-96                                   [0m 
+[31;1m mui-component-mapper/src/multiple-choice-list    [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  multiple-choice-list.js                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-53                                   [0m 
+[31;1m mui-component-mapper/src/plain-text              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  plain-text.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-7                                    [0m 
+[31;1m mui-component-mapper/src/radio                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  radio.js                                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-81                                   [0m 
+[31;1m mui-component-mapper/src/select                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  select.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m18-148                                 [0m 
+[31;1m mui-component-mapper/src/slider                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  slider.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-55                                   [0m 
+[31;1m mui-component-mapper/src/sub-form                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  sub-form.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-33                                   [0m 
+[31;1m mui-component-mapper/src/switch                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  switch.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-47                                   [0m 
+[31;1m mui-component-mapper/src/tabs                    [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  tabs.js                                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-22                                   [0m 
+[31;1m mui-component-mapper/src/text-field              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  text-field.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-26                                   [0m 
+[31;1m mui-component-mapper/src/textarea                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  textarea.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-25                                   [0m 
+[31;1m mui-component-mapper/src/time-picker             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  time-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-45                                   [0m 
+[31;1m mui-component-mapper/src/validation-error        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  validation-error.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-6                                    [0m 
+[31;1m mui-component-mapper/src/wizard                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  step-buttons.js                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-79                                   [0m 
+[31;1m  wizard-nav.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-22                                   [0m 
+[31;1m  wizard.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m13-65                                  [0m 
+[31;1m parsers/src/parsers                              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  miq.js                                          [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-118                                  [0m 
+[31;1m  mozilla.js                                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m20-438                                 [0m 
+[31;1m parsers/src/parsers/miq                          [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  constants.js                                    [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m3-25                                   [0m 
+[31;1m parsers/src/parsers/mozilla                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  mozilla-helpers.js                              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m11-196                                 [0m 
+[31;1m parsers/src/tests/miq/miq-schemas                [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  input.js                                        [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m2                                      [0m 
+[31;1m  output.js                                       [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m4-463                                  [0m 
+[31;1m parsers/src/tests/mozilla                        [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  expected-parser-results.js                      [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m1-564                                  [0m 
+[31;1m  schemas.js                                      [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m3-875                                  [0m 
+[31;1m pf4-component-mapper/src/checkbox                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  checkbox.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-35                                   [0m 
+[31;1m  multiple-choice-list.js                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-18                                   [0m 
+[31;1m pf4-component-mapper/src/component-mapper        [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  component-mapper.js                             [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m19-53                                  [0m 
+[31;1m pf4-component-mapper/src/date-picker             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  date-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-23                                   [0m 
+[31;1m pf4-component-mapper/src/dual-list-context       [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  dual-list-context.js                            [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m3                                      [0m 
+[31;1m pf4-component-mapper/src/dual-list-select        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  dual-list-select.js                             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m11-119                                 [0m 
+[31;1m pf4-component-mapper/src/dual-list-sort-button   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  dual-list-sort-button.js                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-18                                   [0m 
+[31;1m pf4-component-mapper/src/dual-list-tree-select   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  dual-list-tree-select.js                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-88                                   [0m 
+[31;1m pf4-component-mapper/src/field-array             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  field-array.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m12-106                                 [0m 
+[31;1m pf4-component-mapper/src/form-group              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  form-group.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-9                                    [0m 
+[31;1m pf4-component-mapper/src/form-template           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  form-template.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-51                                   [0m 
+[31;1m pf4-component-mapper/src/is-required             [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  is-required.js                                  [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-4                                    [0m 
+[31;1m pf4-component-mapper/src/plain-text              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  plain-text.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-9                                    [0m 
+[31;1m pf4-component-mapper/src/radio                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  radio.js                                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-47                                   [0m 
+[31;1m pf4-component-mapper/src/select                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  select.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-28                                   [0m 
+[31;1m pf4-component-mapper/src/select/select           [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  clear-indicator.js                              [0m | [31;1m      0[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-10                                   [0m 
+[31;1m  empty-options.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m3-6                                    [0m 
+[31;1m  input.js                                        [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-39                                   [0m 
+[31;1m  menu.js                                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m9-186                                  [0m 
+[31;1m  option.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-6                                    [0m 
+[31;1m  select.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m19-287                                 [0m 
+[31;1m  value-container.js                              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-18                                   [0m 
+[31;1m pf4-component-mapper/src/show-error              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  show-error.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-14                                   [0m 
+[31;1m pf4-component-mapper/src/slider                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  slider.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-10                                   [0m 
+[31;1m pf4-component-mapper/src/sub-form                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  sub-form.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-9                                    [0m 
+[31;1m pf4-component-mapper/src/switch                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  switch.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-13                                   [0m 
+[31;1m pf4-component-mapper/src/tabs                    [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  tabs.js                                         [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-22                                   [0m 
+[31;1m pf4-component-mapper/src/text-field              [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  text-field.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-10                                   [0m 
+[31;1m pf4-component-mapper/src/textarea                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  textarea.js                                     [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m7-10                                   [0m 
+[31;1m pf4-component-mapper/src/time-picker             [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  time-picker.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-23                                   [0m 
+[31;1m pf4-component-mapper/src/wizard                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  wizard.js                                       [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m15-172                                 [0m 
+[31;1m pf4-component-mapper/src/wizard/wizard-components[0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m                                       [0m 
+[31;1m  reducer.js                                      [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m1-21                                   [0m 
+[31;1m  step-buttons.js                                 [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m6-50                                   [0m 
+[31;1m  wizard-nav.js                                   [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m8-101                                  [0m 
+[31;1m  wizard-step.js                                  [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m5-48                                   [0m 
+[31;1m  wizard-toggle.js                                [0m | [31;1m      0[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m      0[0m | [31;1m4-15                                   [0m 
+[32;1m react-form-renderer/src/common                   [0m | [32;1m  97.72[0m | [32;1m   81.81[0m | [32;1m    100[0m | [32;1m  97.56[0m | [31;1m                                       [0m 
+[32;1m  helpers.js                                      [0m | [32;1m  97.72[0m | [32;1m   81.81[0m | [32;1m    100[0m | [32;1m  97.56[0m | [31;1m62                                     [0m 
+[32;1m react-form-renderer/src/component-types          [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  component-types.js                              [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m react-form-renderer/src/compose-validators       [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  compose-validators.js                           [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m react-form-renderer/src/condition                [0m | [32;1m    100[0m | [32;1m   96.96[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  condition.js                                    [0m | [32;1m    100[0m | [32;1m   96.96[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m69                                     [0m 
+[32;1m react-form-renderer/src/data-types               [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  data-types.js                                   [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m react-form-renderer/src/default-schema-validator [0m | [32;1m  97.41[0m | [32;1m   95.03[0m | [32;1m  94.11[0m | [32;1m  98.21[0m | [31;1m                                       [0m 
+[32;1m  default-schema-validator.js                     [0m | [32;1m  97.41[0m | [32;1m   95.03[0m | [32;1m  94.11[0m | [32;1m  98.21[0m | [31;1m49,261                                 [0m 
+ react-form-renderer/src/field-array               |       0 |        0 |       0 |       0 | [31;1m                                       [0m 
+  field-array.js                                   |       0 |        0 |       0 |       0 | [31;1m                                       [0m 
+[33;1m react-form-renderer/src/field-provider           [0m | [33;1m  57.14[0m | [31;1m      25[0m | [32;1m    100[0m | [33;1m  57.14[0m | [31;1m                                       [0m 
+[33;1m  field-provider.js                               [0m | [33;1m  57.14[0m | [31;1m      25[0m | [32;1m    100[0m | [33;1m  57.14[0m | [31;1m11-15                                  [0m 
+ react-form-renderer/src/form                      |       0 |        0 |       0 |       0 | [31;1m                                       [0m 
+  form.js                                          |       0 |        0 |       0 |       0 | [31;1m                                       [0m 
+ react-form-renderer/src/form-error                |       0 |        0 |       0 |       0 | [31;1m                                       [0m 
+  form-error.js                                    |       0 |        0 |       0 |       0 | [31;1m                                       [0m 
+[32;1m react-form-renderer/src/form-renderer            [0m | [32;1m  91.01[0m | [32;1m   83.33[0m | [32;1m  82.35[0m | [32;1m  93.42[0m | [31;1m                                       [0m 
+[32;1m  form-renderer.js                                [0m | [32;1m   87.3[0m | [32;1m      80[0m | [33;1m     76[0m | [32;1m  90.56[0m | [31;1m28,38,82,106,110                       [0m 
+[32;1m  render-form.js                                  [0m | [32;1m    100[0m | [32;1m    92.3[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m18                                     [0m 
+[32;1m  schema-error-component.js                       [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+ react-form-renderer/src/form-spy                  |       0 |        0 |       0 |       0 | [31;1m                                       [0m 
+  form-spy.js                                      |       0 |        0 |       0 |       0 | [31;1m                                       [0m 
+[32;1m react-form-renderer/src/get-condition-triggers   [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  get-condition-triggers.js                       [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m react-form-renderer/src/get-validates            [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  get-validates.js                                [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m react-form-renderer/src/get-visible-fields       [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  get-visible-fields.js                           [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m react-form-renderer/src/parse-condition          [0m | [32;1m    100[0m | [32;1m   97.18[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  parse-condition.js                              [0m | [32;1m    100[0m | [32;1m   97.18[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m9,47                                   [0m 
+[32;1m react-form-renderer/src/prepare-component-props  [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  prepare-component-props.js                      [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m react-form-renderer/src/renderer-context         [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  renderer-context.js                             [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m react-form-renderer/src/schema-errors            [0m | [32;1m     80[0m | [33;1m      50[0m | [32;1m    100[0m | [32;1m     80[0m | [31;1m                                       [0m 
+[32;1m  schema-errors.js                                [0m | [32;1m     80[0m | [33;1m      50[0m | [32;1m    100[0m | [32;1m     80[0m | [31;1m8                                      [0m 
+[32;1m react-form-renderer/src/tests/parsers            [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  output.js                                       [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m react-form-renderer/src/use-field-api            [0m | [32;1m  88.74[0m | [32;1m   85.97[0m | [32;1m  93.93[0m | [32;1m  88.35[0m | [31;1m                                       [0m 
+[32;1m  assign-special-type.js                          [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+  compose-validators.js                            |       0 |        0 |       0 |       0 | [31;1m                                       [0m 
+[32;1m  convert-initial-value.js                        [0m | [32;1m  85.71[0m | [32;1m      80[0m | [32;1m    100[0m | [32;1m  85.71[0m | [31;1m5                                      [0m 
+[33;1m  convert-type.js                                 [0m | [33;1m  76.47[0m | [33;1m   78.94[0m | [33;1m     75[0m | [33;1m     75[0m | [31;1m8-12,47                                [0m 
+[32;1m  enhanced-on-change.js                           [0m | [32;1m  96.55[0m | [32;1m   96.96[0m | [32;1m    100[0m | [32;1m  96.55[0m | [31;1m38                                     [0m 
+[32;1m  use-field-api.js                                [0m | [32;1m  94.66[0m | [32;1m   92.68[0m | [32;1m    100[0m | [32;1m  94.59[0m | [31;1m41,70-75,154                           [0m 
+[33;1m  validator-helpers.js                            [0m | [33;1m  66.66[0m | [31;1m   44.44[0m | [32;1m  85.71[0m | [33;1m  63.15[0m | [31;1m32-42                                  [0m 
+[32;1m react-form-renderer/src/use-form-api             [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  use-form-api.js                                 [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m react-form-renderer/src/validation               [0m | [32;1m    100[0m | [32;1m   95.65[0m | [33;1m     75[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  validation.js                                   [0m | [32;1m    100[0m | [32;1m   95.65[0m | [33;1m     75[0m | [32;1m    100[0m | [33;1m45                                     [0m 
+[32;1m react-form-renderer/src/validator-mapper         [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  validator-mapper.js                             [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m react-form-renderer/src/validator-types          [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  validator-types.js                              [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m react-form-renderer/src/validators               [0m | [32;1m    100[0m | [32;1m   91.24[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  messages.js                                     [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  url-validator.js                                [0m | [32;1m    100[0m | [32;1m    90.9[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m57                                     [0m 
+[32;1m  validator-functions.js                          [0m | [32;1m    100[0m | [32;1m   91.26[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m21,47,65,77,112,117,122,132,151,168,179[0m 
+[32;1m  validators.js                                   [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m react-form-renderer/src/wizard-context           [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+[32;1m  wizard-context.js                               [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                       [0m 
+---------------------------------------------------|---------|----------|---------|---------|-----------------------------------------
+[1mTest Suites: [22m[1m[32m20 passed[39m[22m, 20 total
+[1mTests:       [22m[1m[33m1 skipped[39m[22m, [1m[32m350 passed[39m[22m, 351 total
+[1mSnapshots:   [22m[1m[32m33 passed[39m[22m, 33 total
+[1mTime:[22m        [1m[33m16.328 s[39m[22m
+[2mRan all test suites[22m[2m matching [22m/packages\/react-form-renderer/i[2m.[22m
+[2K[1GDone in 26.73s.

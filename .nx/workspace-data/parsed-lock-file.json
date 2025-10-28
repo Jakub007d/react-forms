@@ -2920,18 +2920,9 @@
       "type": "npm",
       "name": "npm:@fluentui/react-component-event-listener",
       "data": {
-        "version": "0.51.7",
+        "version": "0.63.1",
         "packageName": "@fluentui/react-component-event-listener",
-        "hash": "sha512-NjVm+crN0T9A7vITL8alZeHnuV8zi2gos0nezU/2YOxaUAB9E4zKiPxt/6k5U50rJs/gj8Nu45iXxnjO41HbZg=="
-      }
-    },
-    "npm:@fluentui/react-component-ref": {
-      "type": "npm",
-      "name": "npm:@fluentui/react-component-ref",
-      "data": {
-        "version": "0.51.7",
-        "packageName": "@fluentui/react-component-ref",
-        "hash": "sha512-CX27jVJYaFoBCWpuWAizQZ2se137ku1dmDyn8sw+ySNJa+kkQf7LnMydiPW5K7cRdUSqUJW3eS4EjKRvVAx8xA=="
+        "hash": "sha512-gSMdOh6tI3IJKZFqxfQwbTpskpME0CvxdxGM2tdglmf6ZPVDi0L4+KKIm+2dN8nzb8Ya1A8ZT+Ddq0KmZtwVQg=="
       }
     },
     "npm:@formatjs/ecma402-abstract": {
@@ -4986,22 +4977,13 @@
         "hash": "sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww=="
       }
     },
-    "npm:@popperjs/core@2.11.8": {
-      "type": "npm",
-      "name": "npm:@popperjs/core@2.11.8",
-      "data": {
-        "version": "2.11.8",
-        "packageName": "@popperjs/core",
-        "hash": "sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A=="
-      }
-    },
     "npm:@popperjs/core": {
       "type": "npm",
       "name": "npm:@popperjs/core",
       "data": {
-        "version": "2.11.2",
+        "version": "2.11.8",
         "packageName": "@popperjs/core",
-        "hash": "sha512-92FRmppjjqz29VMJ2dn+xdyXZBrMlE42AV6Kq6BwjWV7CNUW1hs2FtxSNLQE+gJhaZ6AAmYuO9y8dshhcBl7vA=="
+        "hash": "sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A=="
       }
     },
     "npm:@qiwi/npm-registry-client": {
@@ -5125,9 +5107,9 @@
       "type": "npm",
       "name": "npm:@semantic-ui-react/event-stack",
       "data": {
-        "version": "3.1.2",
+        "version": "3.1.3",
         "packageName": "@semantic-ui-react/event-stack",
-        "hash": "sha512-Yd0Qf7lPCIjzJ9bZYfurlNu2RDXT6KKSyubHfYK3WjRauhxCsq6Fk2LMRI9DEvShoEU+AsLSv3NGkqXAcVp0zg=="
+        "hash": "sha512-FdTmJyWvJaYinHrKRsMLDrz4tTMGdFfds299Qory53hBugiDvGC0tEJf+cHsi5igDwWb/CLOgOiChInHwq8URQ=="
       }
     },
     "npm:@sinclair/typebox": {
@@ -20187,6 +20169,15 @@
         "hash": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
       }
     },
+    "npm:react-is@18.3.1": {
+      "type": "npm",
+      "name": "npm:react-is@18.3.1",
+      "data": {
+        "version": "18.3.1",
+        "packageName": "react-is",
+        "hash": "sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg=="
+      }
+    },
     "npm:react-is@17.0.2": {
       "type": "npm",
       "name": "npm:react-is@17.0.2",
@@ -20203,15 +20194,6 @@
         "version": "18.2.0",
         "packageName": "react-is",
         "hash": "sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w=="
-      }
-    },
-    "npm:react-is@18.3.1": {
-      "type": "npm",
-      "name": "npm:react-is@18.3.1",
-      "data": {
-        "version": "18.3.1",
-        "packageName": "react-is",
-        "hash": "sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg=="
       }
     },
     "npm:react-is@19.1.1": {
@@ -20241,13 +20223,13 @@
         "hash": "sha512-VSA/bS+pSndSF2fiasHK/PTEEAyOpX60+H5EPAjoArr8JGm+oihu4UbrqcEBpQibJxBVCpYyjAX7abJ+7DoYVg=="
       }
     },
-    "npm:react-popper@2.2.5": {
+    "npm:react-popper@2.3.0": {
       "type": "npm",
-      "name": "npm:react-popper@2.2.5",
+      "name": "npm:react-popper@2.3.0",
       "data": {
-        "version": "2.2.5",
+        "version": "2.3.0",
         "packageName": "react-popper",
-        "hash": "sha512-kxGkS80eQGtLl18+uig1UIf9MKixFSyPxglsgLBxlYnyDf65BiY9B3nZSc6C9XUNDgStROB0fMQlTEz1KxGddw=="
+        "hash": "sha512-e1hj8lL3uM+sgSR4Lxzn5h1GxBlpa4CQz0XLF8kx4MDrDRWY0Ena4c97PUeSX9i5W3UAfDP0z0FXCTQkoXUl3Q=="
       }
     },
     "npm:react-sticky-box": {
@@ -21289,9 +21271,9 @@
       "type": "npm",
       "name": "npm:semantic-ui-react",
       "data": {
-        "version": "2.0.4",
+        "version": "3.0.0-beta.2",
         "packageName": "semantic-ui-react",
-        "hash": "sha512-nTlIN/K1iEA7ybut2ICBlPfAushs2afkyUuwQ6vMlYpvLjnnUgN+JKhhoq47MlRuQ2ekdMDZ9OgctViTbDyBaQ=="
+        "hash": "sha512-BFqd7dGPgXPbIkWkIzkPrPRBElf/iB4NKOSFl5tZwMEaIyGQXbvtVWHyOW0sMD2A/qZPgY2Wl/19GDc9JOg3ng=="
       }
     },
     "npm:semver-diff@2.1.0": {
@@ -29301,11 +29283,6 @@
       "type": "static"
     },
     {
-      "source": "npm:@babel/runtime",
-      "target": "npm:regenerator-runtime",
-      "type": "static"
-    },
-    {
       "source": "npm:@babel/runtime@7.19.0",
       "target": "npm:regenerator-runtime",
       "type": "static"
@@ -30818,16 +30795,6 @@
     {
       "source": "npm:@fluentui/react-component-event-listener",
       "target": "npm:@babel/runtime",
-      "type": "static"
-    },
-    {
-      "source": "npm:@fluentui/react-component-ref",
-      "target": "npm:@babel/runtime",
-      "type": "static"
-    },
-    {
-      "source": "npm:@fluentui/react-component-ref",
-      "target": "npm:react-is",
       "type": "static"
     },
     {
@@ -33452,7 +33419,7 @@
     },
     {
       "source": "npm:@mui/base",
-      "target": "npm:@popperjs/core@2.11.8",
+      "target": "npm:@popperjs/core",
       "type": "static"
     },
     {
@@ -33502,7 +33469,7 @@
     },
     {
       "source": "npm:@mui/material",
-      "target": "npm:@popperjs/core@2.11.8",
+      "target": "npm:@popperjs/core",
       "type": "static"
     },
     {
@@ -62066,12 +62033,12 @@
       "type": "static"
     },
     {
-      "source": "npm:react-popper@2.2.5",
+      "source": "npm:react-popper@2.3.0",
       "target": "npm:react-fast-compare",
       "type": "static"
     },
     {
-      "source": "npm:react-popper@2.2.5",
+      "source": "npm:react-popper@2.3.0",
       "target": "npm:warning",
       "type": "static"
     },
@@ -64142,17 +64109,12 @@
     },
     {
       "source": "npm:semantic-ui-react",
-      "target": "npm:@babel/runtime",
+      "target": "npm:@babel/runtime@7.28.4",
       "type": "static"
     },
     {
       "source": "npm:semantic-ui-react",
       "target": "npm:@fluentui/react-component-event-listener",
-      "type": "static"
-    },
-    {
-      "source": "npm:semantic-ui-react",
-      "target": "npm:@fluentui/react-component-ref",
       "type": "static"
     },
     {
@@ -64192,12 +64154,12 @@
     },
     {
       "source": "npm:semantic-ui-react",
-      "target": "npm:react-is@17.0.2",
+      "target": "npm:react-is@18.3.1",
       "type": "static"
     },
     {
       "source": "npm:semantic-ui-react",
-      "target": "npm:react-popper@2.2.5",
+      "target": "npm:react-popper@2.3.0",
       "type": "static"
     },
     {

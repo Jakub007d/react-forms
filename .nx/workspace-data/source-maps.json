@@ -340,7 +340,15 @@
       "packages/ant-component-mapper/project.json",
       "nx/core/project-json"
     ],
+    "targets.typecheck.outputs": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
     "targets.typecheck.cache": [
+      "packages/ant-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.main": [
       "packages/ant-component-mapper/project.json",
       "nx/core/project-json"
     ],
@@ -348,7 +356,7 @@
       "packages/ant-component-mapper/project.json",
       "nx/core/project-json"
     ],
-    "targets.typecheck.options.noEmit": [
+    "targets.typecheck.options.outputPath": [
       "packages/ant-component-mapper/project.json",
       "nx/core/project-json"
     ],
@@ -730,7 +738,15 @@
       "packages/blueprint-component-mapper/project.json",
       "nx/core/project-json"
     ],
+    "targets.typecheck.outputs": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
     "targets.typecheck.cache": [
+      "packages/blueprint-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.main": [
       "packages/blueprint-component-mapper/project.json",
       "nx/core/project-json"
     ],
@@ -738,7 +754,7 @@
       "packages/blueprint-component-mapper/project.json",
       "nx/core/project-json"
     ],
-    "targets.typecheck.options.noEmit": [
+    "targets.typecheck.options.outputPath": [
       "packages/blueprint-component-mapper/project.json",
       "nx/core/project-json"
     ],
@@ -1100,7 +1116,15 @@
       "packages/carbon-component-mapper/project.json",
       "nx/core/project-json"
     ],
+    "targets.typecheck.outputs": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
     "targets.typecheck.cache": [
+      "packages/carbon-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.main": [
       "packages/carbon-component-mapper/project.json",
       "nx/core/project-json"
     ],
@@ -1108,7 +1132,7 @@
       "packages/carbon-component-mapper/project.json",
       "nx/core/project-json"
     ],
-    "targets.typecheck.options.noEmit": [
+    "targets.typecheck.options.outputPath": [
       "packages/carbon-component-mapper/project.json",
       "nx/core/project-json"
     ],
@@ -1410,7 +1434,15 @@
       "packages/common/project.json",
       "nx/core/project-json"
     ],
+    "targets.typecheck.outputs": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
     "targets.typecheck.cache": [
+      "packages/common/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.main": [
       "packages/common/project.json",
       "nx/core/project-json"
     ],
@@ -1418,7 +1450,7 @@
       "packages/common/project.json",
       "nx/core/project-json"
     ],
-    "targets.typecheck.options.noEmit": [
+    "targets.typecheck.options.outputPath": [
       "packages/common/project.json",
       "nx/core/project-json"
     ]
@@ -1748,7 +1780,15 @@
       "packages/mui-component-mapper/project.json",
       "nx/core/project-json"
     ],
+    "targets.typecheck.outputs": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
     "targets.typecheck.cache": [
+      "packages/mui-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.main": [
       "packages/mui-component-mapper/project.json",
       "nx/core/project-json"
     ],
@@ -1756,7 +1796,7 @@
       "packages/mui-component-mapper/project.json",
       "nx/core/project-json"
     ],
-    "targets.typecheck.options.noEmit": [
+    "targets.typecheck.options.outputPath": [
       "packages/mui-component-mapper/project.json",
       "nx/core/project-json"
     ],
@@ -2170,7 +2210,15 @@
       "packages/pf4-component-mapper/project.json",
       "nx/core/project-json"
     ],
+    "targets.typecheck.outputs": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
     "targets.typecheck.cache": [
+      "packages/pf4-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.main": [
       "packages/pf4-component-mapper/project.json",
       "nx/core/project-json"
     ],
@@ -2178,7 +2226,7 @@
       "packages/pf4-component-mapper/project.json",
       "nx/core/project-json"
     ],
-    "targets.typecheck.options.noEmit": [
+    "targets.typecheck.options.outputPath": [
       "packages/pf4-component-mapper/project.json",
       "nx/core/project-json"
     ],
@@ -2524,7 +2572,15 @@
       "packages/react-form-renderer/project.json",
       "nx/core/project-json"
     ],
+    "targets.typecheck.outputs": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
     "targets.typecheck.cache": [
+      "packages/react-form-renderer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.main": [
       "packages/react-form-renderer/project.json",
       "nx/core/project-json"
     ],
@@ -2532,7 +2588,7 @@
       "packages/react-form-renderer/project.json",
       "nx/core/project-json"
     ],
-    "targets.typecheck.options.noEmit": [
+    "targets.typecheck.options.outputPath": [
       "packages/react-form-renderer/project.json",
       "nx/core/project-json"
     ],
@@ -2866,7 +2922,15 @@
       "packages/suir-component-mapper/project.json",
       "nx/core/project-json"
     ],
+    "targets.typecheck.outputs": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
     "targets.typecheck.cache": [
+      "packages/suir-component-mapper/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.main": [
       "packages/suir-component-mapper/project.json",
       "nx/core/project-json"
     ],
@@ -2874,7 +2938,7 @@
       "packages/suir-component-mapper/project.json",
       "nx/core/project-json"
     ],
-    "targets.typecheck.options.noEmit": [
+    "targets.typecheck.options.outputPath": [
       "packages/suir-component-mapper/project.json",
       "nx/core/project-json"
     ],
@@ -2936,6 +3000,18 @@
       "packages/parsers/package.json",
       "nx/core/package-json"
     ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
     "metadata.description": [
       "packages/parsers/package.json",
       "nx/core/package-json"
@@ -2961,6 +3037,62 @@
       "nx/core/package-json"
     ],
     "targets": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:cjs": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:cjs.executor": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:cjs.options": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:cjs.metadata": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:cjs.options.script": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:cjs.metadata.scriptContent": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:cjs.metadata.runCommand": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:esm": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:esm.executor": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:esm.options": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:esm.metadata": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:esm.options.script": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:esm.metadata.scriptContent": [
+      "packages/parsers/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:esm.metadata.runCommand": [
       "packages/parsers/package.json",
       "nx/core/package-json"
     ],

@@ -49,9 +49,11 @@
     "typecheck": {
       "executor": "@nx/js:tsc",
       "options": {
+        "main": "packages/carbon-component-mapper/src/index.js",
         "tsConfig": "packages/carbon-component-mapper/tsconfig.json",
-        "noEmit": true
+        "outputPath": "packages/carbon-component-mapper/dist"
       },
+      "outputs": ["{options.outputPath}"],
       "cache": true
     },
     "start": {
