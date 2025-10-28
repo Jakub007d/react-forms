@@ -72,14 +72,15 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       # Actual release on push (works for forks too)
-      - name: Run Nx release (Push)
+      - name: Run Nx release version and publish (Push)
         if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          echo "Running Nx release..."
-          npx nx release  --verbose
-          npx nx release 
+          echo "Running Nx release version..."
+          npx nx release version --first-release --verbose
+          echo "Publishing packages to npm..."
+          npx nx release publish --verbose
         continue-on-error: false
 
   github-action-show-version:
