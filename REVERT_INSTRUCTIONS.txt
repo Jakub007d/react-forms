@@ -1,0 +1,74 @@
+CHANGES MADE FOR @jakub007d SCOPE RENAMING
+==========================================
+
+This file documents all changes made to enable test releases under @jakub007d scope.
+To revert these changes, run: git revert <commit-hash-of-this-change>
+
+CHANGES:
+--------
+
+1. Package Names (package.json files):
+   - All packages renamed from @data-driven-forms/* to @jakub007d/*
+   - Files affected:
+     * packages/*/package.json (10 files)
+     * Root package.json
+
+2. NX Configuration (nx.json):
+   - Updated release.projects array to use @jakub007d/* scope
+
+3. Project Configuration (project.json files):
+   - Updated all project names and dependencies to @jakub007d/*
+   - Disabled test execution in all packages
+   - Files affected:
+     * packages/*/project.json (10 files)
+
+4. Workflow Configuration (.github/workflows/main.yml):
+   - Removed test execution step
+   - Added conditional logic:
+     * Pull Request: runs with --dry-run flag
+     * Push to main/master (including forks): runs actual release
+   - Added NPM_TOKEN environment variable for publishing
+
+5. Exception - External Package:
+   - packages/react-renderer-demo/package.json
+   - Kept @data-driven-forms/editor-pro (external dependency)
+
+FILES MODIFIED:
+--------------
+- nx.json
+- package.json (root)
+- .github/workflows/main.yml
+- packages/ant-component-mapper/package.json
+- packages/ant-component-mapper/project.json
+- packages/blueprint-component-mapper/package.json
+- packages/blueprint-component-mapper/project.json
+- packages/carbon-component-mapper/package.json
+- packages/carbon-component-mapper/project.json
+- packages/common/package.json
+- packages/common/project.json
+- packages/mui-component-mapper/package.json
+- packages/mui-component-mapper/project.json
+- packages/parsers/package.json
+- packages/parsers/project.json
+- packages/pf4-component-mapper/package.json
+- packages/pf4-component-mapper/project.json
+- packages/react-form-renderer/package.json
+- packages/react-form-renderer/project.json
+- packages/react-renderer-demo/package.json
+- packages/react-renderer-demo/project.json
+- packages/suir-component-mapper/package.json
+- packages/suir-component-mapper/project.json
+
+HOW TO REVERT:
+-------------
+Option 1: Git revert
+  git revert <commit-hash>
+
+Option 2: Manual revert script
+  Run this command to revert package names:
+  find packages -name "package.json" -o -name "project.json" | xargs sed -i 's/@jakub007d/@data-driven-forms/g'
+  sed -i 's/@jakub007d/@data-driven-forms/g' nx.json
+  sed -i 's/@jakub007d/@data-driven-forms/g' package.json
+
+  Then restore .github/workflows/main.yml from git history
+  Then restore test targets in project.json files from git history

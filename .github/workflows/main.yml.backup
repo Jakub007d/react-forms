@@ -1,18 +1,14 @@
-name: CI/CD Pipeline
+name: Pull Request Checks
 
 on:
   pull_request:
-    branches:
-      - '**'
   push:
-    branches:
-      - '**'
   workflow_dispatch:
 
 jobs:
-  build-and-release:
+  pr-checks:
     runs-on: ubuntu-latest
-    name: Build and Release
+    name: PR Validation & Testing
 
     steps:
       - name: Checkout repository
@@ -25,7 +21,6 @@ jobs:
         with:
           node-version: '20'
           cache: 'yarn'
-          registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
@@ -34,7 +29,7 @@ jobs:
         uses: nrwl/nx-set-shas@v4
 
       - name: Run build on affected projects
-        run: npx nx affected --target=build --parallel=3 --exclude=@jakub007d/react-renderer-demo
+        run: npx nx affected --target=build --parallel=3
         continue-on-error: false
 
       - name: Run lint on affected projects
@@ -45,9 +40,11 @@ jobs:
         run: npx nx affected --target=typecheck --parallel=3
         continue-on-error: false
 
-      # Dry-run release on pull requests
-      - name: Run Nx release dry-run (PR)
-        if: github.event_name == 'pull_request'
+      - name: Run tests on affected projects
+        run: npx nx affected --target=test --parallel=3 --coverage
+        continue-on-error: false
+
+      - name: Run Nx release dry-run
         id: nx-release-dry-run
         run: |
           echo "Running Nx release in dry-run mode..."
@@ -55,29 +52,18 @@ jobs:
           EXIT_CODE=${PIPESTATUS[0]}
 
           if [ $EXIT_CODE -ne 0 ]; then
-            echo "❌ Nx release dry-run FAILED with exit code $EXIT_CODE"
+            echo "L Nx release dry-run FAILED with exit code $EXIT_CODE"
             echo "release_status=failed" >> $GITHUB_OUTPUT
             exit $EXIT_CODE
           else
-            echo "✅ Nx release dry-run SUCCEEDED"
+            echo " Nx release dry-run SUCCEEDED"
             echo "release_status=success" >> $GITHUB_OUTPUT
           fi
-        continue-on-error: false
-
-      # Actual release on push (works for forks too)
-      - name: Run Nx release (Push)
-        if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          echo "Running Nx release..."
-          npx nx release --first-release --verbose
         continue-on-error: false
 
   github-action-show-version:
     runs-on: ubuntu-latest
     name: Next version is
-    if: github.event_name == 'pull_request'
     steps:
       - name: Publish a version comment
         uses: rvsia/github-action-show-version@v1.9alpha
