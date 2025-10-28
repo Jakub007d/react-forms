@@ -1,4 +1,4 @@
-import { AnyObject, FormTemplateRenderProps } from "@data-driven-forms/react-form-renderer";
+import { AnyObject, FormTemplateRenderProps } from "@jakub007d/react-form-renderer";
 import { ElementType } from "react";
 
 export interface FormTemplateCommonProps extends FormTemplateRenderProps {

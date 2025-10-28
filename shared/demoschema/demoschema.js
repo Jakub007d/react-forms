@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import { validatorTypes as validators } from '@data-driven-forms/react-form-renderer';
+import { validatorTypes as validators } from '@jakub007d/react-form-renderer';
 
 const options = [
   { value: 1, label: 'cats' },

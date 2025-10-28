@@ -2,8 +2,8 @@ import React from 'react';
 import { styled } from '@mui/material/styles';
 import clsx from 'clsx';
 
-import selectNext from '@data-driven-forms/common/wizard/select-next';
-import { FormSpy } from '@data-driven-forms/react-form-renderer';
+import selectNext from '@jakub007d/common/wizard/select-next';
+import { FormSpy } from '@jakub007d/react-form-renderer';
 import { Button, Grid } from '@mui/material';
 
 const PREFIX = 'WizardStepButtons';

@@ -19,11 +19,11 @@ MaterialUI mapper provides components from [MaterialUI React library](https://mu
 ## Installation
 
 ```bash
-npm install --save @data-driven-forms/mui-component-mapper
+npm install --save @jakub007d/mui-component-mapper
 ```
 or
 ```bash
-yarn add @data-driven-forms/mui-component-mapper
+yarn add @jakub007d/mui-component-mapper
 ```
 
 MaterialUI has to be installed seperately. Please follow their [guidelines](https://mui.com/getting-started/installation/).
@@ -55,7 +55,7 @@ Please follow [official migration guide](https://mui.com/guides/migration-v4/). 
 
 #### Use new version of the mapper
 
-Use `3.16.0` and higher versions ([check here](https://www.npmjs.com/package/@data-driven-forms/mui-component-mapper).)
+Use `3.16.0` and higher versions ([check here](https://www.npmjs.com/package/@jakub007d/mui-component-mapper).)
 
 <br />
 
@@ -78,8 +78,8 @@ Please lock your `mui-component-mapper` version in `package.json`:
 ```diff
 # package.json
 
-- "@data-driven-forms/mui-component-mapper": "^3.15.7",
-+ "@data-driven-forms/mui-component-mapper": "3.15.7",
+- "@jakub007d/mui-component-mapper": "^3.15.7",
++ "@jakub007d/mui-component-mapper": "3.15.7",
 ```
 
 For any future bug fixes, we will use `3.15.7` as a base version. (example: next bugfix would be `3.15.8` and these versions will be tagged as `deprecated` in the npm registry.)

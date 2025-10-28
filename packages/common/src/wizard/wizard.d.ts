@@ -1,4 +1,4 @@
-import { AnyObject, Field } from "@data-driven-forms/react-form-renderer";
+import { AnyObject, Field } from "@jakub007d/react-form-renderer";
 export interface WizardProps extends AnyObject {
   fields: Field[];
   isDynamic?: boolean;

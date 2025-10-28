@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "name": "@data-driven-forms/blueprint-component-mapper",
+  "name": "@jakub007d/blueprint-component-mapper",
   "root": "packages/blueprint-component-mapper",
   "sourceRoot": "packages/blueprint-component-mapper/src",
   "projectType": "library",
@@ -64,5 +64,5 @@
       }
     }
   },
-  "implicitDependencies": ["@data-driven-forms/common"]
+  "implicitDependencies": ["@jakub007d/common"]
 }

@@ -1,4 +1,4 @@
-import { Field, AnyObject } from '@data-driven-forms/react-form-renderer';
+import { Field, AnyObject } from '@jakub007d/react-form-renderer';
 
 export interface WizardNextStepFunctionArgument {
   values?: AnyObject;

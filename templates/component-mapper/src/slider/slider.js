@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 
 const Slider = (props) => {
   const { input, isDisabled, isReadOnly } = useFieldApi(props);

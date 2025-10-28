@@ -16,7 +16,7 @@ To use the component import it from the common package:
 
 ```jsx
 --- { "switchable": false } ---
-import Wizard from '@data-driven-forms/common/wizard';
+import Wizard from '@jakub007d/common/wizard';
 ```
 
 And use your wizard component as `Wizard` prop:
@@ -31,7 +31,7 @@ Custom wizard (and all other nested components) then can access the wizard api v
 
 ```jsx
 --- { "switchable": false } ---
-import WizardContext from '@data-driven-forms/react-form-renderer/wizard-context';
+import WizardContext from '@jakub007d/react-form-renderer/wizard-context';
 
 const CustomWizard = (props) => {
    const {

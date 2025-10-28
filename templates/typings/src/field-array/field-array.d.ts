@@ -1,4 +1,4 @@
-import { FieldArrayField } from '@data-driven-forms/react-form-renderer';
+import { FieldArrayField } from '@jakub007d/react-form-renderer';
 
 export interface FieldArrayProps {
   fields: FieldArrayField[];

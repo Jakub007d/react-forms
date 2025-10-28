@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch as Pf4Switch } from '@patternfly/react-core';
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 import FormGroup from '../form-group/form-group';
 import IsRequired from '../is-required/is-required';
 

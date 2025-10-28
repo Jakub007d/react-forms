@@ -12,11 +12,11 @@ Carbon Component Mappers provides components from IBM's [Carbon Design System](h
 ## Installation
 
 ```bash
-npm install --save @data-driven-forms/carbon-component-mapper
+npm install --save @jakub007d/carbon-component-mapper
 ```
 or
 ```bash
-yarn add @data-driven-forms/carbon-component-mapper
+yarn add @jakub007d/carbon-component-mapper
 ```
 
 Carbon has to be installed seperately. Please follow their [guidelines](https://www.carbondesignsystem.com/developing/frameworks/react#install).

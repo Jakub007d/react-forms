@@ -1,9 +1,9 @@
 import React from 'react';
-import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
-import componentTypes from '@data-driven-forms/react-form-renderer/component-types';
-import FormSpy from '@data-driven-forms/react-form-renderer/form-spy';
-import FormTemplate from '@data-driven-forms/mui-component-mapper/form-template';
-import Select from '@data-driven-forms/mui-component-mapper/select';
+import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
+import componentTypes from '@jakub007d/react-form-renderer/component-types';
+import FormSpy from '@jakub007d/react-form-renderer/form-spy';
+import FormTemplate from '@jakub007d/mui-component-mapper/form-template';
+import Select from '@jakub007d/mui-component-mapper/select';
 
 const mockApi = (type) => {
   console.log(type);

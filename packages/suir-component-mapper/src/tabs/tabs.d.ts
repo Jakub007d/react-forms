@@ -1,4 +1,4 @@
-import { Field } from "@data-driven-forms/react-form-renderer";
+import { Field } from "@jakub007d/react-form-renderer";
 import { TabProps, TabPaneProps } from "semantic-ui-react";
 
 export interface TabsProps {

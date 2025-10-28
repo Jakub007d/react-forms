@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormRenderer, componentTypes, validatorTypes } from '@data-driven-forms/react-form-renderer';
+import { FormRenderer, componentTypes, validatorTypes } from '@jakub007d/react-form-renderer';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 

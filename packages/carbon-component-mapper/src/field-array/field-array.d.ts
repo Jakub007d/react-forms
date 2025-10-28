@@ -1,4 +1,4 @@
-import { FieldArrayField, UseFieldApiComponentConfig } from "@data-driven-forms/react-form-renderer";
+import { FieldArrayField, UseFieldApiComponentConfig } from "@jakub007d/react-form-renderer";
 import { ReactNode } from "react";
 import { ButtonProps, FormGroupProps as CarbonFormGroupProps } from "carbon-components-react";
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { componentTypes as components } from '@data-driven-forms/react-form-renderer';
+import { componentTypes as components } from '@jakub007d/react-form-renderer';
 import { DualListSortButton } from '../../src';
 
 const output = {

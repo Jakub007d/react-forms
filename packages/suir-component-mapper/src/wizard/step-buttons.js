@@ -1,8 +1,8 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss';
 
-import selectNext from '@data-driven-forms/common/wizard/select-next';
-import { FormSpy } from '@data-driven-forms/react-form-renderer';
+import selectNext from '@jakub007d/common/wizard/select-next';
+import { FormSpy } from '@jakub007d/react-form-renderer';
 import { Button } from 'semantic-ui-react';
 
 const useStyles = createUseStyles({

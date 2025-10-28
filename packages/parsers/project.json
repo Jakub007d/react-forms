@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "name": "@data-driven-forms/parsers",
+  "name": "@jakub007d/parsers",
   "root": "packages/parsers",
   "sourceRoot": "packages/parsers/src",
   "projectType": "library",
@@ -27,5 +27,5 @@
       "cache": true
     }
   },
-  "implicitDependencies": ["@data-driven-forms/react-form-renderer"]
+  "implicitDependencies": ["@jakub007d/react-form-renderer"]
 }

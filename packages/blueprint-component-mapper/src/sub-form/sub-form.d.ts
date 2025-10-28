@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Field } from "@data-driven-forms/react-form-renderer";
+import { Field } from "@jakub007d/react-form-renderer";
 
 export interface SubFormProps {
   title?: ReactNode;

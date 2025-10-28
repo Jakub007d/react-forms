@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "name": "@data-driven-forms/mui-component-mapper",
+  "name": "@jakub007d/mui-component-mapper",
   "root": "packages/mui-component-mapper",
   "sourceRoot": "packages/mui-component-mapper/src",
   "projectType": "library",
@@ -18,8 +18,8 @@
         "cwd": "packages/mui-component-mapper"
       },
       "dependsOn": [
-        "@data-driven-forms/common:build",
-        "@data-driven-forms/react-form-renderer:build"
+        "@jakub007d/common:build",
+        "@jakub007d/react-form-renderer:build"
       ],
       "cache": true
     },
@@ -74,5 +74,5 @@
       }
     }
   },
-  "implicitDependencies": ["@data-driven-forms/common"]
+  "implicitDependencies": ["@jakub007d/common"]
 }

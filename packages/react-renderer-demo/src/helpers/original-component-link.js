@@ -1,4 +1,4 @@
-import componentTypes from '@data-driven-forms/react-form-renderer/component-types';
+import componentTypes from '@jakub007d/react-form-renderer/component-types';
 
 export const docsLinks = {
   mui: 'https://mui.com/api/',

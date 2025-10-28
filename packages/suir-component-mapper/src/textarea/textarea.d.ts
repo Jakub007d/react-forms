@@ -1,5 +1,5 @@
 import { CommonFieldProps } from "../common-field-props/common-field-props";
-import { UseFieldApiComponentConfig } from "@data-driven-forms/react-form-renderer";
+import { UseFieldApiComponentConfig } from "@jakub007d/react-form-renderer";
 import { FormTextAreaProps } from "semantic-ui-react";
 
 interface InternalTextareaProps extends FormTextAreaProps {}

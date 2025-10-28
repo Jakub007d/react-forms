@@ -5,7 +5,7 @@ import CodeExample from '@docs/code-example';
 
 # Standalone validation
 
-*@data-driven-forms/react-form-renderer/validation*
+*@jakub007d/react-form-renderer/validation*
 
 *(schema: Schema, options: Options) => object: Errors*
 

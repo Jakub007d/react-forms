@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Row, Col } from 'antd';
 
-import { useFormApi } from '@data-driven-forms/react-form-renderer';
+import { useFormApi } from '@jakub007d/react-form-renderer';
 
 const { Title, Paragraph } = Typography;
 

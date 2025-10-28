@@ -1,7 +1,7 @@
 import React, { memo, useContext } from 'react';
 import isEqual from 'lodash/isEqual';
 import clsx from 'clsx';
-import { useFieldApi, useFormApi, FieldArray as FieldArrayFF } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi, useFormApi, FieldArray as FieldArrayFF } from '@jakub007d/react-form-renderer';
 import { createUseStyles } from 'react-jss';
 
 import { Button, Intent, FormGroup } from '@blueprintjs/core';

@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "name": "@data-driven-forms/carbon-component-mapper",
+  "name": "@jakub007d/carbon-component-mapper",
   "root": "packages/carbon-component-mapper",
   "sourceRoot": "packages/carbon-component-mapper/src",
   "projectType": "library",
@@ -64,5 +64,5 @@
       }
     }
   },
-  "implicitDependencies": ["@data-driven-forms/common"]
+  "implicitDependencies": ["@jakub007d/common"]
 }

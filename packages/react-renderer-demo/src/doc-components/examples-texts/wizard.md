@@ -50,7 +50,7 @@ You can import this constant:
 
 ```jsx
 --- { "switchable": false } ---
-import { CONDITIONAL_SUBMIT_FLAG } from '@data-driven-forms/common/wizard';
+import { CONDITIONAL_SUBMIT_FLAG } from '@jakub007d/common/wizard';
 
 ...
 // next step definition
@@ -125,7 +125,7 @@ B) `onCancel` - `(values, wizardState) => ...`
 Wizard share its configuration and props via `WizardContext`.
 
 ```jsx
-import { WizardContext } from '@data-driven-forms/react-form-renderer';
+import { WizardContext } from '@jakub007d/react-form-renderer';
 
   const {
     crossroads, // variables changing the navigation

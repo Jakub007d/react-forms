@@ -111,22 +111,22 @@ const Footer = ({ open }) => (
             </List>
             <List>
               <RepoLink
-                href="https://www.npmjs.com/package/@data-driven-forms/react-form-renderer"
+                href="https://www.npmjs.com/package/@jakub007d/react-form-renderer"
                 icon={<NpmSvgIcon />}
                 label="React form renderer"
               />
               <RepoLink
-                href="https://www.npmjs.com/package/@data-driven-forms/pf4-component-mapper"
+                href="https://www.npmjs.com/package/@jakub007d/pf4-component-mapper"
                 icon={<NpmSvgIcon />}
                 label="PF4 component mapper"
               />
               <RepoLink
-                href="https://www.npmjs.com/package/@data-driven-forms/mui-component-mapper"
+                href="https://www.npmjs.com/package/@jakub007d/mui-component-mapper"
                 icon={<NpmSvgIcon />}
                 label="MUI component mapper"
               />
               <RepoLink
-                href="https://www.npmjs.com/package/@data-driven-forms/blueprint-component-mapper"
+                href="https://www.npmjs.com/package/@jakub007d/blueprint-component-mapper"
                 icon={<NpmSvgIcon />}
                 label="Blueprint component mapper"
               />

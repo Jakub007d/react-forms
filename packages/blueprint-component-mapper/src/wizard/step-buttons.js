@@ -1,5 +1,5 @@
 import React from 'react';
-import selectNext from '@data-driven-forms/common/wizard/select-next';
+import selectNext from '@jakub007d/common/wizard/select-next';
 import clsx from 'clsx';
 import { createUseStyles } from 'react-jss';
 

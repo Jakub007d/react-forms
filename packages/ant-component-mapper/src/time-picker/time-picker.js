@@ -1,7 +1,7 @@
 import React from 'react';
 import { TimePicker as AntTimePicker } from 'antd';
 import { validationError } from '../validation-error/validation-error';
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 import FormGroup from '../form-group';
 
 const TimePicker = (props) => {

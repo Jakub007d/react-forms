@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Tab, TabPane } from 'semantic-ui-react';
 
-import { useFormApi } from '@data-driven-forms/react-form-renderer';
+import { useFormApi } from '@jakub007d/react-form-renderer';
 
 const TabContent = ({ name, fields, formOptions }) => <Fragment key={name}>{formOptions.renderForm(fields, formOptions)}</Fragment>;
 

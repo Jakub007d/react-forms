@@ -12,9 +12,9 @@ export const html = `
 
 export const code = `import React, { Component } from 'react';
 import { render } from 'react-dom';
-import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
-import FormTemplate from '@data-driven-forms/pf4-component-mapper/form-template';
-import componentMapper from '@data-driven-forms/pf4-component-mapper/component-mapper';
+import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
+import FormTemplate from '@jakub007d/pf4-component-mapper/form-template';
+import componentMapper from '@jakub007d/pf4-component-mapper/component-mapper';
 
 import schema from './schema'
 
@@ -37,9 +37,9 @@ render(<App />, document.getElementById('root'));`;
 
 export const wizardCode = `import React, { Component } from 'react';
 import { render } from 'react-dom';
-import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
-import Pf4FormTemplate from '@data-driven-forms/pf4-component-mapper/form-template';
-import componentMapper from '@data-driven-forms/pf4-component-mapper/component-mapper';
+import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
+import Pf4FormTemplate from '@jakub007d/pf4-component-mapper/form-template';
+import componentMapper from '@jakub007d/pf4-component-mapper/component-mapper';
 
 import schema from './schema'
 
@@ -65,9 +65,9 @@ render(<App />, document.getElementById('root'));`;
 export const dependencies = {
   react: 'latest',
   'react-dom': 'latest',
-  '@data-driven-forms/react-form-renderer': 'latest',
-  '@data-driven-forms/pf4-component-mapper': 'latest',
-  '@data-driven-forms/common': 'latest',
+  '@jakub007d/react-form-renderer': 'latest',
+  '@jakub007d/pf4-component-mapper': 'latest',
+  '@jakub007d/common': 'latest',
   '@patternfly/react-core': '^6.0.0',
   '@patternfly/react-icons': '^6.0.0',
   '@patternfly/react-styles': '^6.0.0',

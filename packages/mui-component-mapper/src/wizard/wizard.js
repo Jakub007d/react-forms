@@ -2,11 +2,11 @@ import React, { useContext } from 'react';
 import { styled } from '@mui/material/styles';
 import clsx from 'clsx';
 
-import { WizardContext } from '@data-driven-forms/react-form-renderer';
+import { WizardContext } from '@jakub007d/react-form-renderer';
 
 import { Grid } from '@mui/material';
 
-import Wizard from '@data-driven-forms/common/wizard';
+import Wizard from '@jakub007d/common/wizard';
 import WizardNav from './wizard-nav';
 import WizardStepButtons from './step-buttons';
 

@@ -4,7 +4,7 @@ import { createUseStyles } from 'react-jss';
 
 import { Form as CarbonForm, Button as CarbonButton, ButtonSet } from 'carbon-components-react';
 
-import FormTemplate from '@data-driven-forms/common/form-template';
+import FormTemplate from '@jakub007d/common/form-template';
 
 const useStyles = createUseStyles({
   buttons: {

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 
-import MultipleChoiceList from '@data-driven-forms/common/multiple-choice-list';
+import MultipleChoiceList from '@jakub007d/common/multiple-choice-list';
 import { Checkbox, FormGroup, Intent } from '@blueprintjs/core';
 
 import FormGroupWrapper from '../form-group/form-group';

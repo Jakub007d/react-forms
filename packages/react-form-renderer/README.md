@@ -57,14 +57,14 @@ Data Driven Forms is a React library used for rendering and managing forms with 
 
 Add React Form Renderer
 
-#### [React Form Renderer](https://www.npmjs.com/package/@data-driven-forms/react-form-renderer)
+#### [React Form Renderer](https://www.npmjs.com/package/@jakub007d/react-form-renderer)
 
 ```console
-$ npm install @data-driven-forms/react-form-renderer -S
+$ npm install @jakub007d/react-form-renderer -S
 ```
 
 ```console
-$ yarn add @data-driven-forms/react-form-renderer
+$ yarn add @jakub007d/react-form-renderer
 ```
 
 Optionally you can install one of provided mappers:
@@ -73,61 +73,61 @@ Optionally you can install one of provided mappers:
 #### [Material-UI Mapper](https://data-driven-forms.org/mappers/mui-component-mapper)
 
 ```console
-$ npm install @data-driven-forms/mui-component-mapper -S
+$ npm install @jakub007d/mui-component-mapper -S
 ```
 
 ```console
-$ yarn add @data-driven-forms/mui-component-mapper
+$ yarn add @jakub007d/mui-component-mapper
 ```
 
 #### [PatternFly 4 Mapper](https://data-driven-forms.org/mappers/pf4-component-mapper)
 
 ```console
-$ npm install @data-driven-forms/pf4-component-mapper -S
+$ npm install @jakub007d/pf4-component-mapper -S
 ```
 
 ```console
-$ yarn add @data-driven-forms/pf4-component-mapper
+$ yarn add @jakub007d/pf4-component-mapper
 ```
 
 #### [BlueprintJS Mapper](https://data-driven-forms.org/mappers/blueprint-component-mapper)
 
 ```console
-$ npm install @data-driven-forms/blueprint-component-mapper -S
+$ npm install @jakub007d/blueprint-component-mapper -S
 ```
 
 ```console
-$ yarn add @data-driven-forms/blueprint-component-mapper
+$ yarn add @jakub007d/blueprint-component-mapper
 ```
 
 #### [Semantic UI Mapper](https://data-driven-forms.org/mappers/suir-component-mapper)
 
 ```console
-$ npm install @data-driven-forms/suir-component-mapper -S
+$ npm install @jakub007d/suir-component-mapper -S
 ```
 
 ```console
-$ yarn add @data-driven-forms/suir-component-mapper
+$ yarn add @jakub007d/suir-component-mapper
 ```
 
 #### [Ant Design Mapper](https://data-driven-forms.org/mappers/ant-component-mapper)
 
 ```console
-$ npm install @data-driven-forms/ant-component-mapper -S
+$ npm install @jakub007d/ant-component-mapper -S
 ```
 
 ```console
-$ yarn add @data-driven-forms/ant-component-mapper
+$ yarn add @jakub007d/ant-component-mapper
 ```
 
 #### [Carbon Mapper](https://data-driven-forms.org/mappers/carbon-component-mapper)
 
 ```console
-$ npm install @data-driven-forms/carbon-component-mapper -S
+$ npm install @jakub007d/carbon-component-mapper -S
 ```
 
 ```console
-$ yarn add @data-driven-forms/carbon-component-mapper
+$ yarn add @jakub007d/carbon-component-mapper
 ```
 
 Component libraries in mappers are external dependencies. Make sure to install them in your bundles.
@@ -138,8 +138,8 @@ In order to Data Driven Forms in your component you need the renderer and a comp
 
 ```jsx
 import React from 'react';
-import { FormRenderer, componentTypes } from '@data-driven-forms/react-form-renderer';
-import { componentMapper, FormTemplate } from '@data-driven-forms/pf4-component-mapper';
+import { FormRenderer, componentTypes } from '@jakub007d/react-form-renderer';
+import { componentMapper, FormTemplate } from '@jakub007d/pf4-component-mapper';
 
 const schema = {
   fields: [{
@@ -165,7 +165,7 @@ You can also use custom mapper.
 
 ```jsx
 import React from 'react';
-import { FormRenderer, componentTypes, useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { FormRenderer, componentTypes, useFieldApi } from '@jakub007d/react-form-renderer';
 
 const TextField = props => {
   const {label, input, meta, ...rest} = useFieldApi(props)
@@ -233,13 +233,13 @@ Please use our [documentation site](https://data-driven-forms.org/). In case of 
 - [BlueprintJS](https://blueprintjs.com/)
 - [IBM Carbon](https://www.carbondesignsystem.com/)
 - NPM
-  - [React Form Renderer](https://www.npmjs.com/package/@data-driven-forms/react-form-renderer)
-  - [PatternFly 4 Mapper](https://www.npmjs.com/package/@data-driven-forms/pf4-component-mapper)
-  - [MaterialUI Mapper](https://www.npmjs.com/package/@data-driven-forms/mui-component-mapper)
-  - [Ant Design Mapper](https://www.npmjs.com/package/@data-driven-forms/ant-component-mapper)
-  - [Semantic UI Mapper](https://www.npmjs.com/package/@data-driven-forms/suir-component-mapper)
-  - [BlueprintJS Mapper](https://www.npmjs.com/package/@data-driven-forms/blueprint-component-mapper)
-  - [Carbon Mapper](https://www.npmjs.com/package/@data-driven-forms/carbon-component-mapper)
+  - [React Form Renderer](https://www.npmjs.com/package/@jakub007d/react-form-renderer)
+  - [PatternFly 4 Mapper](https://www.npmjs.com/package/@jakub007d/pf4-component-mapper)
+  - [MaterialUI Mapper](https://www.npmjs.com/package/@jakub007d/mui-component-mapper)
+  - [Ant Design Mapper](https://www.npmjs.com/package/@jakub007d/ant-component-mapper)
+  - [Semantic UI Mapper](https://www.npmjs.com/package/@jakub007d/suir-component-mapper)
+  - [BlueprintJS Mapper](https://www.npmjs.com/package/@jakub007d/blueprint-component-mapper)
+  - [Carbon Mapper](https://www.npmjs.com/package/@jakub007d/carbon-component-mapper)
 
 ### Development setup
 

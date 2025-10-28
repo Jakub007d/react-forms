@@ -5,7 +5,7 @@ import userEvent from '@testing-library/user-event';
 
 import FormTabs from '../tabs';
 import RenderWithProvider from '../../../../__mocks__/with-provider';
-import { FormRenderer, validatorTypes } from '@data-driven-forms/react-form-renderer';
+import { FormRenderer, validatorTypes } from '@jakub007d/react-form-renderer';
 import { componentMapper, FormTemplate } from '../index';
 
 describe('tabs', () => {

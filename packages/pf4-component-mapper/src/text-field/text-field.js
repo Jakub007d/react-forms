@@ -1,7 +1,7 @@
 import React from 'react';
 import FormGroup from '../form-group/form-group';
 import { TextInput } from '@patternfly/react-core';
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 import showError from '../show-error/show-error';
 
 const TextField = (props) => {

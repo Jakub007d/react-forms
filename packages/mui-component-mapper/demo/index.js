@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { FormRenderer, componentTypes } from '@data-driven-forms/react-form-renderer';
+import { FormRenderer, componentTypes } from '@jakub007d/react-form-renderer';
 
 import Grid from '@mui/material/Grid';
 import { componentMapper, FormTemplate } from '../src';
@@ -14,7 +14,7 @@ import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 
 import Button from '@mui/material/Button';
 import wizardSchema from './demo-schemas/wizard-schema';
-import validatorTypes from '@data-driven-forms/react-form-renderer/validator-types';
+import validatorTypes from '@jakub007d/react-form-renderer/validator-types';
 
 const theme = createTheme();
 

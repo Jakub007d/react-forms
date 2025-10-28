@@ -6,7 +6,7 @@ import Alert from '@mui/material/Alert';
 
 # Pro Editor
 
-<ComponentMapperBar prefix="mui" github="https://github.com/data-driven-forms/editor/tree/main/packages/editor-pro" npm="https://www.npmjs.com/package/@data-driven-forms%2Feditor-pro" npmSvg="https://badge.fury.io/js/@data-driven-forms%2Feditor-pro.svg" />
+<ComponentMapperBar prefix="mui" github="https://github.com/data-driven-forms/editor/tree/main/packages/editor-pro" npm="https://www.npmjs.com/package/@jakub007d%2Feditor-pro" npmSvg="https://badge.fury.io/js/@jakub007d%2Feditor-pro.svg" />
 
 <br />
 
@@ -14,16 +14,16 @@ import Alert from '@mui/material/Alert';
 
 <br />
 
-`@data-driven-forms/editor-pro` is a prebuilt Drag And Drop editor supporting custom provided mappers. The UI is built on Evergreen UI Framework. Check the [live example](/editor/live-editor).
+`@jakub007d/editor-pro` is a prebuilt Drag And Drop editor supporting custom provided mappers. The UI is built on Evergreen UI Framework. Check the [live example](/editor/live-editor).
 
 ## Installation
 
 ```bash
-npm install --save @data-driven-forms/editor-pro
+npm install --save @jakub007d/editor-pro
 ```
 or
 ```bash
-yarn add @data-driven-forms/editor-pro
+yarn add @jakub007d/editor-pro
 ```
 
 
@@ -36,7 +36,7 @@ yarn add @data-driven-forms/editor-pro
 ## Usage
 
 ```jsx
-import Editor from '@data-driven-forms/editor-pro/editor'
+import Editor from '@jakub007d/editor-pro/editor'
 
 <Editor />
 ```

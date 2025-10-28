@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Slider as AntSlider } from 'antd';
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 import FormGroup from '../form-group';
 
 const Slider = (props) => {

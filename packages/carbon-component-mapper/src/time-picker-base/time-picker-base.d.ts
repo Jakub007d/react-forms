@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { AnyObject, Input } from "@data-driven-forms/react-form-renderer";
+import { AnyObject, Input } from "@jakub007d/react-form-renderer";
 
 import { FormGroupProps } from "../form-group";
 

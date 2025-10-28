@@ -1,4 +1,4 @@
-import { componentTypes } from '@data-driven-forms/react-form-renderer';
+import { componentTypes } from '@jakub007d/react-form-renderer';
 
 import Tabs from '../tabs';
 import PlainText from '../plain-text';

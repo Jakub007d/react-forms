@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'antd';
-import selectNext from '@data-driven-forms/common/wizard/select-next';
+import selectNext from '@jakub007d/common/wizard/select-next';
 
 const NextButton = ({
   nextStep,

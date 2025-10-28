@@ -1,16 +1,16 @@
 'use client';
 import React, { useContext, useState } from 'react';
 
-import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
-import WizardContext from '@data-driven-forms/react-form-renderer/wizard-context';
-import FormSpy from '@data-driven-forms/react-form-renderer/form-spy';
+import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
+import WizardContext from '@jakub007d/react-form-renderer/wizard-context';
+import FormSpy from '@jakub007d/react-form-renderer/form-spy';
 
-import Wizard from '@data-driven-forms/common/wizard';
-import selectNext from '@data-driven-forms/common/wizard/select-next';
+import Wizard from '@jakub007d/common/wizard';
+import selectNext from '@jakub007d/common/wizard/select-next';
 
-import FormTemplate from '@data-driven-forms/mui-component-mapper/form-template';
-import Select from '@data-driven-forms/mui-component-mapper/select';
-import TextField from '@data-driven-forms/mui-component-mapper/text-field';
+import FormTemplate from '@jakub007d/mui-component-mapper/form-template';
+import Select from '@jakub007d/mui-component-mapper/select';
+import TextField from '@jakub007d/mui-component-mapper/text-field';
 
 const schema = {
   fields: [

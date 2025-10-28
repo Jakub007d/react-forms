@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { componentTypes as components, validatorTypes as validators } from '@data-driven-forms/react-form-renderer';
+import { componentTypes as components, validatorTypes as validators } from '@jakub007d/react-form-renderer';
 
 const asyncOptions = [
   { label: 'async-option-1', value: 'async-option-1' },

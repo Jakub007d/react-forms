@@ -1,5 +1,5 @@
 import { FormGroupProps } from "../form-group";
-import { AnyObject } from "@data-driven-forms/react-form-renderer";
+import { AnyObject } from "@jakub007d/react-form-renderer";
 import { ReactNode } from "react";
 
 import { RadioProps as AntRadioProps } from 'antd/es/radio/interface';

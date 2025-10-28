@@ -1,4 +1,4 @@
-import { UseFieldApiComponentConfig } from "@data-driven-forms/react-form-renderer";
+import { UseFieldApiComponentConfig } from "@jakub007d/react-form-renderer";
 import { SwitchProps as MuiSwitchProps, GridProps, FormControlProps, FormGroupProps, FormControlLabelProps, FormLabelProps, FormHelperTextProps } from '@mui/material';
 import { ReactNode } from "react";
 

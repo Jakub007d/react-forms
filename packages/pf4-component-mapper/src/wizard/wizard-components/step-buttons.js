@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, ActionList, ActionListGroup, ActionListItem } from '@patternfly/react-core';
-import selectNext from '@data-driven-forms/common/wizard/select-next';
-import { FormSpy } from '@data-driven-forms/react-form-renderer';
+import selectNext from '@jakub007d/common/wizard/select-next';
+import { FormSpy } from '@jakub007d/react-form-renderer';
 
 const NextButton = ({ nextStep, valid, handleNext, nextLabel, getState, handleSubmit, submitLabel, conditionalSubmitFlag }) => {
   const nextResult = nextStep ? selectNext(nextStep, getState) : nextStep;

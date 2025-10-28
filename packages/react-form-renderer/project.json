@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "name": "@data-driven-forms/react-form-renderer",
+  "name": "@jakub007d/react-form-renderer",
   "root": "packages/react-form-renderer",
   "sourceRoot": "packages/react-form-renderer/src",
   "projectType": "library",

@@ -1,6 +1,6 @@
 import React from 'react';
 import { DatePicker as PF4DatePicker } from '@patternfly/react-core';
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 import FormGroup from '../form-group/form-group';
 
 const DatePicker = (props) => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 
 import { FormGroup, RadioButtonGroup, RadioButton } from 'carbon-components-react';
 

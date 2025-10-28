@@ -3,13 +3,13 @@ import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 
-import validatorTypes from '@data-driven-forms/react-form-renderer/validator-types';
-import componentTypes from '@data-driven-forms/react-form-renderer/component-types';
-import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
-import TextField from '@data-driven-forms/mui-component-mapper/text-field';
-import Checkbox from '@data-driven-forms/mui-component-mapper/checkbox';
-import FormSpy from '@data-driven-forms/react-form-renderer/form-spy';
-import useFormApi from '@data-driven-forms/react-form-renderer/use-form-api';
+import validatorTypes from '@jakub007d/react-form-renderer/validator-types';
+import componentTypes from '@jakub007d/react-form-renderer/component-types';
+import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
+import TextField from '@jakub007d/mui-component-mapper/text-field';
+import Checkbox from '@jakub007d/mui-component-mapper/checkbox';
+import FormSpy from '@jakub007d/react-form-renderer/form-spy';
+import useFormApi from '@jakub007d/react-form-renderer/use-form-api';
 
 const PREFIX = 'FormExample';
 

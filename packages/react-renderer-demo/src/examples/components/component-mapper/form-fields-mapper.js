@@ -1,9 +1,9 @@
 /* eslint react/prop-types: "off" */
 import React, { useState } from 'react';
-import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
-import componentTypes from '@data-driven-forms/react-form-renderer/component-types';
-import useFieldApi from '@data-driven-forms/react-form-renderer/use-field-api';
-import useFormApi from '@data-driven-forms/react-form-renderer/use-form-api';
+import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
+import componentTypes from '@jakub007d/react-form-renderer/component-types';
+import useFieldApi from '@jakub007d/react-form-renderer/use-field-api';
+import useFormApi from '@jakub007d/react-form-renderer/use-form-api';
 
 const formGroupStyle = {
   display: 'flex',

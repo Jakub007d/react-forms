@@ -1,4 +1,4 @@
-import { AnyObject } from "@data-driven-forms/react-form-renderer";
+import { AnyObject } from "@jakub007d/react-form-renderer";
 
 export type NextStepContext = {
   values: AnyObject;

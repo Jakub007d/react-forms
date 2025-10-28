@@ -2,9 +2,9 @@ import React, { useMemo } from 'react';
 
 import FormFieldGrid from '../form-field-grid/form-field-grid';
 import { validationError } from '../validation-error/validation-error';
-import DDFSelect from '@data-driven-forms/common/select';
-import parseInternalValue from '@data-driven-forms/common/select/parse-internal-value';
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import DDFSelect from '@jakub007d/common/select';
+import parseInternalValue from '@jakub007d/common/select/parse-internal-value';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 import { TextField, CircularProgress } from '@mui/material';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { Autocomplete } from '@mui/material';

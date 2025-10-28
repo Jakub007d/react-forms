@@ -1,10 +1,10 @@
 import React from 'react';
 
-import CommonSelect from '@data-driven-forms/common/select';
-import parseInternalValue from '@data-driven-forms/common/select/parse-internal-value';
+import CommonSelect from '@jakub007d/common/select';
+import parseInternalValue from '@jakub007d/common/select/parse-internal-value';
 import FormFieldGrid from '../form-field-grid/form-field-grid';
 import { validationError, validationWarning } from '../helpers/helpers';
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 import { Dropdown } from 'semantic-ui-react';
 import FormField from '../form-field/form-field';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { FormRenderer } from '@data-driven-forms/react-form-renderer';
+import { FormRenderer } from '@jakub007d/react-form-renderer';
 import 'antd/dist/antd.css';
 import './style.css';
 import { componentMapper, FormTemplate } from '../src';

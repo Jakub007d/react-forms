@@ -2,7 +2,7 @@ import React from 'react';
 import { styled } from '@mui/material/styles';
 import { Typography, Grid } from '@mui/material';
 
-import { useFormApi } from '@data-driven-forms/react-form-renderer';
+import { useFormApi } from '@jakub007d/react-form-renderer';
 
 const PREFIX = 'SubForm';
 

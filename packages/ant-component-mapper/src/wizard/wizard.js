@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import WizardStep from './wizard-step';
 import { Steps, Modal } from 'antd';
-import Wizard from '@data-driven-forms/common/wizard/wizard';
-import { WizardContext } from '@data-driven-forms/react-form-renderer';
+import Wizard from '@jakub007d/common/wizard/wizard';
+import { WizardContext } from '@jakub007d/react-form-renderer';
 
 const defaultButtonLabels = {
   cancel: 'Cancel',

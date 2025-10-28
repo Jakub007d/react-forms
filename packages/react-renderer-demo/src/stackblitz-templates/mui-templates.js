@@ -11,9 +11,9 @@ export const html = `
 
 export const code = `import React, { Component } from 'react';
 import { render } from 'react-dom';
-import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
-import FormTemplate from '@data-driven-forms/mui-component-mapper/form-template';
-import componentMapper from '@data-driven-forms/mui-component-mapper/component-mapper';
+import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
+import FormTemplate from '@jakub007d/mui-component-mapper/form-template';
+import componentMapper from '@jakub007d/mui-component-mapper/component-mapper';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 
@@ -40,9 +40,9 @@ render(<App />, document.getElementById('root'));`;
 
 export const wizardCode = `import React, { Component } from 'react';
 import { render } from 'react-dom';
-import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
-import MuiFormTemplate from '@data-driven-forms/mui-component-mapper/form-template';
-import componentMapper from '@data-driven-forms/mui-component-mapper/component-mapper';
+import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
+import MuiFormTemplate from '@jakub007d/mui-component-mapper/form-template';
+import componentMapper from '@jakub007d/mui-component-mapper/component-mapper';
 
 import schema from './schema'
 
@@ -69,9 +69,9 @@ export const dependencies = {
   react: 'latest',
   'react-dom': 'latest',
   '@babel/runtime': '^7.12.1',
-  '@data-driven-forms/react-form-renderer': 'latest',
-  '@data-driven-forms/mui-component-mapper': 'latest',
-  '@data-driven-forms/common': 'latest',
+  '@jakub007d/react-form-renderer': 'latest',
+  '@jakub007d/mui-component-mapper': 'latest',
+  '@jakub007d/common': 'latest',
   '@mui/icons-material': 'latest',
   '@mui/x-date-pickers': '^5.0.20',
   '@mui/material': 'latest',

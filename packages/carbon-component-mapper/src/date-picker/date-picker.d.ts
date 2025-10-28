@@ -1,5 +1,5 @@
 import { FormGroupProps } from "../form-group";
-import { UseFieldApiComponentConfig } from "@data-driven-forms/react-form-renderer";
+import { UseFieldApiComponentConfig } from "@jakub007d/react-form-renderer";
 
 import { DatePickerProps as CarbonDatePickerProps, DatePickerInputProps } from 'carbon-components-react';
 

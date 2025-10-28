@@ -1,4 +1,4 @@
-import { Field, AnyObject } from "@data-driven-forms/react-form-renderer";
+import { Field, AnyObject } from "@jakub007d/react-form-renderer";
 import { ReactNode } from "react";
 
 export interface SubFormProps extends Omit<React.HTMLProps<HTMLDivElement>, 'title'> {

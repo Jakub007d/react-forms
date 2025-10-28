@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react-hooks/rules-of-hooks */
 import React from 'react';
-import { useFormApi, FormSpy } from '@data-driven-forms/react-form-renderer';
+import { useFormApi, FormSpy } from '@jakub007d/react-form-renderer';
 import { useFormApi as useFormApiInternal, FormSpy as FormSpyInternal } from '../packages/react-form-renderer/src';
 const path = require('path');
 

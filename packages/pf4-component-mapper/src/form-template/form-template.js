@@ -1,6 +1,6 @@
 import React from 'react';
 
-import FormTemplate from '@data-driven-forms/common/form-template';
+import FormTemplate from '@jakub007d/common/form-template';
 
 import { Button as PF4Button, ActionGroup, Form, Content, ContentVariants, Alert } from '@patternfly/react-core';
 

@@ -15,7 +15,7 @@ Next example shows simple input field with a label and an error message.
 ```jsx
 import React from 'react';
 
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 
 const NewComponent = (props) => {
   const { input, meta } = useFieldApi(props);
@@ -80,7 +80,7 @@ Just spread the input object on element. Input methods are mapped 1:1 to React f
 ```jsx
 import React from 'react';
 
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 
 const TextField = (props) => {
   const { input } = useFieldApi(props);
@@ -96,7 +96,7 @@ If you have non-input element, you can still easily use all the methods.
 ```jsx
 import React from 'react';
 
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 
 import Card from './custom-card.js';
 
@@ -159,7 +159,7 @@ The main reason why to use meta object is to show users additional information a
 ```jsx
 import React from 'react';
 
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 
 import Spinner from './spinner.js';
 
@@ -178,7 +178,7 @@ const TextField = (props) => {
 ```jsx
 import React from 'react';
 
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 
 import ErrorMessage from './error-message.js';
 
@@ -199,7 +199,7 @@ This combination makes the UX better, as users won't see an error until they fin
 ```jsx
 import React from 'react';
 
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 
 import ErrorMessage from './error-message.js';
 

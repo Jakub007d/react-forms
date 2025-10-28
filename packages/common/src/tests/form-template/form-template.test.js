@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { FormRenderer, componentTypes, useFieldApi, FormError as ERROR } from '@data-driven-forms/react-form-renderer';
+import { FormRenderer, componentTypes, useFieldApi, FormError as ERROR } from '@jakub007d/react-form-renderer';
 import { render, screen } from '@testing-library/react';
 
 import FormTemplate from '../../form-template/form-template';

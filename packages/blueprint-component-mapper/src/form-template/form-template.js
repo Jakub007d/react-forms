@@ -1,7 +1,7 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss';
 
-import FormTemplate from '@data-driven-forms/common/form-template';
+import FormTemplate from '@jakub007d/common/form-template';
 import { Button, H1, H2 } from '@blueprintjs/core';
 import BlueprintContext from '../blueprint-context/blueprint-context';
 

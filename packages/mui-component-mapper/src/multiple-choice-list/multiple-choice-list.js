@@ -2,7 +2,7 @@ import React, { createContext, useContext } from 'react';
 
 import { Grid, Checkbox, FormControlLabel, FormLabel, FormGroup, FormControl, FormHelperText } from '@mui/material';
 
-import MultipleChoiceListCommon from '@data-driven-forms/common/multiple-choice-list';
+import MultipleChoiceListCommon from '@jakub007d/common/multiple-choice-list';
 import { validationError } from '../validation-error/validation-error';
 
 const CheckboxContext = createContext({});

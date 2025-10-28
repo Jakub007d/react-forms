@@ -1,4 +1,4 @@
-import { UseFieldApiComponentConfig, AnyObject } from "@data-driven-forms/react-form-renderer";
+import { UseFieldApiComponentConfig, AnyObject } from "@jakub007d/react-form-renderer";
 
 import { TimePickerDateProps } from "../time-picker-date";
 import { TimePickerStringProps } from "../time-picker-string";

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Typography, Form as AntForm } from 'antd';
-import FormTemplate from '@data-driven-forms/common/form-template';
+import FormTemplate from '@jakub007d/common/form-template';
 
 const { Title, Paragraph } = Typography;
 

@@ -7,10 +7,10 @@ import Checkbox from '../checkbox';
 import Switch from '../switch';
 
 import RenderWithProvider from '../../../../__mocks__/with-provider';
-import { FormRenderer, componentTypes } from '@data-driven-forms/react-form-renderer';
+import { FormRenderer, componentTypes } from '@jakub007d/react-form-renderer';
 import FormTemplate from '../form-template';
 import componentMapper from '../component-mapper';
-import { validatorTypes } from '@data-driven-forms/react-form-renderer';
+import { validatorTypes } from '@jakub007d/react-form-renderer';
 
 describe('FormFields', () => {
   const props = {

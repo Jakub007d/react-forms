@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Field, AnyObject, FormOptions } from "@data-driven-forms/react-form-renderer";
+import { Field, AnyObject, FormOptions } from "@jakub007d/react-form-renderer";
 import { IButtonProps } from "@blueprintjs/core";
 
 export interface WizardButtonLabels {

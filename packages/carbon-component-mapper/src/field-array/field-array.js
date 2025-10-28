@@ -3,7 +3,7 @@ import isEqual from 'lodash/isEqual';
 import clsx from 'clsx';
 import { createUseStyles } from 'react-jss';
 
-import { useFieldApi, useFormApi, FieldArray as FieldArrayFF } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi, useFormApi, FieldArray as FieldArrayFF } from '@jakub007d/react-form-renderer';
 
 import { Button, FormGroup } from 'carbon-components-react';
 import { AddAlt32, Subtract32 } from '@carbon/icons-react';

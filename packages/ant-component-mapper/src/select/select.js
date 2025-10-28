@@ -2,7 +2,7 @@ import React from 'react';
 
 import FormGroup from '../form-group';
 import { Select as AntSelect } from 'antd';
-import { useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi } from '@jakub007d/react-form-renderer';
 
 const selectValue = (option) => option.sort((a, b) => a.label.localeCompare(b.label, 'en', { sensitivity: 'base' })).map((item) => item.value);
 

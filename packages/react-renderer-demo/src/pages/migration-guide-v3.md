@@ -18,8 +18,8 @@ Migration should be simple - most of the components share the same API so replac
 
 ```diff
 --- { "switchable": false } ---
--import { componentMapper, FormTemplate } from '@data-driven-forms/pf3-component-mapper';
-+import { componentMapper, FormTemplate } from '@data-driven-forms/pf4-component-mapper';
+-import { componentMapper, FormTemplate } from '@jakub007d/pf3-component-mapper';
++import { componentMapper, FormTemplate } from '@jakub007d/pf4-component-mapper';
 ```
 
 ---
@@ -40,8 +40,8 @@ Due to the new build process, you have to change your imports path, if you use r
 
 ```diff
 --- { "switchable": false } ---
--import useFieldApi from '@data-driven-forms/react-form-renderer/dist/cjs/use-field-api';;
-+import useFieldApi from '@data-driven-forms/react-form-renderer/use-field-api';
+-import useFieldApi from '@jakub007d/react-form-renderer/dist/cjs/use-field-api';;
++import useFieldApi from '@jakub007d/react-form-renderer/use-field-api';
 ```
 
 You can use [babel-transform-plugin](/optimization#transformingimportsinbabel) to do this change for you.
@@ -52,12 +52,12 @@ FormRenderer component is no longer a default export of the `react-form-renderer
 
 ```diff
 --- { "switchable": false } ---
--import FormRenderer from '@data-driven-forms/react-form-renderer';
-+import { FormRenderer } from '@data-driven-forms/react-form-renderer';
+-import FormRenderer from '@jakub007d/react-form-renderer';
++import { FormRenderer } from '@jakub007d/react-form-renderer';
 
 // or
 
-+import { FormRenderer } from '@data-driven-forms/react-form-renderer/form-renderer';
++import { FormRenderer } from '@jakub007d/react-form-renderer/form-renderer';
 ```
 
 <br />

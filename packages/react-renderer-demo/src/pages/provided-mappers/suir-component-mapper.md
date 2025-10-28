@@ -12,11 +12,11 @@ Semantic UI react mapper provides components from [Semantic UI react](https://re
 ## Installation
 
 ```bash
-npm install --save @data-driven-forms/suir-component-mapper
+npm install --save @jakub007d/suir-component-mapper
 ```
 or
 ```bash
-yarn add @data-driven-forms/suir-component-mapper
+yarn add @jakub007d/suir-component-mapper
 ```
 
 Semantic UI react library is an external dependency and will not be installed with the mapper. Make sure that [Semantic UI react](https://react.semantic-ui.com/usage) is installed in your project.

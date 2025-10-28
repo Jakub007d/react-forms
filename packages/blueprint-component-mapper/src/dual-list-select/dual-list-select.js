@@ -1,6 +1,6 @@
 import React from 'react';
 
-import DualListSelectCommon from '@data-driven-forms/common/dual-list-select';
+import DualListSelectCommon from '@jakub007d/common/dual-list-select';
 import { Menu, MenuItem, ButtonGroup, Button, ControlGroup, InputGroup } from '@blueprintjs/core';
 import clsx from 'clsx';
 import { createUseStyles } from 'react-jss';

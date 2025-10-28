@@ -1,10 +1,10 @@
 import React from 'react';
 import { styled } from '@mui/material/styles';
-import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
-import componentTypes from '@data-driven-forms/react-form-renderer/component-types';
-import Switch from '@data-driven-forms/mui-component-mapper/switch';
-import TextField from '@data-driven-forms/mui-component-mapper/text-field';
-import FormTemplate from '@data-driven-forms/mui-component-mapper/form-template';
+import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
+import componentTypes from '@jakub007d/react-form-renderer/component-types';
+import Switch from '@jakub007d/mui-component-mapper/switch';
+import TextField from '@jakub007d/mui-component-mapper/text-field';
+import FormTemplate from '@jakub007d/mui-component-mapper/form-template';
 
 const StyledTextInput = styled(TextField)(() => ({
   '&.root': {

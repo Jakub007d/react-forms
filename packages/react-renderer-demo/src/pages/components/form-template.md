@@ -46,7 +46,7 @@ With using `useFormApi` hook you can get access to all form information and func
 FormTemplates of the provided DDF mappers offers additional customization via using props.
 
 ```jsx
-import { FormTemplate } from '@data-driven-forms/pf4-component-mapper'
+import { FormTemplate } from '@jakub007d/pf4-component-mapper'
 
 <FormRenderer
   ...

@@ -1,6 +1,6 @@
 import React, { useReducer, useEffect, useContext } from 'react';
-import { FormSpy, WizardContext } from '@data-driven-forms/react-form-renderer';
-import Wizard from '@data-driven-forms/common/wizard/wizard';
+import { FormSpy, WizardContext } from '@jakub007d/react-form-renderer';
+import Wizard from '@jakub007d/common/wizard/wizard';
 
 import { WizardNav, WizardHeader } from '@patternfly/react-core';
 import { Modal as PF4Modal } from '@patternfly/react-core/deprecated';

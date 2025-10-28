@@ -133,8 +133,8 @@ const getPayload = (code, sourceFiles = {}) =>
           keywords: [],
           main: 'src/index.js',
           dependencies: {
-            '@data-driven-forms/mui-component-mapper': 'latest',
-            '@data-driven-forms/react-form-renderer': 'latest',
+            '@jakub007d/mui-component-mapper': 'latest',
+            '@jakub007d/react-form-renderer': 'latest',
             '@mui/material': 'latest',
             '@mui/icons-material': 'latest',
             react: '^18.2.0',

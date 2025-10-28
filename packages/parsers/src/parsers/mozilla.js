@@ -1,4 +1,4 @@
-import { validatorTypes, componentTypes } from '@data-driven-forms/react-form-renderer';
+import { validatorTypes, componentTypes } from '@jakub007d/react-form-renderer';
 import { setWith } from 'lodash';
 
 import {

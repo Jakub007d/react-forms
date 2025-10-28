@@ -2,12 +2,12 @@ import React from 'react';
 import { render, screen, cleanup, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { FormRenderer, componentTypes, validatorTypes } from '@data-driven-forms/react-form-renderer';
-import * as enterHandle from '@data-driven-forms/common/wizard/enter-handler';
+import { FormRenderer, componentTypes, validatorTypes } from '@jakub007d/react-form-renderer';
+import * as enterHandle from '@jakub007d/common/wizard/enter-handler';
 
 import { componentMapper, FormTemplate } from '../../index';
 import reducer from '../../wizard/wizard-components/reducer';
-import commonReducer from '@data-driven-forms/common/src/wizard/reducer';
+import commonReducer from '@jakub007d/common/src/wizard/reducer';
 
 describe('<Wizard />', () => {
   let initialProps;

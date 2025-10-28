@@ -6,7 +6,7 @@ import Alert from '@mui/material/Alert';
 
 # Drag and Drop
 
-<ComponentMapperBar prefix="mui" github="https://github.com/data-driven-forms/editor/tree/main/packages/dnd" npm="https://www.npmjs.com/package/@data-driven-forms%2Fdnd" npmSvg="https://badge.fury.io/js/@data-driven-forms%2Fdnd.svg" />
+<ComponentMapperBar prefix="mui" github="https://github.com/data-driven-forms/editor/tree/main/packages/dnd" npm="https://www.npmjs.com/package/@jakub007d%2Fdnd" npmSvg="https://badge.fury.io/js/@jakub007d%2Fdnd.svg" />
 
 <br />
 
@@ -14,16 +14,16 @@ import Alert from '@mui/material/Alert';
 
 <br />
 
-`@data-driven-forms/dnd` is a library providing drag and drop functionality for React components. This custom light-weight library currently supports mouse and touch input, is highly customisable and supports deep nesting of container elements.
+`@jakub007d/dnd` is a library providing drag and drop functionality for React components. This custom light-weight library currently supports mouse and touch input, is highly customisable and supports deep nesting of container elements.
 
 ## Installation
 
 ```bash
-npm install --save @data-driven-forms/dnd
+npm install --save @jakub007d/dnd
 ```
 or
 ```bash
-yarn add @data-driven-forms/dnd
+yarn add @jakub007d/dnd
 ```
 
 ### API

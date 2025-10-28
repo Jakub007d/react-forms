@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "name": "@data-driven-forms/suir-component-mapper",
+  "name": "@jakub007d/suir-component-mapper",
   "root": "packages/suir-component-mapper",
   "sourceRoot": "packages/suir-component-mapper/src",
   "projectType": "library",
@@ -64,5 +64,5 @@
       }
     }
   },
-  "implicitDependencies": ["@data-driven-forms/common"]
+  "implicitDependencies": ["@jakub007d/common"]
 }

@@ -22,8 +22,8 @@ import CodeEditor from '@docs/components/code-editor';
 import DocLink from '../common/doc-link';
 
 const value = `import React from 'react';
-import { FormRenderer, componentTypes } from '@data-driven-forms/react-form-renderer';
-import { componentMapper, FormTemplate } from '@data-driven-forms/pf4-component-mapper';
+import { FormRenderer, componentTypes } from '@jakub007d/react-form-renderer';
+import { componentMapper, FormTemplate } from '@jakub007d/pf4-component-mapper';
 
 const validatorMapper = {
     'same-email': () => (

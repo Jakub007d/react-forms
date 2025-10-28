@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { FormRenderer, WizardContext, componentTypes, useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { FormRenderer, WizardContext, componentTypes, useFieldApi } from '@jakub007d/react-form-renderer';
 
 import Wizard from '../../wizard';
 

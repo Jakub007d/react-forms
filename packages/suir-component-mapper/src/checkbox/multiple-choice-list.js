@@ -1,5 +1,5 @@
 import React, { createContext, useContext } from 'react';
-import MultipleChoiceListCommon from '@data-driven-forms/common/multiple-choice-list';
+import MultipleChoiceListCommon from '@jakub007d/common/multiple-choice-list';
 import { FormCheckbox, Header, FormField } from 'semantic-ui-react';
 import { createUseStyles } from 'react-jss';
 import clsx from 'clsx';

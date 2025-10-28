@@ -1,4 +1,4 @@
-import { UseFieldApiComponentConfig } from "@data-driven-forms/react-form-renderer";
+import { UseFieldApiComponentConfig } from "@jakub007d/react-form-renderer";
 import { ReactNode } from "react";
 import { FormGroupProps } from "../form-group";
 

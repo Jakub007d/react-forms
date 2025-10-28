@@ -12,11 +12,11 @@ Ant Design provides components from [Ant Design Design System](https://ant.desig
 ## Installation
 
 ```bash
-npm install --save @data-driven-forms/ant-component-mapper
+npm install --save @jakub007d/ant-component-mapper
 ```
 or
 ```bash
-yarn add @data-driven-forms/ant-component-mapper
+yarn add @jakub007d/ant-component-mapper
 ```
 
 Ant Design has to be installed seperately. Please follow their [guidelines](https://ant.design/docs/react/introduce#Installation).

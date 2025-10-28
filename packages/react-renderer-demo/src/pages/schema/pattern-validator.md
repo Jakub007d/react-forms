@@ -8,7 +8,7 @@ import CodeExample from '@docs/code-example';
 Data Driven Forms provides a pattern validator that uses regular expression to check the value.
 
 ```jsx
-import { validatorTypes } from '@data-driven-forms/react-form-renderer';
+import { validatorTypes } from '@jakub007d/react-form-renderer';
 
 
 {

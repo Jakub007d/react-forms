@@ -1,6 +1,6 @@
 import React, { memo, useReducer } from 'react';
 import isEqual from 'lodash/isEqual';
-import { useFieldApi, useFormApi, FieldArray } from '@data-driven-forms/react-form-renderer';
+import { useFieldApi, useFormApi, FieldArray } from '@jakub007d/react-form-renderer';
 import { Row, Col, Button, Typography, Space } from 'antd';
 import { UndoOutlined, RedoOutlined } from '@ant-design/icons';
 
