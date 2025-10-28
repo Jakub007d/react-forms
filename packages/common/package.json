@@ -1,6 +1,6 @@
 {
   "name": "@jakub007d/common",
-  "version": "4.1.1",
+  "version": "4.2.0",
   "description": "Common components, helpers and other pieces of code for Data Driven Forms",
   "license": "Apache-2.0",
   "main": "index.js",

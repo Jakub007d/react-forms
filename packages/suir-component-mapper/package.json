@@ -1,6 +1,6 @@
 {
   "name": "@jakub007d/suir-component-mapper",
-  "version": "4.1.1",
+  "version": "4.2.0",
   "description": "Semantíc UI React component mapper for Data Driven Forms.",
   "main": "index.js",
   "module": "esm/index.js",
