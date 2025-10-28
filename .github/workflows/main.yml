@@ -64,6 +64,13 @@ jobs:
           fi
         continue-on-error: false
 
+      # Configure git for release commits
+      - name: Configure git user
+        if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       # Actual release on push (works for forks too)
       - name: Run Nx release (Push)
         if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
