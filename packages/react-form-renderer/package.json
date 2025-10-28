@@ -1,5 +1,5 @@
 {
-  "name": "@data-driven-forms/react-form-renderer",
+  "name": "@jakub007d/react-form-renderer",
   "version": "4.1.1",
   "description": "React Form Renderer. Data Driven Forms converts JSON form definitions into fully functional React forms.",
   "main": "index.js",

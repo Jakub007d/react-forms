@@ -1,5 +1,5 @@
 {
-  "name": "@data-driven-forms/parsers",
+  "name": "@jakub007d/parsers",
   "version": "4.1.1",
   "description": "Parsers for Data Driven Forms.",
   "main": "dist/cjs/index.js",
@@ -26,6 +26,6 @@
   ],
   "devDependencies": {},
   "dependencies": {
-    "@data-driven-forms/react-form-renderer": "*"
+    "@jakub007d/react-form-renderer": "*"
   }
 }

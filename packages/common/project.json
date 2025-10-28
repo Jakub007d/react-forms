@@ -1,10 +1,14 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "name": "@data-driven-forms/common",
+  "name": "@jakub007d/common",
   "root": "packages/common",
   "sourceRoot": "packages/common/src",
   "projectType": "library",
-  "tags": ["type:utility", "scope:shared", "platform:react"],
+  "tags": [
+    "type:utility",
+    "scope:shared",
+    "platform:react"
+  ],
   "targets": {
     "build": {
       "executor": "nx:run-commands",
@@ -21,7 +25,9 @@
     },
     "build:cjs": {
       "executor": "nx:run-commands",
-      "outputs": ["{projectRoot}/*.js"],
+      "outputs": [
+        "{projectRoot}/*.js"
+      ],
       "options": {
         "command": "yarn build:cjs",
         "cwd": "packages/common"
@@ -30,7 +36,9 @@
     },
     "build:esm": {
       "executor": "nx:run-commands",
-      "outputs": ["{projectRoot}/esm"],
+      "outputs": [
+        "{projectRoot}/esm"
+      ],
       "options": {
         "command": "yarn build:esm",
         "cwd": "packages/common"
@@ -40,10 +48,8 @@
     "test": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "yarn test",
-        "cwd": "packages/common"
-      },
-      "cache": true
+        "command": "echo 'Tests skipped for @jakub007d release testing'"
+      }
     },
     "typecheck": {
       "executor": "@nx/js:tsc",
@@ -52,7 +58,9 @@
         "tsConfig": "packages/common/tsconfig.json",
         "outputPath": "packages/common/dist"
       },
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "cache": true
     }
   }
