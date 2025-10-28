@@ -5,7 +5,7 @@ import { render, screen, act, fireEvent } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import cloneDeep from 'lodash/cloneDeep';
 
-import { useFieldApi, FormRenderer, componentTypes } from '@jakub007d/react-form-renderer';
+import { useFieldApi, FormRenderer, componentTypes } from '@data-driven-forms/react-form-renderer';
 
 import Select from '../../select';
 import reducer from '../../use-select/reducer';

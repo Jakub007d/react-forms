@@ -2,10 +2,10 @@ import React from 'react';
 import { render, screen, act } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { FormRenderer, componentTypes } from '@jakub007d/react-form-renderer';
+import { FormRenderer, componentTypes } from '@data-driven-forms/react-form-renderer';
 import FormTemplate from '../form-template/form-template';
 import componentMapper from '../component-mapper/component-mapper';
-import { validatorTypes } from '@jakub007d/react-form-renderer';
+import { validatorTypes } from '@data-driven-forms/react-form-renderer';
 
 describe('formFields generated tests', () => {
   const RendererWrapper = ({ schema = { fields: [] }, ...props }) => (

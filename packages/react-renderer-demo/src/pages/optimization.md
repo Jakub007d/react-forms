@@ -13,15 +13,15 @@ By using a standard import path, **the module based on your environment will be 
 Exported files follow the kebab case. All components are exported in default exports.
 
 ```jsx
-import useField from '@jakub007d/react-form-renderer/use-field';
+import useField from '@data-driven-forms/react-form-renderer/use-field';
 ```
 ## ESM
 
 In case you need to import ESM module manually, you can do this by using `esm` in a path. However, we do not recommend it.
 
 ```jsx
-import FormRenderer from '@jakub007d/react-form-renderer/esm/form-renderer';
-import useField from '@jakub007d/react-form-renderer/esm/use-field';
+import FormRenderer from '@data-driven-forms/react-form-renderer/esm/form-renderer';
+import useField from '@data-driven-forms/react-form-renderer/esm/use-field';
 ```
 
 ## UMD
@@ -48,9 +48,9 @@ Example:
 const transformDDFImports = [
   'transform-imports',
   {
-    '@jakub007d/react-form-renderer': {
+    '@data-driven-forms/react-form-renderer': {
       transform: (importName) =>
-        `@jakub007d/react-form-renderer/${importName
+        `@data-driven-forms/react-form-renderer/${importName
               .split(/(?=[A-Z])/)
               .join('-')
               .toLowerCase()}.js`,
@@ -74,8 +74,8 @@ Result:
 
 ```diff
 --- { "switchable": false } ---
--import { useField } from '@jakub007d/react-form-renderer';
-+import useField from '@jakub007d/react-form-renderer/use-field';
+-import { useField } from '@data-driven-forms/react-form-renderer';
++import useField from '@data-driven-forms/react-form-renderer/use-field';
 ```
 
 </DocPage>

@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "name": "@jakub007d/common",
+  "name": "@data-driven-forms/common",
   "root": "packages/common",
   "sourceRoot": "packages/common/src",
   "projectType": "library",

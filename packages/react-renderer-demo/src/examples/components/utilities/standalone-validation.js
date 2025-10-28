@@ -1,4 +1,4 @@
-import validation from '@jakub007d/react-form-renderer/validation';
+import validation from '@data-driven-forms/react-form-renderer/validation';
 import React, { useEffect, useState } from 'react';
 
 const asyncValidate = (pass) => {

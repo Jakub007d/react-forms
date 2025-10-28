@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "name": "@jakub007d/ant-component-mapper",
+  "name": "@data-driven-forms/ant-component-mapper",
   "root": "packages/ant-component-mapper",
   "sourceRoot": "packages/ant-component-mapper/src",
   "projectType": "library",
@@ -70,5 +70,5 @@
       }
     }
   },
-  "implicitDependencies": ["@jakub007d/common"]
+  "implicitDependencies": ["@data-driven-forms/common"]
 }

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { componentTypes, validatorTypes } from '@jakub007d/react-form-renderer';
+import { componentTypes, validatorTypes } from '@data-driven-forms/react-form-renderer';
 import { Button } from '@patternfly/react-core';
-import { useFormApi } from '@jakub007d/react-form-renderer';
+import { useFormApi } from '@data-driven-forms/react-form-renderer';
 
 const ValidateButtons = ({ disableBack, handlePrev, buttonLabels: { back, cancel }, renderNextButton }) => {
   const [state, setState] = useState('init');

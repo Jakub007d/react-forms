@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormRenderer, componentTypes, validatorTypes } from '@jakub007d/react-form-renderer';
+import { FormRenderer, componentTypes, validatorTypes } from '@data-driven-forms/react-form-renderer';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { act, render, screen } from '@testing-library/react';

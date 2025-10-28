@@ -1,4 +1,4 @@
-import { Field } from '@jakub007d/react-form-renderer';
+import { Field } from '@data-driven-forms/react-form-renderer';
 
 export interface SubFormProps {
   fields: Field | Field[];

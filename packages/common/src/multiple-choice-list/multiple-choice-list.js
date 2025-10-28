@@ -1,5 +1,5 @@
 import React from 'react';
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 
 const SingleCheckbox = (props) => {
   const { input, Checkbox, ...rest } = useFieldApi({ ...props, type: 'checkbox' });

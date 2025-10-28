@@ -31,7 +31,7 @@ First, you can use [useFieldApi](/hooks/use-field-api) hook.
 This hook needs `name`, in case of special input types which are using checked as the input value (checbkoxes, switches) you have to assign `type: checkbox`. The hook will return all field props, including input and meta.
 
 ```jsx
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 
 ...
 
@@ -43,7 +43,7 @@ const { input, isDisabled, label, helperText, description, meta } = useFieldApi(
 Or you can import [FieldProvider](/components/field-provider) component from Data Driven Forms. This component needs to obtain `render` or `Component` prop.
 
 ```jsx
-import { FieldProvider } from '@jakub007d/react-form-renderer'
+import { FieldProvider } from '@data-driven-forms/react-form-renderer'
 
 <FieldProvider Component={TextField}>
 
@@ -99,7 +99,7 @@ const componentMapper = {
 And then use the component mapper in the form renderer component:
 
 ```jsx
-import { FormRenderer } from '@jakub007d/react-form-renderer';
+import { FormRenderer } from '@data-driven-forms/react-form-renderer';
 
 const Form = (props) => <FormRenderer
   componentMapper={componentMapper}

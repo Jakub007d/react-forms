@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { WizardContext } from '@jakub007d/react-form-renderer';
-import Wizard from '@jakub007d/common/wizard/wizard';
+import { WizardContext } from '@data-driven-forms/react-form-renderer';
+import Wizard from '@data-driven-forms/common/wizard/wizard';
 import WizardNav from './wizard-nav';
 import WizardStepButtons from './step-buttons';
 

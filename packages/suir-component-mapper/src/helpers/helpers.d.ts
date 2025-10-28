@@ -1,5 +1,5 @@
 import React from 'react';
-import { Meta } from '@jakub007d/react-form-renderer';
+import { Meta } from '@data-driven-forms/react-form-renderer';
 
 type ValidationFunction = (meta: Meta<any>, validateOnMount?: boolean) => React.ReactNode | boolean | undefined;
 

@@ -15,11 +15,11 @@ module.exports = {
       [
         'transform-imports',
         {
-        '@jakub007d/react-form-renderer': {
-            transform: (importName) => `@jakub007d/react-form-renderer/${camelToSnake(importName)}`,
+        '@data-driven-forms/react-form-renderer': {
+            transform: (importName) => `@data-driven-forms/react-form-renderer/${camelToSnake(importName)}`,
             preventFullImport: true
           }
         },
-        '@jakub007d/react-form-renderer'
+        '@data-driven-forms/react-form-renderer'
     ]]
 }

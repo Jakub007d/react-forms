@@ -2,7 +2,7 @@ import React from 'react';
 import { render as rtlRender, screen } from '@testing-library/react';
 
 import WizardStep, { RenderTitle } from '../../wizard/wizard-components/wizard-step';
-import { Form } from '@jakub007d/react-form-renderer';
+import { Form } from '@data-driven-forms/react-form-renderer';
 
 const render = (children) => rtlRender(<Form onSubmit={jest.fn()}>{() => children}</Form>);
 

@@ -1,5 +1,5 @@
 import FormGroupProps from "../form-group";
-import { UseFieldApiComponentConfig } from "@jakub007d/react-form-renderer";
+import { UseFieldApiComponentConfig } from "@data-driven-forms/react-form-renderer";
 import { TextAreaProps as PfTextAreaProps } from '@patternfly/react-core';
 
 interface InternalTextareaProps extends PfTextAreaProps {}

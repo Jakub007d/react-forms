@@ -23,7 +23,7 @@ import {
 
 import SortIcon from '@mui/icons-material/ArrowUpward';
 
-import DualListSelectCommon from '@jakub007d/common/dual-list-select';
+import DualListSelectCommon from '@data-driven-forms/common/dual-list-select';
 
 import FormFieldGrid from '../form-field-grid/form-field-grid';
 import { validationError } from '../validation-error/validation-error';

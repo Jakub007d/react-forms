@@ -1,6 +1,6 @@
 import React from 'react';
 import { FormCheckbox } from 'semantic-ui-react';
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 import FormFieldGrid from '../form-field-grid/form-field-grid';
 import { createUseStyles } from 'react-jss';
 import clsx from 'clsx';

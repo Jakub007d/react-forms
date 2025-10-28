@@ -3,7 +3,7 @@ import { AppBar, Grid, Tab, Tabs } from '@mui/material';
 
 import FormFieldGrid from '../form-field-grid';
 
-import { useFormApi } from '@jakub007d/react-form-renderer';
+import { useFormApi } from '@data-driven-forms/react-form-renderer';
 
 const FormTabs = ({ fields, AppBarProps = {}, TabsProps = {}, TabProps = {}, FormFieldGridProps = {}, GridItemProps = {} }) => {
   const formOptions = useFormApi();

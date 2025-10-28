@@ -10,12 +10,12 @@ const root = process.cwd();
 const files = glob.sync(`${root}/packages/*/package.json`);
 
 console.log('Files to replace: ', files.join(',\n'), '\n');
-console.log('Replacing to: ', `"@jakub007d/common": "^${nextVersion}"`, '\n');
+console.log('Replacing to: ', `"@data-driven-forms/common": "^${nextVersion}"`, '\n');
 
 const replaceConfig = {
   files,
-  from: ['"@jakub007d/common": "*"', '"@jakub007d/react-form-renderer": "*"'],
-  to: [`"@jakub007d/common": "^${nextVersion}"`, `"@jakub007d/react-form-renderer": "^${nextVersion}"`],
+  from: ['"@data-driven-forms/common": "*"', '"@data-driven-forms/react-form-renderer": "*"'],
+  to: [`"@data-driven-forms/common": "^${nextVersion}"`, `"@data-driven-forms/react-form-renderer": "^${nextVersion}"`],
 };
 
 (async () => await replace(replaceConfig))();

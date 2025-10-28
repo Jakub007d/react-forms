@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, act } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { FormRenderer, componentTypes, validatorTypes } from '@jakub007d/react-form-renderer';
+import { FormRenderer, componentTypes, validatorTypes } from '@data-driven-forms/react-form-renderer';
 import Checkbox from '../checkbox';
 
 import RenderWithProvider from '../../../../__mocks__/with-provider';

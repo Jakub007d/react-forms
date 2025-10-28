@@ -1,4 +1,4 @@
-import { UseFieldApiComponentConfig, AnyObject } from "@jakub007d/react-form-renderer";
+import { UseFieldApiComponentConfig, AnyObject } from "@data-driven-forms/react-form-renderer";
 import { ReactNode } from "react";
 import { ICheckboxProps } from '@blueprintjs/core';
 import { FormGroupProps } from "../form-group/form-group";

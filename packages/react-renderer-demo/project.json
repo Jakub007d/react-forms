@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "name": "@jakub007d/react-renderer-demo",
+  "name": "@data-driven-forms/react-renderer-demo",
   "root": "packages/react-renderer-demo",
   "sourceRoot": "packages/react-renderer-demo/src",
   "projectType": "application",
@@ -50,7 +50,7 @@
     }
   },
   "implicitDependencies": [
-    "@jakub007d/mui-component-mapper",
-    "@jakub007d/react-form-renderer"
+    "@data-driven-forms/mui-component-mapper",
+    "@data-driven-forms/react-form-renderer"
   ]
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form as DDFForm, RendererContext } from '@jakub007d/react-form-renderer';
+import { Form as DDFForm, RendererContext } from '@data-driven-forms/react-form-renderer';
 import { render, screen } from '@testing-library/react';
 
 import { Form as OriginalForm } from 'antd';

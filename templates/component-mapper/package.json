@@ -1,5 +1,5 @@
 {
-  "name": "@jakub007d/{{componentmapper}}-component-mapper",
+  "name": "@data-driven-forms/{{componentmapper}}-component-mapper",
   "version": "0.0.0",
   "description": "{{componentmapper}} React component mapper for Data Driven Forms.",
   "main": "index.js",
@@ -29,12 +29,12 @@
   "devDependencies": {
   },
   "peerDependencies": {
-    "@jakub007d/react-form-renderer": "*",
+    "@data-driven-forms/react-form-renderer": "*",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "dependencies": {
-    "@jakub007d/common": "*",
+    "@data-driven-forms/common": "*",
     "lodash": "latest",
   }
 }

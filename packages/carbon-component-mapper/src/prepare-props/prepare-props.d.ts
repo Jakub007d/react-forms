@@ -1,5 +1,5 @@
 import React from 'react';
-import { AnyObject } from '@jakub007d/react-form-renderer';
+import { AnyObject } from '@data-driven-forms/react-form-renderer';
 
 export function buildLabel(label: React.ReactNode, isRequired: boolean): React.ReactNode | undefined;
 

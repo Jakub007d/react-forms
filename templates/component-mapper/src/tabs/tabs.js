@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { useFormApi } from '@jakub007d/react-form-renderer';
+import { useFormApi } from '@data-driven-forms/react-form-renderer';
 
 const Tabs = ({ fields }) => {
   const formOptions = useFormApi();

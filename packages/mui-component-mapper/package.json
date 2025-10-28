@@ -1,5 +1,5 @@
 {
-  "name": "@jakub007d/mui-component-mapper",
+  "name": "@data-driven-forms/mui-component-mapper",
   "version": "4.1.1",
   "description": "Component mapper for Material ui component mapper form data-driven-forms.",
   "main": "index.js",
@@ -31,7 +31,7 @@
     "react-intl": "^6.4.6"
   },
   "peerDependencies": {
-    "@jakub007d/react-form-renderer": "*",
+    "@data-driven-forms/react-form-renderer": "*",
     "@mui/icons-material": "^5.10.3",
     "@mui/material": "^5.18.0",
     "@mui/x-date-pickers": "^5.0.1 || ^6.13.0",
@@ -39,7 +39,7 @@
     "react-dom": "^17.0.2 || ^18.0.0 || ^19.0.0"
   },
   "dependencies": {
-    "@jakub007d/common": "*",
+    "@data-driven-forms/common": "*",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@mui/system": "^5.10.4",

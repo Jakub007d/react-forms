@@ -45,7 +45,7 @@ This document summarizes all changes made to fix the CI/CD pipeline failures in 
   run: npx nx affected --target=test --parallel=3 --coverage
 ```
 
-**Why:** Tests were failing because they couldn't find generated submodule exports (like `@jakub007d/react-form-renderer/use-form-api`). These are generated during the build process by the `generate-packages.js` script, so the build must run before tests.
+**Why:** Tests were failing because they couldn't find generated submodule exports (like `@data-driven-forms/react-form-renderer/use-form-api`). These are generated during the build process by the `generate-packages.js` script, so the build must run before tests.
 
 ---
 
@@ -158,8 +158,8 @@ This document summarizes all changes made to fix the CI/CD pipeline failures in 
     "cwd": "packages/mui-component-mapper"
   },
   "dependsOn": [
-    "@jakub007d/common:build",
-    "@jakub007d/react-form-renderer:build"
+    "@data-driven-forms/common:build",
+    "@data-driven-forms/react-form-renderer:build"
   ],
   "cache": true
 }
@@ -174,24 +174,23 @@ By explicitly listing only the actual runtime dependencies (`common` and `react-
 
 ---
 
-## 5. SUIR Component Mapper - Tests Disabled Due to React 19 Incompatibility
+## 5. SUIR Component Mapper - Upgrade to semantic-ui-react v3 Beta
 
 **Files:**
+- `packages/suir-component-mapper/package.json`
 - `packages/suir-component-mapper/project.json`
 - `package.json` (root)
 
-**Change:** Disabled tests for suir-component-mapper due to React 19 incompatibility
+**Change:** Upgraded semantic-ui-react to v3.0.0-beta.2 to enable React 19 compatibility
 
-**Current State:**
+**Before:**
 ```json
-// packages/suir-component-mapper/project.json
-"test": {
-  "executor": "nx:run-commands",
-  "options": {
-    "command": "echo 'Skipping tests for suir-component-mapper (tests are broken - React 19 compatibility issues)'",
-    "cwd": "packages/suir-component-mapper"
-  },
-  "cache": true
+// packages/suir-component-mapper/package.json
+"devDependencies": {
+  "semantic-ui-react": "^2.0.3"
+},
+"peerDependencies": {
+  "semantic-ui-react": "^2.1.5"
 }
 
 // package.json (root)
@@ -205,20 +204,35 @@ By explicitly listing only the actual runtime dependencies (`common` and `react-
 ]
 ```
 
+**After:**
+```json
+// packages/suir-component-mapper/package.json
+"devDependencies": {
+  "semantic-ui-react": "3.0.0-beta.2"
+},
+"peerDependencies": {
+  "semantic-ui-react": "^3.0.0-beta.2"
+}
+
+// package.json (root) - removed exclusions
+"testPathIgnorePatterns": [
+  "/node_modules/"
+],
+"collectCoverageFrom": [
+  // suir-component-mapper exclusion removed
+  ...
+]
+```
+
 **Why:**
 - The project uses React 19 (upgraded via PR #1505)
 - `semantic-ui-react@2.1.5` only supports React 16, 17, and 18
-- Tests fail with:
-  - `TypeError: ReactDOM.findDOMNode is not a function` (removed in React 19)
-  - `AggregateError` in multiple test files (101 tests fail)
-- The package was already excluded from test coverage in the root `package.json`
-- By explicitly defining a test target that skips tests, we prevent CI failures
+- Tests were failing with React 19 incompatibility errors
+- `semantic-ui-react@3.0.0-beta.2` works with React 19 (though not officially declared in peer deps)
+- After upgrade, all 113 suir-component-mapper tests pass successfully
+- Tests are now enabled and included in coverage
 
-**Future Fix:**
-To enable tests, upgrade to `semantic-ui-react@3.0.0-beta.2` (or stable v3 when released):
-- This version works with React 19 (all 113 tests pass)
-- There's an [open PR #4513](https://github.com/Semantic-Org/Semantic-UI-React/pull/4513) to add official React 19 support
-- Once semantic-ui-react v3 stable is released, upgrade and re-enable tests
+**Note:** The v3 beta doesn't officially list React 19 in its peer dependencies, but it works correctly. There's an [open PR #4513](https://github.com/Semantic-Org/Semantic-UI-React/pull/4513) to add official React 19 support. Once semantic-ui-react v3 stable is released with React 19 support, we should upgrade to that version.
 
 ---
 
@@ -227,12 +241,12 @@ To enable tests, upgrade to `semantic-ui-react@3.0.0-beta.2` (or stable v3 when 
 ### Module Resolution Issue
 The original error was:
 ```
-Cannot find module '@jakub007d/react-form-renderer/use-form-api'
+Cannot find module '@data-driven-forms/react-form-renderer/use-form-api'
 ```
 
 This happened because:
 1. The submodule exports are generated at build time by `scripts/generate-packages.js`
-2. This script creates `use-form-api/package.json` files that allow importing like `@jakub007d/react-form-renderer/use-form-api`
+2. This script creates `use-form-api/package.json` files that allow importing like `@data-driven-forms/react-form-renderer/use-form-api`
 3. Tests were running before the build, so these files didn't exist yet
 
 ### Circular Dependency
@@ -259,12 +273,12 @@ The correct build order is:
 All changes were tested locally:
 ```bash
 # Test individual package builds
-npx nx run @jakub007d/parsers:build
-npx nx run @jakub007d/mui-component-mapper:build
-npx nx run @jakub007d/react-renderer-demo:build
+npx nx run @data-driven-forms/parsers:build
+npx nx run @data-driven-forms/mui-component-mapper:build
+npx nx run @data-driven-forms/react-renderer-demo:build
 
 # Test that suir-component-mapper test target exits successfully
-npx nx run @jakub007d/suir-component-mapper:test
+npx nx run @data-driven-forms/suir-component-mapper:test
 
 # Test all affected tests pass
 npx nx affected --target=test --parallel=3
@@ -288,7 +302,7 @@ yarn test packages/react-form-renderer
 **Result:** Tests **FAILED** with the same error:
 ```
 FAIL packages/react-form-renderer/src/tests/form-renderer/condition.test.js
-Cannot find module '@jakub007d/react-form-renderer/use-form-api' from '__mocks__/mock-form-template.js'
+Cannot find module '@data-driven-forms/react-form-renderer/use-form-api' from '__mocks__/mock-form-template.js'
 ```
 
 ### Test 2: Module Resolution Issue (With Build)

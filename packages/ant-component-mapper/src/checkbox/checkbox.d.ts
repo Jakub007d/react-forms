@@ -1,4 +1,4 @@
-import { AnyObject } from "@jakub007d/react-form-renderer";
+import { AnyObject } from "@data-driven-forms/react-form-renderer";
 import { ReactNode } from "react";
 import { CheckboxProps as AndCheckboxProps } from 'antd/es/checkbox/Checkbox';
 import { FormGroupProps } from "../form-group";

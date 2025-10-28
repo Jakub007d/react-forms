@@ -7,11 +7,11 @@ import DocPage from '@docs/doc-page';
 React Form Renderer is the basic component, that provides all features.
 
 ```bash
-npm install --save @jakub007d/react-form-renderer
+npm install --save @data-driven-forms/react-form-renderer
 ```
 or
 ```bash
-yarn add @jakub007d/react-form-renderer
+yarn add @data-driven-forms/react-form-renderer
 ```
 
 ## Mappers

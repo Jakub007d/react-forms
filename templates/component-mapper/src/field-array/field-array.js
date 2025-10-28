@@ -1,7 +1,7 @@
 import React from 'react';
 import isEqual from 'lodash/isEqual';
 import PropTypes from 'prop-types';
-import { useFieldApi, useFormApi, FieldArray as FieldArrayFF } from '@jakub007d/react-form-renderer';
+import { useFieldApi, useFormApi, FieldArray as FieldArrayFF } from '@data-driven-forms/react-form-renderer';
 
 const ArrayItem = memo(({ remove, fields, name }) => {
   const formOptions = useFormApi();

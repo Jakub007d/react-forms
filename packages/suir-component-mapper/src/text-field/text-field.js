@@ -2,7 +2,7 @@ import React from 'react';
 import { Input } from 'semantic-ui-react';
 
 import { validationError, validationWarning } from '../helpers/helpers';
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 import FormFieldGrid from '../form-field-grid/form-field-grid';
 import FormField from '../form-field/form-field';
 

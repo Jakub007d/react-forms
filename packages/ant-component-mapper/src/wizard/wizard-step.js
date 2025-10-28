@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import FormSpy from '@jakub007d/react-form-renderer/form-spy';
+import FormSpy from '@data-driven-forms/react-form-renderer/form-spy';
 import WizardStepButtons from './step-buttons';
 
 import './wizard-step.css';

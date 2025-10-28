@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
-import componentTypes from '@jakub007d/react-form-renderer/component-types';
-import FormSpy from '@jakub007d/react-form-renderer/form-spy';
-import useFormApi from '@jakub007d/react-form-renderer/use-form-api';
+import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
+import componentTypes from '@data-driven-forms/react-form-renderer/component-types';
+import FormSpy from '@data-driven-forms/react-form-renderer/form-spy';
+import useFormApi from '@data-driven-forms/react-form-renderer/use-form-api';
 
-import FormTemplate from '@jakub007d/mui-component-mapper/form-template';
-import TextField from '@jakub007d/mui-component-mapper/text-field';
+import FormTemplate from '@data-driven-forms/mui-component-mapper/form-template';
+import TextField from '@data-driven-forms/mui-component-mapper/text-field';
 
 const FieldListener = () => {
   const { getState, change } = useFormApi();

@@ -1,10 +1,10 @@
 import React, { memo, useReducer } from 'react';
 import isEqual from 'lodash/isEqual';
-import { useFormApi, FieldArray } from '@jakub007d/react-form-renderer';
+import { useFormApi, FieldArray } from '@data-driven-forms/react-form-renderer';
 
 import { Button, Header, ButtonGroup } from 'semantic-ui-react';
 
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 
 import { createUseStyles } from 'react-jss';
 import clsx from 'clsx';

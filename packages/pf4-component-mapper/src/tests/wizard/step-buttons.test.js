@@ -1,15 +1,15 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import handleEnter from '@jakub007d/common/wizard/enter-handler';
+import handleEnter from '@data-driven-forms/common/wizard/enter-handler';
 
 import RenderWithProvider from '../../../../../__mocks__/with-provider';
 
 import WizardStepButtons from '../../wizard/wizard-components/step-buttons';
-import componentTypes from '@jakub007d/react-form-renderer/component-types';
-import { CONDITIONAL_SUBMIT_FLAG } from '@jakub007d/common/wizard';
-import validatorTypes from '@jakub007d/react-form-renderer/validator-types';
-import { FormRenderer } from '@jakub007d/react-form-renderer';
+import componentTypes from '@data-driven-forms/react-form-renderer/component-types';
+import { CONDITIONAL_SUBMIT_FLAG } from '@data-driven-forms/common/wizard';
+import validatorTypes from '@data-driven-forms/react-form-renderer/validator-types';
+import { FormRenderer } from '@data-driven-forms/react-form-renderer';
 import FormTemplate from '../../form-template';
 import componentMapper from '../../component-mapper';
 

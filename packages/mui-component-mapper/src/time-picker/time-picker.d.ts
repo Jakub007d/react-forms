@@ -1,4 +1,4 @@
-import { UseFieldApiComponentConfig } from "@jakub007d/react-form-renderer";
+import { UseFieldApiComponentConfig } from "@data-driven-forms/react-form-renderer";
 import { TimePickerProps as MuiTimePickerProps } from '@mui/x-date-pickers';
 import { ReactNode } from "react";
 import { GridProps } from "@mui/material";

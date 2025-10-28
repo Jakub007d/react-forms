@@ -1,5 +1,5 @@
 import { FormGroupProps } from "../form-group/form-group";
-import { UseFieldApiComponentConfig } from "@jakub007d/react-form-renderer";
+import { UseFieldApiComponentConfig } from "@data-driven-forms/react-form-renderer";
 import { IInputGroupProps } from "@blueprintjs/core";
 
 interface InternalTextFieldProps extends IInputGroupProps {}

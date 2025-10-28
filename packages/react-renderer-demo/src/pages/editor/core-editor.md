@@ -6,7 +6,7 @@ import Alert from '@mui/material/Alert';
 
 # Core Editor
 
-<ComponentMapperBar prefix="mui" github="https://github.com/data-driven-forms/editor/tree/main/packages/editor-core" npm="https://www.npmjs.com/package/@jakub007d%2Feditor-core" npmSvg="https://badge.fury.io/js/@jakub007d%2Feditor-core.svg" />
+<ComponentMapperBar prefix="mui" github="https://github.com/data-driven-forms/editor/tree/main/packages/editor-core" npm="https://www.npmjs.com/package/@data-driven-forms%2Feditor-core" npmSvg="https://badge.fury.io/js/@data-driven-forms%2Feditor-core.svg" />
 
 <br />
 
@@ -14,16 +14,16 @@ import Alert from '@mui/material/Alert';
 
 <br />
 
-`@jakub007d/editor-core` is a set of components and utilities allowing to build a custom Data Driven Forms Drag And Drop editor based on [Data Driven Forms Drag And Drop](/editor/dnd) library.
+`@data-driven-forms/editor-core` is a set of components and utilities allowing to build a custom Data Driven Forms Drag And Drop editor based on [Data Driven Forms Drag And Drop](/editor/dnd) library.
 
 ## Installation
 
 ```bash
-npm install --save @jakub007d/editor-core @jakub007d/dnd
+npm install --save @data-driven-forms/editor-core @data-driven-forms/dnd
 ```
 or
 ```bash
-yarn add @jakub007d/editor-core @jakub007d/dnd
+yarn add @data-driven-forms/editor-core @data-driven-forms/dnd
 ```
 
 ## API

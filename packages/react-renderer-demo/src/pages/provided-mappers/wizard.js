@@ -1,7 +1,7 @@
 import React from 'react';
 import ComponentText from '@docs/components/component-example-text';
-import componentTypes from '@jakub007d/react-form-renderer/component-types';
-import validatorTypes from '@jakub007d/react-form-renderer/validator-types';
+import componentTypes from '@data-driven-forms/react-form-renderer/component-types';
+import validatorTypes from '@data-driven-forms/react-form-renderer/validator-types';
 
 const schema = {
   fields: [

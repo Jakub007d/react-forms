@@ -4,7 +4,7 @@ import { createUseStyles } from 'react-jss';
 
 import { Tabs as CarbonTabs, Tab } from 'carbon-components-react';
 
-import { useFormApi } from '@jakub007d/react-form-renderer';
+import { useFormApi } from '@data-driven-forms/react-form-renderer';
 
 const useStyles = createUseStyles({
   tab: {

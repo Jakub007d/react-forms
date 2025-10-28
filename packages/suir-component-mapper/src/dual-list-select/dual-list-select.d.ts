@@ -1,4 +1,4 @@
-import { UseFieldApiComponentConfig } from "@jakub007d/react-form-renderer";
+import { UseFieldApiComponentConfig } from "@data-driven-forms/react-form-renderer";
 import { CommonFieldProps } from "../common-field-props/common-field-props";
 import { ReactNode } from "react";
 import { SegmentProps, FormFieldProps, InputProps, GridColumnProps, ButtonProps, HeaderProps } from "semantic-ui-react";

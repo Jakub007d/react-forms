@@ -8,7 +8,7 @@ import CodeExample from '@docs/code-example';
 Required validator checks if the value is not empty/falsy.
 
 ```jsx
-import { validatorTypes } from '@jakub007d/react-form-renderer';
+import { validatorTypes } from '@data-driven-forms/react-form-renderer';
 
 
 {

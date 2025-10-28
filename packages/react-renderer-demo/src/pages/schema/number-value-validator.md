@@ -12,7 +12,7 @@ Data Driven Forms provides several built number validators:
 Checks if the number is smaller than a value.
 
 ```jsx
-import { validatorTypes } from '@jakub007d/react-form-renderer';
+import { validatorTypes } from '@data-driven-forms/react-form-renderer';
 
 
 {
@@ -26,7 +26,7 @@ import { validatorTypes } from '@jakub007d/react-form-renderer';
 Checks if the number is greater than a value.
 
 ```jsx
-import { validatorTypes } from '@jakub007d/react-form-renderer';
+import { validatorTypes } from '@data-driven-forms/react-form-renderer';
 
 
 {

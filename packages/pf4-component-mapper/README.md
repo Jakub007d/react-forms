@@ -29,24 +29,24 @@ For more information please check the root [repository](https://github.com/data-
 
 You need to add React Form Renderer
 
-#### [React Form Renderer](https://www.npmjs.com/package/@jakub007d/react-form-renderer)
+#### [React Form Renderer](https://www.npmjs.com/package/@data-driven-forms/react-form-renderer)
 
 ```console
-$ npm install @jakub007d/react-form-renderer -S
+$ npm install @data-driven-forms/react-form-renderer -S
 ```
 
 ```console
-$ yarn add @jakub007d/react-form-renderer
+$ yarn add @data-driven-forms/react-form-renderer
 ```
 
 #### [PatternFly 4 Mapper](https://data-driven-forms.org/mappers/pf4-component-mapper)
 
 ```console
-$ npm install @jakub007d/pf4-component-mapper -S
+$ npm install @data-driven-forms/pf4-component-mapper -S
 ```
 
 ```console
-$ yarn add @jakub007d/pf4-component-mapper
+$ yarn add @data-driven-forms/pf4-component-mapper
 ```
 
 
@@ -56,8 +56,8 @@ For using Data Driven Forms in your component you need the renderer and a compon
 
 ```jsx
 import React from 'react';
-import { FormRenderer, componentTypes } from '@jakub007d/react-form-renderer';
-import { componentMapper, FormTemplate } from '@jakub007d/pf4-component-mapper';
+import { FormRenderer, componentTypes } from '@data-driven-forms/react-form-renderer';
+import { componentMapper, FormTemplate } from '@data-driven-forms/pf4-component-mapper';
 
 const schema = {
   fields: [{
@@ -119,8 +119,8 @@ This field will show the error immediately.
 - [Data Driven Forms documentation](https://data-driven-forms.org/)
 - [PatternFly 4 Design documentation](https://www.patternfly.org/v4/)
 - NPM
-  - [React Form Renderer](https://www.npmjs.com/package/@jakub007d/react-form-renderer)
-  - [PatternFly 4 Mapper](https://www.npmjs.com/package/@jakub007d/pf4-component-mapper)
+  - [React Form Renderer](https://www.npmjs.com/package/@data-driven-forms/react-form-renderer)
+  - [PatternFly 4 Mapper](https://www.npmjs.com/package/@data-driven-forms/pf4-component-mapper)
 
 ### Contribution
 

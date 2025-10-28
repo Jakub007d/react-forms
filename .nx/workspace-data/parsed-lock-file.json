@@ -2214,15 +2214,6 @@
         "hash": "sha512-9E9FJowqAsytyOY6LG+1KuueckRL+aQW+mKvXRXnuFGyRAyepJPmEo9vgMfXUA6O9u3IeEdv9MAkppFcaQwogQ=="
       }
     },
-    "npm:@babel/runtime@7.28.4": {
-      "type": "npm",
-      "name": "npm:@babel/runtime@7.28.4",
-      "data": {
-        "version": "7.28.4",
-        "packageName": "@babel/runtime",
-        "hash": "sha512-Q/N6JNWvIvPnLDvjlE1OUBLPQHH6l3CltCEsHIujp45zQUSSh8K+gHnaEX45yAT1nyngnINhvWtzN+Nb9D8RAQ=="
-      }
-    },
     "npm:@babel/runtime@7.19.0": {
       "type": "npm",
       "name": "npm:@babel/runtime@7.19.0",
@@ -2239,6 +2230,15 @@
         "version": "7.22.15",
         "packageName": "@babel/runtime",
         "hash": "sha512-T0O+aa+4w0u06iNmapipJXMV4HoUir03hpx3/YqXXhu9xim3w+dVphjFWl1OH8NbZHw5Lbm9k45drDkgq2VNNA=="
+      }
+    },
+    "npm:@babel/runtime@7.28.4": {
+      "type": "npm",
+      "name": "npm:@babel/runtime@7.28.4",
+      "data": {
+        "version": "7.28.4",
+        "packageName": "@babel/runtime",
+        "hash": "sha512-Q/N6JNWvIvPnLDvjlE1OUBLPQHH6l3CltCEsHIujp45zQUSSh8K+gHnaEX45yAT1nyngnINhvWtzN+Nb9D8RAQ=="
       }
     },
     "npm:@babel/runtime@7.28.3": {
@@ -2923,15 +2923,6 @@
         "version": "0.63.1",
         "packageName": "@fluentui/react-component-event-listener",
         "hash": "sha512-gSMdOh6tI3IJKZFqxfQwbTpskpME0CvxdxGM2tdglmf6ZPVDi0L4+KKIm+2dN8nzb8Ya1A8ZT+Ddq0KmZtwVQg=="
-      }
-    },
-    "npm:@fluentui/react-component-ref": {
-      "type": "npm",
-      "name": "npm:@fluentui/react-component-ref",
-      "data": {
-        "version": "0.63.1",
-        "packageName": "@fluentui/react-component-ref",
-        "hash": "sha512-8MkXX4+R3i80msdbD4rFpEB4WWq2UDvGwG386g3ckIWbekdvN9z2kWAd9OXhRGqB7QeOsoAGWocp6gAMCivRlw=="
       }
     },
     "npm:@formatjs/ecma402-abstract": {
@@ -21280,9 +21271,9 @@
       "type": "npm",
       "name": "npm:semantic-ui-react",
       "data": {
-        "version": "2.1.5",
+        "version": "3.0.0-beta.2",
         "packageName": "semantic-ui-react",
-        "hash": "sha512-nIqmmUNpFHfovEb+RI2w3E2/maZQutd8UIWyRjf1SLse+XF51hI559xbz/sLN3O6RpLjr/echLOOXwKCirPy3Q=="
+        "hash": "sha512-BFqd7dGPgXPbIkWkIzkPrPRBElf/iB4NKOSFl5tZwMEaIyGQXbvtVWHyOW0sMD2A/qZPgY2Wl/19GDc9JOg3ng=="
       }
     },
     "npm:semver-diff@2.1.0": {
@@ -30804,16 +30795,6 @@
     {
       "source": "npm:@fluentui/react-component-event-listener",
       "target": "npm:@babel/runtime",
-      "type": "static"
-    },
-    {
-      "source": "npm:@fluentui/react-component-ref",
-      "target": "npm:@babel/runtime",
-      "type": "static"
-    },
-    {
-      "source": "npm:@fluentui/react-component-ref",
-      "target": "npm:react-is",
       "type": "static"
     },
     {
@@ -64134,11 +64115,6 @@
     {
       "source": "npm:semantic-ui-react",
       "target": "npm:@fluentui/react-component-event-listener",
-      "type": "static"
-    },
-    {
-      "source": "npm:semantic-ui-react",
-      "target": "npm:@fluentui/react-component-ref",
       "type": "static"
     },
     {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { FormRenderer, componentTypes } from '@jakub007d/react-form-renderer';
+import { FormRenderer, componentTypes } from '@data-driven-forms/react-form-renderer';
 
 import { componentMapper, FormTemplate } from '../src';
 import demoSchema from '../../../shared/demoschema';

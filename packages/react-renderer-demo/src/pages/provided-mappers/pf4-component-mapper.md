@@ -12,11 +12,11 @@ PatternFly 4 mapper provides components from [PatternFly 4 design system](https:
 ## Installation
 
 ```bash
-npm install --save @jakub007d/pf4-component-mapper
+npm install --save @data-driven-forms/pf4-component-mapper
 ```
 or
 ```bash
-yarn add @jakub007d/pf4-component-mapper
+yarn add @data-driven-forms/pf4-component-mapper
 ```
 
 PatternFly 4 has to be installed seperately. Please follow their [guidelines](https://www.patternfly.org/v4/get-started/developers#react).

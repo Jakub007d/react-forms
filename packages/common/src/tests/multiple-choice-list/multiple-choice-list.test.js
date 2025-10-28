@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { FormRenderer, componentTypes, useFormApi, validatorTypes } from '@jakub007d/react-form-renderer';
+import { FormRenderer, componentTypes, useFormApi, validatorTypes } from '@data-driven-forms/react-form-renderer';
 import { render, screen, fireEvent } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 

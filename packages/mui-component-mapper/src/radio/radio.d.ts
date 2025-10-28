@@ -1,4 +1,4 @@
-import { UseFieldApiComponentConfig, AnyObject } from "@jakub007d/react-form-renderer";
+import { UseFieldApiComponentConfig, AnyObject } from "@data-driven-forms/react-form-renderer";
 import { RadioProps as MuiRadioProps, GridProps, FormControlProps, FormControlLabelProps, FormLabelProps, FormHelperTextProps } from '@mui/material';
 import { ReactNode } from "react";
 

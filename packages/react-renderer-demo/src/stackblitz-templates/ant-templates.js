@@ -8,9 +8,9 @@ export const html = `
 
 export const code = `import React, { Component } from 'react';
 import { render } from 'react-dom';
-import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
-import FormTemplate from '@jakub007d/ant-component-mapper/form-template';
-import componentMapper from '@jakub007d/ant-component-mapper/component-mapper';
+import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
+import FormTemplate from '@data-driven-forms/ant-component-mapper/form-template';
+import componentMapper from '@data-driven-forms/ant-component-mapper/component-mapper';
 import 'antd/dist/antd.css'
 
 import schema from './schema'
@@ -34,9 +34,9 @@ render(<App />, document.getElementById('root'));`;
 
 export const wizardCode = `import React, { Component } from 'react';
 import { render } from 'react-dom';
-import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
-import AntFormTemplate from '@jakub007d/ant-component-mapper/form-template';
-import componentMapper from '@jakub007d/ant-component-mapper/component-mapper';
+import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
+import AntFormTemplate from '@data-driven-forms/ant-component-mapper/form-template';
+import componentMapper from '@data-driven-forms/ant-component-mapper/component-mapper';
 import 'antd/dist/antd.css'
 
 import schema from './schema'
@@ -63,9 +63,9 @@ render(<App />, document.getElementById('root'));`;
 export const dependencies = {
   react: 'latest',
   'react-dom': 'latest',
-  '@jakub007d/react-form-renderer': 'latest',
-  '@jakub007d/ant-component-mapper': 'latest',
-  '@jakub007d/common': 'latest',
+  '@data-driven-forms/react-form-renderer': 'latest',
+  '@data-driven-forms/ant-component-mapper': 'latest',
+  '@data-driven-forms/common': 'latest',
   antd: '^4.0.0',
   '@ant-design/icons': '^4.7.0',
   'prop-types': 'latest',

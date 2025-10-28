@@ -1,4 +1,4 @@
-import { Field } from "@jakub007d/react-form-renderer";
+import { Field } from "@data-driven-forms/react-form-renderer";
 import { ReactNode } from "react";
 import { HeaderProps } from "semantic-ui-react";
 import { FormFieldGridProps } from "../form-field-grid";

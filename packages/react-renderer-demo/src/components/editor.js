@@ -1,10 +1,10 @@
 import { React } from 'react';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
-import EditorPro from '@jakub007d/editor-pro/editor';
+import EditorPro from '@data-driven-forms/editor-pro/editor';
 
-import propertiesFields from '@jakub007d/editor-pro/editor/properties-fields';
-import { componentMapper } from '@jakub007d/mui-component-mapper';
+import propertiesFields from '@data-driven-forms/editor-pro/editor/properties-fields';
+import { componentMapper } from '@data-driven-forms/mui-component-mapper';
 
 const componentInitialProps = {
   'dual-list-select': {

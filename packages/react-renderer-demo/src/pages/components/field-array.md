@@ -8,7 +8,7 @@ import DocPage from '@docs/doc-page';
 [React Final Form Array](https://github.com/final-form/react-final-form-arrays) is exported via Data Driven Forms.
 
 ```jsx
-import { FieldArray } from '@jakub007d/react-form-renderer';
+import { FieldArray } from '@data-driven-forms/react-form-renderer';
 ```
 
 ## Dynamic fields
@@ -20,7 +20,7 @@ Dynamic fields allow you to add or remove field inputs in your forms. In Data Dr
 You have to just import `FieldArray` from Data Driven Forms.
 
 ```jsx
-import { FieldArray } from '@jakub007d/react-form-renderer';
+import { FieldArray } from '@data-driven-forms/react-form-renderer';
 ```
 
 <CodeExamples source="components/field-array/form-fields-mapper" mode="preview" />

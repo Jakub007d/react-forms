@@ -13,7 +13,7 @@ import DocPage from '@docs/doc-page';
 `componentTypes` are string values used in `component` field attributes.
 
 ```jsx
-import { componentTypes } from '@jakub007d/react-form-renderer';
+import { componentTypes } from '@data-driven-forms/react-form-renderer';
 ```
 
 Available keys:
@@ -57,7 +57,7 @@ Usage:
 `validatorTypes` are string values used in `validate` [type attribute](/schema/introduction#validate).
 
 ```jsx
-import { validatorTypes } from '@jakub007d/react-form-renderer';
+import { validatorTypes } from '@data-driven-forms/react-form-renderer';
 ```
 
 Available keys:

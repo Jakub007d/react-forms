@@ -1,4 +1,4 @@
-import { Schema } from "@jakub007d/react-form-renderer";
+import { Schema } from "@data-driven-forms/react-form-renderer";
 
 declare const demoschema: Schema;
 

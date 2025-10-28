@@ -76,7 +76,7 @@ You can divide the form by using default [sub-form components](/provided-mappers
 Or you can easily implement your own component:
 
 ```jsx
-import { useFormApi } from '@jakub007d/react-form-renderer';
+import { useFormApi } from '@data-driven-forms/react-form-renderer';
 
 const Section = ({fields}) => {
    const { renderForm } = useFormApi();

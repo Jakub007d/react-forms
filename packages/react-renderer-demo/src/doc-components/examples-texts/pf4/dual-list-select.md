@@ -93,7 +93,7 @@ You can use the provided button or implement your own button.
 This component requires a prop `position`: `left` (availableOption) &#124; `right` (chosenOptions)
 
 ```jsx
-import { DualListSortButton } from '@jakub007d/pf4-component-mapper';
+import { DualListSortButton } from '@data-driven-forms/pf4-component-mapper';
 
 const dualListField = {
     component: componentTypes.DUAL_LIST_SELECT,
@@ -117,7 +117,7 @@ Data Driven Forms provides an access to sort functionality via `DualListContext`
 ```
 
 ```jsx
-import { DualListContext } from '@jakub007d/pf4-component-mapper';
+import { DualListContext } from '@data-driven-forms/pf4-component-mapper';
 
 const CustomRightSortButton = () => {
   const { sortConfig, setSortConfig } = useContext(DualListContext);

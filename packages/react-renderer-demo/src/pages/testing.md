@@ -21,8 +21,8 @@ import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { FormRenderer } from '@jakub007d/react-form-renderer';
-import { componentMapper, FormTemplate } from '@jakub007d/mui-component-mapper';
+import { FormRenderer } from '@data-driven-forms/react-form-renderer';
+import { componentMapper, FormTemplate } from '@data-driven-forms/mui-component-mapper';
 
 describe('<FormRendererTest />', () => {
   /**
@@ -159,8 +159,8 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { FormRenderer, useFieldApi } from '@jakub007d/react-form-renderer';
-import { FormTemplate } from '@jakub007d/mui-component-mapper';
+import { FormRenderer, useFieldApi } from '@data-driven-forms/react-form-renderer';
+import { FormTemplate } from '@data-driven-forms/mui-component-mapper';
 
 const CustomComponent = (props) => {
   const { input, meta, label, sideEffect = () => {} } = useFieldApi(props);
@@ -240,7 +240,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { Form, RendererContext, useFieldApi } from '@jakub007d/react-form-renderer';
+import { Form, RendererContext, useFieldApi } from '@data-driven-forms/react-form-renderer';
 
 const CustomComponent = (props) => {
   const { input, meta, label, sideEffect = () => {} } = useFieldApi(props);

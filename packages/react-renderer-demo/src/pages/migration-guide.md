@@ -47,7 +47,7 @@ Thank you for your understanding.
 -   Default templates (it is a function!):
 
 ```jsx
-import { FormTemplate } from '@jakub007d/pf4-component-mapper'
+import { FormTemplate } from '@data-driven-forms/pf4-component-mapper'
 
 <FormRenderer {...} FormTemplate={props => <FormTemplate {...props} showFormControls={false} />
 ```
@@ -64,7 +64,7 @@ import { FormTemplate } from '@jakub007d/pf4-component-mapper'
 
 ```jsx
 
-import { useFormApi } from  '@jakub007d/react-form-renderer';
+import { useFormApi } from  '@data-driven-forms/react-form-renderer';
 
 const  Component  = (props) => {
     const  formOptions  =  useFormApi();
@@ -79,7 +79,7 @@ const  Component  = (props) => {
 -   Use direct import instead of it:
 
 ```jsx
-import { FormSpy } from  '@jakub007d/react-form-renderer';
+import { FormSpy } from  '@data-driven-forms/react-form-renderer';
 ```
 
 ### fieldArray is exported
@@ -88,7 +88,7 @@ import { FormSpy } from  '@jakub007d/react-form-renderer';
 -   Use direct import instead of it:
 
 ```jsx
-import { FieldArray } from  '@jakub007d/react-form-renderer';
+import { FieldArray } from  '@data-driven-forms/react-form-renderer';
 ```
 
 ### onStateUpdate removed, replaced by debug
@@ -102,7 +102,7 @@ import { FieldArray } from  '@jakub007d/react-form-renderer';
 -   In custom component, simulate this prop with using of formSpy
 
 ```jsx
-    import { FormSpy } from  '@jakub007d/react-form-renderer';
+    import { FormSpy } from  '@data-driven-forms/react-form-renderer';
 
 {onStateUpdate &&  <FormSpy  onChange={onStateUpdate} />}
 ```
@@ -112,7 +112,7 @@ import { FieldArray } from  '@jakub007d/react-form-renderer';
 -   FieldProvider is no longer wrapping basic components and you cannot access it through props, instead of it use hook:
 
 ```jsx
-import { useFieldApi } from  '@jakub007d/react-form-renderer';
+import { useFieldApi } from  '@data-driven-forms/react-form-renderer';
 
 ...
 
@@ -128,7 +128,7 @@ const { input, isDisabled, label, helperText, description, meta } =  useFieldApi
 -   There is no formFieldsMapper anymore, please use componentMapper
 
 ```jsx
-import { componentMapper } from '@jakub007d/pf4-component-mapper'
+import { componentMapper } from '@data-driven-forms/pf4-component-mapper'
 
 <FormRenderer {...} componentMapper={componentMapper} />
 ```

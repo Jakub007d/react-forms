@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Tab, Tabs as BTabs } from '@blueprintjs/core';
-import { useFormApi } from '@jakub007d/react-form-renderer';
+import { useFormApi } from '@data-driven-forms/react-form-renderer';
 
 const Tabs = ({ component, name, fields, ...props }) => {
   const formOptions = useFormApi();

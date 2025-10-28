@@ -1,13 +1,13 @@
 import React, { memo } from 'react';
 import isEqual from 'lodash/isEqual';
-import { useFormApi, FieldArray } from '@jakub007d/react-form-renderer';
+import { useFormApi, FieldArray } from '@data-driven-forms/react-form-renderer';
 
 import { Bullseye, Button, Flex, FlexItem, FormFieldGroup, FormFieldGroupHeader, FormHelperText, Grid, GridItem } from '@patternfly/react-core';
 
 import { TrashIcon } from '@patternfly/react-icons';
 
 import './final-form-array.css';
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 
 const Spacer = () => <span className="ddf-final-form-spacer" />;
 

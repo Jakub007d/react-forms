@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Checkbox } from '@patternfly/react-core';
 
-import MultipleChoiceListCommon from '@jakub007d/common/multiple-choice-list';
+import MultipleChoiceListCommon from '@data-driven-forms/common/multiple-choice-list';
 import FormGroup from '../form-group/form-group';
 
 const FinalCheckbox = ({ option, ...props }) => (

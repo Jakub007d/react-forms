@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 
 import prepareProps from '../prepare-props';
 import TimePickerBase from '../time-picker-base';

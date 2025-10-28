@@ -18,11 +18,11 @@ Parsers for [Data Driven Forms](https://github.com/data-driven-forms/react-forms
 # Installation
 
 ```console
-$ npm install @jakub007d/parsers -S
+$ npm install @data-driven-forms/parsers -S
 ```
 
 ```console
-$ yarn add @jakub007d/parsers
+$ yarn add @data-driven-forms/parsers
 ```
 
 
@@ -34,10 +34,10 @@ For using Data Driven Forms in your component you need the renderer and a compon
 
 ```jsx
 import React from 'react';
-import { FormRenderer, componentTypes } from '@jakub007d/react-form-renderer';
-import { componentMapper, FormTemplate } from '@jakub007d/pf4-component-mapper';
+import { FormRenderer, componentTypes } from '@data-driven-forms/react-form-renderer';
+import { componentMapper, FormTemplate } from '@data-driven-forms/pf4-component-mapper';
 
-import { mozilla } from '@jakub007d/parsers';
+import { mozilla } from '@data-driven-forms/parsers';
 
 const mozillaSchema = [
   "namespace": "myapi",

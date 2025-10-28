@@ -12,11 +12,11 @@ BlueprintJS mapper provides components from [Blueprint UI toolkit](https://bluep
 ## Installation
 
 ```bash
-npm install --save @jakub007d/blueprint-component-mapper
+npm install --save @data-driven-forms/blueprint-component-mapper
 ```
 or
 ```bash
-yarn add @jakub007d/blueprint-component-mapper
+yarn add @data-driven-forms/blueprint-component-mapper
 ```
 
 All Blueprint packages and styles have to be installed seperately. Please follow their [guidelines](https://blueprintjs.com/docs/#blueprint/getting-started).
@@ -41,7 +41,7 @@ This field will show the error immediately.
 Blueprint components do not use asterisks for indicating that fields are required, instead of it, it uses `(required)` string. This message can be customized via `requiredLabelInfo` prop passed to the default `formTemplate`. By default this message is set to `<span className="bp4-text-muted">(required)</span>`. Notice the className, that provides default Blueprint styles.
 
 ```jsx
-import { FormTemplate } from '@jakub007d/blueprint-component-mapper';
+import { FormTemplate } from '@data-driven-forms/blueprint-component-mapper';
 
 const FormTemplateWrapper = (props) => (
     <FormTemplate
@@ -54,7 +54,7 @@ const FormTemplateWrapper = (props) => (
 This content is accessible via
 
 ```jsx
-import { BlueprintContext } from '@jakub007d/blueprint-component-mapper';
+import { BlueprintContext } from '@data-driven-forms/blueprint-component-mapper';
 ```
 
 ## Custom FormTemplates
@@ -62,7 +62,7 @@ import { BlueprintContext } from '@jakub007d/blueprint-component-mapper';
 If you are using a custom FormTemplate, wrap it in the `BlueprintContext` to provide the required label.
 
 ```jsx
-import { BlueprintContext } from '@jakub007d/blueprint-component-mapper';
+import { BlueprintContext } from '@data-driven-forms/blueprint-component-mapper';
 
 const FormTemplate = ({ formFields }) => {
     const { handleSubmit } = useFormApi();

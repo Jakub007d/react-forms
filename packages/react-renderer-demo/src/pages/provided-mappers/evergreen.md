@@ -21,11 +21,11 @@ Evergreen Component Mapper provides components from [Evergreen design system](ht
 ## Installation
 
 ```bash
-npm install --save @jakub007d/evergreen-component-mapper
+npm install --save @data-driven-forms/evergreen-component-mapper
 ```
 or
 ```bash
-yarn add @jakub007d/evergreen-component-mapper
+yarn add @data-driven-forms/evergreen-component-mapper
 ```
 
 Evergreen has to be installed seperately. Please follow their [guidelines](https://evergreen.segment.com/introduction/getting-started).

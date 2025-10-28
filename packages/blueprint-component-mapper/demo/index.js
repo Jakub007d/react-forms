@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { createRoot } from 'react-dom';
-import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
+import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
 import { arraySchemaDDF } from './demo-schemas/widget-schema';
 import { componentMapper, FormTemplate } from '../src';
 import { Button } from '@blueprintjs/core';

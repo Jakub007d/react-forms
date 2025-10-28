@@ -1,4 +1,4 @@
-import { AnyObject, Input } from "@jakub007d/react-form-renderer";
+import { AnyObject, Input } from "@data-driven-forms/react-form-renderer";
 
 export type DualListSelectCommonProps<
   FieldValue,

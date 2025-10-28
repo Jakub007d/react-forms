@@ -1,10 +1,10 @@
 import React from 'react';
-import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
-import FormSpy from '@jakub007d/react-form-renderer/form-spy';
-import componentTypes from '@jakub007d/react-form-renderer/component-types';
-import FormTemplate from '@jakub007d/mui-component-mapper/form-template';
-import TextField from '@jakub007d/mui-component-mapper/text-field';
-import Checkbox from '@jakub007d/mui-component-mapper/checkbox';
+import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
+import FormSpy from '@data-driven-forms/react-form-renderer/form-spy';
+import componentTypes from '@data-driven-forms/react-form-renderer/component-types';
+import FormTemplate from '@data-driven-forms/mui-component-mapper/form-template';
+import TextField from '@data-driven-forms/mui-component-mapper/text-field';
+import Checkbox from '@data-driven-forms/mui-component-mapper/checkbox';
 
 const TextFieldWrapped = (props) => <FormSpy subscription={{ values: true }}>{() => <TextField {...props} />}</FormSpy>;
 

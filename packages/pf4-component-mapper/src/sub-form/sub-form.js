@@ -1,5 +1,5 @@
 import React from 'react';
-import { useFormApi } from '@jakub007d/react-form-renderer';
+import { useFormApi } from '@data-driven-forms/react-form-renderer';
 
 import { Title, Grid, GridItem, Content, ContentVariants } from '@patternfly/react-core';
 

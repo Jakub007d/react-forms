@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
-import componentTypes from '@jakub007d/react-form-renderer/component-types';
-import dataTypes from '@jakub007d/react-form-renderer/data-types';
-import FormTemplate from '@jakub007d/mui-component-mapper/form-template';
-import TextField from '@jakub007d/mui-component-mapper/text-field';
+import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
+import componentTypes from '@data-driven-forms/react-form-renderer/component-types';
+import dataTypes from '@data-driven-forms/react-form-renderer/data-types';
+import FormTemplate from '@data-driven-forms/mui-component-mapper/form-template';
+import TextField from '@data-driven-forms/mui-component-mapper/text-field';
 import Typography from '@mui/material/Typography';
 
 const schema = {

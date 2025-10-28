@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 
 import { FormGroup, Intent } from '@blueprintjs/core';
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 import BlueprintContext from '../blueprint-context/blueprint-context';
 
 export const FormGroupInternal = ({

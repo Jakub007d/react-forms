@@ -28,7 +28,7 @@ To start implementing a form in Data Driven Forms, you need to provide four prop
 
 All you need is to [install](/installation) the form renderer and then to choose components you want to use. You can use one of provided mappers to start building forms right away ([or integrate your own components](/mappers/custom-mapper)). The integration is simple - all it takes is just a single [useFieldApi](/hooks/use-field-api) hook.
 
-Then you can import `FormRenderer` from the `@jakub007d/react-form-renderer`. This component takes four required props: **FormTemplate**, **schema**, **componentMapper** and **onSubmit**. You can read about them [here](/components/renderer#requiredprops).
+Then you can import `FormRenderer` from the `@data-driven-forms/react-form-renderer`. This component takes four required props: **FormTemplate**, **schema**, **componentMapper** and **onSubmit**. You can read about them [here](/components/renderer#requiredprops).
 
 Following example shows basic usage of Data Driven Forms library with our [Material UI mapper](/provided-mappers/mui-component-mapper).
 

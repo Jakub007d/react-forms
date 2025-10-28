@@ -27,24 +27,24 @@
 
 You need to add React Form Renderer
 
-#### [React Form Renderer](https://www.npmjs.com/package/@jakub007d/react-form-renderer)
+#### [React Form Renderer](https://www.npmjs.com/package/@data-driven-forms/react-form-renderer)
 
 ```console
-$ npm install @jakub007d/react-form-renderer -S
+$ npm install @data-driven-forms/react-form-renderer -S
 ```
 
 ```console
-$ yarn add @jakub007d/react-form-renderer
+$ yarn add @data-driven-forms/react-form-renderer
 ```
 
 #### [{{componentmapper}} Mapper](https://data-driven-forms.org/mappers/{{componentmapper}}-component-mapper)
 
 ```console
-$ npm install @jakub007d/{{componentmapper}}-component-mapper -S
+$ npm install @data-driven-forms/{{componentmapper}}-component-mapper -S
 ```
 
 ```console
-$ yarn add @jakub007d/{{componentmapper}}-component-mapper
+$ yarn add @data-driven-forms/{{componentmapper}}-component-mapper
 ```
 
 
@@ -54,8 +54,8 @@ For using Data Driven Forms in your component you need the renderer and a compon
 
 ```jsx
 import React from 'react';
-import { FormRenderer, componentTypes } from '@jakub007d/react-form-renderer';
-import { componentMapper, FormTemplate } from '@jakub007d/{{componentmapper}}-component-mapper';
+import { FormRenderer, componentTypes } from '@data-driven-forms/react-form-renderer';
+import { componentMapper, FormTemplate } from '@data-driven-forms/{{componentmapper}}-component-mapper';
 
 const schema = {
   fields: [{
@@ -98,8 +98,8 @@ Data Driven Forms supports all kinds of component, basic set is consisted of:
 ### Useful links
 
 - [Data Driven Forms documentation](https://data-driven-forms.org/)
-- [React Form Renderer](https://www.npmjs.com/package/@jakub007d/react-form-renderer)
-- [{{componentmapper}} Mapper NPM](https://www.npmjs.com/package/@jakub007d/{{componentmapper}}-component-mapper)
+- [React Form Renderer](https://www.npmjs.com/package/@data-driven-forms/react-form-renderer)
+- [{{componentmapper}} Mapper NPM](https://www.npmjs.com/package/@data-driven-forms/{{componentmapper}}-component-mapper)
 
 
 ### Development setup

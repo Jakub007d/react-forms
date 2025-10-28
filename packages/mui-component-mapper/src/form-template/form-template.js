@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles';
 import { Grid, Button as MUIButton, Typography } from '@mui/material';
 import { Alert, AlertTitle } from '@mui/material';
 
-import FormTemplate from '@jakub007d/common/form-template';
+import FormTemplate from '@data-driven-forms/common/form-template';
 import clsx from 'clsx';
 
 const PREFIX = 'MuiFormTemplate';

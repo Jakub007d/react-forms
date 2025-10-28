@@ -1,4 +1,4 @@
-import { componentTypes, validatorTypes } from '@jakub007d/react-form-renderer';
+import { componentTypes, validatorTypes } from '@data-driven-forms/react-form-renderer';
 
 const wizardSchema = {
   fields: [

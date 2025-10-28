@@ -1,5 +1,5 @@
 import { CommonFieldProps } from "../common-field-props/common-field-props";
-import { UseFieldApiComponentConfig, AnyObject } from "@jakub007d/react-form-renderer";
+import { UseFieldApiComponentConfig, AnyObject } from "@data-driven-forms/react-form-renderer";
 import { StrictDropdownProps } from 'semantic-ui-react';
 import { ReactNode } from "react";
 

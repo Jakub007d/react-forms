@@ -1,7 +1,7 @@
 import React from 'react';
 import { Radio as AntRadio } from 'antd';
 import FormGroup from '../form-group';
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 
 const RadioOption = ({ name, option: { label, value, ...rest } }) => (
   <AntRadio key={`${name}-${value}`} id={`${name}-${value}`} value={value} {...rest}>

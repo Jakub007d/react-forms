@@ -1,4 +1,4 @@
-import { ComponentTypes, ComponentMapper } from '@jakub007d/react-form-renderer';
+import { ComponentTypes, ComponentMapper } from '@data-driven-forms/react-form-renderer';
 
 interface Components  {
   TextField: React.ComponentType;

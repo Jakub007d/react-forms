@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import { createUseStyles } from 'react-jss';
 
-import { useFormApi } from '@jakub007d/react-form-renderer';
+import { useFormApi } from '@data-driven-forms/react-form-renderer';
 
 const useStyles = createUseStyles({
   subForm: {

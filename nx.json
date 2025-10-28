@@ -32,16 +32,16 @@
   ],
   "release": {
     "projects": [
-      "@jakub007d/ant-component-mapper",
-      "@jakub007d/blueprint-component-mapper",
-      "@jakub007d/carbon-component-mapper",
-      "@jakub007d/common",
-      "@jakub007d/mui-component-mapper",
-      "@jakub007d/parsers",
-      "@jakub007d/pf4-component-mapper",
-      "@jakub007d/react-form-renderer",
-      "@jakub007d/react-renderer-demo",
-      "@jakub007d/suir-component-mapper"
+      "@data-driven-forms/ant-component-mapper",
+      "@data-driven-forms/blueprint-component-mapper",
+      "@data-driven-forms/carbon-component-mapper",
+      "@data-driven-forms/common",
+      "@data-driven-forms/mui-component-mapper",
+      "@data-driven-forms/parsers",
+      "@data-driven-forms/pf4-component-mapper",
+      "@data-driven-forms/react-form-renderer",
+      "@data-driven-forms/react-renderer-demo",
+      "@data-driven-forms/suir-component-mapper"
     ],
     "changelog": {
       "projectChangelogs": {

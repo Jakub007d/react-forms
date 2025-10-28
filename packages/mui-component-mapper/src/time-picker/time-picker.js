@@ -3,7 +3,7 @@ import { TimePicker as MUITimePicker } from '@mui/x-date-pickers';
 
 import FormFieldGrid from '../form-field-grid/form-field-grid';
 import { validationError } from '../validation-error/validation-error';
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 import { TextField } from '@mui/material';
 
 const TimePicker = (props) => {

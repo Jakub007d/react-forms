@@ -1,9 +1,9 @@
 import React from 'react';
-import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
-import useFieldApi from '@jakub007d/react-form-renderer/use-field-api';
-import validatorTypes from '@jakub007d/react-form-renderer/validator-types';
+import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
+import useFieldApi from '@data-driven-forms/react-form-renderer/use-field-api';
+import validatorTypes from '@data-driven-forms/react-form-renderer/validator-types';
 
-import FormTemplate from '@jakub007d/mui-component-mapper/form-template';
+import FormTemplate from '@data-driven-forms/mui-component-mapper/form-template';
 
 const CustomComponent = (props) => {
   const { input, meta, label, ...rest } = useFieldApi(props);

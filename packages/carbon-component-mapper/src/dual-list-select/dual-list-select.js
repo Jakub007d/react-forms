@@ -1,5 +1,5 @@
 import React from 'react';
-import DualListSelectCommon from '@jakub007d/common/dual-list-select';
+import DualListSelectCommon from '@data-driven-forms/common/dual-list-select';
 import clsx from 'clsx';
 import { createUseStyles } from 'react-jss';
 

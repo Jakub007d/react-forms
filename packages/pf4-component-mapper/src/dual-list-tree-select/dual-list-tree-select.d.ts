@@ -1,4 +1,4 @@
-import { UseFieldApiComponentConfig } from "@jakub007d/react-form-renderer";
+import { UseFieldApiComponentConfig } from "@data-driven-forms/react-form-renderer";
 import { DualListSelectorProps } from "@patternfly/react-core";
 import { DualListSelectorTreeItemProps } from "@patternfly/react-core/dist/js/components/DualListSelector/DualListSelectorTreeItem";
 import FormGroupProps from "../form-group";

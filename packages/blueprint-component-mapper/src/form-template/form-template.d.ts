@@ -1,4 +1,4 @@
-import FormTemplateCommonProps from "@jakub007d/common/form-template";
+import FormTemplateCommonProps from "@data-driven-forms/common/form-template";
 import { ReactNode } from "react";
 
 export interface FormTemplateProps extends FormTemplateCommonProps {

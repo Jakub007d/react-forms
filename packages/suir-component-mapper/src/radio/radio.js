@@ -3,7 +3,7 @@ import { FormRadio, FormField } from 'semantic-ui-react';
 
 import FormFieldGrid from '../form-field-grid/form-field-grid';
 import { validationError, validationWarning } from '../helpers/helpers';
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 
 const RadioOption = ({ name, option, isDisabled, isReadOnly, ...props }) => {
   const { input } = useFieldApi({ name, type: 'radio', value: option.value });

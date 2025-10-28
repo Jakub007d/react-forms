@@ -10,7 +10,7 @@ and information about the formState.
 You can access it from every component by using `useFormApi` hook.
 
 ```jsx
-import { useFormApi } from '@jakub007d/react-form-renderer';
+import { useFormApi } from '@data-driven-forms/react-form-renderer';
 
 const Component = (props) => {
      const formOptions = useFormApi();

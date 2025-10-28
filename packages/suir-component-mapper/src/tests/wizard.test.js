@@ -2,10 +2,10 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { FormRenderer, componentTypes, validatorTypes } from '@jakub007d/react-form-renderer';
+import { FormRenderer, componentTypes, validatorTypes } from '@data-driven-forms/react-form-renderer';
 
 import { componentMapper, FormTemplate } from '../index';
-import { CONDITIONAL_SUBMIT_FLAG } from '@jakub007d/common/wizard';
+import { CONDITIONAL_SUBMIT_FLAG } from '@data-driven-forms/common/wizard';
 
 describe('wizard', () => {
   let initialProps;

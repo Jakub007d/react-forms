@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useFormApi } from '@jakub007d/react-form-renderer';
+import { useFormApi } from '@data-driven-forms/react-form-renderer';
 import { H3, H4 } from '@blueprintjs/core';
 
 import propsCatcher from '../props-catcher/props-catcher';

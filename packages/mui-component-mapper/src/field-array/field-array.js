@@ -1,6 +1,6 @@
 import React, { memo, useReducer } from 'react';
 import { styled } from '@mui/material/styles';
-import { useFormApi, FieldArray } from '@jakub007d/react-form-renderer';
+import { useFormApi, FieldArray } from '@data-driven-forms/react-form-renderer';
 import isEqual from 'lodash/isEqual';
 
 import { Grid, Button, Typography, FormControl, FormHelperText, IconButton } from '@mui/material';
@@ -8,7 +8,7 @@ import { Grid, Button, Typography, FormControl, FormHelperText, IconButton } fro
 import RedoIcon from '@mui/icons-material/Redo';
 import UndoIcon from '@mui/icons-material/Undo';
 
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 
 import FormFieldGrid from '../form-field-grid/form-field-grid';
 import clsx from 'clsx';

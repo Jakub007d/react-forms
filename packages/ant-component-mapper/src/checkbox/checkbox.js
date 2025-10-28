@@ -1,7 +1,7 @@
 import React from 'react';
 import { Checkbox as AntCheckbox } from 'antd';
 import MultipleChoiceList from '../multiple-choice-list/multiple-choice-list';
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 import IsRequired from '../is-required';
 import FormGroup from '../form-group';
 

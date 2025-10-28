@@ -12,7 +12,7 @@ Data Driven Forms provides several built length validators:
 Checks minimal length of the text.
 
 ```jsx
-import { validatorTypes } from '@jakub007d/react-form-renderer';
+import { validatorTypes } from '@data-driven-forms/react-form-renderer';
 
 
 {
@@ -26,7 +26,7 @@ import { validatorTypes } from '@jakub007d/react-form-renderer';
 Checks maximum length of the text.
 
 ```jsx
-import { validatorTypes } from '@jakub007d/react-form-renderer';
+import { validatorTypes } from '@data-driven-forms/react-form-renderer';
 
 
 {
@@ -40,7 +40,7 @@ import { validatorTypes } from '@jakub007d/react-form-renderer';
 Checks exact length of the text.
 
 ```jsx
-import { validatorTypes } from '@jakub007d/react-form-renderer';
+import { validatorTypes } from '@data-driven-forms/react-form-renderer';
 
 
 {

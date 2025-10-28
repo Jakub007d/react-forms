@@ -1,4 +1,4 @@
-import { FieldArrayField } from "@jakub007d/react-form-renderer";
+import { FieldArrayField } from "@data-driven-forms/react-form-renderer";
 import { ReactNode } from "react";
 import { RowProps } from "antd/lib/row";
 import { ButtonProps } from "antd/es/button";

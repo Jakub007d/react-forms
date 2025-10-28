@@ -1,10 +1,10 @@
 import React from 'react';
-import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
-import componentTypes from '@jakub007d/react-form-renderer/component-types';
+import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
+import componentTypes from '@data-driven-forms/react-form-renderer/component-types';
 
-import DatePicker from '@jakub007d/mui-component-mapper/date-picker';
-import PlainText from '@jakub007d/mui-component-mapper/plain-text';
-import FormTemplate from '@jakub007d/mui-component-mapper/form-template';
+import DatePicker from '@data-driven-forms/mui-component-mapper/date-picker';
+import PlainText from '@data-driven-forms/mui-component-mapper/plain-text';
+import FormTemplate from '@data-driven-forms/mui-component-mapper/form-template';
 
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';

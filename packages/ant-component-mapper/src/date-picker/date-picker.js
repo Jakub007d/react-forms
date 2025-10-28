@@ -1,7 +1,7 @@
 import React from 'react';
 import { DatePicker as AntDatePicker } from 'antd';
 import { validationError } from '../validation-error/validation-error';
-import { useFieldApi } from '@jakub007d/react-form-renderer';
+import { useFieldApi } from '@data-driven-forms/react-form-renderer';
 import FormGroup from '../form-group';
 
 const DatePicker = ({ placeholder = 'Select date', ...props }) => {

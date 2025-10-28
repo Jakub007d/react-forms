@@ -11,9 +11,9 @@ export const html = `
 
 export const code = `import React, { Component } from 'react';
 import { render } from 'react-dom';
-import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
-import FormTemplate from '@jakub007d/suir-component-mapper/form-template';
-import componentMapper from '@jakub007d/suir-component-mapper/component-mapper';
+import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
+import FormTemplate from '@data-driven-forms/suir-component-mapper/form-template';
+import componentMapper from '@data-driven-forms/suir-component-mapper/component-mapper';
 
 import schema from './schema'
 
@@ -36,9 +36,9 @@ render(<App />, document.getElementById('root'));`;
 
 export const wizardCode = `import React, { Component } from 'react';
 import { render } from 'react-dom';
-import FormRenderer from '@jakub007d/react-form-renderer/form-renderer';
-import SuirFormTemplate from '@jakub007d/suir-component-mapper/form-template';
-import componentMapper from '@jakub007d/suir-component-mapper/component-mapper';
+import FormRenderer from '@data-driven-forms/react-form-renderer/form-renderer';
+import SuirFormTemplate from '@data-driven-forms/suir-component-mapper/form-template';
+import componentMapper from '@data-driven-forms/suir-component-mapper/component-mapper';
 
 import schema from './schema'
 
@@ -65,9 +65,9 @@ export const dependencies = {
   react: 'latest',
   'react-dom': 'latest',
   '@babel/runtime': '^7.13.10',
-  '@jakub007d/react-form-renderer': 'latest',
-  '@jakub007d/suir-component-mapper': 'latest',
-  '@jakub007d/common': 'latest',
+  '@data-driven-forms/react-form-renderer': 'latest',
+  '@data-driven-forms/suir-component-mapper': 'latest',
+  '@data-driven-forms/common': 'latest',
   'semantic-ui-react': 'latest',
   'prop-types': 'latest',
 };
